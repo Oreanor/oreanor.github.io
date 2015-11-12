@@ -1,0 +1,6377 @@
+﻿<data>
+	<region id="35" title="Брянская область">
+		<data2011>
+			<par>7.7</par>
+			<par>681.0</par>
+			<par>232.0</par>
+			<par>88.5</par>
+			<par>197.5</par>
+			<par>87.7</par>
+			<par>83.0</par>
+			<par>54.1</par>
+			<par></par>
+			<par>37.0</par>
+			<par>80.0</par>
+			<par>322.0</par>
+			<par>1653.5</par>
+			<par>43.5</par>
+			<par>43.4</par>
+			<par>40.3</par>
+			<par>47.1</par>
+			<par>43.3</par>
+			<par>8752.0</par>
+			<par>397866.0</par>
+			<par>4702.5</par>
+			<par>12.5</par>
+			<par>2.0</par>
+			<par>0.0</par>
+			<par>0.0</par>
+			<par>27.7</par>
+			<par>0.0</par>
+			<par>0.0</par>
+		</data2011>
+		<data2013>
+			<par>8.4</par>
+			<par>667.9</par>
+			<par>221.0</par>
+			<par>87.5</par>
+			<par>193.7</par>
+			<par>89.3</par>
+			<par>84.0</par>
+			<par>55.0</par>
+			<par></par>
+			<par>45.0</par>
+			<par>86.0</par>
+			<par>318.0</par>
+			<par>1845.0</par>
+			<par>38.3</par>
+			<par>39.0</par>
+			<par>34.9</par>
+			<par>44.1</par>
+			<par>43.3</par>
+			<par>14178.0</par>
+			<par>472665.2</par>
+			<par>5590.3</par>
+			<par>25.0</par>
+			<par>9.0</par>
+			<par>0.0</par>
+			<par>22.0</par>
+			<par>27.7</par>
+			<par>56.2</par>
+			<par>21.4</par>
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1148320.1" par2="63557.0" par3="0"/>
+			<task2 par1="80852.3" par2="8443.0" par3="0"/>
+			<task3 par1="387872.6" par2="0" par3="173472.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="737795.7" par2="60299.0" par3="0"/>
+			<task2 par1="82761.6" par2="9000.0" par3="0"/>
+			<task3 par1="834674.7" par2="0" par3="176626.9"/>
+		</fin_data2012>
+	</region>
+	<region id="37" title="Волгоградская область">
+		<data2011>
+			<par>9.8</par>
+			<par>59.0</par>
+			<par>200.0</par>
+			<par>82.0</par>
+			<par>206.9</par>
+			<par>123.5</par>
+			<par>82.0</par>
+			<par>45.2</par>
+			<par>70.0</par>
+			<par>75.7</par>
+			<par>72.0</par>			
+			<par>325.3</par>
+			<par>1298.2</par>
+			<par>26.5</par>
+			<par>33.9</par>
+			<par>30.0</par>
+			<par>39.2</par>
+			<par>44.5</par>
+			<par>18514.0</par>
+			<par>382022.0</par>
+			<par>6299.0</par>
+			<par>1.0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0.6</par>
+			<par>0</par>
+			<par>0</par>
+			<par></par>
+		</data2011>
+		<data2013>
+			<par>9.3</par>
+			<par>57.0</par>
+			<par>196.0</par>
+			<par>77.8</par>
+			<par>202.8</par>
+			<par>121.8</par>
+			<par>78.0</par>
+			<par>45.8</par>
+			<par>77.0</par>
+			<par>77.0</par>
+			<par>76.0</par>			
+			<par>330.0</par>
+			<par>1803.2</par>
+			<par>11.2</par>
+			<par>33.0</par>
+			<par>31.1</par>
+			<par>35.6</par>
+			<par>34.6</par>
+			<par>21000.0</par>
+			<par>540562.0</par>
+			<par>8915.0</par>
+			<par>3.5</par>
+			<par>21.0</par>
+			<par>0.8</par>
+			<par>41.5</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>0</par>
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1983156.8" par2="54585.65" par3="0"/>
+			<task2 par1="140876.9" par2="20000" par3="0"/>
+			<task3 par1="693503.3" par2="16705.4" par3="403745.82"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1325309.4" par2="29115.41" par3="0"/>
+			<task2 par1="144203.8" par2="20071.4" par3="0"/>
+			<task3 par1="1414562.8" par2="9743.6" par3="523745.82"/>
+		</fin_data2012>
+	</region>
+	<region id="43" title="Калужская область">
+		<data2011>
+			<par>7.2</par>
+			<par>76.2</par>
+			<par>260.7</par>
+			<par>97.7</par>
+			<par>203.0</par>
+			<par>31.5</par>
+			<par>80.0</par>
+			<par>54.0</par>
+			<par>70.0</par>
+			<par>31.5</par>
+			<par>82.0</par>
+			<par>322.0</par>
+			<par>1350.4</par>
+			<par>65.0</par>
+			<par>25.7</par>
+			<par>25.9</par>
+			<par>23.2</par>
+			<par>38.5</par>
+			<par>13460.0</par>
+			<par>826442.0</par>
+			<par>9436.0</par>
+			<par>10.0</par>
+			<par>3.0</par>
+			<par>0.0</par>
+			<par>0.0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+		</data2011>
+		<data2013>
+			<par>8.1</par>
+			<par>74.0</par>
+			<par>259.7</par>
+			<par>96.0</par>
+			<par>188.0</par>
+			<par>29.0</par>
+			<par>82.0</par>
+			<par>58.0</par>
+			<par>80.0</par>
+			<par>37.0</par>
+			<par>88.0</par>
+			<par>326.0</par>
+			<par>2237.0</par>
+			<par>90.3</par>
+			<par>23.7</par>
+			<par>18.3</par>
+			<par>30.1</par>
+			<par>36.6</par>
+			<par>17589.3</par>
+			<par>1016252.0</par>
+			<par>11603.0</par>
+			<par>47.0</par>
+			<par>17.0</par>
+			<par>9.0</par>
+			<par>58.0</par>
+			<par>60.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1142573.6" par2="615040.3" par3="13887.1"/>
+			<task2 par1="74749.4" par2="23718.5" par3="13888.1"/>
+			<task3 par1="277665.0" par2="43259.9" par3="689916.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="903075.3" par2="577601.7" par3="11941.6"/>
+			<task2 par1="76514.7" par2="18347.9" par3="13167.2"/>
+			<task3 par1="550704.0" par2="47876.4" par3="1038864.1"/>
+		</fin_data2012>
+	</region>
+	<region id="44" title="Кемеровская область">
+		<data2011>
+			<par>8.1</par>
+			<par>824.0</par>
+			<par>198.0</par>
+			<par>96.4</par>
+			<par>297.0</par>
+			<par>91.0</par>
+			<par>67.9</par>
+			<par>53.0</par>
+			<par></par>
+			<par>32.3</par>
+			<par>77.0</par>
+			<par>335.0</par>
+			<par>2019.0</par>
+			<par>33.4</par>
+			<par>43.8</par>
+			<par>39.9</par>
+			<par>48.1</par>
+			<par>55.0</par>
+			<par>12331.0</par>
+			<par>254000.0</par>
+			<par>10040.3</par>
+			<par>0.8</par>
+			<par>0</par>
+			<par>1.5</par>
+			<par>3.0</par>
+			<par>100.0</par>
+			<par>34.0</par>
+			<par>19.0</par>
+		</data2011>
+		<data2013>
+			<par>8.5</par>
+			<par>816.0</par>
+			<par>190.0</par>
+			<par>93.8</par>
+			<par>270.0</par>
+			<par>90.0</par>
+			<par>74.0</par>
+			<par>55.0</par>
+			<par></par>
+			<par>45.0</par>
+			<par>87.0</par>
+			<par>339.0</par>
+			<par>3157.0</par>
+			<par>19.5</par>
+			<par>41.5</par>
+			<par>37.4</par>
+			<par>45.9</par>
+			<par>39.0</par>
+			<par>16424.0</par>
+			<par>326000.0</par>
+			<par>12990.3</par>
+			<par>38.9</par>
+			<par>49.0</par>
+			<par>50.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>93.0</par>
+			<par>46.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2328825.7" par2="790428.7" par3="0"/>
+			<task2 par1="176924.5" par2="70067.5" par3="0"/>
+			<task3 par1="1032738.8" par2="277120.1" par3="154117.9"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1262805.6" par2="725644.5" par3="0"/>
+			<task2 par1="181102.7" par2="75747.9" par3="0"/>
+			<task3 par1="2178144.7" par2="285442.0" par3="700812.6"/>
+		</fin_data2012>
+	</region>
+	<region id="13" title="Республика Мордовия">
+		<data2011>
+			<par>6.2</par>
+			<par>618.8</par>
+			<par>216.9</par>
+			<par>61.5</par>
+			<par>16.6</par>
+			<par>105.1</par>
+			<par>84.3</par>
+			<par>49.6</par>
+			<par>85.0</par>
+			<par>55.0</par>
+			<par>91.0</par>
+			<par>336.0</par>
+			<par>1267.0</par>
+			<par>36.9</par>
+			<par>28.2</par>
+			<par>29.8</par>
+			<par>26.04</par>
+			<par>27.3</par>
+			<par>10160.0</par>
+			<par>571593.1</par>
+			<par>7502.3</par>
+			<par>5.0</par>
+			<par>9.0</par>
+			<par>5.4</par>
+			<par>3.7</par>
+			<par>0.0</par>
+			<par>0.0</par>
+			<par>0.0</par>
+		</data2011>
+		<data2013>
+			<par>7.0</par>
+			<par>610.0</par>
+			<par>210.0</par>
+			<par>60.4</par>
+			<par>15.0</par>
+			<par>104.0</par>
+			<par>85.2</par>
+			<par>51.0</par>
+			<par>93.0</par>
+			<par>57.0</par>		
+			<par>93.0</par>
+			<par>334.0</par>
+			<par>3836.1</par>
+			<par>24.3</par>
+			<par>10.8</par>
+			<par>5.8</par>
+			<par>17.0</par>
+			<par>23.1</par>
+			<par>13620.0</par>
+			<par>630857.4</par>
+			<par>8280.2</par>
+			<par>66.4</par>
+			<par>47.0</par>
+			<par>21.6</par>
+			<par>87.67</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="520296.2" par2="452942.1" par3="0"/>
+			<task2 par1="45838.2" par2="29690.0" par3="0"/>
+			<task3 par1="350629.6" par2="22529.3" par3="230802.1"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="505124.1" par2="463248.6" par3="0"/>
+			<task2 par1="46920.7" par2="15000.0" par3="0"/>
+			<task3 par1="386369.2" par2="22529.3" par3="378946.5"/>
+		</fin_data2012>
+	</region>
+	<region id="60" title="Пензенская область">
+		<data2011>
+			<par>7.8</par>
+			<par>628.9</par>
+			<par>197.9</par>
+			<par>96.7</par>
+			<par>131.9</par>
+			<par>29.9</par>
+			<par>83.1</par>
+			<par>51.8</par>
+			<par>84.4</par>
+			<par>35.0</par>
+			<par>76.8</par>
+			<par>328.0</par>
+			<par>1218.51</par>
+			<par>42.2</par>
+			<par>21.6</par>
+			<par>31.7</par>
+			<par>17.7</par>
+			<par>53.8</par>
+			<par>17348.0</par>
+			<par>695115.6</par>
+			<par>3705.7</par>
+			<par></par>
+			<par></par>
+			<par>17.16</par>
+			<par>1.78</par>
+			<par>10.71</par>
+			<par>43.66</par>
+			<par>20.74</par>
+		</data2011>
+		<data2013>
+			<par>7.9</par>
+			<par>614.89</par>
+			<par>193.93</par>
+			<par>92.87</par>
+			<par>125.36</par>
+			<par>28.4</par>
+			<par>84.5</par>
+			<par>54.4</par>
+			<par>85.5</par>
+			<par>42.4</par>
+			<par>78.4</par>
+			<par>330.0</par>
+			<par>1371.0</par>
+			<par>26.7</par>
+			<par>18.5</par>
+			<par>27.1</par>
+			<par>14.4</par>
+			<par>46.0</par>
+			<par>21859.2</par>
+			<par>937541.2</par>
+			<par>5723.6</par>
+			<par>45.6</par>
+			<par>47.2</par>
+			<par>67.0</par>
+			<par>94.64</par>
+			<par>94.64</par>
+			<par>77.99</par>
+			<par>51.41</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1383300.8" par2="426000.0" par3="0"/>
+			<task2 par1="87847.5" par2="30000.0" par3="0"/>
+			<task3 par1="285801.7" par2="144000.0" par3="215051.9"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1142243.7" par2="426000.0" par3="0"/>
+			<task2 par1="89922.1" par2="30000.0" par3="0"/>
+			<task3 par1="566275.2" par2="144000.0" par3="317839.3"/>
+		</fin_data2012>
+	</region>
+	<region id="64" title="Самарская область">
+		<data2011>
+			<par>6.4</par>
+			<par>640.0</par>
+			<par>145.1</par>
+			<par>84.2</par>
+			<par>206.9</par>
+			<par>109.2</par>
+			<par>80.5</par>
+			<par>47.5</par>
+			<par>70.0</par>
+			<par>28.1</par>
+			<par>72.0</par>
+			<par>300.0</par>
+			<par>3503.15</par>
+			<par>-18.54</par>
+			<par>28.2</par>
+			<par>21.7</par>
+			<par>6.5</par>
+			<par>5.7</par>
+			<par>13950.0</par>
+			<par>1204101.0</par>
+			<par>15187.0</par>
+			<par>0.0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>			
+		</data2011>
+		<data2013>
+			<par>6.8</par>
+			<par>621.0</par>
+			<par>120.44</par>
+			<par>81.0</par>
+			<par>202.8</par>
+			<par>107.1</par>
+			<par>81.5</par>
+			<par>49.0</par>
+			<par>77.0</par>
+			<par>30.1</par>
+			<par>80.0</par>
+			<par>303.0</par>
+			<par>3934.33</par>
+			<par>-10.51</par>
+			<par>26.0</par>
+			<par>20.0</par>
+			<par>6.0</par>
+			<par>5.5</par>
+			<par>17437.0</par>
+			<par>1236185.0</par>
+			<par>15838.0</par>
+			<par>36.49</par>
+			<par>33.0</par>
+			<par>15.0</par>
+			<par>62.6</par>
+			<par>100.0</par>
+			<par>47.6</par>
+			<par>69.0</par>			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3171568.6" par2="547177.3" par3="0"/>
+			<task2 par1="196562.7" par2="100000.0" par3="0"/>
+			<task3 par1="563121.7" par2="148093.0" par3="656960.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="2930630.8" par2="532464.0" par3="0"/>
+			<task2 par1="201204.7" par2="100000.0" par3="0"/>
+			<task3 par1="892257.5" par2="155307.0" par3="656960.2"/>
+		</fin_data2012>
+	</region>
+	<region id="65" title="Саратовская область">
+		<data2011>
+			<par>6.0</par>
+			<par>591.0</par>
+			<par>181.4</par>
+			<par>85.3</par>
+			<par>179.8</par>
+			<par>97.5</par>
+			<par>74.0</par>
+			<par>52.4</par>
+			<par>83.2</par>
+			<par>60.0</par>
+			<par>93.0</par>
+			<par>329.0</par>
+			<par>1894.35</par>
+			<par>35.67</par>
+			<par>24.7</par>
+			<par>8.8</par>
+			<par>12.5</par>
+			<par>3.2</par>
+			<par>11840.0</par>
+			<par>521148.0</par>
+			<par>6376.0</par>
+			<par>0.79</par>
+			<par>11.0</par>
+			<par>3.0</par>
+			<par>1.0</par>
+			<par>0.0</par>
+			<par>50.84</par>
+			<par>44.73</par>
+			
+		</data2011>
+		<data2013>
+			<par>6.7</par>
+			<par>579.0</par>
+			<par>178.0</par>
+			<par>84.0</par>
+			<par>176.2</par>
+			<par>95.20</par>
+			<par>79.5</par>
+			<par>54.0</par>
+			<par>88.0</par>
+			<par>70.0</par>
+			<par>95.0</par>
+			<par>333.0</par>
+			<par>2009.9</par>
+			<par>33.08</par>
+			<par>20.4</par>
+			<par>5.8</par>
+			<par>11.5</par>
+			<par>2.9</par>
+			<par>14326.0</par>
+			<par>650963.0</par>
+			<par>7964.0</par>
+			<par>2.77</par>
+			<par>102.0</par>
+			<par>25.0</par>
+			<par>22.0</par>
+			<par>32.0</par>
+			<par>100.0</par>
+		 	 <par>100.0</par>			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2050072.4" par2="197804.4" par3="0"/>
+			<task2 par1="149475.8" par2="2000.0" par3="0"/>
+			<task3 par1="789966.8" par2="229392.0" par3="1379033.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1240924.6" par2="146763.5" par3="0"/>
+			<task2 par1="153005.8" par2="104000.0" par3="0"/>
+			<task3 par1="1666184.6" par2="233369.6" par3="2057692.0"/>
+		</fin_data2012>
+	</region>
+	<region id="67" title="Свердловская область">
+		<data2011>
+			<par>6.1</par>
+			<par>646.0</par>
+			<par>175.0</par>
+			<par>83.5</par>
+			<par>157.3</par>
+			<par>30.0</par>
+			<par>75.0</par>
+			<par>56.0</par>
+			<par>65.0</par>
+			<par>27.0</par>
+			<par>64.0</par>
+			<par>305.0</par>
+			<par>1478.4</par>
+			<par>20.2</par>
+			<par>15.9</par>
+			<par>22.0</par>
+			<par>7.2</par>
+			<par>44.9</par>
+			<par>17709.2</par>
+			<par>355704.8</par>
+			<par>2695.8</par>
+			<par>5.3</par>
+			<par>6</par>
+			<par>7.3</par>
+			<par>10.7</par>
+			<par>37.3</par>
+			<par>0</par>
+			<par>0</par>
+		</data2011>
+		<data2013>
+			<par>6.3</par>
+			<par>630.0</par>
+			<par>161.2</par>
+			<par>81.5</par>
+			<par>147.0</par>
+			<par>27.8</par>
+			<par>77.0</par>
+			<par>58.0</par>
+			<par>70.0</par>
+			<par>33.0</par>
+			<par>82.0</par>
+			<par>318.0</par>
+			<par>2380.3</par>
+			<par>0.0</par>
+			<par>11.5</par>
+			<par>17.7</par>
+			<par>2.6</par>
+			<par>42.6</par>
+			<par>20472.7</par>
+			<par>643439.0</par>
+			<par>6555.7</par>
+			<par>20.8</par>
+			<par>110</par>
+			<par>39.3</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3092329.1" par2="1339674.4" par3="0"/>
+			<task2 par1="260100.7" par2="40057.0" par3="0"/>
+			<task3 par1="1849583.2" par2="35210.0" par3="1821755.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1220183.6" par2="896565.8" par3="0"/>
+			<task2 par1="266243.2" par2="41614.0" par3="0"/>
+			<task3 par1="3838436.2" par2="16041" par3="1821755.6"/>
+		</fin_data2012>
+	</region>
+	<region id="68" title="Смоленская область">
+		<data2011>
+			<par>5.6</par>
+			<par>858.1</par>
+			<par>290.1</par>
+			<par>99.6</par>
+			<par>210.1</par>
+			<par>93.1</par>
+			<par>75.0</par>
+			<par>55.9</par>
+			<par>56.0</par>
+			<par>37.0</par>
+			<par>79.0</par>			
+			<par>327.0</par>
+			<par>1985.7</par>
+			<par>28.8</par>
+			<par>37.4</par>
+			<par>34.1</par>
+			<par>42.7</par>
+			<par>53.9</par>
+			<par>9245.0</par>
+			<par>296712.0</par>
+			<par>3322.0</par>
+			<par>2.1</par>
+			<par>4.0</par>
+			<par></par>
+			<par>3.08</par>
+			<par>100</par>
+			<par></par>
+			<par></par>	
+		</data2011>
+		<data2013>
+			<par>6.3</par>
+			<par>839.0</par>
+			<par>287.0</par>
+			<par>97.0</par>
+			<par>191.0</par>
+			<par>90.8</par>
+			<par>75.9</par>
+			<par>57.5</par>
+			<par>66.0</par>
+			<par>42.0</par>
+			<par>82.0</par>
+			<par>329.0</par>
+			<par>3376.3</par>
+			<par>17.1</par>
+			<par>33.8</par>
+			<par>27.7</par>
+			<par>39.7</par>
+			<par>47.6</par>
+			<par>15340.4</par>
+			<par>672709.0</par>
+			<par>7308.0</par>
+			<par>9.3</par>
+			<par>12.0</par>
+			<par>5.0</par>
+			<par>79.4</par>
+			<par>100.0</par>
+			<par>90.0</par>		
+			<par></par>	
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1171224.7" par2="142501.3" par3="0"/>
+			<task2 par1="75738.3" par2="2760.0" par3="0"/>
+			<task3 par1="267803.0" par2="307805.5" par3="146841.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="921436.4" par2="15399.0" par3="0"/>
+			<task2 par1="77527.0" par2="5050.0" par3="0"/>
+			<task3 par1="551575.6" par2="531539.4" par3="149522.2"/>
+		</fin_data2012>
+	</region>
+	<region id="16" title="Республика Татарстан">
+		<data2011>
+			<par>5.6</par>
+			<par>518.5</par>
+			<par>191.8</par>
+			<par>71.8</par>
+			<par>154.0</par>
+			<par>30.0</par>
+			<par>86.3</par>
+			<par>54.0</par>
+			<par></par>
+			<par>47.0</par>
+			<par>61.0</par>
+			<par>345.0</par>
+			<par>1131.38</par>
+			<par>28.29</par>
+			<par>36.5</par>
+			<par>32.7</par>
+			<par>41.2</par>
+			<par>43.8</par>
+			<par>11554.0</par>
+			<par>1915471.8</par>
+			<par>17697.5</par>
+			<par>1.6</par>
+			<par>32.0</par>
+			<par>17.2</par>
+			<par>12.0</par>
+			<par>51.0</par>
+			<par>100.0</par>
+			<par>100.0</par>			
+		</data2011>
+		<data2013>
+			<par>6.5</par>
+			<par>517.8</par>
+			<par>184.2</par>
+			<par>69.6</par>
+			<par>151.0</par>
+			<par>27.0</par>
+			<par>86.5</par>
+			<par>57.0</par>
+			<par></par>
+			<par>60.0</par>
+			<par>80.0</par>
+			<par>345.0</par>
+			<par>1256.74</par>
+			<par>19.84</par>
+			<par>35.0</par>
+			<par>31.8</par>
+			<par>40.0</par>
+			<par>40.9</par>
+			<par>13300.0</par>
+			<par>2250850.6</par>
+			<par>19693.28</par>
+			<par>2.21</par>
+			<par>64.0</par>
+			<par>70.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3044277.7" par2="33000.0" par3="0"/>
+			<task2 par1="195542.0" par2="6600.0" par3="0"/>
+			<task3 par1="671019.30" par2="0" par3="392960.9"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="2603750.2" par2="3000.0" par3="0"/>
+			<task2 par1="200159.8" par2="6600.0" par3="0"/>
+			<task3 par1="1199286.0" par2="0" par3="593255.7"/>
+		</fin_data2012>
+	</region>
+	<region id="21" title="Чувашская Республика - Чувашия">
+		<data2011>
+			<par>5.5</par>
+			<par>617</par>
+			<par>139.3</par>
+			<par>70.7</par>
+			<par>29.5</par>
+			<par>77.7</par>
+			<par>85.0</par>
+			<par>56.4</par>
+			<par>66.0</par>
+			<par>41.0</par>
+			<par>73.6</par>
+			<par>332.0</par>
+			<par>1192.7</par>
+			<par>28.7</par>
+			<par>19.3</par>
+			<par>11.7</par>
+			<par>26.6</par>
+			<par>38.5</par>
+			<par>10249.0</par>
+			<par>437958.0</par>
+			<par>4160</par>
+			<par>17.0</par>
+			<par>9.0</par>
+			<par>6.0</par>
+			<par>73.33</par>
+			<par>33.0</par>
+		<par>0.0</par>
+			<par>0.0</par>			
+		</data2011>
+		<data2013>
+			<par>6.2</par>
+			<par>615.5</par>
+			<par>138.0</par>
+			<par>69.0</par>
+			<par>26.9</par>
+			<par>76.1</par>
+			<par>88.0</par>
+			<par>57.1</par>
+			<par>68.0</par>
+			<par>43.5</par>
+			<par>81.6</par>
+			<par>334.0</par>
+			<par>2946.55</par>
+			<par>21.9</par>
+			<par>11.0</par>
+			<par>7.9</par>
+			<par>12.9</par>
+			<par>30.1</par>
+			<par>12745.0</par>
+			<par>543084.99</par>
+			<par>5067.0</par>
+			<par>24.0</par>
+			<par>29.0</par>
+			<par>12.0</par>
+			<par>100.0</par>
+			<par>90.0</par>
+			<par>61.41</par>
+			<par>43.25</par>
+					
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1097590.0" par2="71510.0" par3="0"/>
+			<task2 par1="67360.0" par2="43580.0" par3="0"/>
+			<task3 par1="182340.0" par2="103100.0" par3="674000.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="960720.0" par2="77820.0" par3="0"/>
+			<task2 par1="68950.0" par2="19730.0" par3="0"/>
+			<task3 par1="349430.0" par2="95140.0" par3="728150.0"/>
+		</fin_data2012>
+	</region>
+		<region id="73" title="Тюменская область">
+		<data2011>
+			<par>6.2</par>
+			<par>64.1</par>
+			<par>162.0</par>
+			<par>87.6</par>
+			<par>26.4</par>
+			<par>31.5</par>
+			<par>82.0</par>
+			<par>54.6</par>
+			<par>68.0</par>
+			<par>43.1</par>
+			<par>78.0</par>
+			<par>346.0</par>
+			<par>2065.4</par>
+			<par>21.0</par>
+			<par>5.0</par>
+			<par>4.0</par>
+			<par>7.0</par>
+			<par>8.0</par>
+			<par>15500.0</par>
+			<par>1171696.0</par>
+			<par>7682.0</par>
+			<par>10.3</par>
+			<par>8.0</par>
+			<par>0.0</par>
+			<par>29.3</par>
+			<par>67.0</par>
+			<par>95.0</par>
+				<par></par>		
+		</data2011>
+		<data2013>
+			<par>6.9</par>
+			<par>59.6</par>
+			<par>157.0</par>
+			<par>86.5</par>
+			<par>23.0</par>
+			<par>29.0</par>
+			<par>83.0</par>
+			<par>55.9</par>
+			<par>75.0</par>
+			<par>45.0</par>
+			<par>80.0</par>
+			<par>340.0</par>
+			<par>2304.4</par>
+			<par>16.0</par>
+			<par>4.0</par>
+			<par>4.0</par>
+			<par>5.0</par>
+			<par>1.6</par>
+			<par>16500.0</par>
+			<par>1800519.0</par>
+			<par>11345.0</par>
+			<par>41.0</par>
+			<par>16.0</par>
+			<par>76.3</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+				<par></par>		
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1823004.4" par2="669371.3" par3="113835.0"/>
+			<task2 par1="95947.6" par2="25523.0" par3="0"/>
+			<task3 par1="0" par2="126968.0" par3="363000.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1866055.5" par2="447699.6" par3="107783.0"/>
+			<task2 par1="98213.5" par2="8167.0" par3="0"/>
+			<task3 par1="0" par2="134622.0" par3="369580.7"/>
+		</fin_data2012>
+	</region>
+	<region id="39" title="Воронежская область">
+		<data2011>
+			<par>7.1</par>
+			<par>657.5</par>
+			<par>220.0</par>
+			<par>94.2</par>
+			<par>180.0</par>
+			<par>28.5</par>
+			<par>80.5</par>
+			<par>51.2</par>
+			<par>84.4</par>
+			<par>40.0</par>
+			<par>65.0</par>
+			<par>325.3</par>
+			<par>1156.7</par>
+			<par>33.0</par>
+			<par>29.4</par>
+			<par>27.0</par>
+			<par>32.2</par>
+			<par>44.1</par>
+			<par>11535.0</par>
+			<par>560447.3</par>
+			<par>6116.3</par>
+			<par>7.0</par>
+			<par>14.0</par>
+			<par>0.0</par>
+			<par>0.0</par>
+			<par></par>
+			<par>26.2</par>
+			<par></par>			
+		</data2011>
+		<data2013>
+			<par>7.7</par>
+			<par>655.8</par>
+			<par>210.0</par>
+			<par>90.2</par>
+			<par>175.0</par>
+			<par>26.0</par>
+			<par>81.0</par>
+			<par>55.6</par>
+			<par>87.0</par>
+			<par>44.0</par>
+			<par>85.0</par>
+			<par>332.0</par>
+			<par>1173.9</par>
+			<par>27.0</par>
+			<par>26.8</par>
+			<par>24.6</par>
+			<par>29.3</par>
+			<par>43.9</par>
+			<par>16015.0</par>
+			<par>694143.5</par>
+			<par>7857.3</par>
+			<par>60.0</par>
+			<par>87.0</par>
+			<par>50.0</par>
+			<par>73.0</par>
+			<par>100.0</par>
+			<par>84.2</par>
+			<par></par>	
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1805930.4" par2="181444.8" par3="0"/>
+			<task2 par1="131210.6" par2="47564.0" par3="0"/>
+			<task3 par1="687071.0" par2="12456.0" par3="204916.1"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1119536.0" par2="297116.5" par3="0"/>
+			<task2 par1="134309.3" par2="52320.0" par3="0"/>
+			<task3 par1="1432339.7" par2="12456.0" par3="210288.3"/>
+		</fin_data2012>
+	</region>
+	<region id="62" title="Ростовская область">
+		<data2011>
+			<par>7.7</par>
+			<par>566.0</par>
+			<par>180.0</par>
+			<par>85.1</par>
+			<par>14.7</par>
+			<par>101.3</par>
+			<par>82.7</par>
+			<par>52.0</par>
+			<par>52.4</par>
+			<par>37.4</par>
+			<par>75.0</par>
+			<par>320.0</par>
+			<par>1660.2</par>
+			<par>27.8</par>
+			<par>15.0</par>
+			<par>16.4</par>
+			<par>13.3</par>
+			<par>34.6</par>
+			<par>13440.0</par>
+			<par>1154869.0</par>
+			<par>11035.1</par>
+			<par>32.2</par>
+			<par>17.0</par>
+			<par></par>
+			<par>8.0</par>
+			<par></par>
+			<par></par>
+			<par></par>
+						
+		</data2011>
+		<data2013>
+			<par>8.3</par>
+			<par>548.0</par>
+			<par>176.0</par>
+			<par>83.2</par>
+			<par>14.2</par>
+			<par>99.2</par>
+			<par>83.0</par>
+			<par>54.0</par>
+			<par>54.0</par>
+			<par>38.4</par>
+			<par>82.0</par>
+			<par>337.0</par>
+			<par>2018.4</par>
+			<par>17.9</par>
+			<par>14.8</par>
+			<par>16.2</par>
+			<par>13.1</par>
+			<par>31.5</par>
+			<par>15392.0</par>
+			<par>1248980.0</par>
+			<par>11855.4</par>
+			<par>41.8</par>
+			<par>59.0</par>
+			<par>10.0</par>
+			<par>72.0</par>
+			<par>54.0</par>
+			<par>51.8</par>
+			<par>33.6</par>
+				
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3819389.0" par2="911783.8" par3="0"/>
+			<task2 par1="232696.3" par2="15000.0" par3="0"/>
+			<task3 par1="601840.7" par2="70316.6" par3="660213.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="3551441.5" par2="1091433.3" par3="0"/>
+			<task2 par1="238191.7" par2="5000.00" par3="0"/>
+			<task3 par1="974199.8" par2="70312.6" par3="238298.6"/>
+		</fin_data2012>
+	</region>
+		<region id="40" title="Ивановская область">
+		<data2011>
+			<par>6.7</par>
+			<par>757.0</par>
+			<par>228.5</par>
+			<par>97.0</par>
+			<par>16.5</par>
+			<par>139.4</par>
+			<par>71.8</par>
+			<par>54.0</par>
+			<par>50.0</par>
+			<par>36.5</par>
+			<par>72.5</par>
+			<par>335.0</par>
+			<par>846.6</par>
+			<par>35.4</par>
+			<par>15.0</par>
+			<par>17.5</par>
+			<par>11.9</par>
+			<par>43.8</par>
+			<par>11426.0</par>
+			<par>498675.8</par>
+			<par>5268.1</par>
+			<par>11.9</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>5.0</par>
+			<par>0</par>
+			<par>0</par>
+		</data2011>
+		<data2013>
+			<par>7.4</par>
+			<par>712.0</par>
+			<par>215.0</par>
+			<par>93.0</par>
+			<par>13.2</par>
+			<par>133.1</par>
+			<par>80.0</par>
+			<par>55.0</par>
+			<par>60.0</par>
+			<par>42.0</par>
+			<par>80.0</par>
+			<par>330.0</par>
+			<par>1054.1</par>
+			<par>29.7</par>
+			<par>13.5</par>
+			<par>16.0</par>
+			<par>10.4</par>
+			<par>35.0</par>
+			<par>13975.9</par>
+			<par>648421.6</par>
+			<par>6850.1</par>
+			<par>28.0</par>
+			<par>20.0</par>
+			<par>10.0</par>
+			<par>100.0</par>
+			<par>31.4</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="923543.9" par2="30631.7" par3="0"/>
+			<task2 par1="67537.6" par2="0" par3="0"/>
+			<task3 par1="359670.5" par2="0" par3="279541.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="519613.7" par2="25834.3" par3="0"/>
+			<task2 par1="69132.6" par2="0" par3="0"/>
+			<task3 par1="793905.7" par2="0" par3="310229.0"/>
+		</fin_data2012>
+	</region>
+	<region id="38" title="Вологодская область">
+		<data2011>
+			<par>7.6</par>
+			<par>749.0</par>
+			<par>242.0</par>
+			<par>91.0</par>
+			<par>222.0</par>
+			<par>89.0</par>
+			<par>69.0</par>
+			<par>54.0</par>
+			<par>49.1</par>
+			<par>29.0</par>
+			<par>78.0</par>
+			<par>312.0</par>
+			<par>2000.9</par>
+			<par>32.1</par>
+			<par>46.5</par>
+			<par>43.3</par>
+			<par>50.0</par>
+			<par>73.2</par>
+			<par>18757.5</par>
+			<par>563569.3</par>
+			<par>5480.1</par>
+			<par>19.2</par>
+			<par>16.0</par>
+			<par>0</par>
+			<par>1.96</par>
+			<par>0</par>
+			<par>50</par>
+			<par>50</par>
+		</data2011>
+		<data2013>
+			<par>8.0</par>
+			<par>743.0</par>
+			<par>232.0</par>
+			<par>85.0</par>
+			<par>218.0</par>
+			<par>87.3</par>
+			<par>71.0</par>
+			<par>55.9</par>
+			<par>51.0</par>
+			<par>40.0</par>
+			<par>80.0</par>
+			<par>330.0</par>
+			<par>2457.33</par>
+			<par>18.45</par>
+			<par>44.5</par>
+			<par>40.6</par>
+			<par>48.6</par>
+			<par>61.6</par>
+			<par>21933.9</par>
+			<par>703856.2</par>
+			<par>6950.0</par>
+			<par>52.5</par>
+			<par>55.0</par>
+			<par>1.4</par>
+			<par>70.6</par>
+			<par>764</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1280455.3" par2="73500.0" par3="0"/>
+			<task2 par1="86348.3" par2="9900.0" par3="0"/>
+			<task3 par1="360162.4" par2="11700.0" par3="43681.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="994703.9" par2="487895.0" par3="0"/>
+			<task2 par1="88387.5" par2="5000.0" par3="0"/>
+			<task3 par1="684658.6" par2="12000.0" par3="87431.4"/>
+		</fin_data2012>
+	</region>
+	<region id="53" title="Мурманская область">
+		<data2011>
+			<par>5.2</par>
+			<par>693.8</par>
+			<par>298.5</par>
+			<par>79.5</par>
+			<par>12.4</par>
+			<par>97.0</par>
+			<par></par>	
+			<par>53.0</par>
+			<par></par>	
+			<par>30.6</par>
+			<par>76.7</par>
+			<par>322.0</par>
+			<par>2696.8</par>
+			<par>33.6</par>
+			<par>37.0</par>
+			<par>37.0</par>
+			<par>37.0</par>
+			<par>43.8</par>
+			<par>22111.0</par>
+			<par>1501854.0</par>
+			<par>18612.5</par>
+			<par></par>
+			<par>2.0</par>
+			<par>0</par>
+			<par>3</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			
+		</data2011>
+		<data2013>
+			<par>6.7</par>
+			<par>692.0</par>
+			<par>294.0</par>
+			<par>78.0</par>
+			<par>12.0</par>
+			<par>95.0</par>
+			<par></par>	
+			<par>54.0</par>
+			<par></par>	
+			<par>31.4</par>
+			<par>80.0</par>
+			<par>325.0</par>
+			<par>3483.6</par>
+			<par>25.0</par>
+			<par>37.0</par>
+			<par>39.0</par>
+			<par>35.0</par>
+			<par>40.9</par>
+			<par>26633.0</par>
+			<par>1832870.2</par>
+			<par>22151.3</par>
+			<par>8.0</par>
+			<par>6.0</par>
+			<par>1</par>
+			<par>100</par>
+			<par>10</par>
+			<par>30.0</par>
+			<par>30.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1133402.8" par2="131978.3" par3="0"/>
+			<task2 par1="87167.8" par2="21547.0" par3="0"/>
+			<task3 par1="522784.4" par2="32325.6" par3="287046.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="613378.4" par2="139743.6" par3="0"/>
+			<task2 par1="89226.3" par2="18400.0" par3="0"/>
+			<task3 par1="1081921.3" par2="32000.4" par3="385904.5"/>
+		</fin_data2012>
+	</region>
+		<region id="11" title="Республика Коми">
+		<data2011>
+			<par>5.2</par>
+			<par>780.0</par>
+			<par>230.7</par>
+			<par>86.0</par>
+			<par>222.5</par>
+			<par>32.8</par>
+			<par>78.1</par>
+			<par>52.7</par>
+			<par>68.0</par>
+			<par>27.1</par>
+			<par>65.0</par>
+			<par>339.0</par>
+			<par>2556.0</par>
+			<par>34.4</par>
+			<par>27.7</par>
+			<par>26.4</par>
+			<par>29.1</par>
+			<par>60.3</par>
+			<par>32928.0</par>
+			<par>1730844.3</par>
+			<par>14435.6</par>
+			<par>7.8</par>
+			<par>0</par>
+			<par>0</par>
+			<par>2.2</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			
+		</data2011>
+		<data2013>
+			<par>5.9</par>
+			<par>720.0</par>
+			<par>222.0</par>
+			<par>83.0</par>
+			<par>192.4</par>
+			<par>30.7</par>
+			<par>79.0</par>
+			<par>55.0</par>
+			<par>75.0</par>
+			<par>40.0</par>
+			<par>80.0</par>
+			<par>339.0</par>
+			<par>4015.5</par>
+			<par>24.0</par>
+			<par>22.1</par>
+			<par>26.5</par>
+			<par>17.1</par>
+			<par>56.0</par>
+			<par>41160.0</par>
+			<par>2028745.2</par>
+			<par>17020.4</par>
+			<par>21.9</par>
+			<par>21.0</par>
+			<par>5.0</par>
+			<par>79.8</par>
+			<par>79.8</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1333544.5" par2="52626.2" par3="0"/>
+			<task2 par1="95085.3" par2="28683.4" par3="0"/>
+			<task3 par1="473076.2" par2="2100.0" par3="327452.9"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="895497.6" par2="61516.5" par3="0"/>
+			<task2 par1="97330.9" par2="22724.7" par3="0"/>
+			<task3 par1="953788.5" par2="2100.0" par3="697924.7"/>
+		</fin_data2012>
+	</region>
+	<region id="12" title="Республика Марий Эл">
+		<data2011>
+			<par>6.6</par>
+			<par>72.15</par>
+			<par>208.9</par>
+			<par>74.95</par>
+			<par>271.1</par>
+			<par>86.9</par>
+			<par>81.4</par>
+			<par>52.4</par>
+			<par>86.3</par>
+			<par>35.0</par>
+			<par>74.0</par>
+			<par>317.0</par>
+			<par>762.12</par>
+			<par>44.5</par>
+			<par>43.42</par>
+			<par>38.56</par>
+			<par>48.76</par>
+			<par>45.1</par>
+			<par>9930.0</par>
+			<par>535761.0</par>
+			<par>4287.0</par>
+			<par>0</par>
+			<par></par>
+			<par>0</par>
+			<par>0</par>
+			<par>79.1</par>
+			<par></par>
+			<par></par>	
+			
+		</data2011>
+		<data2013>
+			<par>7.0</par>
+			<par>70.8</par>
+			<par>205.0</par>
+			<par>71.8</par>
+			<par>250.0</par>
+			<par>82.9</par>
+			<par>81.6</par>
+			<par>56.0</par>
+			<par>89.6</par>
+			<par>50.0</par>
+			<par>78.0</par>
+			<par>330.0</par>
+			<par>957.78</par>
+			<par>31.3</par>
+			<par>38.57</par>
+			<par>35.86</par>
+			<par>41.76</par>
+			<par>39.9</par>
+			<par>12873.5</par>
+			<par>687605.0</par>
+			<par>5526.0</par>
+			<par>5.4</par>
+			<par>28.0</par>
+			<par>30.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par></par>	
+		</data2013>
+		<fin_data2011>
+			<task1 par1="383922.2" par2="61534.8" par3="0"/>
+			<task2 par1="34712.2" par2="17999.0" par3="0"/>
+			<task3 par1="275609.6" par2="18414.0" par3="44911.1"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="71063.8" par2="120754.0" par3="0"/>
+			<task2 par1="35532.0" par2="17997.0" par3="0"/>
+			<task3 par1="604043.2" par2="47086.0" par3="128881.2"/>
+		</fin_data2012>
+	</region>
+	<region id="42" title="Калининградская область">
+		<data2011>
+			<par>4.5</par>
+			<par>69.4</par>
+			<par>213.5</par>
+			<par>84.0</par>
+			<par>137.5</par>
+			<par>98.53</par>
+			<par>85.8</par>
+			<par>52.0</par>
+			<par>82.5</par>
+			<par>24.5</par>
+			<par>78.2</par>
+			<par>336.5</par>
+			<par>3107.7</par>
+			<par>31.5</par>
+			<par>17.0</par>
+			<par>17.0</par>
+			<par>17.0</par>
+			<par>15.0</par>
+			<par>13159.0</par>
+			<par>1580191.8</par>
+			<par>13707.1</par>
+			<par>10.0</par>
+			<par>7.0</par>
+			<par>0</par>
+			<par>3.22</par>
+			<par>0</par>
+			<par></par>
+			<par></par>	
+			
+		</data2011>
+		<data2013>
+			<par>4.9</par>
+			<par>68.0</par>
+			<par>212.0</par>
+			<par>81.7</par>
+			<par>136.0</par>
+			<par>86.23</par>
+			<par>86.0</par>
+			<par>55.0</par>
+			<par>86.0</par>
+			<par>40.0</par>
+			<par>82.0</par>
+			<par>336.5</par>
+			<par>4668.6</par>
+			<par>12.1</par>
+			<par>16.8</par>
+			<par>16.8</par>
+			<par>16.8</par>
+			<par>12.0</par>
+			<par>16336.0</par>
+			<par>1801291.2</par>
+			<par>15625.0</par>
+			<par>40.7</par>
+			<par>55.0</par>
+			<par>17.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par></par>	
+		</data2013>
+		<fin_data2011>
+			<task1 par1="904150.3" par2="141915.7" par3="0"/>
+			<task2 par1="70359.0" par2="41419.1" par3="0"/>
+			<task3 par1="432670.7" par2="0" par3="1092157.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="496016.0" par2="19519.6" par3="0"/>
+			<task2 par1="72020.6" par2="11345.1" par3="0"/>
+			<task3 par1="872375.4" par2="0" par3="1181422.5"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="69" title="Тамбовская область">
+		<data2011>
+			<par>4.1</par>
+			<par>66.9</par>
+			<par>223.0</par>
+			<par>111.0</par>
+			<par>18.3</par>
+			<par>114.0</par>
+			<par>82.6</par>
+			<par>47.0</par>
+			<par>50.0</par>
+			<par>34.5</par>
+			<par>75.0</par>
+			<par>324.0</par>
+			<par>1511.7</par>
+			<par>45.6</par>
+			<par>26.0</par>
+			<par>33.2</par>
+			<par>14.3</par>
+			<par>39.2</par>
+			<par>8500.0</par>
+			<par>1017381.6</par>
+			<par>8480.2</par>
+			<par>97.8</par>
+			<par>7.0</par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par></par>			
+		</data2011>
+		<data2013>
+			<par>5.0</par>
+			<par>64.5</par>
+			<par>218.5</par>
+			<par>99.0</par>
+			<par>17.0</par>
+			<par>110.0</par>
+			<par>82.8</par>
+			<par>50.5</par>
+			<par>60.0</par>
+			<par>40.0</par>
+			<par>85.0</par>
+			<par>327.0</par>
+			<par>2021.9</par>
+			<par>35.1</par>
+			<par>22.1</par>
+			<par>28.9</par>
+			<par>13.0</par>
+			<par>15.4</par>
+			<par>10031.0</par>
+			<par>1284887.9</par>
+			<par>10841.6</par>
+			<par>49.7</par>
+			<par>62.0</par>
+			<par>30.0</par>
+			<par>74.3</par>
+			<par>64.0</par>
+			<par>100.0</par>
+			<par></par>						
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1081179.6" par2="505319.3" par3="0"/>
+			<task2 par1="73335.5" par2="87504.3" par3="0"/>
+			<task3 par1="312194.9" par2="73147.1" par3="123867.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="763359.7" par2="166336.3" par3="0"/>
+			<task2 par1="75067.4" par2="73161.1" par3="0"/>
+			<task3 par1="662919.9" par2="127979.3" par3="348486.0"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="23" title="Забайкальский край">
+		<data2011>
+			<par>7.5</par>
+			<par>832.0</par>
+			<par>232.2</par>
+			<par>83.2</par>
+			<par>336.1</par>
+			<par>29.9</par>
+			<par>79.5</par>
+			<par>59.2</par>
+			<par>60.1</par>
+			<par>32.0</par>
+			<par>64.0</par>
+			<par>324.0</par>
+			<par>344.8</par>
+			<par>32.6</par>
+			<par>11.2</par>
+			<par>16.8</par>
+			<par>3.8</par>
+			<par>11.8</par>
+			<par>13738.0</par>
+			<par>719090.0</par>
+			<par>7033.0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>28.0</par>
+			<par>0</par>
+			<par>10.0</par>
+			<par>51.0</par>
+			<par>73.3</par>
+						
+		</data2011>
+		<data2013>
+			<par>7.1</par>
+			<par>783.0</par>
+			<par>218.5</par>
+			<par>78.3</par>
+			<par>316.2</par>
+			<par>28.1</par>
+			<par>79.7</par>
+			<par>60.4</par>
+			<par>70.1</par>
+			<par>36.0</par>
+			<par>72.0</par>
+			<par>331.0</par>
+			<par>781.5</par>
+			<par>17.4</par>
+			<par>3.3</par>
+			<par>5.0</par>
+			<par>1.0</par>
+			<par>2.9</par>
+			<par>17650.0</par>
+			<par>852537.0</par>
+			<par>8338.0</par>
+			<par>34.0</par>
+			<par>22.0</par>
+			<par>65.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1152101.8" par2="100918.7" par3="0"/>
+			<task2 par1="95121.4" par2="14149.3" par3="0"/>
+			<task3 par1="655203.8" par2="188009.0" par3="737706.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="359775.2" par2="32988.8" par3="0"/>
+			<task2 par1="97367.8" par2="14586.1" par3="0"/>
+			<task3 par1="1490212.0" par2="188595.0" par3="802457.5"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="82" title="Чукотский автономный округ">
+		<data2011>
+			<par>21.7</par>
+			<par>1200.0</par>
+			<par>410.0</par>
+			<par>99.4</par>
+			<par>390.0</par>
+			<par>52.0</par>
+			<par>55.0</par>
+			<par>37.0</par>
+			<par>73.0</par>
+			<par>51.0</par>
+			<par>73.5</par>
+			<par>325</par>
+			<par>25528.11</par>
+			<par>0</par>
+			<par>39.0</par>
+			<par>18.0</par>
+			<par>16.0</par>
+			<par>0</par>
+			<par>36319.0</par>
+			<par>2594604.0</par>
+			<par>32473.0</par>
+			<par>40.0</par>
+			<par>43.0</par>
+			<par>38.0</par>
+			<par>0</par>
+			<par>50.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+						
+		</data2011>
+		<data2013>
+			<par>12.8</par>
+			<par>1100.0</par>
+			<par>407.0</par>
+			<par>97.5</par>
+			<par>371.4</par>
+			<par>49.5</par>
+			<par>56.0</par>
+			<par>40.4</par>
+			<par>75.0</par>
+			<par>60.0</par>
+			<par>86.5</par>
+			<par>335.0</par>
+			<par>31081.51</par>
+			<par>0.0</par>
+			<par>33.3</par>
+			<par>16.0</par>
+			<par>14.0</par>
+			<par>0</par>
+			<par>40084.0</par>
+			<par>3503981.0</par>
+			<par>43817.0</par>
+			<par>70.0</par>
+			<par>46.0</par>
+			<par>48.0</par>
+			<par>100.0</par>
+			<par>90.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="157985.9" par2="112573.9" par3="0"/>
+			<task2 par1="8315.1" par2="888.3" par3="0"/>
+			<task3 par1="0" par2="8829.0" par3="27275.4"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="161716.6" par2="73248.1" par3="0"/>
+			<task2 par1="8511.4" par2="692.7" par3="0"/>
+			<task3 par1="0" par2="8829.0" par3="29170.8"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="58" title="Оренбургская область">
+		<data2011>
+			<par>7.1</par>
+			<par>677.0</par>
+			<par>184.2</par>
+			<par>82.0</par>
+			<par>205.0</par>
+			<par>21.6</par>
+			<par>82.0</par>
+			<par>48.0</par>
+			<par>73.0</par>
+			<par>43.0</par>
+			<par>86.5</par>
+			<par>318.6</par>
+			<par>4086.71</par>
+			<par>25.3</par>
+			<par>38.2</par>
+			<par>25.4</par>
+			<par>42.9</par>
+			<par>38.2</par>
+			<par>12489.0</par>
+			<par>590146.0</par>
+			<par>5607.0</par>
+			<par>18.0</par>
+			<par>0</par>
+			<par>5.0</par>
+			<par>27.8</par>
+			<par>5.0</par>
+			<par>95.0</par>
+			<par>95.0</par>
+						
+		</data2011>
+		<data2013>
+			<par>7.5</par>
+			<par>618.0</par>
+			<par>180.0</par>
+			<par>79.0</par>
+			<par>190.0</par>
+			<par>19.5</par>
+			<par>82.0</par>
+			<par>52</par>
+			<par>78.0</par>
+			<par>55.0</par>
+			<par>92.2</par>
+			<par>320.0</par>
+			<par>4131.6</par>
+			<par>14.7</par>
+			<par>34.7</par>
+			<par>22.9</par>
+			<par>42.5</par>
+			<par>34.7</par>
+			<par>15536.6</par>
+			<par>729342.0</par>
+			<par>6830.0</par>
+			<par>50.0</par>
+			<par>30.0</par>
+			<par>65.0</par>
+			<par>72.9</par>
+			<par>98.0</par>
+			<par>95.0</par>
+			<par>95.0</par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1917272.1" par2="110130.1" par3="0"/>
+			<task2 par1="125721.2" par2="51081.0" par3="0"/>
+			<task3 par1="471430.7" par2="646530.0" par3="816237.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1591485.1" par2="48717.7" par3="0"/>
+			<task2 par1="128690.2" par2="9456.0" par3="0"/>
+			<task3 par1="853628.7" par2="751788.0" par3="955161.0"/>
+		</fin_data2012>
+	</region>
+	
+		<region id="48" title="Курская область">
+		<data2011>
+			<par>8.0</par>
+			<par>70.0</par>
+			<par>231.7</par>
+			<par>108.8</par>
+			<par>16.0</par>
+			<par>103.5</par>
+			<par>82.0</par>
+			<par>50.6</par>
+			<par>62.0</par>
+			<par>41.9</par>
+			<par>60.0</par>
+			<par>329.9</par>
+			<par>1005.0</par>
+			<par>38.1</par>
+			<par>36.3</par>
+			<par>31.9</par>
+			<par>40.7</par>
+			<par>40.0</par>
+			<par>9996.0</par>
+			<par>1193972.0</par>
+			<par>10516.8</par>
+			<par>10.2</par>
+			<par>2.0</par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par></par>		
+		</data2011>
+		<data2013>
+			<par>8.5</par>
+			<par>68.0</par>
+			<par>217.0</par>
+			<par>89.1</par>
+			<par>14.5</par>
+			<par>96.0</par>
+			<par>82.0</par>
+			<par>53.4</par>
+			<par>66.0</par>
+			<par>51.4</par>
+			<par>80.0</par>
+			<par>326.4</par>
+			<par>1713.4</par>
+			<par>20.6</par>
+			<par>33.3</par>
+			<par>29.1</par>
+			<par>37.7</par>
+			<par>30.0</par>
+			<par>16975.0</par>
+			<par>1314034.9</par>
+			<par>11537.1</par>
+			<par>25.0</par>
+			<par>45.0</par>
+			<par>17.3</par>
+			<par>78.2</par>
+			<par>74.1</par>
+			<par>100.0</par>
+			<par></par>	
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="842873.8" par2="392500.4" par3="0"/>
+			<task2 par1="65990.8" par2="6737.5" par3="0"/>
+			<task3 par1="410951.4" par2="0" par3="550307.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="374797.6" par2="375885.2" par3="0"/>
+			<task2 par1="67549.2" par2="4408.0" par3="0"/>
+			<task3 par1="908637.0" par2="0" par3="865362.9"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="75" title="Челябинская область">
+		<data2011>
+			<par>7.8</par>
+			<par>62.8</par>
+			<par>202.5</par>
+			<par>87.1</par>
+			<par>208.8</par>
+			<par>98.1</par>
+			<par>72.0</par>
+			<par>50.9</par>
+			<par>74.0</par>
+			<par>38.0</par>
+			<par>73.8</par>
+			<par>336.0</par>
+			<par>1501.1</par>
+			<par>30.5</par>
+			<par>16.7</par>
+			<par>20.2</par>
+			<par>5.6</par>
+			<par>15.6</par>
+			<par>13082.0</par>
+			<par>906743.0</par>
+			<par>9634.5</par>
+			<par>19.0</par>
+			<par></par>
+			<par>0</par>
+			<par>0</par>
+			<par>50.0</par>
+			<par></par>
+			<par>0</par>
+						
+		</data2011>
+		<data2013>
+			<par>8.4</par>
+			<par>56.8</par>
+			<par>196.3</par>
+			<par>84.8</par>
+			<par>201.4</par>
+			<par>96.0</par>
+			<par>75.0</par>
+			<par>52.6</par>
+			<par>78.0</par>
+			<par>48.0</par>
+			<par>77.1</par>
+			<par>336.0</par>
+			<par>1908.4</par>
+			<par>24.8</par>
+			<par>15.9</par>
+			<par>19.4</par>
+			<par>4.2</par>
+			<par>12.2</par>
+			<par>15720.0</par>
+			<par>1243946.6</par>
+			<par>13601.6</par>
+			<par>38.0</par>
+			<par>14.0</par>
+			<par>28.6</par>
+			<par>13.0</par>
+			<par>82.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3247152.5" par2="170000.0" par3="0"/>
+			<task2 par1="238006.6" par2="29356.0" par3="0"/>
+			<task3 par1="1274971.9" par2="218609.0" par3="1549362.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1994403.4" par2="191250.00" par3="0"/>
+			<task2 par1="243627.3" par2="23927.00" par3="0"/>
+			<task3 par1="2634515.3" par2="292661.8" par3="1742027.8"/>
+		</fin_data2012>
+	</region>
+	
+		<region id="34" title="Белгородская область">
+		<data2011>
+			<par>5.1</par>
+			<par>504.6</par>
+			<par>190.7</par>
+			<par>89.8</par>
+			<par>127.6</par>
+			<par>20.0</par>
+			<par>80.2</par>
+			<par>47.5</par>
+			<par>69.0</par>
+			<par>51.0</par>
+			<par>70.0</par>
+			<par>330.0</par>
+			<par>1349.3</par>
+			<par>38.4</par>
+			<par>16.8</par>
+			<par>19.3</par>
+			<par>19.6</par>
+			<par>32.6</par>
+			<par>10035.0</par>
+			<par>354492.0</par>
+			<par>2823.1</par>
+			<par>2.0</par>
+			<par>5.0</par>
+			<par>0</par>
+			<par>13.3</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+						
+		</data2011>
+		<data2013>
+			<par>5.6</par>
+			<par>492.3</par>
+			<par>179.2</par>
+			<par>85.3</par>
+			<par>123.0</par>
+			<par>18.0</par>
+			<par>82.0</par>
+			<par>50.6</par>
+			<par>73.0</par>
+			<par>64.0</par>
+			<par>75.0</par>
+			<par>332.0</par>
+			<par>1840.4</par>
+			<par>21.3</par>
+			<par>10.5</par>
+			<par>15.2</par>
+			<par>14.3</par>
+			<par>19.8</par>
+			<par>12334.0</par>
+			<par>504787.1</par>
+			<par>3914.9</par>
+			<par>63.4</par>
+			<par>15.0</par>
+			<par>50.0</par>
+			<par>90.0</par>
+			<par>90.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1093587.6" par2="277498.0" par3="0"/>
+			<task2 par1="79332.5" par2="80305.0" par3="0"/>
+			<task3 par1="413728.9" par2="143390.0" par3="9106.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="717107.0" par2="691143.0" par3="0"/>
+			<task2 par1="81206.0" par2="142691.0" par3="0"/>
+			<task3 par1="825806.0" par2="183238.0" par3="18338.0"/>
+		</fin_data2012>
+	</region>
+	
+			<region id="6" title="Республика Ингушетия">
+		<data2011>
+			<par>12.1</par>
+			<par>191.5</par>
+			<par>44.6</par>
+			<par>30.5</par>
+			<par>19.0</par>
+			<par>60.8</par>
+			<par>24.6</par>
+			<par>38.8</par>
+			<par>51.0</par>
+			<par>38.0</par>
+			<par>69.0</par>
+			<par>345.0</par>
+			<par>646.7</par>
+			<par>54.0</par>
+			<par>43.1</par>
+			<par>38.2</par>
+			<par>47.5</par>
+			<par>43.6</par>
+			<par>13001.2</par>
+			<par>525771.22</par>
+			<par>38243.8</par>
+			<par>33.3</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>17.5</par>
+			<par>9.96</par>
+						
+		</data2011>
+		<data2013>
+			<par>13.5</par>
+			<par>185.9</par>
+			<par>42.8</par>
+			<par>28.8</par>
+			<par>17.8</par>
+			<par>59.2</par>
+			<par>27.0</par>
+			<par>42.6</par>
+			<par>52.4</par>
+			<par>45.0</par>
+			<par>80.0</par>
+			<par>335.0</par>
+			<par>921.5</par>
+			<par>45.3</par>
+			<par>32.3</par>
+			<par>24.1</par>
+			<par>39.4</par>
+			<par>33.5</par>
+			<par>20112.5</par>
+			<par>865627.05</par>
+			<par>40573.0</par>
+			<par>59.5</par>
+			<par>10.0</par>
+			<par>15.0</par>
+			<par>0.9</par>
+			<par>50.0</par>
+			<par>19.01</par>
+			<par>10.81</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="461739.1" par2="13206.7" par3="0"/>
+			<task2 par1="33110.9" par2="12737.0" par3="0"/>
+			<task3 par1="167367.0" par2="127815.1" par3="261930.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="258470.5" par2="14520.2" par3="0"/>
+			<task2 par1="33892.8" par2="14776.4" par3="0"/>
+			<task3 par1="385491.7" par2="132033.1" par3="546406.2"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="74" title="Ульяновская область">
+		<data2011>
+			<par>6.3</par>
+			<par>63.2</par>
+			<par>245.2</par>
+			<par>121.0</par>
+			<par>211.4</par>
+			<par>113.3</par>
+			<par>74.2</par>
+			<par>48.8</par>
+			<par>56.0</par>
+			<par>32.5</par>
+			<par>92.0</par>
+			<par>346.0</par>
+			<par>594.86</par>
+			<par>25.0</par>
+			<par>26.27</par>
+			<par>36.0</par>
+			<par>6.76</par>
+			<par>46.4</par>
+			<par>11962.3</par>
+			<par>422447.4</par>
+			<par>3391.01</par>
+			<par>6.0</par>
+			<par>28.0</par>
+			<par>0</par>
+			<par>1.0</par>
+			<par>30.0</par>
+			<par>15.1</par>
+			<par></par>	
+						
+		</data2011>
+		<data2013>
+			<par>6.8</par>
+			<par>61.8</par>
+			<par>233.0</par>
+			<par>118.5</par>
+			<par>204.9</par>
+			<par>111.2</par>
+			<par>74.0</par>
+			<par>51.9</par>
+			<par>72.0</par>
+			<par>55.0</par>
+			<par>97.0</par>
+			<par>335.0</par>
+			<par>1260.1</par>
+			<par>11.3</par>
+			<par>19.8</par>
+			<par>28.2</par>
+			<par>3.04</par>
+			<par>41.1</par>
+			<par>14247.2</par>
+			<par>623806.8</par>
+			<par>5007.45</par>
+			<par>34.0</par>
+			<par>78.0</par>
+			<par>21.3</par>
+			<par>80.0</par>
+			<par>70.0</par>
+			<par>100.0</par>
+			<par></par>	
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1099116.2" par2="392437.2" par3="0"/>
+			<task2 par1="74936.9" par2="37981.4" par3="0"/>
+			<task3 par1="324684.9" par2="94698.0" par3="56808.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="764966.1" par2="485602.1" par3="0"/>
+			<task2 par1="76706.6" par2="36018.6" par3="0"/>
+			<task3 par1="692458.3" par2="96992.0" par3="99263.3"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="32" title="Архангельская область">
+		<data2011>
+			<par>6.7</par>
+			<par>729.3</par>
+			<par>260</par>
+			<par>88</par>
+			<par>228</par>
+			<par>112.4</par>
+			<par>68.5</par>
+			<par>52</par>
+			<par></par>
+			<par>40</par>
+			<par>70</par>
+			<par>331</par>
+			<par>1072.2</par>
+			<par>42.6</par>
+			<par>31.2</par>
+			<par>30.3</par>
+			<par>32.3</par>
+			<par>33.3</par>
+			<par>13599</par>
+			<par>2100926</par>
+			<par>16690</par>
+			<par></par>
+			<par>0</par>
+			<par>2.6</par>
+			<par>28</par>
+			<par>40</par>
+			<par>0</par>
+			<par></par>					
+		</data2011>
+		<data2013>		
+			<par>7.4</par>	
+			<par>725</par>	
+			<par>253</par>	
+			<par>85</par>	
+			<par>220</par>	
+			<par>106.8</par>	
+			<par>70</par>	
+			<par>56.5</par>	
+			<par></par>	
+			<par>50</par>	
+			<par>80</par>			
+			<par>331</par>
+			<par>2213.5</par>
+			<par>29.4</par>
+			<par>25.5</par>
+			<par>24</par>
+			<par>23.5</par>
+			<par>27.7</par>
+			<par>18430</par>
+			<par>2764071</par>
+			<par>23042</par>
+			<par>30</par>
+			<par>49</par>
+			<par>14.6</par>
+			<par>100</par>
+			<par>100</par>
+			<par>100</par>
+			<par></par>									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1323201.8" par2="214506.0" par3="0"/>
+			<task2 par1="117719.1" par2="26109.7" par3="0"/>
+			<task3 par1="913460.1" par2="12522.0" par3="695969.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="240998.2" par2="326790.0" par3="0"/>
+			<task2 par1="120499.1" par2="22210.0" par3="0"/>
+			<task3 par1="2048484.7" par2="13966.0" par3="927240.0"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="57" title="Омская область">
+		<data2011>
+				<par>6.3</par>
+			<par>602.1</par>
+			<par>188</par>
+			<par>89.9</par>
+			<par>16</par>
+			<par>95.9</par>
+			<par>82.8</par>
+			<par>50.4</par>
+			<par>62.0</par>
+			<par>47</par>
+			<par>65</par>
+			<par>327.4</par>
+			<par>1359.4</par>
+			<par>28.51</par>
+			<par>38.7</par>
+			<par>27.7</par>
+			<par>49.8</par>
+			<par>46.6</par>
+			<par>11610</par>
+			<par>1267200</par>
+			<par>13562.5</par>
+			<par>15.16</par>
+			<par>23</par>
+			<par></par>
+			<par>72</par>
+			<par></par>
+			<par>83.2</par>		
+			<par></par>					
+		</data2011>
+		<data2013>
+			<par>7.25</par>
+			<par>591.5</par>
+			<par>182.5</par>
+			<par>87.3.00</par>
+			<par>14</par>
+			<par>87.5</par>
+			<par>83.0</par>
+			<par>53.9</par>
+			<par>67.0</par>
+			<par>52</par>
+			<par>69</par>
+			<par>332</par>
+			<par>2380.8</par>
+			<par>6.98</par>
+			<par>37.5</par>
+			<par>26.7</par>
+			<par>48.5</par>
+			<par>45.6</par>
+			<par>14174.5</par>
+			<par>1489300</par>
+			<par>15728</par>
+			<par>29.75</par>
+			<par>98</par>
+			<par>15</par>
+			<par>100</par>
+			<par>100</par>
+			<par>100</par>
+			<par></par>	
+				
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1248331.6" par2="167054.1" par3="0"/>
+			<task2 par1="106119.5" par2="19889.1" par3="0"/>
+			<task3 par1="767938.9" par2="181517.2" par3="1243549.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="374846.8" par2="228649.3" par3="0"/>
+			<task2 par1="108625.7" par2="19824.1" par3="0"/>
+			<task3 par1="1689040.5" par2="472945.7" par3="1681920.8"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="47" title="Курганская область">
+		<data2011>
+			<par>8.8</par>
+<par>751.1</par>
+<par>216.3</par>
+<par>97.4</par>
+<par>231.8</par>
+<par>34.1</par>
+<par>76.3</par>
+<par>54</par>
+<par>74</par>
+<par>38</par>
+<par>76</par>
+<par>321.8</par>
+<par>1535.9</par>
+<par>37.6</par>
+<par>51.9</par>
+<par>49.7</par>
+<par>54.9</par>
+<par>39.1</par>
+<par>12395</par>
+<par>1696773</par>
+<par>19248</par>
+<par>6.9</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>100</par>
+<par>4.3</par>
+	
+						
+		</data2011>
+		<data2013>
+			<par>9.0</par>
+<par>707.1</par>
+<par>193.8</par>
+<par>91.5</par>
+<par>218.1</par>
+<par>32.5</par>
+<par>76.5</par>
+<par>56</par>
+<par>79</par>
+<par>48</par>
+<par>86</par>
+<par>322</par>
+<par>1748.2</par>
+<par>33</par>
+<par>40.7</par>
+<par>37.6</par>
+<par>44.1</par>
+<par>38.9</par>
+<par>15115</par>
+<par>1901342</par>
+<par>28574</par>
+<par>69.4</par>
+<par>37</par>
+<par>76.6</par>
+<par>20</par>
+<par>20</par>
+<par>100</par>
+<par>100</par>
+				
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="817463.1" par2="299555.0" par3="0"/>
+			<task2 par1="62280.5" par2="11342" par3="0"/>
+			<task3 par1="365866.4" par2="53045" par3="40000"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="402775.0" par2="275078.0" par3="0"/>
+			<task2 par1="63751.3" par2="12080.0" par3="0"/>
+			<task3 par1="808499.7" par2="38312.0" par3="31000.0"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	<region id="24" title="Камчатский край">
+		<data2011>
+		<par>9</par>
+<par>75.6</par>
+<par>284</par>
+<par>95.1</par>
+<par>14.6</par>
+<par>23</par>
+<par>72</par>
+<par>51.8</par>
+<par></par>	
+<par>47</par>
+<par>71.1</par>
+<par>315</par>
+<par>3905.3</par>
+<par>9.5</par>
+<par>44</par>
+<par>41.7</par>
+<par>46.8</par>
+<par>52.5</par>
+<par>33688</par>
+<par>799998.18</par>
+<par>7376.38</par>
+<par>24.7</par>
+<par></par>
+<par>2.9</par>
+<par>9.4</par>
+<par></par>
+<par></par>
+<par></par>	
+						
+		</data2011>
+		<data2013>
+				<par>9.7</par>
+<par>71</par>
+<par>280</par>
+<par>90</par>
+<par>13.5</par>
+<par>20</par>
+<par>71</par>
+<par>54</par>
+<par></par>	
+<par>50</par>
+<par>83</par>
+<par>325</par>
+<par>6757.6</par>
+<par>2</par>
+<par>42.7</par>
+<par>41.5</par>
+<par>44.2</par>
+<par>43.1</par>
+<par>38594</par>
+<par>1816461.47</par>
+<par>16748.68</par>
+<par>39.3</par>
+<par>14</par>
+<par>9</par>
+<par>100</par>
+<par>31.3</par>
+<par>67.9</par>
+<par></par>			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="814340.6" par2="291236.3" par3="0"/>
+			<task2 par1="48693.1" par2="14603.9" par3="0"/>
+			<task3 par1="110827.3" par2="14832.6" par3="132249.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="779420.0" par2="239907.9" par3="0"/>
+			<task2 par1="49843.0" par2="10741.8" par3="0"/>
+			<task3 par1="167597.1" par2="473438.8" par3="141979.6"/>
+		</fin_data2012>
+	</region>
+		
+	<region id="4" title="Республика Бурятия">
+		<data2011>
+				<par>7.1</par>
+				<par>790</par>
+				<par>193.5</par>
+				<par>89.4</par>
+				<par>39.1</par>
+				<par>80</par>
+				<par>91.1</par>
+				<par>48.8</par>
+				<par></par>
+				<par>44</par>
+				<par>81</par>				
+				<par>321.9</par>
+				<par>2399.9</par>
+				<par>45.9</par>
+				<par>28.5</par>
+				<par>20.9</par>
+				<par>32.5</par>
+				<par>47.9</par>
+				<par>16628</par>
+				<par>230469.6</par>
+				<par>2029.71</par>
+				<par>4.2</par>
+				<par></par>
+				<par>7.1</par>
+				<par>3.6</par>
+				<par>0</par>
+				<par>0</par>
+				<par>0</par>
+		</data2011>
+		<data2013>
+				<par>8</par>
+				<par>750</par>
+				<par>181</par>
+				<par>86.5</par>
+				<par>36.9</par>
+				<par>77.5</par>
+				<par>92.5</par>
+				<par>52</par>
+				<par></par>
+				<par>51</par>
+				<par>82</par>				
+				<par>329.0</par>
+				<par>3204.1</par>
+				<par>36.2</par>
+				<par>21.5</par>
+				<par>18.6</par>
+				<par>23.7</par>
+				<par>41.9</par>
+				<par>22636</par>
+				<par>296644.04</par>
+				<par>2648.24</par>
+				<par>52</par>
+				<par></par>
+				<par>23.5</par>
+				<par>25</par>
+				<par>19.6</par>
+				<par>100</par>
+				<par>100</par>
+												
+		</data2013>
+		<fin_data2011>
+			<task1 par1="885021.1" par2="166758.30" par3="0"/>
+			<task2 par1="76655.90" par2="9000.0" par3="2400.0"/>
+			<task3 par1="571441.00" par2="14618.20" par3="347186.81"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="221331.8" par2="162359.40" par3="0"/>
+			<task2 par1="78466.20" par2="15000.0" par3="2400.0"/>
+			<task3 par1="1269525.00" par2="15034.00" par3="347186.81"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	<region id="14" title="Республика Саха (Якутия)">
+		<data2011>
+			<par>7</par>
+			<par></par>
+<par>235</par>
+<par>75.8</par>
+<par>273</par>
+<par>80</par>
+<par>84.6</par>
+<par>53.8</par>
+<par>68</par>
+<par>38</par>
+<par>65</par>
+<par>317</par>
+<par>3312.32</par>
+<par>18.5</par>
+<par></par>
+<par></par>
+<par></par>
+<par></par>
+<par>19141.00</par>
+<par>2985346.27</par>
+<par>26593.05</par>
+<par>36.9</par>
+<par>0</par>
+<par>0</par>
+<par>2.78</par>
+<par>0</par>
+<par>32.9</par>
+<par>19.9</par>						
+		</data2011>
+		<data2013>
+				
+			<par>7.3</par>
+			<par></par>
+<par>230</par>
+<par>74.3</par>
+<par>261.4</par>
+<par>75.6</par>
+<par>85.2</par>
+<par>55</par>
+<par>75</par>
+<par>48.0</par>
+<par>95.0</par>
+<par>320.0</par>
+<par>6031.51</par>
+<par>7.4</par>
+<par></par>
+<par></par>
+<par></par>
+<par></par>
+<par>20806.27</par>
+<par>3897969.97</par>
+<par>34215.48</par>
+<par>50.0</par>
+<par>3</par>
+<par>28.6</par>
+<par>92.53</par>
+<par>86.1</par>
+<par>100</par>
+<par>100</par>
+	
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1655743.0" par2="983856.9" par3="0"/>
+			<task2 par1="116156.6" par2="70000.0" par3="0"/>
+			<task3 par1="551232.4" par2="48147.9" par3="256341.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1153923.7" par2="1098114.9" par3="0"/>
+			<task2 par1="118899.8" par2="78197.3" par3="0"/>
+			<task3 par1="1105171.5" par2="398398.6" par3="561486.7"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="27" title="Пермский край">
+		<data2011>
+				<par>8.3</par>
+<par>700</par>
+<par>225.8</par>
+<par>83.4</par>
+<par>270.4</par>
+<par>24.40</par>
+<par>71.80</par>
+<par>51.00</par>
+<par>58</par>
+<par>45.20</par>
+<par>71.00</par>
+<par>335.5</par>
+<par>2966.91</par>
+<par>28.1</par>
+<par>26.4</par>
+<par>28.6</par>
+<par>22.6</par>
+<par>43.4</par>
+<par>17640</par>
+<par>1750094</par>
+<par>18005</par>
+<par>76.40</par>
+<par>0</par>
+<par>0</par>
+<par>40</par>
+<par>82.60</par>
+<par>0</par>
+<par>0</par>
+
+						
+		</data2011>
+		<data2013>
+				<par>8.4</par>
+<par>650.3</par>
+<par>220</par>
+<par>79</par>
+<par>260.8</par>
+<par>23.00</par>
+<par>73.00</par>
+<par>55.00</par>
+<par>70</par>
+<par>53.20</par>
+<par>73.00</par>
+<par>337.8</par>
+<par>3568.16</par>
+<par>23</par>
+<par>24.3</par>
+<par>28</par>
+<par>17.8</par>
+<par>38.7</par>
+<par>21891</par>
+<par>2080584.84</par>
+<par>21061</par>
+<par>85</par>
+<par>20</par>
+<par>90.00</par>
+<par>99</par>
+<par>99</par>
+<par>100</par>
+<par>100</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1411020.30" par2="1533882.70" par3="0"/>
+			<task2 par1="136887.70" par2="12500.00" par3="0"/>
+			<task3 par1="1189845.00" par2="500.50" par3="1813813.40"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="280240.60" par2="40472.00" par3="0"/>
+			<task2 par1="140120.40" par2="12500.00" par3="0"/>
+			<task3 par1="2382046.00" par2="450.00" par3="1813813.40"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="1" title="Республика Адыгея">
+		<data2011>
+				<par>7.4</par>
+<par>520.3</par>
+<par>150</par>
+<par>83</par>
+<par>169</par>
+<par>101</par>
+<par>83.5</par>
+<par>49.2</par>
+<par>53.8</par>
+<par>39.4</par>
+<par>70</par>
+<par>320.4</par>
+<par>1834.1</par>
+<par>32.2</par>
+<par>38.2</par>
+<par>38.3</par>
+<par>45.8</par>
+<par>37.1</par>
+<par>10424.75</par>
+<par>842742.9</par>
+<par>13320.83</par>
+<par>12.6</par>
+<par>7</par>
+<par>0.00</par>
+<par>0.00</par>
+<par>0.00</par>
+<par>0.00</par><par></par>
+
+						
+		</data2011>
+		<data2013>
+			<par>7.8</par>
+<par>494.6</par>
+<par>141.2</par>
+<par>80.6</par>
+<par>158.2</par>
+<par>93.2</par>
+<par>84</par>
+<par>53.4</par>
+<par>59.9</par>
+<par>59.8</par>
+<par>86</par>
+<par>330</par>
+<par>1967.7</par>
+<par>22.5</par>
+<par>33.6</par>
+<par>33.0</par>
+<par>40.7</par>
+<par>37.0</par>
+<par>12609.78</par>
+<par>1203895.80</par>
+<par>17962.20</par>
+<par>79.3</par>
+<par>20</par>
+<par>18.7</par>
+<par>51.7</par>
+<par>51.7</par>
+<par>83</par>
+		<par></par>		
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="331923.7" par2="82536.4" par3="0"/>
+			<task2 par1="21156.1" par2="0" par3="0"/>
+			<task3 par1="70042.2" par2="3000.0" par3="3100.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="287605.2" par2="111551.4" par3="0"/>
+			<task2 par1="21655.7" par2="0" par3="0"/>
+			<task3 par1="123853.1" par2="3000.0" par3="23800.0"/>
+		</fin_data2012>
+	</region>
+	
+	
+	<region id="5" title="Республика Дагестан">
+		<data2011>
+				<par>14.5</par>
+<par>223</par>
+<par>41.4</par>
+<par>42</par>
+<par>31.3</par>
+<par>30</par>
+<par>78.3</par>
+<par>42.6</par>
+<par>62</par>
+<par>56.5</par>
+<par>74</par>
+<par>333.3</par>
+<par>767</par>
+<par>45.1</par>
+<par>26.8</par>
+<par>28</par>
+<par>21.9</par>
+<par>32.5</par>
+<par>9203</par>
+<par>424606</par>
+<par>6634</par>
+<par>14.6</par>
+<par>4</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>38</par>
+<par>42.2</par>
+
+						
+		</data2011>
+		<data2013>
+				<par>14.5</par>
+<par>221</par>
+<par>38.7</par>
+<par>40.5</par>
+<par>27.4</par>
+<par>28.1</par>
+<par>81</par>
+<par>44.6</par>
+<par>69.1</par>
+<par>71</par>
+<par>85</par>
+<par>331.74</par>
+<par>1160.1</par>
+<par>39.1</par>
+<par>22.5</par>
+<par>26.2</par>
+<par>19.3</par>
+<par>19.6</par>
+<par>11784</par>
+<par>518108</par>
+<par>8094</par>
+<par>46.73</par>
+<par>16</par>
+<par>56.8</par>
+<par>100</par>
+<par>100</par>
+<par>88.6</par>
+<par>79.5</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1664217.7" par2="110224.0" par3="0"/>
+			<task2 par1="147532.5" par2="6095.0" par3="0"/>
+			<task3 par1="1138899.8" par2="0" par3="367641.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="302033.2" par2="40724.6" par3="0"/>
+			<task2 par1="151016.7" par2="8851.0" par3="0"/>
+			<task3 par1="2567283.1" par2="0" par3="786526.3"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	
+	<region id="80" title="Ненецкий автономный округ">
+		<data2011>
+<par>5.8</par>
+<par>947</par>
+<par>317</par>
+<par>51.5</par>
+<par>295</par>
+<par>60</par>
+<par>81</par>
+<par>55.4</par>
+<par>59</par>
+<par>70</par>
+<par>70</par>
+
+<par>310</par>
+<par>4340.76</par>
+<par>0</par>
+<par>43.3</par>
+<par>42.8</par>
+<par>44</par>
+<par>42.8</par>
+<par>43504</par>
+<par>4547167.54</par>
+<par>49770.31</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>60.7</par>
+<par></par>
+						
+		</data2011>
+		<data2013>
+				<par>6.4</par>
+<par>938.2</par>
+<par>314</par>
+<par>50.4</par>
+<par>292</par>
+<par>57.5</par>
+<par>85</par>
+<par>56.5</par>
+<par>64</par>
+<par>73</par>
+<par>80</par>
+<par>330</par>
+<par>8120.92</par>
+<par>0</par>
+<par>36.3</par>
+<par>31.7</par>
+<par>43.1</par>
+<par>28.6</par>
+<par>47964</par>
+<par>4720275.26</par>
+<par>54306.39</par>
+<par>0</par>
+<par>3</par>
+<par>4.6</par>
+<par>17</par>
+<par>17</par>		
+<par>64.7</par>
+<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="104448.9" par2="143711.9" par3="0"/>
+			<task2 par1="5716.1" par2="9329.1" par3="0"/>
+			<task3 par1="4157.0" par2="10488.0" par3="2970.8"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="111170.9" par2="31136.3" par3="0"/>
+			<task2 par1="5851.1" par2="0" par3="0"/>
+			<task3 par1="0" par2="10666.1" par3="10737.9"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<region id="25" title="Краснодарский край">
+		<data2011>
+				<par>5.3</par>
+<par>533</par>
+<par>179.2</par>
+<par>89.1</par>
+<par>141</par>
+<par>84.3</par>
+<par>83</par>
+<par>44</par>
+<par>82</par>
+<par>35.6</par>
+<par>76</par>
+<par>325</par>
+<par>1763.82</par>
+<par>23.22</par>
+<par>36.1</par>
+<par>30.6</par>
+<par>42.4</par>
+<par>51.5</par>
+<par>16018</par>
+<par>597701.47</par>
+<par>8786.77</par>
+<par>14.2</par>
+<par></par>
+<par>10</par>
+<par>14.4</par>
+<par>12</par>
+<par></par>
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+				<par>6.1</par>
+<par>524.6</par>
+<par>177.2</par>
+<par>86</par>
+<par>135</par>
+<par>83</par>
+<par>83.2</par>
+<par>50</par>
+<par>90</par>
+<par>45</par>
+<par>86</par>
+<par>326</par>
+<par>2195.9</par>
+<par>16.49</par>
+<par>35.1</par>
+<par>30.3</par>
+<par>39.9</par>
+<par>48.7</par>
+<par>18261</par>
+<par>891136.09</par>
+<par>13052.12</par>
+<par>30.8</par>
+<par>37</par>
+<par>35</par>
+<par>75</par>
+<par>35</par>
+<par>87.6</par>
+<par>91</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3509205.90" par2="445806.08" par3="0"/>
+			<task2 par1="243201.0" par2="124035.27" par3="0"/>
+			<task3 par1="1111613.10" par2="170236.62" par3="1576074.83"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="2652585.00" par2="480118.94" par3="0"/>
+			<task2 par1="248944.4" par2="211274.8" par3="0"/>
+			<task3 par1="2077358.60" par2="173205.36" par3="3304645.16"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	<region id="63" title="Рязанская область">
+		<data2011>
+				<par>8.4</par>
+<par>720.1</par>
+<par>250.8</par>
+<par>104.9</par>
+<par>8.6</par>
+<par>35</par>
+<par>75.9</par>
+<par>53.6</par>
+<par>65</par>
+<par>45</par>
+<par>74.4</par>
+<par>321</par>
+<par>3026.2</par>
+<par>34.63</par>
+<par>14.7</par>
+<par>21.3</par>
+<par>3.6</par>
+<par>43.3</par>
+<par>9766</par>
+<par>287989.9</par>
+<par>3270.02</par>
+<par>3</par>
+<par>6</par>
+<par>0</par>
+<par>1.4</par>
+<par>0</par>
+<par>24</par>
+<par>18.7</par>
+
+						
+		</data2011>
+		<data2013>
+				<par>8.6</par>
+<par>678.3</par>
+<par>247.4</par>
+<par>103.9</par>
+<par>7.8</par>
+<par>34.0</par>
+<par>76.2</par>
+<par>54.5</par>
+<par>80</par>
+<par>55</par>
+<par>80</par>
+<par>330</par>
+<par>3729.09</par>
+<par>14.23</par>
+<par>6.3</par>
+<par>8.6</par>
+<par>2.6</par>
+<par>35.5</par>
+<par>16204.4</par>
+<par>438862.9</par>
+<par>6438.2</par>
+<par>9.87</par>
+<par>18</par>
+<par>20</par>
+<par>67</par>
+<par>100</par>
+<par>24</par>
+<par>18.7</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1099677.0" par2="392800.0" par3="0"/>
+			<task2 par1="75227.9" par2="7200.0" par3="1036.0"/>
+			<task3 par1="329652.1" par2="0" par3="214741.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="773195.0" par2="348500.0" par3="0"/>
+			<task2 par1="77004.5" par2="33500.0" par3="0"/>
+			<task3 par1="689889.5" par2="0" par3="251121.5"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	<region id="71" title="Томская область">
+		<data2011>
+				<par>6.6</par>
+<par>615</par>
+<par>168</par>
+<par>89.5</par>
+<par>197.8</par>
+<par>38.3</par>
+<par>76.1</par>
+<par>51.8</par>
+<par>82.7</par>
+<par>42</par>
+<par>60</par>
+<par>307</par>
+<par>2372.56</par>
+<par>48.6</par>
+<par>36.44</par>
+<par>29.08</par>
+<par>43.38</par>
+<par>53.61</par>
+<par>14345.8</par>
+<par>498711.44</par>
+<par>7298.06</par>
+<par>20.59</par>
+<par></par>
+<par>5.8</par>
+<par>45.7</par>
+<par></par>
+<par>10</par>
+<par></par>
+						
+		</data2011>
+		<data2013>
+				<par>7.2</par>
+<par>605</par>
+<par>166</par>
+<par>86.82</par>
+<par>188.2</par>
+<par>36.5</par>
+<par>77</par>
+<par>54.4</par>
+<par>85</par>
+<par>45.5</par>
+<par>65</par>
+<par>326</par>
+<par>2675.68</par>
+<par>40.1</par>
+<par>34.68</par>
+<par>27.18</par>
+<par>41.58</par>
+<par>35.57</par>
+<par>18702.4</par>
+<par>666870.27</par>
+<par>9503.38</par>
+<par>48.65</par>
+<par></par>
+<par>47.8</par>
+<par>85.7</par>
+<par></par>
+<par>11.9</par>
+	<par></par>		
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="0" par2="0" par3="0"/>
+			<task2 par1="0" par2="0" par3="0"/>
+			<task3 par1="0" par2="0" par3="0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1178530" par2="518340" par3="0"/>
+			<task2 par1="151830" par2="20000" par3="0"/>
+			<task3 par1="1706340" par2="139350" par3="2626880"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="7" title="Республика Кабардино-Балкария">
+		<data2011>
+				<par>6.2</par>
+<par>40.2</par>
+<par>124.6</par>
+<par>57</par>
+<par>27.4</par>
+<par>67</par>
+<par>48.6</par>
+<par>52.1</par>
+<par>71</par>
+<par>34</par>
+<par>77</par>
+<par>336</par>
+<par>1197.6</par>
+<par>44</par>
+<par>14.6</par>
+<par>12.6</par>
+<par>13.6</par>
+<par>27</par>
+<par>9457.06</par>
+<par>141157.5</par>
+<par>2206.6</par>
+<par>7.1</par>
+<par>21</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par></par>
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+				<par>6.9</par>
+<par>37</par>
+<par>120</par>
+<par>55</par>
+<par>25.7</par>
+<par>64</par>
+<par>54</par>
+<par>56.5</par>
+<par>75</par>
+<par>52.6</par>
+<par>82</par>
+<par>332</par>
+<par>1291.43</par>
+<par>34</par>
+<par>11</par>
+<par>9</par>
+<par>10</par>
+<par>20.0</par>
+<par>16734.56</par>
+<par>256943.4</par>
+<par>3751.1</par>
+<par>44.6</par>
+<par>58</par>
+<par>65</par>
+<par>94</par>
+<par>89</par>
+<par>28.40</par>
+<par>17.60</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="477724.00" par2="269000.00" par3="0"/>
+			<task2 par1="42979.90" par2="4238.00" par3="0"/>
+			<task3 par1="338893.10" par2="4300.00" par3="103919.27"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="87989.80" par2="216000.00" par3="0"/>
+			<task2 par1="43994.90" par2="42767.00" par3="0"/>
+			<task3 par1="747913.30" par2="3000.00" par3="273739.16"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	
+	<region id="29" title="Ставропольский край">
+		<data2011>
+				<par>8.5</par>
+<par>501</par>
+<par>179</par>
+<par>80.3</par>
+<par>125.9</par>
+<par>84.3</par>
+<par></par>
+<par>49.35</par>
+<par>4</par>
+<par>36.5</par>
+<par>91</par>
+
+
+<par>342</par>
+<par>1254.6</par>
+<par>33</par>
+<par>29.2</par>
+<par>21.6</par>
+<par>19.8</par>
+<par>47.8</par>
+<par>12600</par>
+<par>917506.21</par>
+<par>8517.21</par>
+<par>2.07</par>
+<par></par>
+<par>2</par>
+<par>3.5</par>
+<par></par>
+<par></par>
+<par></par>
+						
+		</data2011>
+		<data2013>
+				<par>9.6</par>
+<par>476</par>
+<par>175</par>
+<par>78</par>
+<par>122.1</par>
+<par>83.4</par>
+<par></par>
+<par>50.5</par>
+<par>5.2</par>
+<par>37.5</par>
+<par>95</par>
+
+<par>334</par>
+<par>2230.6</par>
+<par>16</par>
+<par>28</par>
+<par>20.6</par>
+<par>18.2</par>
+<par>37.2</par>
+<par>16380</par>
+<par>1210481.9</par>
+<par>12225.8</par>
+<par>25.7</par>
+<par>30</par>
+<par>16.7</par>
+<par>89</par>
+<par>100</par>
+<par></par>
+<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2013525.4" par2="308370.0" par3="0"/>
+			<task2 par1="143473.0" par2="45485.0" par3="0"/>
+			<task3 par1="712461.6" par2="284035.0" par3="1256301.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1307994.0" par2="369670.0" par3="0"/>
+			<task2 par1="146861.2" par2="45485.0" par3="0"/>
+			<task3 par1="1482368.8" par2="424330.0" par3="1315828.0"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	<region id="10" title="Республика Карелия">
+		<data2011>
+				<par>4.7</par>
+<par>845.7</par>
+<par>284</par>
+<par>93</par>
+<par>218</par>
+<par>34.8</par>
+<par>77</par>
+<par>58</par>
+<par>74</par>
+<par>40</par>
+<par>76.7</par>
+<par>332</par>
+<par>2289</par>
+<par>37.2</par>
+<par>25.5</par>
+<par>20.9</par>
+<par>30.1</par>
+<par>35</par>
+<par>18730</par>
+<par>926936</par>
+<par>9477</par>
+<par>7.9</par>
+<par>18</par>
+<par>31</par>
+<par>0</par>
+<par>70</par>
+<par>27</par>
+<par></par>
+						
+		</data2011>
+		<data2013>
+				<par>5.1</par>
+<par>820.5</par>
+<par>275</par>
+<par>89</par>
+<par>203</par>
+<par>32.5</par>
+<par>79</par>
+<par>59.3</par>
+<par>82</par>
+<par>60</par>
+<par>85</par>
+<par>333</par>
+<par>3125</par>
+<par>27.3</par>
+<par>22.65</par>
+<par>15.2</par>
+<par>30.1</par>
+<par>30</par>
+<par>23703</par>
+<par>1458016</par>
+<par>15989</par>
+<par>71.6</par>
+<par>51</par>
+<par>90</par>
+<par>100</par>
+<par>90</par>
+<par>100</par>
+			<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="878537.1" par2="246624.0" par3="0"/>
+			<task2 par1="69595.4" par2="16343.2" par3="0"/>
+			<task3 par1="443774.5" par2="4474.24" par3="435748.09"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="366278.7" par2="175340.0" par3="0"/>
+			<task2 par1="71238.9" par2="21455.0" par3="0"/>
+			<task3 par1="987260.4" par2="11383.8" par3="553317.06"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	<region id="22" title="Алтайский край">
+		<data2011>
+			<par>9.5</par>
+<par>62.1</par>
+<par>192</par>
+<par>94.1</par>
+<par>22.8</par>
+<par>10.8</par>
+<par>84.3</par>
+<par>53</par>
+<par>83</par>
+<par>39.1</par>
+<par>75</par>
+<par>335</par>
+<par>2104</par>
+<par>40.5</par>
+<par>28.1</par>
+<par>25.7</par>
+<par>30.9</par>
+<par>53.5</par>
+<par>12870</par>
+<par>670301</par>
+<par>1612</par>
+<par>6.8</par>
+<par>4</par>
+<par>45</par>
+<par>6</par>
+<par>0</par>
+<par>0</par>
+	<par></par>
+						
+		</data2011>
+		<data2013>
+			<par>9.5</par>
+<par>60.14</par>
+<par>182</par>
+<par>90.21</par>
+<par>21</par>
+<par>9.6</par>
+<par>84.5</par>
+<par>55.8</par>
+<par>86.1</par>
+<par>41.4</par>
+<par>80</par>
+<par>335</par>
+<par>2301</par>
+<par>37.6</par>
+<par>28.6</par>
+<par>30.1</par>
+<par>26.5</par>
+<par>43.7</par>
+<par>15316</par>
+<par>797585</par>
+<par>1978</par>
+<par>20.6</par>
+<par>35</par>
+<par>60</par>
+<par>67.34</par>
+<par>78</par>
+<par>5149</par>
+		<par></par>		
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2183024.5" par2="156667.0" par3="0"/>
+			<task2 par1="157860.3" par2="13286.0" par3="0"/>
+			<task3 par1="816321.2" par2="86226.9" par3="271919.4"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1319853.1" par2="53900.0" par3="0"/>
+			<task2 par1="161588.3" par2="12500.0" par3="0"/>
+			<task3 par1="1750324.6" par2="516715.2" par3="799332.1"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	<region id="30" title="Хабаровский край">
+		<data2011>
+				<par>10.3</par>
+<par>72.8</par>
+<par>252</par>
+<par>79.8</par>
+<par>206.2</par>
+<par>24</par>
+<par>84</par>
+<par>43.9</par>
+<par>80.5</par>
+<par>80</par>
+<par>68</par>
+<par>329</par>
+<par>2678.50</par>
+<par>26.7</par>
+<par>36</par>
+<par>32.2</par>
+<par>40</par>
+<par>31.3</par>
+<par>17580</par>
+<par>1918251</par>
+<par>21863</par>
+<par>30</par>
+<par>19</par>
+<par>10</par>
+<par>24</par>
+<par>5</par>
+<par>0</par>
+<par>0</par>
+
+						
+		</data2011>
+		<data2013>
+				<par>10.9</par>
+<par>70.8</par>
+<par>245</par>
+<par>76.5</par>
+<par>202.3</par>
+<par>23</par>
+<par>85</par>
+<par>52.1</par>
+<par>82.4</par>
+<par>85</par>
+<par>100</par>
+<par>333</par>
+<par>4055.10</par>
+<par>14.9</par>
+<par>32.5</par>
+<par>28.3</par>
+<par>37.2</par>
+<par>27.8</par>
+<par>20691</par>
+<par>2164796</par>
+<par>23896</par>
+<par>85</par>
+<par>117</par>
+<par>70</par>
+<par>46</par>
+<par>50</par>
+<par>98</par>
+<par>100</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1485094.5" par2="172825" par3="0"/>
+			<task2 par1="115678.6" par2="1680.0" par3="0"/>
+			<task3 par1="712798.9" par2="0" par3="590356.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="764740" par2="431835.3" par3="0"/>
+			<task2 par1="118410.5" par2="0" par3="0"/>
+			<task3 par1="1485058.5" par2="435467" par3="590617.1"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	<region id="49" title="Ленинградская область">
+		<data2011>
+				<par>6</par>
+<par>766</par>
+<par>224.3</par>
+<par>91.9</par>
+<par>65.6</par>
+<par>21.2</par>
+<par>78</par>
+<par>49.7</par>
+<par>53</par>
+<par>33.9</par>
+<par>77</par>
+<par></par>
+<par>4187.5</par>
+<par>15.22</par>
+<par>30.9</par>
+<par>25</par>
+<par>36.3</par>
+<par>39</par>
+<par>17428</par>
+<par>899052.0</par>
+<par>9050.0</par>
+<par>21.2</par>
+<par>8</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par></par>
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+				<par>6.1</par>
+<par>690</par>
+<par>214</par>
+<par>86</par>
+<par>55.5</par>
+<par>19</par>
+<par>78.8</par>
+<par>52</par>
+<par>60</par>
+<par>41.2</par>
+<par>84</par>
+<par></par>
+<par>7050.8</par>
+<par>2.82</par>
+<par>29.7</par>
+<par>24.1</par>
+<par>35.8</par>
+<par>35</par>
+<par>19582</par>
+<par>1274995.0</par>
+<par>13704.4</par>
+<par>69.2</par>
+<par>60</par>
+<par>100</par>
+<par>100</par>
+<par>100</par>
+<par>72</par>
+<par>34</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1177253.3" par2="51790.0" par3="0"/>
+			<task2 par1="61960.7" par2="4816.0" par3="0"/>
+			<task3 par1="0" par2="141566.5" par3="99523.9"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1205056.0" par2="128653.20" par3="0"/>
+			<task2 par1="63424.0" par2="28610.0" par3="0"/>
+			<task3 par1="0" par2="191324.5" par3="119796.9"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	<region id="8" title="Республика Калмыкия">
+		<data2011>
+				<par>9.3</par>
+<par>554.5</par>
+<par>153</par>
+<par>62</par>
+<par>40.7</par>
+<par>36</par>
+<par>49.9</par>
+<par>72</par>
+<par>60.8</par>
+<par>38</par>
+<par>83</par>
+<par>323</par>
+<par>944.9</par>
+<par>32.2</par>
+<par>34.2</par>
+<par>33.1</par>
+<par>36.2</par>
+<par>24.5</par>
+<par>14320</par>
+<par>1069820.10</par>
+<par>11094.94</par>
+<par>7.6</par>
+<par>2</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>						
+		</data2011>
+		<data2013>
+				<par>9.9</par>
+<par>542.7</par>
+<par>147</par>
+<par>57</par>
+<par>36.4</par>
+<par>34</par>
+<par>60</par>
+<par>77</par>
+<par>62</par>
+<par>40</par>
+<par>83</par>
+<par>332</par>
+<par>1345.3</par>
+<par>30.1</par>
+<par>19.8</par>
+<par>16.6</par>
+<par>33.8</par>
+<par>5.6</par>
+<par>18340</par>
+<par>2451847.64</par>
+<par>24498.81</par>
+<par>64</par>
+<par>3</par>
+<par>36</par>
+<par>65.7</par>
+<par>100</par>
+<par>81</par>
+<par>59.3</par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="344119.8" par2="48980.00" par3="0"/>
+			<task2 par1="24692.6" par2="5769.6" par3="0"/>
+			<task3 par1="125038.6" par2="0" par3="48748.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="197617.3" par2="49877.0" par3="0"/>
+			<task2 par1="25275.7" par2="9034.8" par3="0"/>
+			<task3 par1="282620.0" par2="0" par3="107125.7"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="45" title="Кировская область">
+		<data2011>
+	<par>7.6</par>
+			
+<par>673</par>
+<par>217.5</par>
+<par>89.4</par>
+<par>227.8</par>
+<par>107.2</par>
+<par>81</par>
+<par>52.8</par>
+<par></par>
+<par>26</par>
+<par>86</par>
+
+<par>307</par>
+<par>1958.49</par>
+<par>34.7</par>
+<par>35.45</par>
+<par>32.05</par>
+<par>38.78</par>
+<par>31</par>
+<par>10640</par>
+<par>787055</par>
+<par>5690</par>
+<par>18</par>
+<par>1</par>
+<par>2</par>
+<par>40</par>
+<par>2.4</par>
+<par>0</par>
+<par>0</par>
+
+
+						
+		</data2011>
+		<data2013>
+				<par>7.13</par>
+<par>669</par>
+<par>215</par>
+<par>88.8</par>
+<par>224.7</par>
+<par>105.3</par>
+<par>82.7</par>
+<par>55</par>
+<par></par>
+<par>42</par>
+<par>91</par>
+
+<par>325</par>
+<par>2371.69</par>
+<par>22.2</par>
+<par>27.48</par>
+<par>23.52</par>
+<par>26.41</par>
+<par>28.92</par>
+<par>12147</par>
+<par>1128575</par>
+<par>8160</par>
+<par>25</par>
+<par>14</par>
+<par>30</par>
+<par>100</par>
+<par>40</par>
+<par>73</par>
+<par>66</par>
+
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1168524.7" par2="264949.0" par3="0"/>
+			<task2 par1="85299.1" par2="50900.0" par3="0"/>
+			<task3 par1="452158.2" par2="0" par3="1233910.18"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="690123.4" par2="40792.0" par3="0"/>
+			<task2 par1="87313.5" par2="12500.0" par3="0"/>
+			<task3 par1="968833.1" par2="0" par3="1496414.88"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="19" title="Республика Хакасия">
+		<data2011>
+				<par>8.3</par>
+<par>692.7</par>
+<par>165.3</par>
+<par>86.3</par>
+<par>216.4</par>
+<par>95.6</par>
+<par>81.2</par>
+<par>46</par>
+<par>30.1</par>
+<par>34</par>
+<par>90</par>
+<par>319</par>
+<par>1105.5</par>
+<par>40.8</par>
+<par>39.8</par>
+<par>39.2</par>
+<par>40.2</par>
+<par>39.3</par>
+<par>12516</par>
+<par>854019.8</par>
+<par>9201.3</par>
+<par>60</par>
+<par></par>
+<par></par>
+<par></par>
+<par></par>
+<par></par>
+<par></par>
+
+
+						
+		</data2011>
+		<data2013>
+				<par>8.8</par>
+<par>685</par>
+<par>161.5</par>
+<par>77</par>
+<par>210.1</par>
+<par>86</par>
+<par>82.2</par>
+<par>48</par>
+<par>40</par>
+<par>45</par>
+<par>90</par>
+<par>330</par>
+<par>1545</par>
+<par>34.2</par>
+<par>37.2</par>
+<par>37.7</par>
+<par>32.1</par>
+<par>35.7</par>
+<par>17558</par>
+<par>1225745</par>
+<par>14172.7</par>
+<par>100</par>
+<par>18</par>
+<par></par>
+<par></par>
+<par></par>
+<par>100</par>
+<par>100</par>
+
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="434654.3" par2="171531.8" par3="0"/>
+			<task2 par1="42487.4" par2="17000.0" par3="0"/>
+			<task3 par1="372606.3" par2="50591.1" par3="223432.1"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="86981.4" par2="139010.2" par3="0"/>
+			<task2 par1="43490.8" par2="35548.9" par3="0"/>
+			<task3 par1="739342.8" par2="51924.1" par3="223432.1"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	<region id="72" title="Тульская область">
+		<data2011>
+				<par>7.2</par>
+<par>80.5</par>
+<par>269.7</par>
+<par>107.8</par>
+<par>189</par>
+<par>146.5</par>
+<par>78.6</par>
+<par>51.1</par>
+<par>53</par>
+<par>50.1</par>
+<par>85</par>
+<par>314</par>
+<par>954</par>
+<par>7.4</par>
+<par>32</par>
+<par>38.7</par>
+<par>22</par>
+<par>63.3</par>
+<par>15046</par>
+<par>1182375.27</par>
+<par>12365</par>
+<par>15.4</par>
+<par></par>
+<par>13.2</par>
+<par>1</par>
+<par>30</par>
+<par>100</par>
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+				<par>7.8</par>
+<par>71.8</par>
+<par>252.7</par>
+<par>100.8</par>
+<par>181.6</par>
+<par>141.5</par>
+<par>78.8</par>
+<par>55</par>
+<par>60</par>
+<par>58</par>
+<par>90</par>
+<par>330</par>
+<par>2252.8</par>
+<par>0</par>
+<par>21.5</par>
+<par>32.5</par>
+<par>2</par>
+<par>53.1</par>
+<par>18536</par>
+<par>1618516.34</par>
+<par>16829.42</par>
+<par>62.8</par>
+<par></par>
+<par>49.8</par>
+<par>80</par>
+<par>70</par>
+<par>100</par>
+<par></par>
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1693597.5" par2="21570.1" par3="0"/>
+			<task2 par1="106619.0" par2="378429.9" par3="0"/>
+			<task3 par1="332163.5" par2="0" par3="372634.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1417307.3" par2="37864.4" par3="0"/>
+			<task2 par1="109136.9" par2="362135.6" par3="0"/>
+			<task3 par1="656292.8" par2="0" par3="485829.2"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="3" title="Республика Башкортостан">
+		<data2011>
+				<par>6.9</par>
+<par>602</par>
+<par>181.8</par>
+<par>72.5</par>
+<par>197</par>
+<par>31.2</par>
+<par>84.4</par>
+<par>57.2</par>
+<par>84</par>
+<par>36.9</par>
+<par>80.2</par>
+
+<par>338</par>
+<par>1515.08</par>
+<par>40.13</par>
+<par>36.3</par>
+<par>22.9</par>
+<par>50.3</par>
+<par>65.3</par>
+<par>13179.5</par>
+<par>1455681.2</par>
+<par>14108.1</par>
+<par>40</par>
+<par>157</par>
+<par>1.50</par>
+<par>30</par>
+<par>0</par>
+<par></par>
+<par></par>
+
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>7.8</par>
+<par>586</par>
+<par>175</par>
+<par>67.5</par>
+<par>194.8</par>
+<par>29</par>
+<par>84.5</par>
+<par>59.2</par>
+<par>89.70</par>
+<par>45.8</par>
+<par>81.4</par>
+<par>337</par>
+<par>2667.85</par>
+<par>21.4</par>
+<par>30.7</par>
+<par>16.7</par>
+<par>45.9</par>
+<par>60.5</par>
+<par>17165.29</par>
+<par>1696939.26</par>
+<par>15826.04</par>
+<par>92.9</par>
+<par>193</par>
+<par>30</par>
+<par>74</par>
+<par>100</par>
+<par>62.40</par>
+<par>84.20</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2141158.60" par2="871287.99" par3="0"/>
+			<task2 par1="195806.70" par2="101843.15" par3="0"/>
+			<task3 par1="1579168.70" par2="26868.86" par3="2771629.90"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="448650.1" par2="931568.27" par3="0"/>
+			<task2 par1="200430.80" par2="48156.85" par3="0"/>
+			<task3 par1="3359535.10" par2="20274.88" par3="2770808.10"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	<region id="2" title="Республика Алтай">
+		<data2011>
+				<par>9.6</par>
+<par>730</par>
+<par>168.5</par>
+<par>82.5</par>
+<par>323.6</par>
+<par>23</par>
+<par>70.1</par>
+<par>45.6</par>
+<par>47</par>
+<par>38</par>
+<par>73</par>
+<par>328</par>
+<par>1872.82</par>
+<par>38.3</par>
+<par>42.4</par>
+<par>38.5</par>
+<par>47.4</par>
+<par>87</par>
+<par>12624</par>
+<par>702688.62</par>
+<par>7754.44</par>
+<par>28.1</par>
+<par>0</par>
+<par>22.8</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+						
+		</data2011>
+		<data2013>
+				<par>10.2</par>
+<par>710</par>
+<par>163.5</par>
+<par>78.5</par>
+<par>300.6</par>
+<par>20</par>
+<par>72.2</par>
+<par>48.9</par>
+<par>49.8</par>
+<par>45</par>
+<par>87</par>
+<par>330</par>
+<par>2395.9</par>
+<par>34.4</par>
+<par>44.4</par>
+<par>33.7</par>
+<par>50</par>
+<par>22.9</par>
+<par>16411</par>
+<par>1047668.79</par>
+<par>10116.25</par>
+<par>45.8</par>
+<par>2</par>
+<par>50</par>
+<par>60</par>
+<par>25</par>
+<par>100</par>
+<par>100</par>
+		
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="233872.4" par2="45156.2" par3="0"/>
+			<task2 par1="19651.8" par2="1580.2" par3="0"/>
+			<task3 par1="139510.8" par2="211685.1" par3="55056"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="63523.1" par2="56924.9" par3="0"/>
+			<task2 par1="20115.9" par2="4690.0" par3="0"/>
+			<task3 par1="318678.0" par2="215877.8" par3="88078"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	<region id="78" title="Санкт-Петербург">
+		<data2011>
+				<par>4.7</par>
+<par>513.3</par>
+<par>167.5</par>
+<par>82.38</par>
+<par>101.818</par>
+<par>27.8</par>
+<par>76.3</par>
+<par>85.5</par>
+<par>62</par>
+<par>45</par>
+<par>70.2</par>
+<par>343</par>
+<par>1935.07</par>
+<par>0</par>
+<par>20.54</par>
+<par>14.63</par>
+<par>3.66</par>
+<par>2.24</par>
+<par>27289.00</par>
+<par>704447</par>
+<par>7321</par>
+<par>25.5</par>
+<par>5</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>50</par>
+<par>50</par>
+
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>4.7</par>
+<par>467.3</par>
+<par>159.4</par>
+<par>78</par>
+<par>74.114</par>
+<par>25</par>
+<par>77.3</par>
+<par>88</par>
+<par>78</par>
+<par>70</par>
+<par>80.2</par>
+<par>343.5</par>
+<par>2919.93</par>
+<par>0</par>
+<par>13.14</par>
+<par>9.36</par>
+<par>2.34</par>
+<par>1.43</par>
+<par>34312.00</par>
+<par>939868</par>
+<par>8027</par>
+<par>41</par>
+<par>187</par>
+<par>22</par>
+<par>40</par>
+<par>40</par>
+<par>100</par>
+<par>100</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="5927387.7" par2="818735.1" par3="0"/>
+			<task2 par1="362178.3" par2="235989.0" par3="22260.0"/>
+			<task3 par1="954000.0" par2="0" par3="2271737.3"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="5889897.5" par2="261868.8" par3="0"/>
+			<task2 par1="370731.5" par2="718145.0" par3="16580.0"/>
+			<task3 par1="1154000.0" par2="0" par3="2690683.5"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	<region id="26" title="Красноярский край">
+		<data2011>
+		
+				<par>9.1</par>
+<par>63.6</par>
+<par>162</par>
+<par>90.7</par>
+<par>234.7</par>
+<par>25.6</par>
+<par>81.9</par>
+<par>52</par>
+<par></par>
+<par>42</par>
+<par>77</par>
+<par>320.5</par>
+<par>3696.1</par>
+<par>33.3</par>
+<par>47.05</par>
+<par>46</par>
+<par>22.21</par>
+<par>11.66</par>
+<par>16240</par>
+<par>1385353.9</par>
+<par>35765.87</par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>9.5</par>
+<par>61.8</par>
+<par>157</par>
+<par>87.5</par>
+<par>227.7</par>
+<par>23.8</par>
+<par>83.5</par>
+<par>55.8</par>
+<par></par>
+<par>45.2</par>
+<par>79</par>
+<par>329</par>
+<par>7867.7</par>
+<par>26.3</par>
+<par>40</par>
+<par>38.5</par>
+<par>18.31</par>
+<par>10.25</par>
+<par>19110</par>
+<par>1834121.3</par>
+<par>46851.9</par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+	<par></par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2813152.3" par2="163802.8" par3="0"/>
+			<task2 par1="215410.3" par2="90000.0" par3="0"/>
+			<task3 par1="1279643.4" par2="30730.1" par3="1072069.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1596431.6" par2="159789.6" par3="0"/>
+			<task2 par1="220497.5" par2="10000.0" par3="0"/>
+			<task3 par1="2593019.9" par2="52680.2" par3="3691738.4"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	<region id="77" title="Москва">
+		<data2011>
+<par>6.1</par>
+<par>432</par>
+<par>140</par>
+<par>67.1</par>
+<par>73.3</par>
+<par>89</par>
+<par>87.3</par>
+<par>48.4</par>
+<par>45.5</par>
+<par>62</par>
+<par>80</par>
+
+<par>311</par>
+<par>3906.50</par>
+<par>0</par>
+<par>10.5</par>
+<par>11</par>
+<par>8</par>
+<par>27</par>
+<par>45400.0</par>
+<par>3800000.0</par>
+<par>30650.00</par>
+<par></par>
+<par>85</par>
+<par>23</par>
+<par>18.6</par>
+<par>15</par>
+<par>42</par>
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+
+<par>6.8</par>
+<par>429</par>
+<par>138.1</par>
+<par>65.6</par>
+<par>71.1</par>
+<par>86</par>
+<par>89</par>
+<par>51.5</par>
+<par>55.5</par>
+<par>65</par>
+<par>90</par>
+<par>325</par>
+<par>4659.50</par>
+<par>0</par>
+<par>9</par>
+<par>9</par>
+<par>6</par>
+<par>20</par>
+<par>55000.0</par>
+<par>3900000.0</par>
+<par>31000.00</par>
+	<par></par>
+<par>100</par>
+	<par>100</par>
+	<par>100</par>
+	<par>65</par>
+<par>47</par>
+<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="22657201.7" par2="10609049.0" par3="0"/>
+			<task2 par1="1192484.3" par2="1650000.0" par3="0"/>
+			<task3 par1="0" par2="7500000.0" par3="7500000.0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="23192270.2" par2="10929583.0" par3="0"/>
+			<task2 par1="1220645.8" par2="1650000.0" par3="0"/>
+			<task3 par1="0" par2="7500000.0" par3="7500000.0"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	<region id="59" title="Орловская область">
+		<data2011>
+				
+<par>7.1</par>
+<par>671.1</par>
+<par>229.8</par>
+<par>112.5</par>
+<par>20.1</par>
+<par>129.2</par>
+<par>82.1</par>
+<par>53</par>
+<par>58.2</par>
+<par>73</par>
+<par>74.1</par>
+<par>335.4</par>
+<par>1515.9</par>
+<par>58.20</par>
+<par>25.4</par>
+<par>11.2</par>
+<par>11.6</par>
+<par>1</par>
+<par>14885</par>
+<par>514259.35</par>
+<par>7361.28</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>7.2</par>
+<par>645</par>
+<par>221.6</par>
+<par>106</par>
+<par>18</par>
+<par>122.4</par>
+<par>82.3</par>
+<par>56</par>
+<par>66.5</par>
+<par>78</par>
+<par>79.1</par>
+<par>337</par>
+<par>2803.97</par>
+<par>74.50</par>
+<par>24.7</par>
+<par>10.8</par>
+<par>11.5</par>
+<par>0.9</par>
+<par>21766</par>
+<par>794354.5</par>
+<par>11370.7</par>
+<par>100</par>
+<par>37</par>
+<par>800209</par>
+<par>100</par>
+<par>100</par>
+<par>591.5</par>
+<par>675</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="747756.70" par2="639167.20" par3="0"/>
+			<task2 par1="53687.50" par2="23228.89" par3="0"/>
+			<task3 par1="272304.80" par2="5029.58" par3="123269.16"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="456007.80" par2="416500.00" par3="0"/>
+			<task2 par1="54955.40" par2="23832.28" par3="0"/>
+			<task3 par1="588143.80" par2="233581.68" par3="146561.90"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	<region id="51" title="Магаданская область">
+		<data2011>
+				<par>9.3</par>
+<par>874.3</par>
+<par>325</par>
+<par>101</par>
+<par>230</par>
+<par>114.3</par>
+<par>84</par>
+<par>42.50</par>
+<par>84.00</par>
+<par>32.40</par>
+<par>85.10</par>
+<par>339.8</par>
+<par>4223.08</par>
+<par>18.2</par>
+<par>37.3</par>
+<par>35.5</par>
+<par>34.8</par>
+<par>57.1</par>
+<par>20649.25</par>
+<par>1732568.21</par>
+<par>12985.26</par>
+<par>15.60</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+						
+		</data2011>
+		<data2013>
+				
+			<par>9.5</par>
+<par>756.3</par>
+<par>299.5</par>
+<par>95</par>
+<par>196.8</par>
+<par>103.1</par>
+<par>86</par>
+<par>47.00</par>
+<par>85.50</par>
+<par>39.90</par>
+<par>89.50</par>
+<par>332.4</par>
+<par>15143.7</par>
+<par>1.8</par>
+<par>29</par>
+<par>30.9</par>
+<par>32.9</par>
+<par>47.7</par>
+<par>24776.79</par>
+<par>2170480.70</par>
+<par>15731.81</par>
+<par>37.50</par>
+<par>19</par>
+<par>20</par>
+<par>100.00</par>
+<par>100.00</par>
+<par>100</par>
+<par>100</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="652049.40" par2="98494.54" par3="0"/>
+			<task2 par1="41901.30" par2="12627.64" par3="0"/>
+			<task3 par1="144075.30" par2="172125.30" par3="164628.66"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="503787.10" par2="101763.42" par3="0"/>
+			<task2 par1="42890.80" par2="11277.20" par3="0"/>
+			<task3 par1="311138.10" par2="120618.94" par3="170056.73"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	<region id="54" title="Нижегородская область">
+		<data2011>
+				<par>8</par>
+<par>740</par>
+<par>232</par>
+<par>76.4</par>
+<par>14.4</par>
+<par>132.4</par>
+<par>64</par>
+<par>54.3</par>
+<par>53</par>
+<par>40</par>
+<par>70</par>
+<par>340</par>
+<par>1841.04</par>
+<par>23.77</par>
+<par>39</par>
+<par>34</par>
+<par>43</par>
+<par>50</par>
+<par>14772</par>
+<par>1099215.9</par>
+<par>10207</par>
+<par>2.15</par>
+<par>0</par>
+<par>0</par>
+<par>2.4</par>
+<par>1.54</par>
+	<par></par>
+	<par></par>
+
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>8.2</par>
+<par>667</par>
+<par>212</par>
+<par>72</par>
+<par>13.5</par>
+<par>124.6</par>
+<par>62</par>
+<par>56</par>
+<par>62</par>
+<par>55</par>
+<par>80</par>
+<par>334</par>
+<par>3185.42</par>
+<par>6.41</par>
+<par>36</par>
+<par>31</par>
+<par>43</par>
+<par>41</par>
+<par>19189</par>
+<par>1472009.5</par>
+<par>13717</par>
+<par>43.8</par>
+<par>145</par>
+<par>44</par>
+<par>100</par>
+<par>100</par>
+	<par></par>
+	<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="3508647.80" par2="303000.0" par3="0"/>
+			<task2 par1="199025.10" par2="36800.00" par3="0"/>
+			<task3 par1="272829.10" par2="103000.00" par3="629091.93"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="3699486.10" par2="456896.9" par3="0"/>
+			<task2 par1="203725.30" par2="67745.0" par3="0"/>
+			<task3 par1="171294.60" par2="109901.00" par3="911193.76"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	<region id="50" title="Липецкая область">
+		<data2011>
+				<par>6.3</par>
+<par>15.9</par>
+<par>685.7</par>
+<par>245.9</par>
+<par>94.6</par>
+<par>186.2</par>
+<par>100</par>
+<par>78.4</par>
+<par>51.5</par>
+<par>35.8</par>
+<par>75</par>
+
+<par>335</par>
+<par>1819.55</par>
+<par>17.5</par>
+<par>40.6</par>
+<par>33.8</par>
+<par>48</par>
+<par>38.3</par>
+<par>11650</par>
+<par>451746</par>
+<par>6011.8</par>
+<par>32.2</par>
+<par>6</par>
+<par>0</par>
+<par>38</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>7</par>
+<par>8.3</par>
+<par>670</par>
+<par>230</par>
+<par>92</par>
+<par>180</par>
+<par>96</par>
+<par>80</par>
+<par>54</par>
+<par>45</par>
+<par>85</par>
+<par>336</par>
+<par>2806.5</par>
+<par>1.3</par>
+<par>34.8</par>
+<par>28.9</par>
+<par>40.7</par>
+<par>35.5</par>
+<par>14700.0</par>
+<par>633289</par>
+<par>7447.59</par>
+<par>45.8</par>
+<par>22</par>
+<par>51</par>
+<par>100</par>
+<par>100</par>
+<par>81</par>
+<par>82</par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="871864.3" par2="83939.0" par3="0"/>
+			<task2 par1="58779.0" par2="10500.0" par3="2400.0"/>
+			<task3 par1="244936.7" par2="7210.0" par3="146069.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="708699.4" par2="48397.0" par3="0"/>
+			<task2 par1="60167.1" par2="8500.0" par3="1600.0"/>
+			<task3 par1="434475.5" par2="7700.0" par3="156002.2"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	<region id="83" title="Ямало-Ненецкий автономный округ">
+		<data2011>
+				<par>11</par>
+<par>478</par>
+<par>153</par>
+<par>62.5</par>
+<par>151</par>
+<par>25</par>
+<par>87</par>
+<par>43.5</par>
+<par>64.4</par>
+<par>49</par>
+<par>95</par>
+<par>319</par>
+<par>544.21</par>
+<par>0</par>
+<par>25.1</par>
+<par>28.4</par>
+<par>20.7</par>
+<par>39.8</par>
+<par>32977.35</par>
+<par>2500000</par>
+<par>26500</par>
+<par>45</par>
+<par>4</par>
+<par>50</par>
+<par>0</par>
+<par>0</par>
+<par>28.24</par>
+<par>14.27</par>
+
+
+						
+		</data2011>
+		<data2013>
+				<par>12.1</par>
+<par>468</par>
+<par>145</par>
+<par>60</par>
+<par>145</par>
+<par>20</par>
+<par>89</par>
+<par>50</par>
+<par>70</par>
+<par>60</par>
+<par>97</par>
+<par>320.0</par>
+<par>6087.79</par>
+<par>0</par>
+<par>25</par>
+<par>30</par>
+<par>17.6</par>
+<par>32.6</par>
+<par>39000</par>
+<par>2700000</par>
+<par>29000</par>
+<par>95</par>
+<par>32</par>
+<par>65</par>
+<par>50</par>
+<par>50</par>
+<par>90</par>
+<par>75</par>
+
+			
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="368376.30" par2="38342.00" par3="0"/>
+			<task2 par1="28677.50" par2="7552.00" par3="0"/>
+			<task3 par1="176496.20" par2="0" par3="57409.00"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="177420.50" par2="43955.00" par3="0"/>
+			<task2 par1="29354.80" par2="42300.00" par3="0"/>
+			<task3 par1="380319.70" par2="0" par3="99645.00"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+	
+	
+	<region id="81" title="Ханты-Мансийский автономный округ - Югра">
+		<data2011>
+				
+<par>4</par>
+<par>513</par>
+<par>162</par>
+<par>75.3</par>
+<par>156</par>
+<par>52</par>
+<par>82.9</par>
+<par>45</par>
+<par>85</par>
+<par>84</par>
+<par>87</par>
+<par>330</par>
+<par>1700</par>
+<par>0</par>
+<par>28.4</par>
+<par>24.4</par>
+<par>37</par>
+<par>43</par>
+<par>27553</par>
+<par>4480000.00</par>
+<par>51020.00</par>
+<par>62.1</par>
+<par>142</par>
+<par>10</par>
+<par>10</par>
+<par>20</par>
+<par>23.72</par>
+<par>11.66</par>
+
+						
+		</data2011>
+		<data2013>
+				
+			<par>4.2</par>
+<par>500</par>
+<par>157</par>
+<par>74</par>
+<par>153.5</par>
+<par>49.8</par>
+<par>84</par>
+<par>46.7</par>
+<par>89</par>
+<par>85</par>
+<par>90</par>
+<par>334</par>
+<par>7840</par>
+<par>0</par>
+<par>10.1</par>
+<par>10</par>
+<par>13.6</par>
+<par>17</par>
+<par>33395</par>
+<par>4570000.00</par>
+<par>52046.00</par>
+<par>96.5</par>
+<par>162</par>
+<par>30</par>
+<par>50</par>
+<par>50</par>
+<par>23.8</par>
+<par>11.66</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="848282.20" par2="468875.30" par3="0"/>
+			<task2 par1="65635.20" par2="27791.00" par3="0"/>
+			<task3 par1="398785.60" par2="889211.40" par3="1455401.10"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="425232.10" par2="544847.60" par3="0"/>
+			<task2 par1="67185.20" par2="9988.00" par3="0"/>
+			<task3 par1="851285.70" par2="15280.00" par3="2349128.30"/>
+		</fin_data2012>
+	</region>
+	
+	
+	<region id="46" title="Костромская область">
+		<data2011>
+				<par>6.5</par>
+<par>715.4</par>
+<par>253.6</par>
+<par>87.6</par>
+<par>198.9</par>
+<par>77.31</par>
+<par>79.4</par>
+<par>52.2</par>
+<par>58</par>
+<par>35.7</par>
+<par>70</par>
+
+<par>300</par>
+<par>1910.08</par>
+<par>29.4</par>
+<par>15</par>
+<par>28</par>
+<par>0</par>
+<par>27.9</par>
+<par>11437</par>
+<par>473346</par>
+<par>4742.1</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+<par>0</par>
+						
+		</data2011>
+		<data2013>
+				
+			<par>7.1</par>
+<par>690.1</par>
+<par>231.1</par>
+<par>85.7</par>
+<par>192.9</par>
+<par>60.1</par>
+<par>82.8</par>
+<par>53.9</par>
+<par>62</par>
+<par>49.8</par>
+<par>80</par>
+<par>325.9</par>
+<par>2448.44</par>
+<par>10.9</par>
+<par>9.2</par>
+<par>15.4</par>
+<par>0</par>
+<par>2.5</par>
+<par>14868.1</par>
+<par>878906.2</par>
+<par>8956.7</par>
+<par>11.2</par>
+<par>33</par>
+<par>15</par>
+<par>25</par>
+<par>100</par>
+<par>100</par>
+<par>100</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="751210.9" par2="138323.0" par3="0"/>
+			<task2 par1="49269.6" par2="28230.8" par3="0"/>
+			<task3 par1="184911.5" par2="726279.1" par3="101214.4"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="569221.1" par2="354290.1" par3="0"/>
+			<task2 par1="50433.2" par2="23569.9" par3="0"/>
+			<task3 par1="389008.7" par2="869353.6" par3="108177.5"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="31" title="Амурская область">
+		<data2011>
+				<par>12.8</par>
+				<par>80.9</par>
+				<par>230</par>
+				<par>86.5</par>
+				<par>288</par>
+				<par>99</par>
+				<par>87.2</par>
+				<par>51.6</par>
+				<par>82</par>
+				<par>37</par>
+				<par>83.1</par>
+				<par>300</par>
+				<par>1301.1</par>
+				<par>30.4</par>
+				<par>29.9</par>
+				<par>27.46</par>
+				<par>35.25</par>
+				<par>33.3</par>
+				<par>16332.5</par>
+				<par>606112.8</par>
+				<par>6111.6</par>
+				<par>26.4</par>
+				<par>10</par>
+				<par>3.29</par>
+				<par>0</par>
+				<par>30</par>
+				<par>100</par>
+				<par>100</par>					
+		</data2011>
+		<data2013>
+				<par>12.5</par>
+				<par>77.3</par>
+				<par>216</par>
+				<par>84.7</par>
+				<par>282</par>
+				<par>98</par>
+				<par>88</par>
+				<par>52</par>
+				<par>90</par>
+				<par>49</par>
+				<par>84</par>
+				<par>330</par>
+				<par>2478.95</par>
+				<par>21.6</par>
+				<par>22.5</par>
+				<par>21.5</par>
+				<par>23.61</par>
+				<par>28.3</par>
+				<par>23293.5</par>
+				<par>808751.19</par>
+				<par>9320.82</par>
+				<par>28.6</par>
+				<par>39</par>
+				<par>25</par>
+				<par>96.9</par>
+				<par>59</par>
+				<par>100</par>
+				<par>100</par>								
+		</data2013>
+		<fin_data2011>
+			<task1 par1="0" par2="0" par3="0"/>
+			<task2 par1="0" par2="0" par3="0"/>
+			<task3 par1="0" par2="0" par3="0"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1207320" par2="18400" par3="0"/>
+			<task2 par1="118040" par2="0" par3="0"/>
+			<task3 par1="1035340" par2="429350" par3="800080"/>
+		</fin_data2012>
+	</region>
+	<region id="33" title="Астраханская область">
+		<data2011>
+				<par>7.9</par>
+				<par>61.0</par>
+				<par>175.0</par>
+				<par>87.0</par>
+				<par>170.0</par>
+				<par>103.2</par>
+				<par>77.0</par>
+				<par>46.0</par>
+				<par>47.9</par>
+				<par>76.0</par>
+				<par>71.0</par>
+				<par>343</par>
+				<par>901.84</par>
+				<par>31.8</par>
+				<par>19.2</par>
+				<par>21.7</par>
+				<par>13.4</par>
+				<par>19.5</par>
+				<par>11840</par>
+				<par>1015451.0</par>
+				<par>11968.5</par>
+				<par>21.1</par>
+				<par>0</par>
+				<par>7.3</par>
+				<par>34.3</par>
+				<par>4.1</par>
+				<par></par>
+				<par></par>						
+		</data2011>
+		<data2013>
+				<par>8.1</par>
+				<par>60.0</par>
+				<par>165.0</par>
+				<par>85.0</par>
+				<par>165.0</par>
+				<par>98.8</par>
+				<par>80.0</par>
+				<par>46.4</par>
+				<par>59.2</par>
+				<par>78.0</par>
+				<par>85.0</par>
+				<par>325</par>
+				<par>1142.47</par>
+				<par>21.7</par>
+				<par>9.6</par>
+				<par>16.2</par>
+				<par>-6.2</par>
+				<par>0.9</par>
+				<par>18500</par>
+				<par>1123762.3</par>
+				<par>12661.4</par>
+				<par>48.5</par>
+				<par>15</par>
+				<par>65.0</par>
+				<par>95.7</par>
+				<par>80.5</par>
+				<par>90.60</par>
+				<par>91.02</par>										
+		</data2013>
+		<fin_data2011>
+			<task1 par1="601598.70" par2="197694.36" par3="0"/>
+			<task2 par1="51101.60" par2="28963.40" par3="0"/>
+			<task3 par1="369330.70" par2="103179.30" par3="121969.18"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="187273.90" par2="77150.90" par3="0"/>
+			<task2 par1="52308.40" par2="43861.00" par3="0"/>
+			<task3 par1="806585.70" par2="247875.50" par3="123878.54"/>
+		</fin_data2012>
+	</region>
+
+	<region id="36" title="Владимирская область">
+		<data2011>
+			<par>6.9</par>
+			<par>83.00</par>
+			<par>300</par>
+			<par>105</par>
+			<par>207.1</par>
+			<par>37.6</par>
+			<par>83.5</par>
+			<par>54.2</par>
+			<par>68</par>
+			<par>30.0</par>
+			<par>60</par>
+			<par>331.5</par>
+			<par>2030.09</par>
+			<par>26.5</par>
+			<par>39</par>
+			<par>37.4</par>
+			<par>49.7</par>
+			<par>45</par>
+			<par>14735.70</par>
+			<par>529999.7</par>
+			<par>5355.2</par>
+			<par>6.6</par>
+			<par>5</par>
+			<par>0.05</par>
+			<par>1.5</par>
+			<par>20</par>
+			<par>0</par>
+			<par>0</par>						
+		</data2011>
+		<data2013>
+			<par>7.4</par>
+			<par>79.00</par>
+			<par>275</par>
+			<par>100</par>
+			<par>203</par>
+			<par>34.0</par>
+			<par>84.0</par>
+			<par>57.0</par>
+			<par>75</par>
+			<par>35.0</par>
+			<par>80</par>			
+			<par>333</par>
+			<par>2203.61</par>
+			<par>19.11</par>
+			<par>33</par>
+			<par>32</par>
+			<par>42</par>
+			<par>38</par>
+			<par>18947.32</par>
+			<par>626363.3</par>
+			<par>6328.9</par>			
+			<par>28.6</par>
+			<par>25</par>
+			<par>0.05</par>
+			<par>50</par>
+			<par>50</par>
+			<par>100</par>
+			<par>100</par>									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1456072.8" par2="63480.6" par3="7766.0"/>
+			<task2 par1="89791.1" par2="37687.0" par3="0"/>
+			<task3 par1="249958.1" par2="0" par3="618371.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1334992.1" par2="39107.8" par3="5946.1"/>
+			<task2 par1="91911.6" par2="22540.0" par3="0"/>
+			<task3 par1="411328.3" par2="0" par3="618371.2"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="79" title="Еврейская автономная область">
+		<data2011>
+			<par>10.4</par>
+			<par>896.0</par>
+			<par>292.0</par>
+			<par>97.0</par>
+			<par>292.0</par>
+			<par>102.7</par>
+			<par>86.9</par>
+			<par>49.1</par>
+			<par></par>
+			<par>30.0</par>
+			<par>90.0</par>
+			<par>320</par>
+			<par>1827.2</par>
+			<par>42.65</par>
+			<par>50.41</par>
+			<par>44.4</par>
+			<par>53.3</par>
+			<par>64.7</par>
+			<par>18586.0</par>
+			<par>633975.0</par>
+			<par>6877.2</par>
+			<par></par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>						
+		</data2011>
+		<data2013>
+			<par>10.5</par>
+			<par>885.0</par>
+			<par>283.0</par>
+			<par>95.0</par>
+			<par>282.0</par>
+			<par>101.5</par>
+			<par>87.5</par>
+			<par>52.0</par>
+			<par>86.1</par>
+			<par>34.0</par>
+			<par>100.0</par>
+			<par>335</par>
+			<par>2358.8</par>
+			<par>33.84</par>
+			<par>43.3</par>
+			<par>38.8</par>
+			<par>47.6</par>
+			<par>64.1</par>
+			<par>23768.0</par>
+			<par>775566.0</par>
+			<par>7873.7</par>
+			<par></par>
+			<par>20</par>
+			<par>80.0</par>
+			<par>41.0</par>
+			<par>30.0</par>
+			<par>84.6</par>
+			<par>92.22</par>		
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="145016.3" par2="29394.2" par3="0"/>
+			<task2 par1="13072.6" par2="4738.9" par3="0"/>
+			<task3 par1="103362.1" par2="0" par3="54602.33"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="26762.4" par2="31225.5" par3="0"/>
+			<task2 par1="13381.3" par2="3329.1" par3="0"/>
+			<task3 par1="227481.3" par2="0" par3="59549.62"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="41" title="Иркутская область">
+		<data2011>
+			<par>9.80</par>
+			<par>79.20</par>
+			<par>211.60</par>
+			<par>68.00</par>
+			<par>248.90</par>
+			<par>46.00</par>
+			<par>71.00</par>
+			<par>78.0</par>
+			<par></par>
+			<par>31.40</par>
+			<par>90.00</par>
+			<par>330.30</par>
+			<par>1211.44</par>
+			<par>33.67</par>
+			<par>41.00</par>
+			<par>35.40</par>
+			<par>47.80</par>
+			<par>46.00</par>
+			<par>18332.76</par>
+			<par>632869.10</par>
+			<par>12320.77</par>
+			<par>6.00</par>
+			<par>30.00</par>
+			<par>10.00</par>
+			<par>19.70</par>
+			<par>15.00</par>
+			<par></par>
+			<par></par>						
+		</data2011>
+		<data2013>
+			<par>8.7</par>
+			<par>75.30</par>
+			<par>201.10</par>
+			<par>64.10</par>
+			<par>239.0</par>
+			<par>45.00</par>
+			<par>70.00</par>
+			<par>81.5</par>
+			<par>80.0</par>
+			<par>40.00</par>
+			<par>99.00</par>
+			<par>332.00</par>
+			<par>1436.93</par>
+			<par>23.85</par>
+			<par>39.00</par>
+			<par>34.00</par>
+			<par>46.00</par>
+			<par>41.00</par>
+			<par>21974.0</par>
+			<par>811127.54</par>
+			<par>15358.35</par>
+			<par>18.4</par>
+			<par>76.00</par>
+			<par>80.00</par>
+			<par>81.9</par>
+			<par>50.00</par>
+			<par>62.00</par>
+			<par></par>											
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2510009.9" par2="230563.5" par3="0"/>
+			<task2 par1="208816.8" par2="13998.3" par3="0"/>
+			<task3 par1="1457509.3" par2="2013.7" par3="1948779.7"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="837474.5" par2="67113.9" par3="0"/>
+			<task2 par1="213748.2" par2="6711.0" par3="0"/>
+			<task3 par1="3223741.3" par2="1392.8" par3="2046218.8"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="9" title="Карачаево-Черкесская Республика">
+		<data2011>				
+			<par>10.5</par>
+			<par>408.7</par>
+			<par>120.7</par>
+			<par>60.4</par>
+			<par>38.5</par>
+			<par>55.8</par>
+			<par>72</par>
+			<par>33.4</par>
+			<par>68.2</par>
+			<par>36.3</par>
+			<par>68</par>
+			<par>301.5</par>
+			<par>3036.9</par>
+			<par>32.3</par>
+			<par>42.7</par>
+			<par>38.9</par>
+			<par>47.1</par>
+			<par>45</par>
+			<par>9719.3</par>
+			<par>521836.88</par>
+			<par>4140.17</par>
+			<par>20</par>
+			<par>2</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par></par>
+			<par></par>						
+		</data2011>
+		<data2013>			
+			<par>9.2</par>	
+			<par>404.3</par>	
+			<par>116.4</par>	
+			<par>56.4</par>	
+			<par>35.2</par>
+			<par>53.0</par>
+			<par>74.0</par>
+			<par>32.0</par>
+			<par>70.0</par>
+			<par>59.0</par>
+			<par>80</par>
+			<par>311.5</par>
+			<par>3730.0</par>
+			<par>21.4</par>
+			<par>33.8</par>
+			<par>29.9</par>
+			<par>38.10</par>
+			<par>36</par>
+			<par>11538.4</par>
+			<par>695082.48</par>
+			<par>6158.84</par>
+			<par>94.2</par>
+			<par>20</par>
+			<par>10</par>
+			<par>67.5</par>
+			<par>67.5</par>
+			<par>26.2</par>
+			<par>19.5</par>										
+		</data2013>
+		<fin_data2011>
+			<task1 par1="410926.2" par2="109662.2" par3="0"/>
+			<task2 par1="24758.8" par2="0" par3="0"/>
+			<task3 par1="59490.00" par2="47543.2" par3="20374.1"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="387093.5" par2="83769.3" par3="0"/>
+			<task2 par1="25343.5" par2="10861.7" par3="0"/>
+			<task3 par1="94432.00" par2="40470.9" par3="69625.9"/>
+		</fin_data2012>
+	</region>	
+	<region id="52" title="Московская область">
+		<data2011>
+			<par>6.7</par>
+			<par>667.0</par>
+			<par>239.0</par>
+			<par>89.0</par>
+			<par>170.0</par>
+			<par>54.2</par>
+			<par>83</par>
+			<par>58.2</par>
+			<par>76</par>
+			<par>52</par>
+			<par>70</par>
+			<par>346.9</par>
+			<par>3257.36</par>
+			<par>0</par>
+			<par>38.1</par>
+			<par>36.5</par>
+			<par>39.7</par>
+			<par>54.3</par>
+			<par>20870</par>
+			<par>1736222</par>
+			<par>19867.3</par>
+			<par>5.2</par>
+			<par>7</par>
+			<par>7.5</par>
+			<par>0</par>
+			<par>50</par>
+			<par>0</par>
+			<par>0</par>						
+		</data2011>
+		<data2013>
+			<par>7.6</par>
+			<par>650.0</par>
+			<par>225.0</par>
+			<par>85.6</par>
+			<par>160.0</par>
+			<par>52.3</par>
+			<par>85</par>
+			<par>60.5</par>
+			<par>79</par>
+			<par>60</par>
+			<par>83</par>
+			<par>330.0</par>
+			<par>3971.60</par>
+			<par>0</par>
+			<par>37.7</par>
+			<par>37.6</par>
+			<par>38.2</par>
+			<par>53.3</par>
+			<par>26715</par>
+			<par>1762348</par>
+			<par>22636.3</par>
+			<par>15</par>
+			<par>30</par>
+			<par>35</par>
+			<par>50</par>
+			<par>64</par>
+			<par>68</par>
+			<par>76</par>									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="7264987.20" par2="403161.47" par3="0"/>
+			<task2 par1="388474.70" par2="119528.00" par3="0"/>
+			<task3 par1="116031.10" par2="0" par3="2773946.00"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="7555327.20" par2="729846.52" par3="0"/>
+			<task2 par1="397648.80" par2="36232.0" par3="0"/>
+			<task3 par1="0" par2="571367.0" par3="4953822.87"/>
+		</fin_data2012>
+	</region>
+	
+	<region id="55" title="Новгородская область">
+		<data2011>
+			<par>7.30</par>
+			<par>97.60</par>
+			<par>345.10</par>
+			<par>98.90</par>
+			<par>134.00</par>
+			<par>31.20</par>
+			<par>81.40</par>
+			<par>48.20</par>
+			<par>59.40</par>
+			<par>36.40</par>
+			<par>70.00</par>
+			<par>330.00</par>
+			<par>1061.60</par>
+			<par>19.30</par>
+			<par>18.80</par>
+			<par>23.60</par>
+			<par>15.00</par>
+			<par>54.00</par>
+			<par>13407</par>
+			<par>884000.00</par>
+			<par>7700.00</par>
+			<par>10.00</par>
+			<par>0.00</par> 
+			<par>0.00</par> 
+			<par>0.00</par>
+			<par>35.00</par>
+			<par>0.00</par>
+			<par></par>				
+		</data2011>
+		<data2013>
+			<par>7.70</par>
+			<par>94.20</par>
+			<par>335.10</par>
+			<par>94.80</par>
+			<par>129.00</par>
+			<par>29.00</par>
+			<par>82.50</par>
+			<par>52.40</par>
+			<par>65.20</par>
+			<par>60.10</par>
+			<par>90.00</par>
+			<par>330.20</par>
+			<par>1433.50</par>
+			<par>10.00</par>
+			<par>11.70</par>
+			<par>13.90</par>
+			<par>8.80</par>
+			<par>34.00</par>
+			<par>16230</par>
+			<par>1611000.00</par>
+			<par>13619.00</par>
+			<par>15.10</par>
+			<par>32.00</par>
+			<par>22.00</par>
+			<par>100.00</par>
+			<par>80.00</par>
+			<par>100.00</par>
+			<par></par>									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1073024.30" par2="171748.86" par3="0"/>
+			<task2 par1="65270.80" par2="12220.00" par3="0"/>
+			<task3 par1="167120.90" par2="509120.00" par3="66911.90"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="935850.60" par2="67846.80" par3="0"/>
+			<task2 par1="66812.30" par2="5000.00" par3="0"/>
+			<task3 par1="333582.10" par2="509620.00" par3="73092.38"/>
+		</fin_data2012>
+	</region>	
+	<region id="56" title="Новосибирская область">
+		<data2011>
+			<par>7.5</par>
+			<par>596.3</par>
+			<par>175.3</par>
+			<par>88.5</par>
+			<par>168.0</par>
+			<par>112.2</par>
+			<par>68.0</par>
+			<par>44.9</par>
+			<par>68.0</par>
+			<par>40.0</par>
+			<par>78.6</par>
+			<par>325.8</par>
+			<par>2582.4</par>
+			<par>32.0</par>
+			<par>18.3</par>
+			<par>26.7</par>
+			<par>-0.3</par>
+			<par>49.8</par>
+			<par>15302.0</par>
+			<par>507521.9</par>
+			<par>13359.2</par>
+			<par>19.0</par>
+			<par>9</par>
+			<par>2.0</par>
+			<par>38.0</par>
+			<par>15.0</par>
+			<par>55.4</par>
+			<par>52.7</par>						
+		</data2011>
+		<data2013>
+			<par>8.3</par>
+			<par>561.9</par>
+			<par>153.2</par>
+			<par>74.7</par>
+			<par>145.0</par>
+			<par>95.4</par>
+			<par>72.0</par>
+			<par>49.0</par>
+			<par>75.4</par>
+			<par>52.0</par>
+			<par>85.0</par>
+			<par>330.0</par>
+			<par>2635.0</par>
+			<par>9.8</par>
+			<par>10.4</par>
+			<par>15.1</par>
+			<par></par>
+			<par>33.0</par>
+			<par>22380.0</par>
+			<par>710121.0</par>
+			<par>18438.1</par>
+			<par>33.0</par>
+			<par>53</par>
+			<par>89.0</par>
+			<par>100.0</par>
+			<par>100.0</par>
+			<par>63.3</par>
+			<par>59.9</par>									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="2310797.3" par2="571263.3" par3="0"/>
+			<task2 par1="171312.6" par2="20000.0" par3="0"/>
+			<task3 par1="944141.1" par2="258524.25" par3="837940.94"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1411544.0" par2="534425.94" par3="0"/>
+			<task2 par1="175358.3" par2="20000.0" par3="0"/>
+			<task3 par1="1920262.7" par2="2108469.93" par3="862364.01"/>
+		</fin_data2012>
+	</region>
+
+<region id="28" title="Приморский край">
+		<data2011>
+				
+						<par>9.6</par>
+			<par>689.0</par>
+			<par>221.9</par>
+			<par>86.1</par>
+			<par>121.0</par>
+			<par>82.5</par>
+			<par>80.4</par>
+			<par>37.6</par>
+			<par></par>
+			<par>34.0</par>
+			<par>72.8</par>
+			<par>331.9</par>
+			<par>1627.2</par>
+			<par>43.2</par>
+			<par>38.0</par>
+			<par>31.8</par>
+			<par>40.9</par>
+			<par>43.5</par>
+			<par>15801.0</par>
+			<par>468219.5</par>
+			<par>8685.8</par>
+			<par>42.0</par>
+			<par>6.0</par>
+			<par>1.0</par>
+			<par>0.01</par>
+			<par>13.0</par>
+
+			<par>0.0</par>
+			<par>0.0</par>						
+		</data2011>
+		<data2013>
+				
+			<par>9.9</par>
+			<par>673.0</par>
+			<par>216.0</par>
+			<par>84.5</par>
+			<par>113.4</par>
+			<par>80.4</par>
+			<par>80.6</par>
+			<par>50.0</par>
+			<par>42.1</par>
+			<par></par>
+			<par>75.0</par>
+			<par>332.3</par>
+			<par>1899.2</par>
+			<par>37.0</par>
+			<par>37.4</par>
+			<par>31.2</par>
+			<par>40.4</par>
+			<par>41.6</par>
+			<par>22828.7</par>
+			<par>588383.4</par>
+			<par>9304.4</par>
+			<par>100.0</par>
+			<par>48.0</par>
+			<par>70.0</par>
+			<par>39.2</par>
+			<par>82.8</par>
+
+			<par>100.0</par>
+			<par>100.0</par>
+
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1926004.4" par2="167594.0" par3="0.0"/>
+			<task2 par1="145946.7" par2="63771.8" par3="0.0"/>
+			<task3 par1="846982.9" par2="0.0" par3="131878.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1060573.2" par2="79929.0" par3="0.0"/>
+			<task2 par1="149393.4" par2="34581.3" par3="0.0"/>
+			<task3 par1="1777900.4" par2="0.0" par3="228009.7"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+	
+	
+			<region id="20" title="Чеченская Республика">
+		<data2011>
+				
+			<par>14.80</par>
+			<par>27.00</par>
+			<par>121.00</par>
+			<par>60.50</par>
+			<par>22.00</par>
+			<par>61.04</par>
+			<par>72.40</par>
+			<par>39.40</par>
+			<par>33.00</par>
+			<par>39.00</par>
+			<par>73.00</par>
+			<par>295.00</par>
+			<par>1722.60</par>
+			<par>33.10</par>
+			<par>49.20</par>
+			<par>51.40</par>
+			<par>46.40</par>
+			<par>38.00</par>
+			<par>9971.00</par>
+			<par>679429.00</par>
+			<par>6905.00</par>
+			<par>71.00</par>
+			<par></par>
+			<par>0.00</par>
+			<par>53.42</par>
+			<par></par>
+			<par></par>
+
+<par></par>
+
+						
+		</data2011>
+		<data2013>
+			<par>16.60</par>
+			<par>25.80</par>
+			<par>114.00</par>
+			<par>57.8</par>
+			<par>18.50</par>
+			<par>59.00</par>
+			<par>78.00</par>
+			<par>42.7</par>
+			<par>40.00</par>
+			<par>48.00</par>
+			<par>80.00</par>
+			<par>320.00</par>
+			<par>3016.50</par>
+			<par>18.10</par>
+			<par>46.00</par>
+			<par>49.60</par>
+			<par>40.03</par>
+			<par>31.50</par>
+			<par>13253.00</par>
+			<par>771473.18</par>
+			<par>7107.24</par>
+			<par>89.00</par>
+			<par>50.00</par>
+			<par>22.00</par>
+			<par>53.42</par>
+			<par>70.00</par>
+			<par>55.99</par>
+					<par></par>				
+		</data2013>
+		<fin_data2011>
+			<task1 par1="732901.500" par2="130507.100" par3=""/>
+			<task2 par1="49061.400" par2="9910.000" par3=""/>
+			<task3 par1="199265.100" par2="" par3="342662.000"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="561562.500" par2="63188.800" par3=""/>
+			<task2 par1="50220.000" par2="34917.700" par3=""/>
+			<task3 par1="392617.500" par2="" par3="345500.500"/>
+		</fin_data2012>
+	</region>	
+	
+	<region id="61" title="Псковская область">
+		<data2011>
+			<par>8.2</par>
+			<par>893.8</par>
+			<par>360.0</par>
+			<par>100.0</par>
+			<par>254.6</par>
+			<par>107.0</par>
+			<par>81.9</par>
+			<par>40.0</par>
+			<par>55.0</par>
+			<par>48.0</par>
+			<par>65.0</par>
+			<par>330.0</par>
+			<par>905.8</par>
+			<par>29.19</par>
+			<par>32.7</par>
+			<par>39.0</par>
+			<par>22.2</par>
+			<par>40.8</par>
+			<par>11757.2</par>
+			<par>518174.9</par>
+			<par>4372.1</par>
+			<par>6.7</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+						
+		</data2011>
+		<data2013>
+			<par>8.6</par>
+			<par>879.2</par>
+			<par>312.8</par>
+			<par>98.0</par>
+			<par>168.8</par>
+			<par>104.3</par>
+			<par>82.6</par>
+			<par>42.2</par>
+			<par>62.0</par>
+			<par>54.3</par>
+			<par>80.0</par>
+			<par>335.0</par>
+			<par>1775.1</par>
+			<par>7.43</par>
+			<par>27.3</par>
+			<par>34.9</par>
+			<par>14.4</par>
+			<par>37.7</par>
+			<par>15548.9</par>
+			<par>846249.6</par>
+			<par>6372.4</par>
+			<par>10.6</par>
+			<par>28</par>
+			<par>30.0</par>
+			<par>83.6</par>
+			<par>70.0</par>
+			<par>100</par>
+			<par>100</par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1054420.9" par2="127648.0" par3=""/>
+			<task2 par1="67919.3" par2="775.6" par3=""/>
+			<task3 par1="236044.8" par2="75253.0" par3="98159.5"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="808607.2" par2="28906.3" par3=""/>
+			<task2 par1="69523.3" par2="268.1" par3=""/>
+			<task3 par1="512334.5" par2="103405.0" par3="278365.3"/>
+		</fin_data2012>
+	</region>
+	
+	
+			<region id="66" title="Сахалинская область">
+		<data2011>
+			<par>6.1</par>
+			<par>85.00</par>
+			<par>265.00</par>
+			<par>103.00</par>
+			<par>280.00</par>
+			<par>31.60</par>
+			<par>56.50</par>
+			<par>48.00</par>
+			<par>62.30</par> 
+			<par>30.00</par>
+			<par>75.00</par>
+			<par>330.00</par>
+			<par>516.00</par>
+			<par>0.00</par>
+			<par>26.5</par>
+			<par>29.1</par>
+			<par>23.70</par>
+			<par>48.2</par>
+			<par>27927.00</par>
+			<par>1256340.00</par>
+			<par>7404.99</par>
+			<par>60.00</par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par></par>
+			<par>30.1</par>
+			<par></par>
+						
+		</data2011>
+		<data2013>
+			<par>6.80</par>
+			<par>84.00</par>
+			<par>260.00</par>
+			<par>97.00</par>
+			<par>260.00</par>
+			<par>31.00</par>
+			<par>58.00</par>
+			<par>52.00</par>
+			<par>65.00</par>
+			<par>40.00</par>
+			<par>80.00</par>
+			<par>336.00</par>
+			<par>4839.14</par>
+			<par>0.00</par>
+			<par>11.3</par>
+			<par>15.4</par>
+			<par>6.5</par>
+			<par>34.7</par>
+			<par>33233.00</par>
+			<par>1564850.00</par>
+			<par>9510.79</par>
+			<par>80.00</par>
+			<par>9.00</par>
+			<par>50.00</par>
+			<par>88.09</par>
+			<par>37.00</par>
+			<par>100.00</par>
+			<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="581320.8" par2="559078.8" par3="0"/>
+			<task2 par1="53245.7" par2="18572.0" par3="0"/>
+			<task3 par1="430347.5" par2="351943.0" par3="271127.6"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="109006.2" par2="275162.0" par3="0"/>
+			<task2 par1="54503.1" par2="40790.0" par3="0"/>
+			<task3 par1="926552.7" par2="877610.0" par3="439225.7"/>
+		</fin_data2012>
+	</region>
+		
+	
+			<region id="15" title="Республика Северная Осетия-Алания">
+		<data2011>
+			<par>7.50</par>	
+			<par>44.30</par>	
+			<par>159.00</par>	
+			<par>58.10</par>	
+			<par>87.50</par>	
+			<par>160.50</par>	
+			<par>87.00</par>	
+			<par>52.10</par>	
+			<par>77.00</par>	
+			<par>27.80</par>	
+			<par>69.00</par>	
+			<par>300.00</par>	
+			<par>1214.01</par>	
+			<par>46.90</par>	
+			<par>12.94</par>	
+			<par>10.54</par>	
+			<par>15.44</par>	
+			<par>12.62</par>	
+			<par>7929.00</par>	
+			<par>779916.67</par>	
+			<par>9534.36</par>	
+			<par>4.50</par>	
+			<par></par>	
+			<par>0.00</par>	
+			<par>0.00</par>	
+			<par></par>	
+			<par>36.10</par>	
+			<par></par>								
+		</data2011>
+		<data2013>
+			<par>8.20</par>	
+			<par>43.20</par>	
+			<par>153.00</par>	
+			<par>56.00</par>	
+			<par>85.00</par>	
+			<par>156.00</par>	
+			<par>87.20</par>	
+			<par>54.80</par>	
+			<par>80.00</par>	
+			<par>55.00</par>	
+			<par>85.00</par>	
+			<par>334.00</par>	
+			<par>1452.35</par>	
+			<par>34.60</par>	
+			<par>8.84</par>	
+			<par>7.18</par>	
+			<par>10.49</par>	
+			<par>6.54</par>	
+			<par>13384.46</par>	
+			<par>1082323.61</par>	
+			<par>13231.23</par>	
+			<par>27.20</par>	
+			<par>19.00</par>	
+			<par>75.00</par>	
+			<par>71.00</par>	
+			<par>71.00</par>	
+			<par>72.50</par>	
+<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="597891.50" par2="0.00" par3="0.00"/>
+			<task2 par1="42650.70" par2="0.00" par3="0.00"/>
+			<task3 par1="212471.80" par2="7866.10" par3="87189.20"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="370532.90" par2="0.00" par3="0.00"/>
+			<task2 par1="43658.00" par2="0.00" par3="0.00"/>
+			<task3 par1="458968.10" par2="13420.50" par3="87353.10"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+			<region id="70" title="Тверская область">
+		<data2011>
+			<par>8.0</par>
+			<par>80.0</par>
+			<par>250.0</par>
+			<par>92.1</par>
+			<par>49.0</par>
+			<par>132.0</par>
+			<par>73.0</par>
+			<par>59.3</par>
+			<par>75.0</par>
+			<par>32.4</par>
+			<par>48.0</par>
+			<par>306.91</par>
+			<par>1399.1</par>
+			<par>22.4</par>
+			<par>17.41</par>
+			<par>23.04</par>
+			<par>20.52</par>
+			<par>31.82</par>
+			<par>10863.0</par>
+			<par>1011593.68</par>
+			<par>10829.09</par>
+			<par>15.0</par>
+			<par>46.0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>
+			<par>0</par>	
+			<par>0</par>					
+		</data2011>
+		<data2013>
+			<par>7.5</par>
+			<par>77.0</par>
+			<par>244.5</par>
+			<par>87.7</par>
+			<par>47.0</par>
+			<par>130.0</par>
+			<par>75.0</par>
+			<par>62.5</par>
+			<par>80.0</par>
+			<par>50.2</par>
+			<par>60.0</par>
+			<par>323.37</par>
+			<par>2170.4</par>
+			<par>1.5</par>
+			<par>13.04</par>
+			<par>22.06</par>
+			<par>9.65</par>
+			<par>18.00</par>
+			<par>13500.0</par>
+			<par>1654803.02</par>
+			<par>17744.88</par>
+			<par>75.0</par>
+			<par>97.0</par>
+			<par>80.0</par>
+			<par>80.0</par>
+			<par>80.0</par>
+			<par>93.0</par>
+						<par>64.9</par>			
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1043690.90" par2="283213.81" par3=""/>
+			<task2 par1="68097.50" par2="2500.00" par3=""/>
+			<task3 par1="250161.60" par2="29212.70" par3="192053.82"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="875625.10" par2="176248.38" par3=""/>
+			<task2 par1="69705.70" par2="6920.00" par3=""/>
+			<task3 par1="448782.20" par2="29212.70" par3="304482.85"/>
+		</fin_data2012>
+	</region>
+	
+	
+<region id="17" title="Республика Тыва">
+		<data2011>
+			<par>12.40</par>
+			<par>98.50</par>
+			<par>152.10</par>
+			<par>65.90</par>
+			<par>469.70</par>
+			<par>40.50</par>
+			<par>56.00</par>
+			<par>42.50</par>
+			<par>80.00</par>
+			<par>70.80</par>
+			<par>74.20</par>
+			<par>323.00</par>
+			<par>3809.00</par>
+			<par>31.20</par>
+			<par>35.20</par>
+			<par>29.80</par>
+			<par>40.10</par>
+			<par>53.70</par>
+			<par>23502.08</par>
+			<par>603817.34</par>
+			<par>4330.32</par>
+			<par>22.60</par>
+			<par></par>
+			<par>0.00</par>
+			<par>0.00</par>
+			<par></par>
+			<par></par>
+					<par></par>		
+		</data2011>
+		<data2013>
+			<par>13.00</par>
+			<par>92.60</par>
+			<par>143.00</par>
+			<par>61.00</par>
+			<par>440.40</par>
+			<par>39.50</par>
+			<par>65.00</par>
+			<par>45.50</par>
+			<par>85.00</par>
+			<par>73.50</par>
+			<par>79.00</par>
+			<par>330.00</par>
+			<par>5220.71</par>
+			<par>27.25</par>
+			<par>30.40</par>
+			<par>21.60</par>
+			<par>38.50</par>
+			<par>35.20</par>
+			<par>26734.58</par>
+			<par>730618.97</par>
+			<par>5239.68</par>
+			<par>83.70</par>
+			<par>49.00</par>
+			<par>2.00</par>
+			<par>79.60</par>
+			<par>79.60</par>
+			<par>51.94</par>
+	<par></par>
+									
+		</data2013>
+		<fin_data2011>
+			<task1 par1="478181.8" par2="13544.9" par3="0.0"/>
+			<task2 par1="33217.2" par2="9788.0" par3="0.0"/>
+			<task3 par1="152945.0" par2="19249.8" par3="131470.2"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="335931.1" par2="9425.8" par3="0"/>
+			<task2 par1="34001.7" par2="24452.0" par3="0"/>
+			<task3 par1="310101.2" par2="19249.9" par3="131470.2"/>
+		</fin_data2012>
+	</region>
+	
+	
+	
+			<region id="18" title="Удмуртская Республика">
+		<data2011>
+			<par>6.60</par>
+			<par>661.00</par>
+			<par>175.00</par>
+			<par>77.00</par>
+			<par>230.00</par>
+			<par>81.50</par>
+			<par>80.50</par>
+			<par>56.30</par>
+			<par>77.70</par>
+			<par>26.00</par>
+			<par>73.00</par>
+			<par>329.45</par>
+			<par>2306.82</par>
+			<par>23.10</par>
+			<par>31.04</par>
+			<par>27.28</par>
+			<par>34.27</par>
+			<par>39.76</par>
+			<par>10959.90</par>
+			<par>756862.80</par>
+			<par>7366.81</par>
+			<par>0.80</par>
+			<par>4.00</par>
+			<par>0.00</par>
+			<par>1.00</par>
+			<par>80.00</par>
+			<par></par>		
+			<par></par>				
+		</data2011>
+		<data2013>
+			<par>7.30</par>
+			<par>640.00</par>
+			<par>169.80</par>
+			<par>74.50</par>
+			<par>223.00</par>
+			<par>79.00</par>
+			<par>82.00</par>
+			<par>57.70</par>
+			<par>79.00</par>
+			<par>55.00</par>
+			<par>80.00</par>
+			<par>332.00</par>
+			<par>2655.03</par>
+			<par>15.30</par>
+			<par>22.92</par>
+			<par>21.80</par>
+			<par>23.28</par>
+			<par>30.82</par>
+			<par>13488.02</par>
+			<par>860498.71</par>
+			<par>8125.86</par>
+			<par>55.70</par>
+			<par>37.00</par>
+			<par>9.70</par>
+			<par>100.00</par>
+			<par>100.00</par>
+			<par>73.75</par>
+			<par></par>					
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1662674.60" par2="98799.10" par3="0"/>
+			<task2 par1="103898.6" par2="25600.00" par3="0"/>
+			<task3 par1="0" par2="0" par3="455220.25"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1921514.60" par2="25250" par3="0"/>
+			<task2 par1="96030" par2="28300.00" par3="0"/>
+			<task3 par1="214510" par2="998160" par3="543612.83"/>
+		</fin_data2012>
+	</region>
+	
+		<region id="76" title="Ярославская область">
+		<data2011>
+			<par>6.9</par>
+			<par>687.0</par>
+			<par>234.0</par>
+			<par>87.4</par>
+			<par>194.2</par>
+			<par>34</par>
+			<par>69</par>
+			<par>43.8</par>
+			<par>70</par>
+			<par>40</par>
+			<par>76</par>
+			<par>305</par>
+			<par>1714.34</par>
+			<par>19</par>
+			<par>6.2</par>
+			<par>6.1</par>
+			<par>5.8</par>
+			<par>5.1</par>
+			<par>10933</par>
+			<par>386833.29</par>
+			<par>13568.41</par>
+			<par>19</par>
+			<par>5</par>
+			<par>2.88</par>
+			<par></par>
+			<par></par>
+			<par>33</par>	
+			<par>27</par>				
+		</data2011>
+		<data2013>
+			<par>7.3</par>
+			<par>667.4</par>
+			<par>225.9</par>
+			<par>85.4</par>
+			<par>190.8</par>
+			<par>29.0</par>
+			<par>71</par>
+			<par>45.8</par>
+			<par>77</par>
+			<par>47</par>
+			<par>83</par>
+			<par>323</par>
+			<par>2217.04</par>
+			<par>4.5</par>
+			<par>4.1</par>
+			<par>5.4</par>
+			<par>2.4</par>
+			<par>1.6</par>
+			<par>13394</par>
+			<par>564138.95</par>
+			<par>17557.6</par>
+			<par>49</par>
+			<par>18</par>
+			<par>72.04</par>
+			<par>100</par>
+			<par>45</par>
+			<par>100</par>
+			<par>100</par>
+							
+		</data2013>
+		<fin_data2011>
+			<task1 par1="1357070.20" par2="541921.99" par3="0"/>
+			<task2 par1="78948.00" par2="36239.00" par3="0"/>
+			<task3 par1="142940.80" par2="367082.40" par3="322394.20"/>
+		</fin_data2011>
+		<fin_data2012>
+			<task1 par1="1375292.20" par2="121156.89" par3="0"/>
+			<task2 par1="80812.40" par2="55375.00" par3="0"/>
+			<task3 par1="160142.37" par2="1002783.90" par3="474829.50"/>
+		</fin_data2012>
+	</region>
+	</root>
+</data>
+
+		
+		
+		
+
+
+
+
