@@ -53,15 +53,13 @@
 
 			<img src="img/bClose.png" id="bClose">
 		</div>
-
-
 	</div>
 
 	<script>
 		function isNumber(event){
 		  var charCode = (event.which) ? event.which : event.keyCode;
 		  console.log(charCode)
-		  return (charCode >= 48 && charCode <= 57 || charCode == 32 || charCode == 44 || charCode == 46 || charCode == 8 || charCode == 45 || (charCode >= 37 && charCode <= 40))
+		  return (charCode >= 48 && charCode <= 57 || charCode == 32 || charCode == 9 || charCode == 44 || charCode == 46 || charCode == 8 || charCode == 45 || (charCode >= 37 && charCode <= 40))
 		}
 	</script>
 
