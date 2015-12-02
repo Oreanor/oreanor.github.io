@@ -11,7 +11,7 @@ body{
   left: 0px;
   top: 0px;
   width: 600px;
-  height: 500px;
+  height: 550px;
   background-color: #0086cd;
 
 }
@@ -83,7 +83,7 @@ body{
   font-family: 'Arial';
   font-size: 16px;
   line-height: 120%;
-  color: #89C3E7;
+  color: #B7DDF0;
   padding: 12px 10px;
 }
 #pole4{
@@ -94,12 +94,12 @@ body{
   font-family: 'Arial';
   font-size: 14px;
   line-height: 100%;
-  color: #89C3E7;
+  color: #B7DDF0;
   padding: 12px 10px;
 }
 #pole5{
   position: absolute;
-  top: 310px;
+  top: 360px;
   left: 30px;
   height: 40px;
   font-family: 'Arial';
@@ -111,7 +111,7 @@ body{
 }
 #pole6{
   position: absolute;
-  top: 352px;
+  top: 402px;
   left: 30px;
   width: 410px;
   height: 40px;
@@ -123,7 +123,7 @@ body{
 }
 #pole7{
   position: absolute;
-  top: 381px;
+  top: 431px;
   left: 30px;
   font-family: 'Arial';
   font-size: 16px;
@@ -134,7 +134,7 @@ body{
 }
 #pole8{
   position: absolute;
-  top: 408px;
+  top: 458px;
   left: 30px;
   font-family: 'Arial';
   font-size: 16px;
@@ -145,7 +145,7 @@ body{
 }
 #res0{
   position: absolute;
-  top: 299px;
+  top: 349px;
   right: 45px;
   height: 40px;
   font-family: 'Arial';
@@ -157,7 +157,7 @@ body{
 }
 #res1{
   position: absolute;
-  top: 382px;
+  top: 432px;
   right: 45px;
   height: 40px;
   font-family: 'Arial';
@@ -169,7 +169,7 @@ body{
 }
 #res2{
   position: absolute;
-  top: 433px;
+  top: 483px;
   right: 45px;
   height: 40px;
   font-family: 'Arial';
@@ -181,7 +181,7 @@ body{
 }
 #h0{
   position: absolute;
-  top: 324px;
+  top: 374px;
   left: 40px;
   height: 1px;
   width: 500px;
@@ -189,7 +189,7 @@ body{
 }
 #h1{
   position: absolute;
-  top: 406px;
+  top: 456px;
   left: 40px;
   height: 1px;
   width: 500px;
@@ -197,7 +197,7 @@ body{
 }
 #h2{
   position: absolute;
-  top: 455px;
+  top: 505px;
   left: 40px;
   height: 1px;
   width: 500px;
@@ -289,4 +289,26 @@ body{
   background-color: #0086cd;
   opacity: 0.4;
   visibility: hidden;
+}
+
+#bCalc{
+  position: absolute;
+  top: 278px;
+  right: 45px;
+  height: 40px;
+  width: 115px;
+  background-color: #58595b;
+  padding: 11px;
+  border: 0px;
+  font-family: 'Arial';
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  text-align: center;
+  border: 1px white solid;
+  cursor: pointer;
+  opacity: 0.5;
+}
+#bCalc:hover{
+  background-color: #138dcc;
 }

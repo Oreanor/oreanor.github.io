@@ -27,11 +27,7 @@ $(document).ready(function(){
 		$("#hint").css('visibility', "hidden");
 	})
 
-	function checknum(){
-		return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 32	
-	}
-
-
+	$(".vals").on("keyup",checkBtn);
 	$(".vals").on("change",tryCalculate);
 	$(".vals").on("focus",function(){
 		var num = parseInt($(this).attr("id").substr(3,1));
@@ -50,6 +46,24 @@ $(document).ready(function(){
 		}
 	});
 
+	function checkBtn(){
+		var val0 = parseInt($("#val0").val().replace(/\s/g, ''));
+		var val1 = parseFloat($("#val1").val().replace(/\s/g, '').replace(",","."));
+		var val2 = parseInt($("#val2").val().replace(/\s/g, ''));
+
+		if(isNaN(val0)){val0=0}
+		if(isNaN(val1)){val1=0}
+		if(isNaN(val2)){val2=0}
+
+
+		if(val0!=0||val1!=0||val2!=0){
+			$("#bCalc").css("opacity","1").css("pointer-events","auto");
+
+		} else {
+			$("#bCalc").css("opacity","0.5").css("pointer-events","none");
+		}
+	}
+
 	function tryCalculate(){
 
 		var val0 = parseInt($("#val0").val().replace(/\s/g, ''));
@@ -62,10 +76,20 @@ $(document).ready(function(){
 		if(isNaN(val2)){val2=0}
 		if(isNaN(val3)){val3=0}
 
+		if(val0!=0||val1!=0||val2!=0){
+			$("#bCalc").css("opacity","1").css("pointer-events","auto");
+
+		} else {
+			$("#bCalc").css("opacity","0.5").css("pointer-events","none");
+		}
+
 		$("#val0").val(formatNumber(val0));
 		$("#val1").val(val1+"%");
 		$("#val2").val(val2);
 		$("#val3").val(formatNumber(val3));
+
+
+		$("#bCalc").on("click",tryCalculate)
 
 
 
@@ -100,6 +124,8 @@ $(document).ready(function(){
 		console.log("tryCalculate " + res0);
 		console.log("tryCalculate " + res1);
 		console.log("tryCalculate " + res2);
+
+		$("#bCalc").css("opacity","0.5").css("pointer-events","none");
 	}
 
 	function formatNumber(number) {
@@ -110,49 +136,7 @@ $(document).ready(function(){
 	   return (end ? string.slice(0, end) + comma : '') + string.slice(end).replace(/(\d{3})(?=\d)/g, '$1' + comma);
 	  }
 
-	//------------------------------------------------------------------
-	/*$(".dots1")
-	.on("mouseover",function(event){
-		event.stopImmediatePropagation()
-		var num = parseInt($(this).attr("id").substr(1));
-		$("#hint").html(bases[num]);
-		//$("#hint").html(num);
-		$("#hint").css('visibility', "visible").css("opacity","0").clearQueue().animate({opacity:1},100);
-		
-		$(this).moveToFront();
-		if(num<3){
-			$(this).find(".circ1").velocity({ r: 8 }, { duration: 10 });
-			$(this).find(".circ2").velocity({ r: 4 }, { duration: 10 });
-		} else if (num==9||num==10||num==6||num==7){
-			$(this).find("circle").attr("fill", "#057e9f");
-		} else {
-			$(this).find("circle").attr("fill", "#c82f37");
-		}
-	})
-	.on("mousemove",function(event){
-		var x = event.pageX+15;
-		var y = event.pageY-8;
-		var w = parseFloat($("#hint").css("width"));
-		var h = parseFloat($("#hint").css("height"));
 
-		if(x+w>1120){x = 1120 - w - 10; y+=30;}
-		$("#hint").css('top', y+"px").css('left', x+"px");
-	})
-	.on("mouseout",function(){
-		$("#hint").css('visibility', "hidden");
-		var num = parseInt($(this).attr("id").substr(1));
-
-		if(num<3){
-			$(this).find(".circ1").velocity({ r: 6.5 }, { duration: 10 });
-			$(this).find(".circ2").velocity({ r: 3 }, { duration: 10 });
-		} else if (num==9||num==10||num==6||num==7){
-			$(this).find("circle").attr("fill", "#50A5BC");
-		} else {
-			$(this).find("circle").attr("fill", "#D96E73");
-		}
-
-	})
-*/
 
 
 });
