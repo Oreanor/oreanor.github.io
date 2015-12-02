@@ -1,0 +1,1 @@
+﻿document.write('<hr width="100%" size="1" color="#CCCCCC" noshade style="margin: 10px 0px 10px 0px;"><p class="copyright">&copy; 2008-2013г. Разработка и администрирование сайта - Oreanor</p>')

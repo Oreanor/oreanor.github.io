@@ -1,0 +1,499 @@
+﻿<data>
+	<cart name="Addams Family" filename="AddamsFamily"/>
+	<cart name="Addams Family" filename="AddamsFamily_v2"/>
+	<cart name="Addams Family" filename="AddamsFamily_v3"/>
+	<cart name="Adventures In The Magic Kingdom" filename="AdventuresInTheMagicKingdom"/>
+	<cart name="Adventure Island 2" filename="AdventureIsland2"/>
+	<cart name="Adventure Island 3" filename="AdventureIslandIII"/>
+	<cart name="Adventure Island 3" filename="AdventureIslandIII_v2"/>
+	<cart name="Adventure Island 3" filename="AdventureIslandIII_v3"/>
+	<cart name="Adventure Island 3" filename="AdventureIslandIV"/>
+	<cart name="Adventure Island 4" filename="AdventureIsland4"/>	
+	<cart name="Aladdin" filename="Aladdin_v2"/>
+	<cart name="Aladdin 3" filename="Aladdin3"/>
+	<cart name="Adventures of Lolo 2" filename="AdventuresOfLolo2"/>	
+	<cart name="Aladdin" filename="Aladdin"/>
+	<cart name="Aladdin" filename="Aladdin_v3"/>
+	<cart name="Aladdin 2" filename="Aladdin2"/>
+	<cart name="Alien 3" filename="Alien3"/>
+	<cart name="American Race Cars" filename="AmericanRaceCars"/>
+	<cart name="Arkanoid" filename="Arkanoid"/>
+	<cart name="Arkanoid" filename="Arkanoid_v2"/>
+	<cart name="Arkanoid" filename="Arkanoid_v3"/>
+	<cart name="Arkanoid" filename="Arkanoid_v4" new="true"/>
+	<cart name="B-Wings" filename="Bwings"/>
+	<cart name="Bad Dudes" filename="BadDudes"/>
+	<cart name="Ball Story" filename="BallStory"/>
+	<cart name="Bartman" filename="Bartman"/>
+	<cart name="Batman" filename="Batman"/>
+	<cart name="Batman 2" filename="Batman2"/>
+	<cart name="Batman 2" filename="Batman2_v2"/>
+	<cart name="Batman 2" filename="Batman2_v3" new="true"/>
+	<cart name="Batman Returns" filename="BatmanReturns"/>
+	<cart name="Batman Returns" filename="BatmanReturns_v2"/>
+	<cart name="Batman Returns" filename="BatmanReturns_v3"/>
+	<cart name="Batman Returns" filename="BatmanReturns_v4"/>
+	<cart name="Batman Returns" filename="BatmanReturns_v5"/>
+	<cart name="Battle City" filename="BattleCity"/>
+	<cart name="Battle City" filename="BattleCity_v2"/>
+	<cart name="Battleship" filename="Battleship"/>
+	<cart name="Battletoads and Double Dragon" filename="BattletoadsDoubleDragon"/>
+	<cart name="Battletoads and Double Dragon" filename="BattletoadsDoubleDr_v2"/>
+	<cart name="Beetlejuice" filename="Beetlejuice"/>
+	<cart name="Best of the Best" filename="BestOfTheBest"/>
+	<cart name="Best of the Best" filename="BestOfTheBest_v2"/>
+	<cart name="Binary Land" filename="BinaryLand"/>
+	<cart name="Bomber King" filename="BomberKing"/>
+	<cart name="Bucky O'Hare" filename="BuckyOHare"/>
+	<cart name="Bucky O'Hare" filename="BuckyOHare_v2"/>
+	<cart name="Bugs Bunny Crazy Castle" filename="BugsBunny"/>
+	<cart name="Bugs Bunny Crazy Castle" filename="BugsBunnyCrazyCastle_v2" new="true"/>
+	<cart name="Bugs Bunny Birthday Blowout" filename="BugsBunnyBirthdayBlowout"/>
+	<cart name="Captain America" filename="CaptainAmerica"/>
+	<cart name="Captain America" filename="CaptainAmerica_v2"/>
+	<cart name="Captain Skyhawk" filename="CaptainSkyhawk"/>
+	<cart name="Captain Skyhawk" filename="CaptainSkyhawk_v2"/>
+	<cart name="Castlevania" filename="Castlevania"/>
+	<cart name="Castlevania" filename="Castlevania_v2"/>
+	<cart name="Castlevania" filename="Castlevania_v3"/>
+	<cart name="Castlevania 2" filename="Castlevania2"/>
+	<cart name="Chessmaster" filename="Chessmaster"/>
+	<cart name="Chip And Dale" filename="chipdale"/>
+	<cart name="Chip And Dale" filename="chipdale_v2"/>
+	<cart name="Chip And Dale" filename="chipdale_v3"/>
+	<cart name="Chip And Dale" filename="ChipAndDale_v4"/>
+	<cart name="Chip And Dale" filename="ChipAndDale_v5"/>
+	<cart name="Chip And Dale" filename="ChipAndDale_v6"/>
+	<cart name="Chip And Dale 2" filename="ChipAndDale2"/>
+	<cart name="Chip And Dale 2" filename="ChipAndDale2_v2"/>
+	<cart name="Chip And Dale 2" filename="ChipAndDale2_v3"/>
+	<cart name="Circus Charlie" filename="CircusCharlie"/>
+	<cart name="Contra" filename="Contra"/>
+	<cart name="Contra 24 in 1" filename="Contra24in1"/>
+	<cart name="Contra 4 in 1" filename="Contra4in1"/>
+	<cart name="Contra 4 in 1" filename="Contra4in1_v2"/>
+	<cart name="Crossfire" filename="Crossfire"/>
+	<cart name="Crossfire" filename="Crossfire_v2"/>
+	<cart name="Darkman" filename="Darkman"/>
+	<cart name="Darkwing Duck" filename="DarkwingDuck"/>
+	<cart name="Darkwing Duck" filename="DarkwingDuck_v2"/>
+	<cart name="Darkwing Duck" filename="DarkwingDuck_v3"/>
+	<cart name="Digger" filename="Digger"/>
+	<cart name="Digger" filename="Digger_v2"/>
+	<cart name="Disneyland Adventures 2" filename="DisneylandAdventures"/>
+	<cart name="Disneyland Adventures 2" filename="DisneylandAdventures2_v2"/>
+	<cart name="Dodgeball" filename="Dodgeball"/>
+	<cart name="Donkey Kong" filename="DonkeyKong"/>
+	<cart name="Double Dragon 2" filename="DoubleDragon2"/>
+	<cart name="Double Dragon 3" filename="DoubleDragon3"/>
+	<cart name="Double Dragon 3" filename="DoubleDragon3_v2"/>
+	<cart name="Double Dribble" filename="DoubleDribble"/>
+	<cart name="Double Dribble" filename="DoubleDribble_v2"/>
+	<cart name="Dracula" filename="Dracula"/>
+	<cart name="Dracula" filename="Dracula_v2"/>
+	<cart name="Dragonball" filename="Dragonball" new="true"/>
+	<cart name="Dream Master" filename="DreamMaster"/>
+	<cart name="Dr.Mario" filename="DrMario"/>
+	<cart name="Duck Hunt" filename="DuckHunt"/>
+	<cart name="Duck Hunt" filename="DuckHunt_v2"/>
+	<cart name="Duck Tales" filename="DuckTales"/>
+	<cart name="Duck Tales" filename="DuckTales_v2"/>
+	<cart name="Duck Tales" filename="DuckTales_v3"/>
+	<cart name="Duck Tales" filename="DuckTales_v4"/>
+	<cart name="Duck Tales" filename="DuckTales_v5"/>
+	<cart name="Duck Tales 2" filename="DuckTales2"/>
+	<cart name="Duck Tales 2" filename="DuckTales2_v2"/>
+	<cart name="Duck Tales 2" filename="DuckTales2_v3"/>
+	<cart name="Dunk Heroes" filename="DunkHeroes"/>
+	<cart name="Excite Bike" filename="ExciteBike"/>
+	<cart name="FBI Policeman 2 (Golgo 13)" filename="FBIPoliceman"/>
+	<cart name="F1 Race" filename="F1Race"/>
+	<cart name="F1 Race" filename="F1Race_v2"/>
+	<cart name="F1 Sensation" filename="F1Sensation"/>
+	<cart name="F1 Sensation" filename="F1Sensation_v2"/>
+	<cart name="F1 Sensation" filename="F1Sensation_v3"/>
+	<cart name="Felix The Cat" filename="Felix" new="true"/>
+	<cart name="Ferrari" filename="Ferrari"/>
+	<cart name="Ferrari" filename="Ferrari_v2"/>
+	<cart name="Final Mission" filename="FinalMission"/>
+	<cart name="Fire Bird" filename="FireBird"/>
+	<cart name="Flash And Batman" filename="FlashAndBatman"/>
+	<cart name="Flintstones, The - The Rescue of Dino and Hoppy" filename="TheFlintstones"/>
+	<cart name="Flintstones, The - The Rescue of Dino and Hoppy" filename="Flintstones_v2" new="true"/>
+	<cart name="G.I. Joe 2" filename="GIJoe2"/>
+	<cart name="Galaga" filename="Galaga"/>
+	<cart name="Galaga" filename="Galaga_v2"/>
+	<cart name="Garfield: A Week of Garfield" filename="Garfield"/>
+	<cart name="New Ghostbusters 2" filename="Ghostbusters2"/>
+	<cart name="Ghosts And Goblins" filename="GhostsAndGoblins"/>
+	<cart name="Ghosts And Goblins" filename="GhostsAndGoblins_v2"/>
+	<cart name="Ghosts And Goblins" filename="GhostsAndGoblins_v3"/>
+	<cart name="Ghosts And Goblins" filename="GhostsAndGoblins_v4"/>
+	<cart name="Goal!" filename="Goal"/>
+	<cart name="Gold Medal" filename="GoldMedal"/>
+	<cart name="Goonies" filename="Goonies"/>
+	<cart name="Gun Dec" filename="GunDec"/>
+	<cart name="Gotcha" filename="Gotcha"/>
+	<cart name="Green Beret" filename="GreenBeret"/>
+	<cart name="Green Beret" filename="GreenBeret_v2"/>
+	<cart name="Green Beret" filename="GreenBeret_v3"/>
+	<cart name="Heavy Barrel" filename="HeavyBarrel"/>
+	<cart name="Highway Star" filename="HighwayStar"/>
+	<cart name="Highway Star" filename="HighwayStar_v2"/>
+	<cart name="Highway Star" filename="HighwayStar_v3"/>
+	<cart name="Highway Star" filename="HighwayStar_v4"/>
+	<cart name="Hogan's Alley" filename="HogansAlley"/>
+	<cart name="Hook" filename="Hook"/>
+	<cart name="Hook" filename="Hook_v2"/>
+	<cart name="Hunt For Red October" filename="HuntForRedOctober"/>
+	<cart name="Hunt For Red October" filename="HuntForRedOctober_v2"/>
+	<cart name="Ice Climber" filename="IceClimber"/>
+	<cart name="Ice Climber" filename="IceClimber_v2"/>
+	<cart name="Immortal" filename="Immortal"/>
+	<cart name="Iron Tank" filename="IronTank" new="true"/>
+	<cart name="Jackal" filename="Jackal"/>
+	<cart name="Jackal" filename="Jackal_v2"/>
+	<cart name="Jackal" filename="Jackal_v3"/>
+	<cart name="Jackie Chan" filename="JackieChan"/>
+	<cart name="Jackie Chan" filename="JackieChan_v2"/>
+	<cart name="Jackie Chan" filename="JackieChan_v3"/>
+	<cart name="James Bond Jr" filename="JamesBondJr"/>
+	<cart name="Jetsons, The" filename="TheJetsons"/>
+	<cart name="Jetsons, The" filename="Jetsons_v2" new="true"/>
+	<cart name="Joe And Mac" filename="JoeAndMac"/>
+	<cart name="Jumpin Kid" filename="JumpinKid"/>
+	<cart name="Jungle Book" filename="JungleBook"/>
+	<cart name="Jurassic Park" filename="JurassicPark"/>
+	<cart name="Jurassic Park" filename="JurassicPark_v2"/>
+	<cart name="Jurassic Park" filename="JurassicPark_v3"/>
+	<cart name="Jurassic Park" filename="JurassicPark_v4"/>
+	<cart name="Jurassic Park" filename="JurassicPark_v5"/>
+	<cart name="Kage" filename="Kage"/>
+	<cart name="Kage" filename="Kage_v2" new="true"/>
+	<cart name="Karateka" filename="Karateka"/>
+	<cart name="Kitty Cat" filename="KittyCat"/>
+	<cart name="Last Ninja" filename="LastNinja"/>
+	<cart name="Lemmings" filename="Lemmings"/>
+	<cart name="Lemmings" filename="Lemmings_v2"/>
+	<cart name="Life Force" filename="LifeForce"/>
+	<cart name="Little Mermaid" filename="LittleMermaid"/>
+	<cart name="Little Mermaid" filename="LittleMermaid_v2"/>
+	<cart name="Little Mermaid" filename="LittleMermaid_v3"/>
+	<cart name="Little Mermaid" filename="LittleMermaid_v4"/>
+	<cart name="Little Mermaid" filename="LittleMermaid_v5"/>
+	<cart name="Little Ninja Brothers" filename="LittleNinjaBrothers"/>
+	<cart name="Mach Rider" filename="MachRider"/>
+	<cart name="Mach Rider" filename="MachRider_v2"/>
+	<cart name="Magic Jewelry" filename="MagicJewelry"/>
+	<cart name="Mappy" filename="Mappy"/>
+	<cart name="Mappy" filename="Mappy_v2"/>
+	<cart name="Mario Fighter" filename="MarioFighter"/>
+	<cart name="Mario Fighter" filename="MarioFighter_v2"/>
+	<cart name="Mario Fighter" filename="MarioFighter_v3"/>
+	<cart name="Max Warrior" filename="MaxWarrior"/>
+	<cart name="Mechanized Attack2" filename="MechanizedAttack2"/>
+	<cart name="Mechanized Attack 2" filename="MechanizedAttack2_v2"/>
+	<cart name="Mechanized Attack 2" filename="MechanizedAttack2_v3"/>
+	<cart name="Metal Gear" filename="MetalGear"/>
+	<cart name="Mickey Mouse" filename="MickeyMouse"/>
+	<cart name="Mickey Mouse 3" filename="MickeyMouse3"/>
+	<cart name="Mickey Mouse 3" filename="MickeyMouse3_v2"/>
+	<cart name="Mickey Mouse 3" filename="MickeyMouse3_v3"/>
+	<cart name="Mickey Mouse 3" filename="MickeyMouse3_v4"/>
+	<cart name="Mickey Mouse In Numberland" filename="MickeyInNumberland"/>
+	<cart name="Mickey Mouse Safari in Letterland" filename="MickeyMouseSafari"/>
+	<cart name="Mickey Mouse Safari In Letterland" filename="MickeySafariInLetterland"/>
+	<cart name="Mickey Mouse Safari in Letterland" filename="MickeyMouseSafari_v3"/>
+	<cart name="Mighty Final Fight" filename="MightyFinalFight"/>
+	<cart name="Miracle Ropit's Adventure In 2100" filename="MiracleRopitsAdventureIn2100"/>
+	<cart name="Mission Impossible" filename="MissionImpossible"/>
+	<cart name="Mission Impossible" filename="MissionImpossible_v2"/>
+	<cart name="Mission Impossible" filename="MissionImpossible_v3" new="true"/>
+	<cart name="Monster Truck Rally" filename="MonsterTruckRally"/>
+	<cart name="Mortal Amrs (Codename Viper)" filename="MortalAmrs"/>
+	<cart name="Mortal Kombat 3" filename="MortalKombat3"/>
+	<cart name="Mortal Kombat IV" filename="MortalKombatIV"/>
+	<cart name="4 in 1: Darkwing Duck, Tom and Jerry, Robocop, Chip And Dale" filename="multi_superhik1"/>
+	<cart name="Nekketsu Downtown Monogatari" filename="NekketsuDowntownMonogatari"/>
+	<cart name="Nekketsu Downtown Monogatari" filename="NekketsuDowntown_v2"/>
+	<cart name="New Ghostbusters 2" filename="NewGhostbusters2_v2"/>
+	<cart name="Ninja Cat" filename="NinjaCat"/>
+	<cart name="Ninja Ryukendn 2" filename="NinjaGaiden2"/>
+	<cart name="Ninja Ryukendn 4" filename="NinjaRyukendn4"/>
+	<cart name="NYankies" filename="NYankies"/>
+	<cart name="Operation Wolf" filename="OperationWolf"/>
+	<cart name="Operation Wolf" filename="OperationWolf_v2"/>
+	<cart name="Pacman" filename="Pacman"/>
+	<cart name="Pacman" filename="Pacman_v2"/>
+	<cart name="Poker" filename="Poker"/>
+	<cart name="Power Blade" filename="PowerBlade"/>
+	<cart name="Power Blazer" filename="PowerBlazer"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia_v2"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia_v3"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia_v4"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia_v5"/>
+	<cart name="Prince Of Persia" filename="PrinceOfPersia_v6"/>
+	<cart name="Punch Out" filename="PunchOut"/>
+	<cart name="Ren And Stimpy Show Buckeroos" filename="RenAndStimpyShow" new="true"/>
+	<cart name="Revolution Heroes" filename="RevolutionHeroes"/>
+	<cart name="Road Fighter" filename="RoadFighter"/>
+	<cart name="Road Fighter" filename="RoadFighter_v2"/>
+	<cart name="Road Fighter" filename="RoadFighter_v3"/>
+	<cart name="Robocop" filename="Robocop"/>
+	<cart name="Robocop 2" filename="Robocop2"/>
+	<cart name="Robocop 2" filename="Robocop2_v2"/>
+	<cart name="Robocop 2" filename="Robocop2_v3"/>
+	<cart name="Robocop 2" filename="Robocop2_v4"/>
+	<cart name="Robocop 2" filename="Robocop2_v5"/>
+	<cart name="Robocop 4" filename="Robocop4"/>
+	<cart name="Robocop 4" filename="Robocop4_v2"/>
+	<cart name="Rockman" filename="Rockman"/>
+	<cart name="Rockman 4" filename="Rockman4"/>
+	<cart name="SaintSeiya" filename="SaintSeiya"/>
+	<cart name="Sesame Street 123 ABC" filename="SesameStreet123ABC"/>
+	<cart name="Shooting Range" filename="ShootingRange"/>
+	<cart name="Side Pocket" filename="SidePocket"/>
+	<cart name="Side Pocket" filename="SidePocket_v2"/>
+	<cart name="Side Pocket" filename="SidePocket_v3"/>
+	<cart name="Side Pocket" filename="SidePocket_v4"/>
+	<cart name="Sky Destroyer" filename="SkyDestroyer"/>
+	<cart name="Sky Destroyer" filename="SkyDestroyer_v2"/>
+	<cart name="Sky Destroyer" filename="SkyDestroyer_v3"/>
+	<cart name="Sky Destroyer" filename="SkyDestroyer_v4"/>
+	<cart name="Soccer" filename="Soccer"/>
+	<cart name="Solomon's Key" filename="SolomonKey_v3"/>
+	<cart name="Solomon's Key 2" filename="SolomonsKey2"/>
+	<cart name="Solomon's Key 2" filename="SolomonsKey2_v2"/>
+	<cart name="Solomon's Key 2" filename="SolomonsKey2_v3"/>
+	<cart name="Star Force" filename="StarForce"/>
+	<cart name="Star Force" filename="StarForce_v2"/>
+	<cart name="Star Trek: The Next Generation" filename="StarTrek"/>
+	<cart name="Stick Hunter" filename="StickHunter"/>
+	<cart name="Stick Hunter" filename="StickHunter_v2"/>
+	<cart name="Street Fighter IV" filename="StreetFighterIV"/>
+	<cart name="Super Basketball" filename="SuperBasketball"/>
+	<cart name="Super Basketball" filename="SuperBasketball_v2"/>
+	<cart name="Super Basketball" filename="SuperBasketball_v3"/>
+	<cart name="Super Contra (6 in 1)" filename="SuperContra6in1"/>
+	<cart name="Super Contra (6 in 1)" filename="SuperContra6in1_v2"/>
+	<cart name="Super Contra (6 in 1)" filename="SuperContra6in1_v3"/>
+	<cart name="Super Contra (6 in 1)" filename="SuperContra6in1_v4"/>
+	<cart name="Super Contra" filename="SuperContra"/>
+	<cart name="Super Fighter 3" filename="SuperFighter3"/>
+	<cart name="Super Fighter IV" filename="SuperFighterIV_v2"/>
+	<cart name="Super Fighter IV" filename="SuperFighterIV_v3"/>
+	<cart name="Super Mario Bros" filename="SuperMario"/>
+	<cart name="Super Mario Bros" filename="SuperMario_v2"/>
+	<cart name="Super Mario Bros" filename="SuperMario_v3"/>
+	<cart name="Super Mario Bros" filename="SuperMario_v4"/>
+	<cart name="Super Mario Bros" filename="SuperMario_v5"/>
+	<cart name="Super Mario Bros 2" filename="SuperMarioBros2"/>
+	<cart name="Super Mario Bros 3" filename="SMB3"/>
+	<cart name="Super Mario Bros 3" filename="SMB3_v2"/>
+	<cart name="Super Mario Bros 3" filename="SMB3_v3" new="true"/>
+	<cart name="Super Mario Bros 6" filename="SuperMarioBros6"/>
+	<cart name="Super Mario Bros 13" filename="SuperMarioBros13"/>
+	<cart name="Super Mario Bros 16 (Joe And Mac hack)" filename="SuperMarioBros16"/>
+	<cart name="Super Mario Bros 16 (Joe And Mac hack)" filename="SuperMarioBros16_JoeMac"/>
+	<cart name="Super Mario Bros 16 (Joe And Mac hack)" filename="SuperMarioBros16_v3"/>
+	<cart name="Super Spy Hunter" filename="SuperSpyHunter"/>
+	<cart name="Superman" filename="superman"/>
+	<cart name="Superman" filename="Superman_v2"/>
+	<cart name="Super Resque Robocop 3 (Shatterhand)" filename="SuperResqueRobocop3"/>
+	<cart name="Super Resque Robocop 3 (Shatterhand)" filename="SuperResqueRobocop3_v2"/>
+	<cart name="Super Resque Robocop 3 (Shatterhand)" filename="SuperResqueRobocop3_v3"/>
+	<cart name="Super Resque Robocop 3 (Shatterhand)" filename="SuperResqueRobocop3_v4"/>
+	<cart name="Sword Master" filename="SwordMaster"/>
+	<cart name="TaleSpin" filename="TaleSpin"/>
+	<cart name="TaleSpin" filename="TaleSpin_v2"/>
+	<cart name="TaleSpin" filename="TaleSpin_v3"/>
+	<cart name="TaleSpin" filename="TaleSpin_v4"/>
+	<cart name="TaleSpin" filename="TaleSpin_v5"/>
+	<cart name="Teenage Mutant Ninja Turtles" filename="tmnt1"/>
+	<cart name="Teenage Mutant Ninja Turtles" filename="TMNT_v2"/>
+	<cart name="Teenage Mutant Ninja Turtles" filename="tmnt_v3"/>
+	<cart name="Teenage Mutant Ninja Turtles 2" filename="tmnt2"/>
+	<cart name="Teenage Mutant Ninja Turtles 2" filename="tmnt2_v2"/>
+	<cart name="Teenage Mutant Ninja Turtles 2" filename="tmnt2_v3"/>
+	<cart name="Teenage Mutant Ninja Turtles 2" filename="tmnt2_v4"/>
+	<cart name="Teenage Mutant Ninja Turtles 2" filename="tmnt2_v5"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v2"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="TMNT3_v3"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="TMNT3_v4"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v5"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v6"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v7"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v8"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v9"/>
+	<cart name="Teenage Mutant Ninja Turtles 3" filename="tmnt3_v10"/>
+	<cart name="Teenage Mutant Ninja Turtles Tournament Fighters" filename="tmnt4"/>
+	<cart name="Teenage Mutant Ninja Turtles Tournament Fighters" filename="TMNTTournament"/>
+	<cart name="Tennis" filename="Tennis"/>
+	<cart name="Tennis" filename="Tennis_v2"/>
+	<cart name="Tennis" filename="Tennis_v3"/>
+	<cart name="Tennis" filename="Tennis_v4"/>
+	<cart name="Tennis" filename="Tennis_v5"/>
+	<cart name="Terminator" filename="Terminator"/>
+	<cart name="Terminator" filename="TotalRecall"/>
+	<cart name="Terminator 2" filename="Terminator2"/>
+	<cart name="Tetris" filename="Tetris"/>
+	<cart name="Tetris" filename="Tetris_v2"/>
+	<cart name="The Goonies" filename="TheGoonies"/>
+	<cart name="Time Diver" filename="TimeDiver"/>
+	<cart name="Time Diver Avenger" filename="TimeDiverAvenger"/>
+	<cart name="Tiny Toon 2" filename="TinyToon2"/>
+	<cart name="Tiny Toon 2" filename="TinyToon2_v2"/>
+	<cart name="Tiny Toon 2" filename="TinyToon2_v3"/>
+	<cart name="Tiny Toon Adventures" filename="TinyToonAdventures"/>
+	<cart name="Tiny Toon Adventures" filename="TinyToonAdventures_v2"/>
+	<cart name="Tiny Toon Adventures" filename="TinyToon_v3"/>
+	<cart name="Tiny Toon Adventures" filename="TinyToon_v4"/>
+	<cart name="Tiny Toon Adventures" filename="TinyToon_v5"/>
+	<cart name="Total Recall" filename="TotalRecall_v2"/>
+	<cart name="To The Earth" filename="ToTheEarth"/>
+	<cart name="To The Earth" filename="ToTheEarth_v2"/>
+	<cart name="Toki" filename="Toki"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v2"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v3"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v4"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v5"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v6"/>
+	<cart name="Tom And Jerry" filename="TomAndJerry_v7"/>
+	<cart name="Top Gun" filename="TopGun"/>
+	<cart name="Top Gun 2" filename="TopGun2"/>
+	<cart name="Top Gun 2" filename="TopGun2_v2"/>
+	<cart name="Top Gun 2" filename="TopGun2_v3"/>
+	<cart name="Top Gun 2" filename="TopGun2_v4"/>
+	<cart name="Top Gun 3" filename="TopGun3"/>
+	<cart name="Top Gun 3" filename="TopGun3_v2"/>
+	<cart name="Top Gun" filename="TopGun_v2"/>
+	<cart name="Totally Rad" filename="TotallyRad"/>
+	<cart name="Treasure Master" filename="TreasureMaster"/>
+	<cart name="Trojan" filename="Trojan"/>
+	<cart name="Twin Eagle" filename="TwinEagle"/>
+	<cart name="Ultimate Stuntman" filename="UltimateStuntman"/>
+	<cart name="Urban Champion" filename="UrbanChampion"/>
+	<cart name="Urban Strike (Cobra Command hack)" filename="UrbanStrike"/>
+	<cart name="Werewolf" filename="Werewolf"/>
+	<cart name="Werewolf" filename="Werewolf_v2" new="true"/>
+	<cart name="Wild Beast Battle" filename="WildBeastBattle"/>
+	<cart name="Wild Gunman" filename="WildGunman"/>
+	<cart name="World Rally Championship" filename="WorldRallyChampionship"/>
+	<cart name="World Cup Soccer" filename="WorldCupSoccer"/>
+	<cart name="World Cup Soccer" filename="WorldCupSoccer_v2"/>
+	<cart name="Wrecking Crew" filename="WreckingCrew"/>
+	<cart name="Wrecking Crew" filename="WreckingCrew_v2"/>
+	<cart name="Yie Ar Kung Fu" filename="YieArKungFu"/>
+	<cart name="Young Indiana Jones" filename="YoungIndiana"/>
+	<cart name="Young Indiana Jones" filename="YoungIndianaJones_v2"/>
+	<cart name="Zombie Nation" filename="ZombieNation" new="true"/>
+	<cart name="----------" filename="_Noname3"/>
+	<cart name="Teenage Mutant Ninja Turtles 2, Teenage Mutant Ninja Turtles 3" filename="tmnt23"/>
+	<cart name="Teenage Mutant Ninja Turtles 2, Teenage Mutant Ninja Turtles 3" filename="tmnt23_v2"/>
+	<cart name="Teenage Mutant Ninja Turtles 2, Teenage Mutant Ninja Turtles 3" filename="tmnt23_v3"/>
+	<cart name="Teenage Mutant Ninja Turtles 2, Teenage Mutant Ninja Turtles 3" filename="tmnt23_v4"/>
+	<cart name="2 in 1 (0216): Red Pig, Chip and Dale" filename="2in1_0216"/>
+	<cart name="2 in 1 (DS05): Castle of Dragon, Stick Hunter" filename="2in1_ds05"/>
+	<cart name="2 in 1 (FQ-001): Felix vs Jerry, Darkwing Duck 2" filename="2in1_fq001"/>
+	<cart name="2 in 1 (MQ-001): Psy Buster, American Race Cars" filename="2in1_mq001"/>
+	<cart name="2 in 1: Double Dragon 3, Super Contra" filename="2in1_n1"/>
+	<cart name="2 in 1 (RA-003): Punisher, Hunt For Red October" filename="2in1_RA003" new="true"/>
+	<cart name="2 in 1 (S120): FBI Policemen 2, Sword Master" filename="2in1_S120"/>
+	<cart name="2 in 1 (SY55): Zombie Nation, Low G Man" filename="2in1_sy55"/>
+	<cart name="2 in 1 (TG-004): Power Blade 2, Cliffhanger" filename="2in1_tg-004"/>
+	<cart name="2 in 1 (TH627): Terminator 2, Top Gun 2" filename="2in1_th627"/>
+	<cart name="2 in 1 (XA-002): Urban Strike, GhostBusters 2" filename="2in1_xa-002"/>
+	<cart name="2 in 1: Silk Worm, 1945" filename="2in1_1945"/>
+	<cart name="2 in 1 (JP25): Joe and Mac, Banana Prince" filename="2in1_jp25"/>
+	<cart name="2 in 1 (JT01): Jurassic Park, Felix The Cat" filename="2in1_jt01"/>
+	<cart name="3 Eyes (Mitsume Ga Tooru)" filename="3Eyes"/>
+	<cart name="3 in 1 (BS 129): Spiderman, Flintstones, Battletoads" filename="3in1_bs129" new="true"/>
+	<cart name="3 in 1 (CM-016): Teenage Mutant Ninja Turtles 3, Robocop 4, Chip and Dale" filename="3in1_cm016"/>
+	<cart name="3 in 1 (CM-017): Teenage Mutant Ninja Turtles 3, Darkwing Duck, Chip and Dale" filename="3in1_cm017" new="true"/>
+	<cart name="4 in 1 (AK-049): Eliminator Boat Duel, The Untouchables, Robocomp 4, Ghostbusters 2" filename="4in1_ak049"/>
+	<cart name="4 in 1(AQ-001): Little Mermaid, Duck Tales 2, Prince of Persia, Top Gun 2" filename="4in1_aq001"/>
+	<cart name="4 in 1 (AR-002): Darkwing Duck 2, Tom and Jerry, The Hunt for Red October, Chase HQ" filename="4in1_ar002"/>
+	<cart name="4 in 1 (FB-06): Dream Master, Contra 6, Mitsume Gaa toru, Flash and Batman" filename="4in1_FB06" new="true"/>
+	<cart name="4 in 1 (CK-014): Darkwing Duck, Robocop 4, Tale Spin, Chip and Dale" filename="4in1_ck014"/>
+	<cart name="4 in 1 (CK-014): Darkwing Duck, Robocop 4, Tale Spin, Tom and Jerry" filename="4in1_ck014_v2"/>
+	<cart name="4 in 1 (CK-015): Contra 6, Darkwing Duck, Robocop 4, Crossfire" filename="4in1_ck015"/>
+	<cart name="4 in 1 (CK-018): Chip and Dale, Chip and Dale 2, Operation Wolf, Tale Spin" filename="4in1_ck018"/>
+	<cart name="4 in 1 (CK-020): Darkwing Duck, Chip and Dale 2, Super Contra, Toxic Crusaders" filename="4in1_ck020"/>
+	<cart name="4 in 1 (CK-024): Darkwing Duck, Tom and Jerry,  Chip and Dale, Zen Intergalactic Ninja" filename="4in1_ck024" new="true"/>
+	<cart name="4 in 1: Teenage Mutant Ninja Turtles Tournament Fighters, Jurassic Bros, Mighty Final Fight, Chip and Dale 2" filename="4in1_n1"/>
+	<cart name="4 in 1(PU-001): X-Men, Prince of Persia, Rambo, Stick Hunter" filename="4in1_pu001"/>
+	<cart name="4 in 1: Tetris 1, Tetris 2, Flipull, Adventure Island" filename="4in1_xxx"/>
+	<cart name="4 in 1: Darkwing Duck, Robocop, Tom and Jerry, Chip and Dale" filename="4in1_xxx_v2"/>
+	<cart name="4 in 1 (SP777): Robocop, Robocop 3, Super Contra, Super Contra 6" filename="4in1_sp777"/>
+	<cart name="4 in 1 (ST403): Duck Tales 2, Side Pocket, Contra, Castlevania" filename="4in1_st403"/>
+	<cart name="7 in 1 (CM-011): 7 in 1: Darkwing Duck, TaleSpin, Chip and Dale, Spy vs Spy, Mickey Mouse, Seicross, Magic Block" filename="7in1_cm011" new="true"/>
+	<cart name="7 in 1 (CM-021): Ninja Cat, Darkwing Duck, Teenage Mutant Ninja Turtles, Castle Excellent, Solomon Key 2, Ghost Busters, Karate Kid" filename="7in1_cm021"/>
+	<cart name="8 in 1 (AB001): Prince of Persia, Contra, Duck Tales 2, Green Beret, Jackal, Fire Fighter, Mermaid, Side Pocket" filename="8in1_ab001"/>
+	<cart name="8 in 1 (RQ-168): Little Mermaid, Top Gun, Prince of Persia, F1 Race, Donkey Kong 3, Wild Gunman, Sky Destroyer, Galaxian" filename="8in1_RQ168"/>	
+	<cart name="21 in 1: Pacman, Devil World, Road Fighter, Tank" filename="21in1_21a2"/>
+	<cart name="21 in 1: Gradign, Adventure Island, New Human, Bomberman" filename="21in1_21v5_v2"/>
+	<cart name="21 in 1: Gradign, Adventure Island, New Human, Bomberman" filename="21in1_n1"/>
+	<cart name="21 in 1: Wrecking Crew, Chexder, Xevious, Binary Land" filename="21in1_n2"/>
+	<cart name="28 in 1" filename="28in1"/>
+	<cart name="32 in 1: Pacman, Popeye, Mario Bros, Galaga, Star Force, Road Fighter, Wirestyle, Sky Destroyer" filename="32in1"/>
+	<cart name="35 in 1: Duck Hunt, Clay Shoot, Hogan Alley, Wild Gunman, Gang, Tank" filename="35in1_DendyJuniorBundle"/>
+	<cart name="35 in 1:" filename="35in1_version2"/>
+	<cart name="35 in 1:" filename="35in1_version2_v2"/>
+	<cart name="35 in 1: Duck Hunt, Clay Shoot, Hogan Alley, Wild Gunman, Gang, Tank" filename="35in1super"/>
+	<cart name="35 in 1: Galaxian, Popeye, Adventure Island, Tank" filename="35in1_version3"/>	
+	<cart name="36 in 1: Ice Climber, Binary Land, Galaxian, Formation Z" filename="36in1"/>
+	<cart name="36 in 1: Galaxian, Balloon Fight, Ninja, Antarctic Adventure, Tank 1990, Road Fighter, Exerion" filename="36in1_v2"/>
+	<cart name="58 in 1" filename="58in1_1998R2"/>
+	<cart name="64 in 1" filename="64in1_93"/>
+	<cart name="76 in 1: Pinball, Urban Champion, Dig Dug, Excite Bike, Mappy, Circus Charlie, Waterpipe 1, Waterpipe 2, Big Apes 3, Tennis, Antarctic Adventure, Macross, Kung Fu, Combat, F1 Race, Road Fighter, Exerion, Twin Bee, Star Force, Formation Z, B-Wings, Ice Climber, Battle City, Mahjong 4, Bomberman, Pacman, Galaza, Front Line, Zippy Race, Popeye, Milk Nuts, 1942, Othello, Lode Runner, Lode Runner 2, Base Ball, Lunar Ball, Ninja , Millipede, Arabian, Balloon Fight, Chack'n'Pop, Galaxian, Sky Destroyer, Mahjong 2, Devil World, Binary Land, Pooyan, Warpman, Big Apes 1, Big Apes 2, Helicopter, Ninja 2, Clu Clu Land, City Connection, Burger Time, Golf, Gobang, Wrestle, Star Buster, Karateka, Duck Hunt, Wild Gunman, Hogan Alley, Mach Rider, King of Ghost, Gyrodine, Ninja 3, Mag-Max, Spartan, Wrecking Crew, Elevator Action, Xevious, Arkanoid, Galg, Tetris 2" filename="76in1Super"/>
+	<cart name="120 in 1" filename="120in1"/>
+	<cart name="120 in 1 (из комплекта Dendy Classic)" filename="120in1_v2"/>
+	<cart name="200 in 1" filename="200in1_94"/>
+	<cart name="300 in 1" filename="300in1"/>
+	<cart name="400 in 1" filename="multi_ch-022"/>
+	<cart name="400 in 1" filename="400in1_ch022_v2"/>
+	<cart name="400 in 1" filename="400in1_new"/>
+	<cart name="999 in 1" filename="999in1"/>
+	<cart name="5000 in 1" filename="5000in1_93"/>	
+	<cart name="5000 in 1" filename="5000in1"/>
+	<cart name="52000 in 1" filename="52000in1_v2"/>
+	
+	
+	<cart name="20 in 1: Bomberman, Hogan's Alley, Duck Hunt, Wild Gunman" filename="20in1"/>
+	<cart name="2 in 1 (bs22): Boxing, World Cup Soccer" filename="2in1_bs22"/>
+	<cart name="2 in 1 (lw-002): Batman, Darkwing Duck 2" filename="2in1_lw002"/>
+	<cart name="2 in 1: Operation Wolf, Space Shadow" filename="2in1_uzi"/>
+	<cart name="4 in 1 (st402): TaleSpin, Chip And Dale, Robocop 4, Silkworm" filename="4in1_st402"/>
+	<cart name="8 in 1 (b-302): Contra, Life Force, Rush'n Attack, Side Pocket, Gun Smoke, Jackal, Son Son 2, Firebird" filename="8in1_b302"/>
+	<cart name="Chessmaster" filename="Chessmaster_v2"/>
+	<cart name="Chip And Dale 2" filename="ChipAndDale2_v4"/>
+	<cart name="Darkwing Duck" filename="DarkwingDuck_v4"/>
+	<cart name="Digger" filename="Digger_v3"/>
+	<cart name="Golden Axe 4" filename="GoldenAxe4"/>
+	<cart name="Kid Kool" filename="KidKool"/>
+	<cart name="Mach Rider" filename="MachRider_v3"/>
+	<cart name="Robocop 4" filename="Robocop4_v3"/>
+	<cart name="Terminator 2" filename="Terminator2_v2"/>
+	<cart name="Top Gun 2" filename="TopGun2_v5"/>
+	<cart name="Urban Strike" filename="UrbanStrike_v2"/>
+	<cart name="Young Indiana Jones" filename="YoungIndianaJones_v3"/>
+	
+	
+	 
+
+
+
+
+
+
+
+	
+
+
+
+	
+	
+</data>
