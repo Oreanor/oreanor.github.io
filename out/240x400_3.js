@@ -141,7 +141,7 @@ p.nominalBounds = new cjs.Rectangle(-120,-200,300,400);
 	// Слой 12
 	this.instance_1 = new lib.Символ7();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(265.5,201.3);
+	this.instance_1.setTransform(265.5,198);
 	this.instance_1.alpha = 0;
 	this.instance_1.shadow = new cjs.Shadow("#000000",1,1,4);
 	this.instance_1._off = true;
@@ -166,7 +166,7 @@ p.nominalBounds = new cjs.Rectangle(-120,-200,300,400);
 	// Слой 11
 	this.instance_4 = new lib.Символ9();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(205.5,201.3);
+	this.instance_4.setTransform(205.5,199.6);
 	this.instance_4.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:135.5,alpha:1},5,cjs.Ease.get(1)).to({x:125.5},51).to({x:45.5,alpha:0},5,cjs.Ease.get(1)).wait(71));
@@ -188,7 +188,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_3_atlas_.png?1486739853508", id:"240x400_3_atlas_"}
+		{src:"images/240x400_3_atlas_.png?1486740018981", id:"240x400_3_atlas_"}
 	],
 	preloads: []
 };
