@@ -60,7 +60,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.shape_1.graphics.f("#0073C1").s().p("A0lD5IgMmOQgEhvBbgDMAmigBcQBbgEADBvIANGOQADBvhaADMgmjABcIgFAAQhWAAgDhrg");
 	this.shape_1.setTransform(-16.5,4.7,0.947,0.947,1);
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
-}).prototype = getMCSymbolPrototype(lib.sdfsdf7, new cjs.Rectangle(-142.2,-28.2,251.4,85), null);
+}).prototype = getMCSymbolPrototype(lib.sdfsdf7, new cjs.Rectangle(-142.2,-28.2,251.4,64.6), null);
 (lib.sdff9 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 	// Слой 2
@@ -107,6 +107,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance.parent = this;
 	this.instance.setTransform(74.1,25.7,0.702,0.7,0,0,0,0.1,0.3);
 	this.instance.alpha = 0;
+	this.instance.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,0);
 	this.instance._off = true;
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(107).to({_off:false},0).to({regX:0.2,scaleX:0.8,scaleY:0.8,x:74.2,y:25.6,alpha:1},5,cjs.Ease.get(1)).wait(52).to({scaleX:0.9,scaleY:0.9,y:25.5,alpha:0},5,cjs.Ease.get(1)).wait(1));
 	// new
@@ -132,13 +133,13 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 4
 	this.instance_3 = new lib.Символ1();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(175,8);
+	this.instance_3.setTransform(175,-2);
 	this.instance_3.alpha = 0;
 	var maskedShapeInstanceList = [this.instance_3];
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:9.4,alpha:1},6).to({y:46.6},157).to({y:48,alpha:0},6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:0.3,alpha:1},9).to({y:45.7},151).to({y:48,alpha:0},9).wait(1));
 	// Слой 6
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("A4/D6IAAnzMAx/AAAIAAHzg");
@@ -150,11 +151,11 @@ p.nominalBounds = new cjs.Rectangle(159,24,322,52);
 lib.properties = {
 	width: 320,
 	height: 50,
-	fps: 30,
+	fps: 25,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/320x50_atlas_.png?1487091950935", id:"320x50_atlas_"}
+		{src:"images/320x50_atlas_.png?1487107825537", id:"320x50_atlas_"}
 	],
 	preloads: []
 };
