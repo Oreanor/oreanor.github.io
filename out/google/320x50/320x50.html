@@ -18,7 +18,7 @@
 (function (lib, img, cjs, ss, an) {
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"320x50_atlas_", frames: [[0,0,411,120],[202,122,160,41],[0,122,200,36]]}
+		{name:"320x50_atlas_", frames: [[0,0,320,109],[0,149,160,41],[0,111,200,36]]}
 ];
 // symbols:
 (lib._1 = function() {
@@ -60,7 +60,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.shape_1.graphics.f("#0073C1").s().p("A0lD5IgMmOQgEhvBbgDMAmigBcQBbgEADBvIANGOQADBvhaADMgmjABcIgFAAQhWAAgDhrg");
 	this.shape_1.setTransform(-16.5,4.7,0.947,0.947,1);
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
-}).prototype = getMCSymbolPrototype(lib.sdfsdf7, new cjs.Rectangle(-142.2,-28.2,251.4,64.6), null);
+}).prototype = getMCSymbolPrototype(lib.sdfsdf7, new cjs.Rectangle(-142.2,-28.2,251.4,85), null);
 (lib.sdff9 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 	// Слой 2
@@ -77,14 +77,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance.setTransform(-80,-21);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 }).prototype = getMCSymbolPrototype(lib.dfsd8, new cjs.Rectangle(-80,-21,160,41), null);
-(lib.dfdsfs = function(mode,startPosition,loop) {
+(lib.Символ1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
-	// Слой 2
+	// Слой 1
 	this.instance = new lib._1();
 	this.instance.parent = this;
-	this.instance.setTransform(-247,-250);
+	this.instance.setTransform(-175,-48);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-}).prototype = getMCSymbolPrototype(lib.dfdsfs, new cjs.Rectangle(-247,-250,411,120), null);
+}).prototype = getMCSymbolPrototype(lib.Символ1, new cjs.Rectangle(-175,-48,320,109), null);
 // stage content:
 (lib._320x50 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
@@ -129,27 +129,16 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	mask._off = true;
 	mask.graphics.p("A4/D6IAAnzMAx/AAAIAAHzg");
 	mask.setTransform(160,25);
-	// Слой 3
-	this.instance_3 = new lib.dfdsfs();
+	// Слой 4
+	this.instance_3 = new lib.Символ1();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(189.1,240);
+	this.instance_3.setTransform(175,8);
 	this.instance_3.alpha = 0;
-	this.instance_3._off = true;
 	var maskedShapeInstanceList = [this.instance_3];
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(83).to({_off:false},0).to({x:187.3,alpha:1},5).to({x:159},76).to({x:157.1,alpha:0},5).wait(1));
-	// Слой 1
-	this.instance_4 = new lib.dfdsfs();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(207,200);
-	this.instance_4.alpha = 0;
-	var maskedShapeInstanceList = [this.instance_4];
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:205.6,alpha:1},5).to({x:178.7},75).to({x:177.3,alpha:0},6).to({_off:true},1).wait(83));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:9.4,alpha:1},6).to({y:46.6},157).to({y:48,alpha:0},6).wait(1));
 	// Слой 6
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("A4/D6IAAnzMAx/AAAIAAHzg");
@@ -161,11 +150,11 @@ p.nominalBounds = new cjs.Rectangle(159,24,322,52);
 lib.properties = {
 	width: 320,
 	height: 50,
-	fps: 24,
+	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/320x50_atlas_.png?1487022136318", id:"320x50_atlas_"}
+		{src:"images/320x50_atlas_.png?1487091950935", id:"320x50_atlas_"}
 	],
 	preloads: []
 };
