@@ -231,7 +231,7 @@ p.nominalBounds = new cjs.Rectangle(-121.9,-202,244,404);
 	this.instance_2.setTransform(120,222,1,0.05,0,0,0,0,1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(148).to({_off:false},0).to({regY:0,scaleY:1},6,cjs.Ease.get(1)).wait(46).to({regX:0.1,regY:0.5,scaleY:0.1,x:120.1},4,cjs.Ease.get(1)).to({_off:true},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(148).to({_off:false},0).to({regY:0,scaleY:1},6).wait(46).to({scaleX:1.15,scaleY:1.15},9).wait(1));
 
 	// new
 	this.instance_3 = new lib.Символ5();
@@ -290,8 +290,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1503617024038", id:"bg"},
-		{src:"images/240x400_2_atlas_P_.png?1503617024017", id:"240x400_2_atlas_P_"}
+		{src:"images/bg.jpg?1503615343030", id:"bg"},
+		{src:"images/240x400_2_atlas_P_.png?1503615343010", id:"240x400_2_atlas_P_"}
 	],
 	preloads: []
 };
