@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"160x600_atlas_P_", frames: [[288,375,7,6],[0,375,240,97],[242,375,44,12],[0,0,300,373]]}
+		{name:"160x600_atlas_P_", frames: [[46,601,7,6],[0,502,240,97],[0,601,44,12],[0,0,396,500]]}
 ];
 
 
@@ -37,7 +37,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,280,320);
 
 
 
-(lib.people2 = function() {
+(lib.peoplepngкопия = function() {
 	this.spriteSheet = ss["160x600_atlas_P_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -64,13 +64,12 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.people2();
+	this.instance = new lib.peoplepngкопия();
 	this.instance.parent = this;
-	this.instance.setTransform(-192,-215,1.24,1.24);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Символ12, new cjs.Rectangle(-192,-215,372,462.5), null);
+}).prototype = getMCSymbolPrototype(lib.Символ12, new cjs.Rectangle(0,0,396,500), null);
 
 
 (lib.Символ11 = function(mode,startPosition,loop) {
@@ -241,7 +240,7 @@ p.nominalBounds = new cjs.Rectangle(-119.6,-200,160,600);
 	// Слой 6
 	this.instance_4 = new lib.Символ4();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(81,550.1,0.667,1,0,0,0,120,50.1);
+	this.instance_4.setTransform(80,550.1,0.667,1,0,0,0,120,50.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(201));
 
@@ -262,22 +261,22 @@ p.nominalBounds = new cjs.Rectangle(-119.6,-200,160,600);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).wait(1).to({regX:124.5,regY:48.6,x:233.7},0).wait(1).to({x:228.1},0).wait(1).to({x:218},0).wait(1).to({x:202.4},0).wait(1).to({x:181.1},0).wait(1).to({x:154.6},0).wait(1).to({x:126.2},0).wait(1).to({x:101.7},0).wait(1).to({x:86.4},0).wait(1).to({regX:120.1,regY:48.5,x:78.8},0).wait(36).to({regX:119.9,x:-73.2},7,cjs.Ease.get(1)).to({_off:true},1).wait(139));
 
-	// Слой 9
+	// Слой 2
 	this.instance_7 = new lib.Символ12();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(197,253);
+	this.instance_7.setTransform(199,251,1,1,0,0,0,198,250);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({scaleX:1.14,scaleY:1.14,x:27,y:261},200).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({scaleX:1.1,scaleY:1.1,x:33.8,y:266},200).wait(1));
 
 	// Слой 4
 	this.instance_8 = new lib.Символ8();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(161.6,250.6,1.562,1.562,0,0,0,139.9,160);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({regY:159.9,scaleY:1.56,x:9.1,y:247.5},200).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({regY:159.9,scaleY:1.56,x:9.1,y:249.9},200).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(23,299,437.5,602);
+p.nominalBounds = new cjs.Rectangle(23,299,454.1,602);
 // library properties:
 lib.properties = {
 	width: 160,
@@ -286,8 +285,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1503617428637", id:"bg"},
-		{src:"images/160x600_atlas_P_.png?1503617428619", id:"160x600_atlas_P_"}
+		{src:"images/bg.jpg?1503663347960", id:"bg"},
+		{src:"images/160x600_atlas_P_.png?1503663347947", id:"160x600_atlas_P_"}
 	],
 	preloads: []
 };
