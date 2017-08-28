@@ -403,31 +403,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.Символ8, new cjs.Rectangle(-113,-12,212,28), null);
 
 
-(lib.Символ7 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 2 (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	mask.graphics.p("AyWKyIAA1jMAktAAAIAAVjg");
-	mask.setTransform(1.5,-46.9);
-
-	// Слой 1
-	this.instance = new lib.t4();
-	this.instance.parent = this;
-	this.instance.setTransform(-111,-90);
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Символ7, new cjs.Rectangle(-111,-90,222,95), null);
-
-
 (lib.Символ3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -633,6 +608,38 @@ p.nominalBounds = new cjs.Rectangle(-67.1,-13.9,134.2,27.8);
 p.nominalBounds = new cjs.Rectangle(-67.1,-13.9,134.2,27.8);
 
 
+(lib.Символ7 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 3
+	this.instance = new lib.Символ8();
+	this.instance.parent = this;
+	this.instance.setTransform(7,-44.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Слой 2 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AyWKyIAAmuMAktAAAIAAGugAyWjbIAAnWMAktAAAIAAHWg");
+	mask.setTransform(1.5,-46.9);
+
+	// Слой 1
+	this.instance_1 = new lib.t4();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(-111,-90);
+
+	var maskedShapeInstanceList = [this.instance_1];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ7, new cjs.Rectangle(-111,-90,222,95), null);
+
+
 (lib.Символ1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -666,7 +673,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("Ayv/PMAlfAAAMAAAA+fMglfAAAg");
 	this.shape.setTransform(120,200);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(252));
 
 	// Слой 5
 	this.instance = new lib.Символ6();
@@ -674,7 +681,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance.setTransform(120,212,1,0.1,0,0,0,0,0.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(174).to({_off:false},0).to({regY:0,scaleY:1},6,cjs.Ease.get(1)).wait(53).to({regY:0.5,scaleY:0.1},6,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(186).to({_off:false},0).to({regY:0,scaleY:1},6,cjs.Ease.get(1)).wait(53).to({regY:0.5,scaleY:0.1},6,cjs.Ease.get(1)).wait(1));
 
 	// t4.png
 	this.instance_1 = new lib.Символ7();
@@ -683,7 +690,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(167).to({_off:false},0).to({x:120,alpha:1},6,cjs.Ease.get(1)).wait(60).to({x:110,alpha:0},6,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(179).to({_off:false},0).to({x:120,alpha:1},8,cjs.Ease.get(1)).wait(56).to({x:110,alpha:0},6,cjs.Ease.get(1)).wait(3));
 
 	// Символ 16
 	this.instance_2 = new lib.Символ16();
@@ -692,7 +699,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(109).to({_off:false},0).to({x:119.8,alpha:1},6,cjs.Ease.get(1)).wait(45).to({x:109.8,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(116).to({_off:false},0).to({x:119.8,alpha:1},8,cjs.Ease.get(1)).wait(45).to({x:109.8,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(76));
 
 	// Символ 15
 	this.instance_3 = new lib.Символ15();
@@ -701,7 +708,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(105).to({_off:false},0).to({x:120,alpha:1},6,cjs.Ease.get(1)).wait(47).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(111).to({_off:false},0).to({x:120,alpha:1},8,cjs.Ease.get(1)).wait(49).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(77));
 
 	// Символ 14
 	this.instance_4 = new lib.Символ14();
@@ -710,7 +717,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(101).to({_off:false},0).to({x:119.4,alpha:1},6,cjs.Ease.get(1)).wait(49).to({x:109.4,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(105).to({_off:false},0).to({x:119.4,alpha:1},8,cjs.Ease.get(1)).wait(54).to({x:109.4,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(78));
 
 	// Символ 13
 	this.instance_5 = new lib.Символ13();
@@ -719,7 +726,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(86).to({_off:false},0).to({x:120,alpha:1},6,cjs.Ease.get(1)).wait(62).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(90).to({_off:false},0).to({x:120,alpha:1},9,cjs.Ease.get(1)).wait(67).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(79));
 
 	// Слой 17
 	this.instance_6 = new lib.Анимация3("synched",0);
@@ -742,9 +749,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_9.setTransform(110,197.7);
 	this.instance_9.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},29).to({state:[{t:this.instance_7}]},7).to({state:[{t:this.instance_8}]},45).to({state:[{t:this.instance_9}]},6).to({state:[]},1).wait(152));
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(29).to({_off:false},0).to({_off:true,x:120,alpha:1},7,cjs.Ease.get(1)).wait(204));
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(81).to({_off:false},0).to({_off:true,x:110,alpha:0},6,cjs.Ease.get(1)).wait(153));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},35).to({state:[{t:this.instance_7}]},9).to({state:[{t:this.instance_8}]},37).to({state:[{t:this.instance_9}]},6).to({state:[]},1).wait(164));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(35).to({_off:false},0).to({_off:true,x:120,alpha:1},9,cjs.Ease.get(1)).wait(208));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(81).to({_off:false},0).to({_off:true,x:110,alpha:0},6,cjs.Ease.get(1)).wait(165));
 
 	// Символ 12
 	this.instance_10 = new lib.Символ12();
@@ -753,7 +760,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_10.alpha = 0;
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(27).to({_off:false},0).to({x:120,alpha:1},7,cjs.Ease.get(1)).wait(45).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(154));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(31).to({_off:false},0).to({x:120,alpha:1},9,cjs.Ease.get(1)).wait(40).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(165));
 
 	// Символ 11
 	this.instance_11 = new lib.Символ11();
@@ -762,7 +769,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(6).to({_off:false},0).to({x:120.3,alpha:1},6,cjs.Ease.get(1)).wait(65).to({x:110.3,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(156));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(10).to({_off:false},0).to({x:120.3,alpha:1},8,cjs.Ease.get(1)).wait(61).to({x:110.3,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(166));
 
 	// Символ 10
 	this.instance_12 = new lib.Символ10();
@@ -771,7 +778,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(4).to({_off:false},0).to({x:120,alpha:1},6,cjs.Ease.get(1)).wait(65).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(158));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(6).to({_off:false},0).to({x:120,alpha:1},8,cjs.Ease.get(1)).wait(64).to({x:110,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(167));
 
 	// Символ 9
 	this.instance_13 = new lib.Символ9();
@@ -780,7 +787,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(2).to({_off:false},0).to({x:119.9,alpha:1},6,cjs.Ease.get(1)).wait(65).to({x:109.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(160));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(2).to({_off:false},0).to({x:119.9,alpha:1},8,cjs.Ease.get(1)).wait(67).to({x:109.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(168));
 
 	// Слой 4
 	this.instance_14 = new lib.Символ8();
@@ -788,20 +795,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,297);
 	this.instance_14.setTransform(126.5,240.5,1,0.1,0,0,0,0,0.5);
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(46).to({_off:false},0).to({regY:0,scaleY:1},6,cjs.Ease.get(1)).wait(102).to({regY:0.5,scaleY:0.1},6,cjs.Ease.get(1)).to({_off:true},1).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(50).to({_off:false},0).to({regY:0,scaleY:1},6,cjs.Ease.get(1)).wait(110).to({regY:0.5,scaleY:0.1},6,cjs.Ease.get(1)).to({_off:true},1).wait(79));
 
 	// Слой 2
 	this.instance_15 = new lib.Символ1();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(120,148.5,1,1,0,0,0,120,148.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(252));
 
 	// Слой 1
 	this.instance_16 = new lib.bg();
 	this.instance_16.parent = this;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(252));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(119,199,242,402);
@@ -813,8 +820,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_P_.png?1503954269444", id:"240x400_atlas_P_"},
-		{src:"images/240x400_atlas_NP_.jpg?1503954269444", id:"240x400_atlas_NP_"}
+		{src:"images/240x400_atlas_P_.png?1503954686172", id:"240x400_atlas_P_"},
+		{src:"images/240x400_atlas_NP_.jpg?1503954686172", id:"240x400_atlas_NP_"}
 	],
 	preloads: []
 };
