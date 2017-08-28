@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="https://awaps.yandex.net/data/lib/adsdk.js">
-</script>
+<meta name="ad.size" content="width=160,height=600">
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<meta name="ad.size" content="width=160,height=600">
 <title>160x600</title>
 <!-- write your code here -->
-<script>
-function getUrlParam(name) {
-  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-  results = regex.exec(location.search);
-  return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-</script>
-<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="160x600.js?1503663347962"></script>
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js"></script>
+<script src="160x600.js?1503917669877"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -89,15 +79,10 @@ function handleComplete(evt) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-    <a id="click1_area" href="#" target="_blank">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:160px; height:600px">
 		<canvas id="canvas" width="160" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:160px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-    </a>
-    <script>
-        document.getElementById("click1_area").href = getUrlParam('link1');
-    </script>
 </body>
 </html>

@@ -296,8 +296,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1503616995905", id:"bg"},
-		{src:"images/300x250_atlas_P_.png?1503616995880", id:"300x250_atlas_P_"}
+		{src:"images/bg.jpg?1503917721368", id:"bg"},
+		{src:"images/300x250_atlas_P_.png?1503917721355", id:"300x250_atlas_P_"}
 	],
 	preloads: []
 };
