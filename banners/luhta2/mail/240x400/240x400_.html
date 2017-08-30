@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="ad.size" content="width=300,height=300">
+<meta name="ad.size" content="width=240,height=400">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>300x300</title>
+<title>240x400</title>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="300x300.js"></script>
+<script src="240x400.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -30,7 +30,7 @@ function handleComplete(evt) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib._300x300();
+	exportRoot = new lib._240x400();
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
@@ -78,12 +78,12 @@ function handleComplete(evt) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-    <a href="%link1%" target="_blank">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:300px">
-		<canvas id="canvas" width="300" height="300" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:300px; position: absolute; left: 0px; top: 0px; display: block;">
+	<a href="%link1%" target="_blank">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:240px; height:400px">
+		<canvas id="canvas" width="240" height="400" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-    </a>
+	</a>
 </body>
 </html>
