@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
 		{name:"300x250_atlas_P_", frames: [[0,0,212,28],[0,57,215,20],[0,30,215,25]]},
-		{name:"300x250_atlas_NP_", frames: [[0,0,300,300],[0,518,300,214],[0,302,300,214]]}
+		{name:"300x250_atlas_NP_", frames: [[0,0,300,300],[0,302,300,214],[0,518,300,214]]}
 ];
 
 
@@ -779,7 +779,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,214);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({x:150.3,alpha:1},8,cjs.Ease.get(1)).wait(61).to({x:168.3},0).to({x:158.3,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(166));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({x:150.3,alpha:1},8,cjs.Ease.get(1)).wait(61).to({x:138.3,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(166));
 
 	// Символ 9
 	this.instance_14 = new lib.Символ9();
@@ -788,7 +788,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,214);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(2).to({_off:false},0).to({x:149.9,alpha:1},8,cjs.Ease.get(1)).wait(67).to({x:167.9},0).to({x:157.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(168));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(2).to({_off:false},0).to({x:149.9,alpha:1},8,cjs.Ease.get(1)).wait(67).to({x:150.9},0).to({x:137.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(168));
 
 	// Слой 4
 	this.instance_15 = new lib.Символ8();
@@ -822,8 +822,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_atlas_P_.png?1504042416336", id:"300x250_atlas_P_"},
-		{src:"images/300x250_atlas_NP_.jpg?1504042416337", id:"300x250_atlas_NP_"}
+		{src:"images/300x250_atlas_P_.png?1504213651957", id:"300x250_atlas_P_"},
+		{src:"images/300x250_atlas_NP_.jpg?1504213651957", id:"300x250_atlas_NP_"}
 	],
 	preloads: []
 };
