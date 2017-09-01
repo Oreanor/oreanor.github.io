@@ -1,73 +1,12 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"100pcx240_2_atlas_P_", frames: [[0,0,257,35],[0,64,215,20],[0,37,215,25]]},
-		{name:"100pcx240_2_atlas_NP_", frames: [[0,0,480,288],[0,290,480,288],[0,580,480,288]]}
+		{name:"100pcx240_2_atlas_NP_", frames: [[0,0,800,480],[0,482,800,330],[0,814,800,330]]}
 ];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -79,7 +18,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.bg = function() {
+(lib.bg1 = function() {
 	this.spriteSheet = ss["100pcx240_2_atlas_NP_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -494,10 +433,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib.bg2();
 	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Символ3, new cjs.Rectangle(0,0,480,288), null);
+}).prototype = getMCSymbolPrototype(lib.Символ3, new cjs.Rectangle(0,0,400,165), null);
 
 
 (lib.Символ2 = function(mode,startPosition,loop) {
@@ -506,10 +446,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib.bg3();
 	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Символ2, new cjs.Rectangle(0,0,480,288), null);
+}).prototype = getMCSymbolPrototype(lib.Символ2, new cjs.Rectangle(0,0,400,165), null);
 
 
 (lib.Символ6 = function(mode,startPosition,loop) {
@@ -858,24 +799,27 @@ p.nominalBounds = new cjs.Rectangle(-199.5,-119.5,600,360);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({alpha:1},29).to({alpha:0},30).to({_off:true},1).wait(60));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,480,288);
+p.nominalBounds = new cjs.Rectangle(0,0,400,165);
 
 
 (lib.Символ20 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Слой 1
+	// Слой 2
 	this.instance = new lib.Символ1();
 	this.instance.parent = this;
-	this.instance.setTransform(-120,4.5,1,1,0,0,0,120,148.5);
+	this.instance.setTransform(-80,28.5,1,1,0,0,0,120,148.5);
 
-	this.instance_1 = new lib.bg();
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Слой 1
+	this.instance_1 = new lib.bg1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-240,-144);
+	this.instance_1.setTransform(-200,-120,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Символ20, new cjs.Rectangle(-240,-144,480,288), null);
+}).prototype = getMCSymbolPrototype(lib.Символ20, new cjs.Rectangle(-200,-120,400,240), null);
 
 
 // stage content:
@@ -895,8 +839,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,480,288);
 		function res() {
 				var wdt = stage.canvas.width;
 		
-		  	  bg.scaleX = wdt/480
-			  bg.scaleY = wdt/480
+		  	  bg.scaleX = wdt/400;
+			  bg.scaleY = wdt/400;
+			
+			bg.y = 120*wdt/400;
 			
 			  fg.x =  wdt/2
 				bg.x =  wdt/2
@@ -918,7 +864,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,480,288);
 	// Слой 2
 	this.bg = new lib.Символ20();
 	this.bg.parent = this;
-	this.bg.setTransform(200,120,0.833,0.833);
+	this.bg.setTransform(200,120);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
 
@@ -931,10 +877,9 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
-		{src:"images/100pcx240_2_atlas_P_.png", id:"100pcx240_2_atlas_P_"},
-		{src:"images/100pcx240_2_atlas_NP_.jpg", id:"100pcx240_2_atlas_NP_"}
+		{src:"images/100pcx240_2_atlas_P_.png?1504296275095", id:"100pcx240_2_atlas_P_"},
+		{src:"images/100pcx240_2_atlas_NP_.jpg?1504296275095", id:"100pcx240_2_atlas_NP_"}
 	],
 	preloads: []
 };
