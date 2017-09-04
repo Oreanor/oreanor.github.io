@@ -478,7 +478,7 @@ p.nominalBounds = new cjs.Rectangle(-67.1,-13.9,146.1,27.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.cbcf, new cjs.Rectangle(-117.8,-25.6,107.9,160.8), null);
+}).prototype = getMCSymbolPrototype(lib.cbcf, new cjs.Rectangle(-117.8,-25.6,107.9,156.9), null);
 
 
 (lib.cvb = function(mode,startPosition,loop) {
@@ -731,8 +731,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/120x600_atlas_P_.png?1504475284336", id:"120x600_atlas_P_"},
-		{src:"images/120x600_atlas_NP_.jpg?1504475284336", id:"120x600_atlas_NP_"}
+		{src:"images/120x600_atlas_P_.png?1504527823721", id:"120x600_atlas_P_"},
+		{src:"images/120x600_atlas_NP_.jpg?1504527823722", id:"120x600_atlas_NP_"}
 	],
 	preloads: []
 };

@@ -235,7 +235,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.ffggg, new cjs.Rectangle(-328.8,-149.6,409.8,42.8), null);
+}).prototype = getMCSymbolPrototype(lib.ffggg, new cjs.Rectangle(-328.8,-149.6,409.8,40.9), null);
 
 
 (lib.dsdsds = function(mode,startPosition,loop) {
@@ -697,17 +697,17 @@ p.nominalBounds = new cjs.Rectangle(-199.5,-119.5,600,360);
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-34,50,1028,500);
+p.nominalBounds = new cjs.Rectangle(-114,50,1028,500);
 // library properties:
 lib.properties = {
-	width: 480,
+	width: 320,
 	height: 300,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1504454919652", id:"bg"},
-		{src:"images/480x300_atlas_P_.png?1504454919608", id:"480x300_atlas_P_"}
+		{src:"images/bg.jpg?1504539482004", id:"bg"},
+		{src:"images/480x300_atlas_P_.png?1504539481975", id:"480x300_atlas_P_"}
 	],
 	preloads: []
 };
