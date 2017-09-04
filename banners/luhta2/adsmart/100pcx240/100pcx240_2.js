@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
 		{name:"100pcx240_2_atlas_P_", frames: [[0,0,257,35],[0,64,215,20],[0,37,215,25]]},
-		{name:"100pcx240_2_atlas_NP_", frames: [[0,0,800,480],[0,482,800,330],[0,814,800,330]]}
+		{name:"100pcx240_2_atlas_NP_", frames: [[0,0,800,480],[0,814,800,330],[0,482,800,330]]}
 ];
 
 
@@ -315,7 +315,7 @@ p.nominalBounds = new cjs.Rectangle(-67.1,-13.9,144.5,27.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.ghj, new cjs.Rectangle(-316.8,-173.6,387.8,42.8), null);
+}).prototype = getMCSymbolPrototype(lib.ghj, new cjs.Rectangle(-316.8,-173.6,387.8,40.9), null);
 
 
 (lib.dsfsgfgfh = function(mode,startPosition,loop) {
@@ -769,8 +769,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/100pcx240_2_atlas_P_.png?1504454466684", id:"100pcx240_2_atlas_P_"},
-		{src:"images/100pcx240_2_atlas_NP_.jpg?1504454466684", id:"100pcx240_2_atlas_NP_"}
+		{src:"images/100pcx240_2_atlas_P_.png?1504514573288", id:"100pcx240_2_atlas_P_"},
+		{src:"images/100pcx240_2_atlas_NP_.jpg?1504514573288", id:"100pcx240_2_atlas_NP_"}
 	],
 	preloads: []
 };
