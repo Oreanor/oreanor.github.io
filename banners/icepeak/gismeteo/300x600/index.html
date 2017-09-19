@@ -1,0 +1,52 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="UTF-8">
+<title>300x600</title>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  #video_cont {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: #eee;
+    border: 1px solid #333;
+  }
+  #video{
+    position: absolute;
+    top:200px;
+    width: 298px;
+  }
+  #video_controls{
+    position: absolute;
+    top: 400px;
+
+  }
+  #bPlay, #bSound{
+    
+    cursor: pointer;
+  }
+</style>
+<script src="main.js"></script>
+</head>
+<body>
+  <div id="video_cont">
+  <video id="video">
+    <source src="icepeak.mp4" type="video/mp4">
+  </video>
+  <div id="video_controls">
+    <div id="bPlay">Воспроизвести видео</div>
+    <div id="bSound">Включить звук</div>
+  </div>
+</div>
+	
+</body>
+</html>
