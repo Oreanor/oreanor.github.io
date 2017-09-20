@@ -30,31 +30,34 @@
     top:207px;
     width: 298px;
   }
-  #video_controls{
-    position: absolute;
-    top: 355px;
-    left: 0px;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: #000;
 
-  }
   #bPlay {
     position: absolute;
-    top:0px;
-    left: 5px;        
+    top:207px;
+    width: 298px;
+    left: 1px;
+    height:168px;
     cursor: pointer;
+  }
 
+  #play {
+    position: absolute;
+    top: 49px;
+    left: 115px;
   }
-  #bPlay:hover,#bSound:hover {
-    text-decoration: underline;
-  }
+
    #bSound{
     position: absolute;
-    top:0px;
+    top:345px;
     right: 5px;
     cursor: pointer;
+  }
+
+  #sound1{
+    display:none;
+  }
+  #sound2{
+    display:block;
   }
 </style>
 <script src="main.js"></script>
@@ -69,9 +72,10 @@
           <a href="%reference%" target="%target%">
               <span id="butt"></span>
           </a>
-          <div id="video_controls">
-            <div id="bPlay">Воспроизвести видео (1 Мб)</div>
-            <div id="bSound">Включить звук</div>
+          <div id="bPlay"><img src="play.png" id="play"></div>
+          <div id="bSound">
+            <img src="sound1.png" id="sound1">
+            <img src="sound2.png" id="sound2">
           </div>
     </div>
        
