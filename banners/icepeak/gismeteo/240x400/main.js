@@ -9,7 +9,7 @@ window.onload = function() {
   var sound2 = document.getElementById("sound2");
 
   video.muted = true;
-  video.play();
+
 
   playButton.addEventListener("click", function() {
 	  if (video.paused) {
