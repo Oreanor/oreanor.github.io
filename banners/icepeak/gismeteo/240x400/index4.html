@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>300x600</title>
+<title>240x400</title>
 <style>
   body {
     margin: 0px;
@@ -15,9 +15,9 @@
 
   #video_cont {
     position: absolute;
-    width: 300px;
-    height: 600px;
-    background: url("bg2.jpg");
+    width: 240px;
+    height: 400px;
+    background: url("bg4.jpg");
   }
   #butt{
     position: absolute;
@@ -26,30 +26,30 @@
   }
   #video{
     position: absolute;
-    top:207px;
+    top:120px;
     left: 1px;
-    width: 298px;
+    width: 238px;
   }
 
   #bPlay {
     position: absolute;
-    top:207px;
-    width: 298px;
+    top:120px;
+    width: 238px;
     left: 1px;
-    height:168px;
+    height:135px;
     cursor: pointer;
   }
 
   #play {
     position: absolute;
-    top: 49px;
-    left: 115px;
+    top: 35px;
+    left: 85px;
     display: none;
   }
 
    #bSound{
     position: absolute;
-    top:345px;
+    top:230px;
     right: 5px;
     cursor: pointer;
   }
@@ -61,7 +61,6 @@
     display:block;
   }
 </style>
-<script src="//content.adriver.ru/html.js"></script>
 <script src="main.js"></script>
 </head>
 <body>
@@ -69,9 +68,11 @@
       <div id="video_cont">
         
           <video id="video" autoplay="autoplay">
-            <source src="http://ngcom.ru/mov/sept_Isepeak_02_GRIP__TMail.mp4" type="video/mp4">
+            <source src="04_sept_Isepeak_04_ATERPROOF__videoSmart_1.mp4">
           </video>
-          <div id="butt" onclick="return ar_callLink( {target: '_blank'} );"></div>
+          <a href="%reference%" target="%target%">
+              <span id="butt"></span>
+          </a>
           <div id="bPlay">
             <img src="play.png" id="play">
           </div>
