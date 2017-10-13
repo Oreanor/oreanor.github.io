@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
 		{name:"240x400_atlas_P_", frames: [[0,276,201,43],[0,205,198,69],[0,104,151,99],[0,0,148,102]]},
-		{name:"240x400_atlas_NP_", frames: [[0,402,240,400],[242,0,240,400],[0,0,240,400]]}
+		{name:"240x400_atlas_NP_", frames: [[0,0,240,400],[242,0,240,400],[0,402,240,400]]}
 ];
 
 
@@ -182,10 +182,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance = new lib.Символ7();
 	this.instance.parent = this;
 	this.instance.setTransform(120.5,336.5,1,0.1,0,0,0,0,0.5);
-	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(162).to({_off:false},0).to({regY:0,scaleY:1,alpha:1},8,cjs.Ease.get(1)).wait(61).to({regY:0.5,scaleY:0.1,alpha:0},8,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(162).to({_off:false},0).to({regY:0,scaleY:1},8,cjs.Ease.get(1)).wait(61).to({regY:0.5,scaleY:0.1,alpha:0},8,cjs.Ease.get(1)).wait(1));
 
 	// Layer 1
 	this.instance_1 = new lib.Символ6();
@@ -199,11 +198,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Layer 1
 	this.instance_2 = new lib.Символ5();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(120.5,15.5,1,1,15);
-	this.instance_2.alpha = 0;
+	this.instance_2.setTransform(120.6,-44.5);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(76).to({_off:false},0).to({rotation:0,y:65.5,alpha:1},8,cjs.Ease.get(1)).wait(62).to({scaleX:0.8,scaleY:0.8,y:75.5,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(86));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(75).to({_off:false},0).wait(1).to({rotation:0.9,x:120.5,y:-43.6,alpha:0.998},0).wait(1).to({rotation:3.7,y:-40.6,alpha:0.992},0).wait(1).to({rotation:8.7,y:-35.3,alpha:0.98},0).to({y:58.7},8,cjs.Ease.get(-1)).to({regX:0.1,regY:0.1,rotation:-3.4,x:120.6,y:62.3,alpha:1},2).to({regX:0,regY:0,rotation:0,x:120.5,y:64.5},2).wait(56).to({y:65.5},0).to({scaleX:0.8,scaleY:0.8,y:75.5,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(86));
 
 	// Layer 1
 	this.instance_3 = new lib.Символ4();
@@ -248,8 +246,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_P_.png?1507882346285", id:"240x400_atlas_P_"},
-		{src:"images/240x400_atlas_NP_.jpg?1507882346285", id:"240x400_atlas_NP_"}
+		{src:"images/240x400_atlas_P_.png?1507897584110", id:"240x400_atlas_P_"},
+		{src:"images/240x400_atlas_NP_.jpg?1507897584110", id:"240x400_atlas_NP_"}
 	],
 	preloads: []
 };
