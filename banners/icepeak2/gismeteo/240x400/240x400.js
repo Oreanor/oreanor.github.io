@@ -1425,7 +1425,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(91).to({_off:false},0).to({alpha:1},8,cjs.Ease.get(1)).wait(63).to({y:351.5},0).wait(1).to({alpha:0},7).to({_off:true},18).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(91).to({_off:false},0).to({alpha:1},8,cjs.Ease.get(1)).wait(64).to({alpha:0},7).to({_off:true},1).wait(77));
 
 	// Символ 10
 	this.instance_6 = new lib.Символ10();
@@ -1485,7 +1485,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_NP_.jpg?1507997428376", id:"240x400_atlas_NP_"}
+		{src:"images/240x400_atlas_NP_.jpg?1507997532306", id:"240x400_atlas_NP_"}
 	],
 	preloads: []
 };
