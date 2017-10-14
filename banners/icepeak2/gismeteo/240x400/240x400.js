@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"240x400_atlas_NP_", frames: [[0,402,240,400],[242,0,240,400],[0,0,240,400]]}
+		{name:"240x400_atlas_NP_", frames: [[0,0,240,400],[242,0,240,400],[0,402,240,400]]}
 ];
 
 
@@ -1457,7 +1457,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(86).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(1)).wait(1).to({alpha:0},76,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(86).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(0.5)).wait(1).to({alpha:0},76,cjs.Ease.get(0.5)).wait(1));
 
 	// Символ 2
 	this.instance_10 = new lib.Символ2();
@@ -1466,14 +1466,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_10.alpha = 0;
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(1)).wait(1).to({alpha:0},84,cjs.Ease.get(1)).to({_off:true},1).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(0.5)).wait(1).to({alpha:0},84,cjs.Ease.get(0.5)).to({_off:true},1).wait(77));
 
 	// Символ 1
 	this.instance_11 = new lib.Символ1();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(120,200);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1).to({alpha:0},84,cjs.Ease.get(1)).wait(1).to({alpha:1},0).wait(162));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1).to({alpha:0},84,cjs.Ease.get(0.5)).wait(1).to({alpha:1},0).wait(162));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(119.5,199.5,356.8,401);
@@ -1485,7 +1485,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_NP_.jpg?1507993154780", id:"240x400_atlas_NP_"}
+		{src:"images/240x400_atlas_NP_.jpg?1507997428376", id:"240x400_atlas_NP_"}
 	],
 	preloads: []
 };
