@@ -1407,19 +1407,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Символ 13
 	this.instance_3 = new lib.Символ13();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(578.9,45.3,0.75,0.75,0,0,0,0.6,0.3);
+	this.instance_3.setTransform(418.9,45.3,0.75,0.75,0,0,0,0.6,0.3);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({_off:false},0).to({regY:0.2,scaleY:0.76,skewX:-7.6,x:416.4,y:45.2,alpha:1},5,cjs.Ease.get(1)).to({regX:0,regY:0,scaleY:0.75,skewX:0,x:423.8,y:45},2,cjs.Ease.get(1)).wait(69).to({scaleY:0.75,skewX:-5.3,x:420},0).to({x:266.3,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(173));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({_off:false},0).to({regY:0.2,scaleY:0.76,skewX:-7.6,x:256.4,y:45.2,alpha:1},5,cjs.Ease.get(1)).to({regX:0,regY:0,scaleY:0.75,skewX:0,x:263.8,y:45},2,cjs.Ease.get(1)).wait(69).to({scaleY:0.75,skewX:-5.3,x:260},0).to({x:106.3,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(173));
 
 	// Символ 12
 	this.instance_4 = new lib.Символ12();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(485.6,46);
+	this.instance_4.setTransform(325.6,46);
 	this.instance_4.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({scaleY:1.03,skewX:-13.6,x:280.6,alpha:1},5,cjs.Ease.get(1)).to({scaleY:1,skewX:0,x:290.6},2).wait(69).to({scaleY:1.03,skewX:-13.6,x:285.6},0).to({x:80.6,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(174));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({scaleY:1.03,skewX:-13.6,x:120.6,alpha:1},5,cjs.Ease.get(1)).to({scaleY:1,skewX:0,x:130.6},2).wait(69).to({scaleY:1.03,skewX:-13.6,x:125.6},0).to({x:-79.4,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(174));
 
 	// Layer 1
 	this.instance_5 = new lib.Символ11();
@@ -1491,7 +1491,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/728x90_atlas_NP_.jpg?1508079441066", id:"728x90_atlas_NP_"}
+		{src:"images/728x90_atlas_NP_.jpg?1508080912769", id:"728x90_atlas_NP_"}
 	],
 	preloads: []
 };
