@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"240x400_atlas_NP_", frames: [[0,402,240,400],[242,0,240,400],[0,0,240,400]]}
+		{name:"240x400_atlas_NP_", frames: [[0,0,240,400],[242,0,240,400],[0,402,240,400]]}
 ];
 
 
@@ -513,6 +513,17 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 // stage content:
 (lib._240x400 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		canvas.style.cursor = "pointer";
+		canvas.addEventListener("click", function() {
+		    window.callClick();
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(248));
 
 	// Слой 9
 	this.shape = new cjs.Shape();
