@@ -77,14 +77,25 @@ function handleComplete(evt) {
 	makeResponsive(false,'both',false,1);	
 	fnStartAnimation();
 }
+function getUrlParam(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+  results = regex.exec(location.search);
+  return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 </script>
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
+    <a id="click1_area" href="#" target="_blank">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:240px; height:400px">
 		<canvas id="canvas" width="240" height="400" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+    </a>
+    <script>
+        document.getElementById("click1_area").href = getUrlParam('link1');
+    </script>
 </body>
 </html>
