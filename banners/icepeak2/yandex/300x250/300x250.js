@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"300x250_atlas_NP_", frames: [[0,504,300,250],[0,252,300,250],[0,0,300,250]]}
+		{name:"300x250_atlas_NP_", frames: [[0,504,300,250],[0,0,300,250],[0,252,300,250]]}
 ];
 
 
@@ -576,14 +576,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_9.setTransform(120,190);
 	this.instance_9.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({alpha:1},84,cjs.Ease.get(1)).wait(1).to({alpha:0},77,cjs.Ease.get(1)).to({_off:true},1).wait(85));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({alpha:1},12,cjs.Ease.get(1)).wait(73).to({alpha:0},40,cjs.Ease.get(1)).to({_off:true},38).wait(85));
 
 	// Символ 2
 	this.instance_10 = new lib.etgrt();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(120,170);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},84,cjs.Ease.get(0.5)).to({_off:true},1).wait(78).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},12,cjs.Ease.get(0.5)).to({_off:true},73).wait(78).to({_off:false},0).to({alpha:1},16,cjs.Ease.get(1)).wait(69));
 
 	// Символ 1
 	this.instance_11 = new lib.err();
@@ -591,7 +591,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_11.setTransform(120,200);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(85).to({_off:false},0).wait(78).to({alpha:0},84,cjs.Ease.get(0.5)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(85).to({_off:false},0).wait(78).to({alpha:0},16,cjs.Ease.get(0.5)).wait(69));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(149.5,124.4,340.1,251);
@@ -603,8 +603,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/legal.png?1508343564950", id:"legal"},
-		{src:"images/300x250_atlas_NP_.jpg?1508343564927", id:"300x250_atlas_NP_"}
+		{src:"images/legal.png?1508362380591", id:"legal"},
+		{src:"images/300x250_atlas_NP_.jpg?1508362380554", id:"300x250_atlas_NP_"}
 	],
 	preloads: []
 };
