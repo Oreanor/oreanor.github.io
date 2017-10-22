@@ -1,11 +1,72 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x250_atlas_NP_", frames: [[0,504,300,250],[0,0,300,250],[0,252,300,250]]}
+		{name:"300x250_atlas_NP_", frames: [[0,504,300,250],[0,252,300,250],[0,0,300,250]]}
 ];
 
 
+
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != cur) {		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {		
+		cur = textInst;		
+		while(cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
 // symbols:
 
 
@@ -319,18 +380,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.gbgb, new cjs.Rectangle(-62,-11.5,124.2,23.1), null);
 
 
-(lib.fgh = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.legal();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.fgh, new cjs.Rectangle(0,0,226,39), null);
-
-
 (lib.etgrt = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -403,6 +452,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.cvbcvb, new cjs.Rectangle(-50.3,-11.7,100.6,23.5), null);
 
 
+(lib.Символ2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.legal();
+	this.instance.parent = this;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Символ2, new cjs.Rectangle(0,0,226,39), null);
+
+
 (lib.Символ1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -466,22 +527,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.legal();
+	this.instance = new lib.Символ2();
 	this.instance.parent = this;
-	this.instance.setTransform(-114,-16);
+	this.instance.setTransform(-1,3.5,1,1,0,0,0,113,19.5);
+	this.instance.shadow = new cjs.Shadow("rgba(0,30,49,1)",0,0,11);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-	// Слой 2
-	this.instance_1 = new lib.fgh();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(-1,3.5,1,1,0,0,0,113,19.5);
-	this.instance_1.filters = [new cjs.ColorFilter(0.44, 0.44, 0.44, 1, 0, 0, 0, 0)];
-	this.instance_1.cache(-2,-2,230,43);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.hh, new cjs.Rectangle(-114,-16,226,39), null);
+}).prototype = getMCSymbolPrototype(lib.hh, new cjs.Rectangle(-126,-28,254,67), null);
 
 
 // stage content:
@@ -576,14 +629,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_9.setTransform(120,190);
 	this.instance_9.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({alpha:1},12,cjs.Ease.get(1)).wait(73).to({alpha:0},40,cjs.Ease.get(1)).to({_off:true},38).wait(85));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({alpha:1},85,cjs.Ease.get(0.5)).to({alpha:0},77,cjs.Ease.get(1)).to({_off:true},1).wait(85));
 
 	// Символ 2
 	this.instance_10 = new lib.etgrt();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(120,170);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},12,cjs.Ease.get(0.5)).to({_off:true},73).wait(78).to({_off:false},0).to({alpha:1},16,cjs.Ease.get(1)).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},84,cjs.Ease.get(0.5)).to({_off:true},1).wait(78).to({_off:false},0).to({alpha:1},84,cjs.Ease.get(1)).wait(1));
 
 	// Символ 1
 	this.instance_11 = new lib.err();
@@ -591,7 +644,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_11.setTransform(120,200);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(85).to({_off:false},0).wait(78).to({alpha:0},16,cjs.Ease.get(0.5)).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(85).to({_off:false},0).wait(78).to({alpha:0},84,cjs.Ease.get(0.5)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(149.5,124.4,340.1,251);
@@ -602,9 +655,10 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/legal.png?1508362380591", id:"legal"},
-		{src:"images/300x250_atlas_NP_.jpg?1508362380554", id:"300x250_atlas_NP_"}
+		{src:"images/legal.png", id:"legal"},
+		{src:"images/300x250_atlas_NP_.jpg", id:"300x250_atlas_NP_"}
 	],
 	preloads: []
 };
