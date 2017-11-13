@@ -1,72 +1,11 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"160x600_atlas_NP_", frames: [[0,0,260,600],[524,0,250,600],[262,0,260,600]]}
+		{name:"160x600_atlas_NP_", frames: [[262,0,260,600],[524,0,250,600],[0,0,260,600]]}
 ];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -514,6 +453,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib._160x600 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_0 = function() {
+		this.currLoop = 0;
+	}
+	this.frame_269 = function() {
+		this.currLoop++;
+		if (this.currLoop == 2){this.stop()}
+	}
+	this.frame_277 = function() {
+		this.gotoAndPlay(2)
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(269).call(this.frame_269).wait(8).call(this.frame_277).wait(1));
+
 	// Слой 9
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EgMaguyIY1AAMAAABdlI41AAg");
@@ -625,10 +579,9 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
-		{src:"images/legal.png", id:"legal"},
-		{src:"images/160x600_atlas_NP_.jpg", id:"160x600_atlas_NP_"}
+		{src:"images/legal.png?1508851505966", id:"legal"},
+		{src:"images/160x600_atlas_NP_.jpg?1508851505944", id:"160x600_atlas_NP_"}
 	],
 	preloads: []
 };
