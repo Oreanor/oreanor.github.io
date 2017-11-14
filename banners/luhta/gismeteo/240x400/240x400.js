@@ -528,7 +528,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib._240x400 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Слой 15
+	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").p("Ayq/KMAlVAAAMAAAA+VMglVAAAg");
 	this.shape.setTransform(120,200);
@@ -573,7 +573,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// logo
 	this.instance_4 = new lib.ghghgh();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(116.9,369.4,0.8,0.8,0,0,0,0.1,0.1);
+	this.instance_4.setTransform(116.9,367.4,0.8,0.8,0,0,0,0.1,0.1);
 	this.instance_4.alpha = 0.309;
 	this.instance_4._off = true;
 
@@ -664,8 +664,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_P_.png?1510651305470", id:"240x400_atlas_P_"},
-		{src:"images/240x400_atlas_NP_.jpg?1510651305470", id:"240x400_atlas_NP_"}
+		{src:"images/240x400_atlas_P_.png?1510695876103", id:"240x400_atlas_P_"},
+		{src:"images/240x400_atlas_NP_.jpg?1510695876103", id:"240x400_atlas_NP_"}
 	],
 	preloads: []
 };
