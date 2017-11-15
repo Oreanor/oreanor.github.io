@@ -1,12 +1,73 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x250_atlas_P_", frames: [[241,0,202,230],[0,0,239,220],[155,232,216,22],[0,222,153,70]]},
-		{name:"300x250_atlas_NP_", frames: [[0,0,300,200],[0,202,300,200]]}
+		{name:"300x250_atlas_P_", frames: [[241,0,202,230],[0,0,239,220],[155,232,277,18],[0,222,153,70]]},
+		{name:"300x250_atlas_NP_", frames: [[0,202,300,200],[0,0,300,200]]}
 ];
 
 
+
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != cur) {		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {		
+		cur = textInst;		
+		while(cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
 // symbols:
 
 
@@ -303,10 +364,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib.legal();
 	this.instance.parent = this;
+	this.instance.setTransform(-29,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.dfgd, new cjs.Rectangle(0,0,216,22), null);
+}).prototype = getMCSymbolPrototype(lib.dfgd, new cjs.Rectangle(-29,4,277,18), null);
 
 
 (lib.bbvv = function(mode,startPosition,loop) {
@@ -530,8 +592,8 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// border
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").p("A3W3WMAutAAAMAAAAutMgutAAAg");
-	this.shape.setTransform(150,124.9,1,0.833);
+	this.shape.graphics.f().s("#000000").p("A3WzcMAutAAAMAAAAm5MgutAAAg");
+	this.shape.setTransform(150,124.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(362));
 
@@ -663,9 +725,10 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/300x250_atlas_P_.png?1510697056572", id:"300x250_atlas_P_"},
-		{src:"images/300x250_atlas_NP_.jpg?1510697056572", id:"300x250_atlas_NP_"}
+		{src:"images/300x250_atlas_P_.png", id:"300x250_atlas_P_"},
+		{src:"images/300x250_atlas_NP_.jpg", id:"300x250_atlas_NP_"}
 	],
 	preloads: []
 };
