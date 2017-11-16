@@ -635,9 +635,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// logo
 	this.instance_4 = new lib.ghghgh();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(80.4,547.4,0.72,0.72);
+	this.instance_4.setTransform(80.4,547.4,0.3,0.3,0,0,0,0.1,0.1);
+	this.instance_4.alpha = 0.301;
+	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(362));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(72).to({_off:false},0).to({regX:0,regY:0,scaleX:0.72,scaleY:0.72,alpha:1},7).wait(270).to({x:81.6},0).wait(1).to({x:86},0).wait(1).to({x:94.7},0).wait(1).to({x:109.6},0).wait(1).to({x:133.2},0).wait(1).to({x:166.3},0).wait(1).to({x:201.3},0).wait(1).to({x:227.7},0).wait(1).to({x:244.4},0).wait(1).to({x:254.1},0).wait(1).to({x:259},0).wait(1).to({x:260.4},0).wait(2));
 
 	// 2
 	this.instance_5 = new lib.bbvv();
@@ -677,7 +679,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance_9 = new lib.dfgd();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(80,319,1,1,0,0,0,108,11);
+	this.instance_9.setTransform(80,469,1,1,0,0,0,108,11);
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 

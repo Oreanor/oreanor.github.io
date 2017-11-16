@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"728x90_atlas_P_", frames: [[241,0,202,230],[0,0,239,220],[0,284,549,9],[0,222,131,60]]},
-		{name:"728x90_atlas_NP_", frames: [[0,182,500,180],[0,0,500,180]]}
+		{name:"728x90_atlas_NP_", frames: [[0,0,500,180],[0,182,500,180]]}
 ];
 
 
@@ -634,9 +634,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// logo
 	this.instance_4 = new lib.ghghgh();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(611.8,46);
+	this.instance_4.setTransform(611.8,46,0.5,0.5);
+	this.instance_4.alpha = 0;
+	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(362));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(71).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},8).wait(272).to({regY:-1,y:44.2},0).wait(1).to({y:41.3},0).wait(1).to({y:35.1},0).wait(1).to({y:23.7},0).wait(1).to({y:4.3},0).wait(1).to({y:-18},0).wait(1).to({y:-32.7},0).wait(1).to({y:-40.4},0).wait(1).to({y:-44},0).wait(1).to({regY:0},0).wait(2));
 
 	// 2
 	this.instance_5 = new lib.bbvv();
@@ -679,23 +681,23 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(15).to({_off:false},0).to({alpha:1},7).wait(42).to({alpha:0},5).to({_off:true},1).wait(292));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(17).to({_off:false},0).to({alpha:1},7).wait(40).to({alpha:0},5).to({_off:true},1).wait(292));
 
 	// skidka
 	this.instance_10 = new lib.ggg();
 	this.instance_10.parent = this;
-	this.instance_10.setTransform(234.3,48,0.5,0.5);
+	this.instance_10.setTransform(354.3,48,0.5,0.5);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(7).to({_off:false},0).to({scaleX:1,scaleY:1,x:231,y:51},7,cjs.Ease.get(1)).wait(49).to({regX:0.1,regY:0.1,scaleX:0.5,scaleY:0.5,x:229.7,y:49.9,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(291));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(4).to({_off:false},0).to({scaleX:1,scaleY:1,x:351,y:51},7,cjs.Ease.get(1)).wait(52).to({regX:0.1,regY:0.1,scaleX:0.5,scaleY:0.5,x:349.7,y:49.9,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(291));
 
 	// date
 	this.instance_11 = new lib.qwe();
 	this.instance_11.parent = this;
-	this.instance_11.setTransform(408.4,-15);
+	this.instance_11.setTransform(558.4,-15);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(16).to({_off:false},0).wait(1).to({y:-14.2},0).wait(1).to({y:-11.4},0).wait(1).to({y:-5.8},0).wait(1).to({y:3.6},0).wait(1).to({y:16},0).wait(1).to({y:28},0).wait(1).to({y:36.6},0).wait(1).to({y:41.7},0).wait(1).to({y:44.3},0).wait(1).to({y:45},0).wait(35).to({scaleX:0.8,scaleY:0.8,x:418,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(293));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(8).to({_off:false},0).wait(1).to({y:-14.2},0).wait(1).to({y:-11.4},0).wait(1).to({y:-5.8},0).wait(1).to({y:3.6},0).wait(1).to({y:16},0).wait(1).to({y:28},0).wait(1).to({y:36.6},0).wait(1).to({y:41.7},0).wait(1).to({y:44.3},0).wait(1).to({y:45},0).wait(43).to({scaleX:0.8,scaleY:0.8,x:568,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(293));
 
 	// mania
 	this.instance_12 = new lib.hhh();
