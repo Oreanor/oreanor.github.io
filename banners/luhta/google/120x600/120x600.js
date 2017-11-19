@@ -590,6 +590,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib._120x600 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_0 = function() {
+		this.currLoop = 0;
+	}
+	this.frame_24 = function() {
+		if (this.currLoop == 1){this.stop()}
+	}
+	this.frame_361 = function() {
+		this.currLoop++;
+		this.gotoAndPlay(2);
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(337).call(this.frame_361).wait(1));
+
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").p("EgJSguyISlAAMAAABdlIylAAg");

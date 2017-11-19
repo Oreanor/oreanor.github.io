@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"240x400_atlas_P_", frames: [[212,0,193,301],[0,0,210,296],[181,303,226,25],[0,298,179,82]]},
-		{name:"240x400_atlas_NP_", frames: [[242,0,240,334],[0,0,240,334]]}
+		{name:"240x400_atlas_NP_", frames: [[0,0,240,334],[242,0,240,334]]}
 ];
 
 
@@ -589,6 +589,17 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 // stage content:
 (lib._240x400 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		canvas.style.cursor = "pointer";
+		canvas.addEventListener("click", function() {
+		    window.callClick();
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(362));
 
 	// border
 	this.shape = new cjs.Shape();

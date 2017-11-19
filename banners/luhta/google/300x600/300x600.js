@@ -1,12 +1,73 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"300x600_atlas_P_", frames: [[212,0,193,301],[0,0,210,296],[0,424,280,18],[0,303,260,119]]},
 		{name:"300x600_atlas_NP_", frames: [[0,0,300,500],[0,502,300,500]]}
 ];
 
 
+
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != cur) {		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {		
+		cur = textInst;		
+		while(cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
 // symbols:
 
 
@@ -528,6 +589,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib._300x600 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_0 = function() {
+		this.currLoop = 0;
+	}
+	this.frame_24 = function() {
+		if (this.currLoop == 1){this.stop()}
+	}
+	this.frame_361 = function() {
+		this.currLoop++;
+		this.gotoAndPlay(2);
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(337).call(this.frame_361).wait(1));
+
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").p("EgXWguyMAutAAAMAAABdlMgutAAAg");
@@ -564,11 +640,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// 3
 	this.instance_3 = new lib.vvv();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(156,272,0.5,0.5);
+	this.instance_3.setTransform(146,272,0.5,0.5);
 	this.instance_3.alpha = 0.301;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(213).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},7,cjs.Ease.get(1)).wait(58).to({x:157.5},0).wait(1).to({x:162.8},0).wait(1).to({x:173.3},0).wait(1).to({x:191.7},0).wait(1).to({x:222.9},0).wait(1).to({x:274},0).wait(1).to({x:339.2},0).wait(1).to({x:389.8},0).wait(1).to({x:420.6},0).wait(1).to({x:438.8},0).wait(1).to({x:449.3},0).wait(1).to({x:454.5},0).wait(1).to({x:456},0).to({_off:true},1).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(213).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},7,cjs.Ease.get(1)).wait(58).to({x:147.5},0).wait(1).to({x:152.8},0).wait(1).to({x:163.3},0).wait(1).to({x:181.7},0).wait(1).to({x:212.9},0).wait(1).to({x:264},0).wait(1).to({x:329.2},0).wait(1).to({x:379.8},0).wait(1).to({x:410.6},0).wait(1).to({x:428.8},0).wait(1).to({x:439.3},0).wait(1).to({x:444.5},0).wait(1).to({x:446},0).to({_off:true},1).wait(71));
 
 	// logo
 	this.instance_4 = new lib.ghghgh();
@@ -664,9 +740,10 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/300x600_atlas_P_.png?1511025818801", id:"300x600_atlas_P_"},
-		{src:"images/300x600_atlas_NP_.jpg?1511025818801", id:"300x600_atlas_NP_"}
+		{src:"images/300x600_atlas_P_.png", id:"300x600_atlas_P_"},
+		{src:"images/300x600_atlas_NP_.jpg", id:"300x600_atlas_NP_"}
 	],
 	preloads: []
 };
