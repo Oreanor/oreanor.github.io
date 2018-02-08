@@ -24,7 +24,7 @@ lib.ssMetadata = [
 
 
 
-(lib._3 = function() {
+(lib._4 = function() {
 	this.spriteSheet = ss["240x400_2_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -51,26 +51,26 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib._3();
+	this.instance = new lib._2();
 	this.instance.parent = this;
-	this.instance.setTransform(-120,-103.5);
+	this.instance.setTransform(-120,-104);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.sssss, new cjs.Rectangle(-120,-103.5,240,207), null);
+}).prototype = getMCSymbolPrototype(lib.sssss, new cjs.Rectangle(-120,-104,240,207), null);
 
 
 (lib.sss = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib._2();
+	this.instance = new lib._4();
 	this.instance.parent = this;
-	this.instance.setTransform(-120,-103.5);
+	this.instance.setTransform(-120,-104);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.sss, new cjs.Rectangle(-120,-103.5,240,207), null);
+}).prototype = getMCSymbolPrototype(lib.sss, new cjs.Rectangle(-120,-104,240,207), null);
 
 
 (lib.ss = function(mode,startPosition,loop) {
@@ -298,7 +298,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib._5, new cjs.Rectangle(-8,-9.2,16.1,18.5), null);
 
 
-(lib._4 = function(mode,startPosition,loop) {
+(lib._4_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
@@ -308,10 +308,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib._4, new cjs.Rectangle(-9.3,-9.2,18.7,18.5), null);
+}).prototype = getMCSymbolPrototype(lib._4_1, new cjs.Rectangle(-9.3,-9.2,18.7,18.5), null);
 
 
-(lib._3_1 = function(mode,startPosition,loop) {
+(lib._3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
@@ -321,7 +321,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib._3_1, new cjs.Rectangle(-7.1,-9.2,14.4,18.5), null);
+}).prototype = getMCSymbolPrototype(lib._3, new cjs.Rectangle(-7.1,-9.2,14.4,18.5), null);
 
 
 (lib._2_1 = function(mode,startPosition,loop) {
@@ -438,14 +438,14 @@ p.nominalBounds = new cjs.Rectangle(-278,-8.9,379.2,388.4);
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(4).to({y:-22.2},5,cjs.Ease.get(1)).to({y:-17.2},5,cjs.Ease.get(-1)).wait(166));
 
 	// 4
-	this.instance_10 = new lib._4();
+	this.instance_10 = new lib._4_1();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(22.8,-17.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(3).to({y:-22.2},5,cjs.Ease.get(1)).to({y:-17.2},5,cjs.Ease.get(-1)).wait(167));
 
 	// 3
-	this.instance_11 = new lib._3_1();
+	this.instance_11 = new lib._3();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(5.8,-17.2);
 
@@ -601,7 +601,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_2_atlas_.png?1518079052496", id:"240x400_2_atlas_"}
+		{src:"images/240x400_2_atlas_.png?1518083784787", id:"240x400_2_atlas_"}
 	],
 	preloads: []
 };
