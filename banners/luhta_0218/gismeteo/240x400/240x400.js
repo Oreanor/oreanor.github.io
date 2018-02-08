@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"240x400_atlas_", frames: [[242,0,240,207],[0,209,240,207],[0,0,240,207]]}
+		{name:"240x400_atlas_", frames: [[0,0,240,207],[242,0,240,207],[0,209,240,207]]}
 ];
 
 
@@ -498,7 +498,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(120).to({_off:false},0).to({y:200.5},5,cjs.Ease.get(1)).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(120).to({_off:false},0).to({y:200.5},5,cjs.Ease.get(1)).wait(49).to({y:210.5},5,cjs.Ease.get(1)).wait(1));
 
 	// 2.jpg
 	this.instance_3 = new lib.sss();
@@ -512,7 +512,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(60).to({_off:false},0).to({y:200.5},5,cjs.Ease.get(1)).to({_off:true},55).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(60).to({_off:false},0).to({y:200.5},5,cjs.Ease.get(1)).wait(49).to({y:210.5},5,cjs.Ease.get(1)).to({_off:true},1).wait(60));
 
 	// 1.jpg
 	this.instance_4 = new lib.ss();
@@ -525,7 +525,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({y:200.5},5,cjs.Ease.get(1)).to({_off:true},55).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({y:200.5},5,cjs.Ease.get(1)).wait(49).to({y:210.5},5,cjs.Ease.get(1)).to({_off:true},1).wait(120));
 
 	// Слой 1
 	this.instance_5 = new lib.asdsd();
@@ -544,7 +544,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_atlas_.png?1518041077482", id:"240x400_atlas_"}
+		{src:"images/240x400_atlas_.png?1518079289329", id:"240x400_atlas_"}
 	],
 	preloads: []
 };

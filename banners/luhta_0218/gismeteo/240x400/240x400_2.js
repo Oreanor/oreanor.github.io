@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"240x400_2_atlas_", frames: [[242,0,240,207],[0,209,240,207],[0,0,240,207]]}
+		{name:"240x400_2_atlas_", frames: [[242,0,240,207],[0,0,240,207],[0,209,240,207]]}
 ];
 
 
@@ -601,7 +601,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/240x400_2_atlas_.png?1518043258796", id:"240x400_2_atlas_"}
+		{src:"images/240x400_2_atlas_.png?1518079052496", id:"240x400_2_atlas_"}
 	],
 	preloads: []
 };
