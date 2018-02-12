@@ -9,12 +9,19 @@ adsmart_luhta
 http://oreanor.github.io/banners/luhta_0218/adsmart_luhta/100pcx240/index_.html
 http://oreanor.github.io/banners/luhta_0218/adsmart_luhta/100pcx240/100pcx240.zip
 
+
+http://oreanor.github.io/banners/luhta_0218/adsmart_luhta/100pcx240_fontanka/index_.html
+http://oreanor.github.io/banners/luhta_0218/adsmart_luhta/100pcx240_fontanka/100pcx240.zip
+
 adsmart_woman
 
 http://oreanor.github.io/banners/luhta_0218/adsmart_woman/100pcx240/index_.html
 http://oreanor.github.io/banners/luhta_0218/adsmart_woman/100pcx240/100pcx240.zip
 
 between_ssp
+
+http://oreanor.github.io/banners/luhta_0218/between_ssp/between_ssp.zip
+
 
 http://oreanor.github.io/banners/luhta_0218/between_ssp/300x600/300x600.html
 http://oreanor.github.io/banners/luhta_0218/between_ssp/120x600/120x600.html
