@@ -539,7 +539,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		});
 	}
 	this.frame_186 = function() {
-		gotoAndPlay(6);
+		this.gotoAndPlay(6);
 	}
 
 	// actions tween:
