@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x250_atlas_", frames: [[0,162,300,160],[0,0,300,160],[0,324,300,160]]}
+		{name:"300x250_atlas_", frames: [[0,324,300,160],[0,162,300,160],[0,0,300,160]]}
 ];
 
 
@@ -613,7 +613,7 @@ p.nominalBounds = new cjs.Rectangle(-136.6,-26.8,273.8,23.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(121).to({_off:false},0).to({y:51.5},5,cjs.Ease.get(1)).to({_off:true},53).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(120).to({_off:false},0).to({y:51.5},6,cjs.Ease.get(1)).to({_off:true},54).wait(7));
 
 	// 2.jpg
 	this.instance_11 = new lib.sss();
@@ -627,7 +627,7 @@ p.nominalBounds = new cjs.Rectangle(-136.6,-26.8,273.8,23.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(61).to({_off:false},0).to({y:51.5},5,cjs.Ease.get(1)).to({_off:true},53).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(60).to({_off:false},0).to({y:51.5},6,cjs.Ease.get(1)).to({_off:true},54).wait(67));
 
 	// 1.jpg
 	this.instance_12 = new lib.ss();
@@ -640,7 +640,7 @@ p.nominalBounds = new cjs.Rectangle(-136.6,-26.8,273.8,23.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({_off:true},59).wait(122).to({_off:false,y:41.5},0).to({y:51.5},5,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({_off:true},60).wait(120).to({_off:false,y:41.5},0).to({y:51.5},6,cjs.Ease.get(1)).wait(1));
 
 	// Слой 13
 	this.shape_1 = new cjs.Shape();

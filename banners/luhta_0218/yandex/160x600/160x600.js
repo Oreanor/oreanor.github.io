@@ -613,7 +613,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(121).to({_off:false},0).to({x:1},57).to({_off:true},1).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(120).to({_off:false},0).to({x:1},59).to({_off:true},1).wait(7));
 
 	// 2.jpg
 	this.instance_11 = new lib.sss();
@@ -627,7 +627,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(61).to({_off:false},0).to({x:-70},57).to({_off:true},1).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(61).to({_off:false},0).to({x:-70},58).to({_off:true},1).wait(67));
 
 	// 1.jpg
 	this.instance_12 = new lib.ss();
@@ -640,7 +640,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:-41},58).to({_off:true},1).wait(122).to({_off:false,x:-75},0).to({x:-71},5,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:-41},60).to({_off:true},1).wait(119).to({_off:false,x:-75},0).to({x:-71},6,cjs.Ease.get(1)).wait(1));
 
 	// Слой 13
 	this.shape_1 = new cjs.Shape();
