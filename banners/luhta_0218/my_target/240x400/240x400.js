@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"240x400_atlas_", frames: [[0,209,240,207],[242,0,240,207],[0,0,240,207]]}
+		{name:"240x400_atlas_", frames: [[0,0,240,207],[242,0,240,207],[0,209,240,207]]}
 ];
 
 
@@ -533,7 +533,7 @@ p.nominalBounds = new cjs.Rectangle(-82.1,-26.7,164.3,53.5);
 
 	// timeline functions:
 	this.frame_186 = function() {
-		gotoAndPlay(6);
+		this.gotoAndPlay(6);
 	}
 
 	// actions tween:

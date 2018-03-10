@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
-		{name:"300x250_atlas_", frames: [[0,0,300,160],[0,162,300,160],[0,324,300,160]]}
+		{name:"300x250_atlas_", frames: [[0,162,300,160],[0,324,300,160],[0,0,300,160]]}
 ];
 
 
@@ -81,19 +81,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.ss, new cjs.Rectangle(0,0,300,160), null);
-
-
-(lib.jkjk = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("A31K6MAm0gheQQ0YRvGU4UgFCgNbgjgABwg");
-	this.shape.setTransform(-35.8,0);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.jkjk, new cjs.Rectangle(-188.3,-144.5,305.2,289), null);
 
 
 (lib.asd = function(mode,startPosition,loop) {
@@ -347,20 +334,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib._1_1, new cjs.Rectangle(-8,-9.2,16.1,18.5), null);
 
 
-(lib.hjk = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.jkjk();
-	this.instance.parent = this;
-	this.instance.setTransform(8.8,35.3,1,1,-111,0,0,69.5,144.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:144.3,rotation:55.4,guide:{path:[8.8,35.3,101,62.7,77.9,119.1,73.1,130.9,60.9,130.3], orient:'auto'}},5,cjs.Ease.get(1)).to({regY:144.5,rotation:-111,guide:{path:[60.9,130.3,73.1,130.9,77.9,119.1,101,62.7,8.8,35.3], orient:'auto'}},4,cjs.Ease.get(1)).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-278,-8.9,379.2,388.4);
-
-
 (lib.asdsd = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -472,7 +445,7 @@ p.nominalBounds = new cjs.Rectangle(-136.6,-26.8,273.8,23.1);
 
 	// timeline functions:
 	this.frame_186 = function() {
-		gotoAndPlay(6);
+		this.gotoAndPlay(6);
 	}
 
 	// actions tween:
@@ -499,87 +472,69 @@ p.nominalBounds = new cjs.Rectangle(-136.6,-26.8,273.8,23.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(187));
 
-	// zatvor
-	this.instance_2 = new lib.hjk();
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(-63.3,48.3,1.706,1.706,-45,0,0,-0.1,0.1);
-
-	this.instance_3 = new lib.hjk();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(358.6,219.9,1.706,1.706,135,0,0,0,-0.1);
-
-	this.instance_4 = new lib.hjk();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(62.5,345.7,1.706,1.706,-135,0,0,-0.1,0);
-
-	this.instance_5 = new lib.hjk();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(234,-76.3,1.706,1.706,45);
-
-	this.instance_6 = new lib.hjk();
-	this.instance_6.parent = this;
-	this.instance_6.setTransform(-61.9,222.6,1.706,1.706,-90,0,0,-0.1,0.1);
-
-	this.instance_7 = new lib.hjk();
-	this.instance_7.parent = this;
-	this.instance_7.setTransform(357.7,45.7,1.706,1.706,90,0,0,0.1,-0.1);
-
-	this.instance_8 = new lib.hjk();
-	this.instance_8.parent = this;
-	this.instance_8.setTransform(237.1,343.9,1.706,1.706,180);
-
-	this.instance_9 = new lib.hjk();
-	this.instance_9.parent = this;
-	this.instance_9.setTransform(60.2,-75.8,1.706,1.706);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]},55).to({state:[]},10).to({state:[{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]},50).to({state:[]},9).to({state:[{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]},51).to({state:[]},10).wait(2));
-
 	// Слой 8 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
 	mask.graphics.p("A3YQkIAA4/MAu3AAAIAAY/g");
 	mask.setTransform(150.3,106);
 
-	// 3.jpg
-	this.instance_10 = new lib.sssss();
-	this.instance_10.parent = this;
-	this.instance_10.setTransform(0,41.5);
-	this.instance_10._off = true;
+	// Слой 1
+	this.instance_2 = new lib.ss();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(0,41.5);
+	this.instance_2.alpha = 0;
+	this.instance_2._off = true;
 
-	var maskedShapeInstanceList = [this.instance_10];
+	var maskedShapeInstanceList = [this.instance_2];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(121).to({_off:false},0).to({y:51.5},5,cjs.Ease.get(1)).to({_off:true},53).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(177).to({_off:false},0).to({y:51.5,alpha:1},9,cjs.Ease.get(1)).wait(1));
+
+	// 3.jpg
+	this.instance_3 = new lib.sssss();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(0,41.5);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
+
+	var maskedShapeInstanceList = [this.instance_3];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(116).to({_off:false},0).to({y:51.5,alpha:1},10,cjs.Ease.get(1)).wait(61));
 
 	// 2.jpg
-	this.instance_11 = new lib.sss();
-	this.instance_11.parent = this;
-	this.instance_11.setTransform(0,41.5);
-	this.instance_11._off = true;
+	this.instance_4 = new lib.sss();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(0,41.5);
+	this.instance_4.alpha = 0;
+	this.instance_4._off = true;
 
-	var maskedShapeInstanceList = [this.instance_11];
+	var maskedShapeInstanceList = [this.instance_4];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(61).to({_off:false},0).to({y:51.5},5,cjs.Ease.get(1)).to({_off:true},53).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(56).to({_off:false},0).to({y:51.5,alpha:1},10,cjs.Ease.get(1)).to({_off:true},60).wait(61));
 
 	// 1.jpg
-	this.instance_12 = new lib.ss();
-	this.instance_12.parent = this;
-	this.instance_12.setTransform(0,51.5);
+	this.instance_5 = new lib.ss();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(0,51.5);
 
-	var maskedShapeInstanceList = [this.instance_12];
+	var maskedShapeInstanceList = [this.instance_5];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({_off:true},59).wait(122).to({_off:false,y:41.5},0).to({y:51.5},5,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true},66).wait(121));
 
 	// Слой 13
 	this.shape_1 = new cjs.Shape();
@@ -598,7 +553,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_atlas_.jpg?1518279550131", id:"300x250_atlas_"}
+		{src:"images/300x250_atlas_.jpg?1519036845404", id:"300x250_atlas_"}
 	],
 	preloads: []
 };
