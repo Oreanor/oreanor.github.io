@@ -1488,7 +1488,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/_1.jpg", id:"_1"}
+		{src:"imgs/_1.jpg", id:"_1"}
 	],
 	preloads: []
 };
