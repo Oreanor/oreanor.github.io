@@ -72,7 +72,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 (lib._1 = function() {
 	this.initialize(img._1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,703,426);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,703,488);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -631,7 +631,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.hjkh, new cjs.Rectangle(0,0,703,426), null);
+}).prototype = getMCSymbolPrototype(lib.hjkh, new cjs.Rectangle(0,0,703,488), null);
 
 
 (lib.hjghj = function(mode,startPosition,loop) {
@@ -704,7 +704,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.ghj, new cjs.Rectangle(0,0,121,23.2), null);
 
 
-(lib.Анимация2 = function(mode,startPosition,loop) {
+(lib.fghfgh = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
@@ -754,7 +754,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 p.nominalBounds = new cjs.Rectangle(-90,-18.8,180.1,37.7);
 
 
-(lib.Анимация1 = function(mode,startPosition,loop) {
+(lib.fghf = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
@@ -1474,11 +1474,11 @@ p.nominalBounds = new cjs.Rectangle(-90,-18.8,180.1,37.7);
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(80).to({_off:false},0).to({regX:98.2,regY:19.6,scaleX:1,scaleY:1,rotation:0,x:117.4,y:166.3,alpha:1},8,cjs.Ease.get(1)).wait(75).to({regX:98,regY:20,scaleX:0.26,scaleY:0.26,rotation:-45,x:74.4,y:209.2,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(70));
 
 	// icepeak
-	this.instance_6 = new lib.Анимация2("synched",0);
+	this.instance_6 = new lib.fghfgh("synched",0);
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(120,341.2);
 
-	this.instance_7 = new lib.Анимация1("synched",0);
+	this.instance_7 = new lib.fghf("synched",0);
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(340,341.2);
 	this.instance_7._off = true;
@@ -1536,19 +1536,19 @@ p.nominalBounds = new cjs.Rectangle(-90,-18.8,180.1,37.7);
 	// bg
 	this.instance_14 = new lib.hjkh();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(120,200.1,0.569,0.569,-90,0,0,351.4,212.9);
+	this.instance_14.setTransform(100,200.1,0.569,0.569,-90,0,0,351.4,212.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(77).to({regX:351.5,regY:213,scaleX:1,scaleY:1,rotation:0,x:187.5,y:213},14,cjs.Ease.get(1)).wait(70).to({regX:351.4,regY:212.9,scaleX:0.57,scaleY:0.57,rotation:-90,x:120,y:200.1},10,cjs.Ease.get(1)).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(77).to({regX:351.2,regY:213,scaleX:1.13,scaleY:1.13,rotation:-45,x:144,y:185.1},7).to({regX:351.5,scaleX:1,scaleY:1,rotation:0,x:187.5,y:170},7).wait(70).to({regX:351.4,regY:213.1,scaleX:1.13,scaleY:1.13,rotation:-45,x:155,y:165.1},5).to({regY:212.9,scaleX:0.57,scaleY:0.57,rotation:-90,x:100,y:200.1},5).wait(69));
 
 	// Слой 10
 	this.instance_15 = new lib.hjkh();
 	this.instance_15.parent = this;
-	this.instance_15.setTransform(120,200.1,0.569,0.569,-90,0,0,351.4,212.9);
+	this.instance_15.setTransform(100,200.1,0.569,0.569,-90,0,0,351.4,212.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(240));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(118.9,199.5,242.3,401);
+p.nominalBounds = new cjs.Rectangle(98.9,199.5,277.5,401);
 // library properties:
 lib.properties = {
 	width: 240,
