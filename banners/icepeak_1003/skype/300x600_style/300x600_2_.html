@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<!--
-	NOTES:
-	1. All tokens are represented by '$' sign in the template.
-	2. You can write your code only wherever mentioned.
-	3. All occurrences of existing tokens will be replaced by their appropriate values.
-	4. Blank lines will be removed automatically.
-	5. Remove unnecessary comments before creating your template.
--->
 <html>
 <head>
+<meta name="ad.size" content="width=300,height=600">
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>300x600_2</title>
 <!-- write your code here -->
-<script type="text/javascript">var clickTag = "";</script>
+<script type="text/javascript" src="//acdn.adnxs.com/html5-lib/1.3.0/appnexus-html5-lib.min.js"></script>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="300x600_2.js"></script>
 <script>
@@ -85,13 +78,11 @@ function handleComplete(evt) {
 </script>
 <!-- write your code here -->
 </head>
-<body onload="init();" style="margin:0px;">
-	<a href="javascript:window.open(window.clickTag,'_blank')">
+<body onload="init();" style="margin:0px;" onClick="window.open(APPNEXUS.getClickTag(), '_blank');">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:600px">
 		<canvas id="canvas" width="300" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-	</a>
 </body>
 </html>
