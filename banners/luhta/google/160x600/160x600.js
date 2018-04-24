@@ -1,73 +1,12 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"160x600_atlas_P_", frames: [[212,0,193,301],[0,0,210,296],[142,303,142,34],[0,298,140,64]]},
 		{name:"160x600_atlas_NP_", frames: [[243,0,240,500],[0,0,241,500]]}
 ];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -708,22 +647,22 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:80.5,y:360},7,cjs.Ease.get(1)).wait(54).to({scaleX:0.8,scaleY:0.8,y:332.2,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(291));
 
-	// date
-	this.instance_11 = new lib.qwe();
-	this.instance_11.parent = this;
-	this.instance_11.setTransform(82.4,240.1,0.5,0.5);
-	this.instance_11.alpha = 0;
-	this.instance_11._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1).to({_off:false},0).wait(1).to({regY:-0.5,scaleX:0.51,scaleY:0.51,y:239.9,alpha:0.021},0).wait(1).to({scaleX:0.55,scaleY:0.55,y:239.8,alpha:0.1},0).wait(1).to({scaleX:0.63,scaleY:0.63,alpha:0.265},0).wait(1).to({scaleX:0.76,scaleY:0.76,y:239.7,alpha:0.517},0).wait(1).to({scaleX:0.88,scaleY:0.88,alpha:0.759},0).wait(1).to({scaleX:0.95,scaleY:0.95,y:239.6,alpha:0.909},0).wait(1).to({scaleX:0.99,scaleY:0.99,alpha:0.98},0).wait(1).to({regY:0,scaleX:1,scaleY:1,y:240.1,alpha:1},0).wait(52).to({scaleX:0.8,scaleY:0.8,x:82,y:238.3,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(293));
-
 	// mania
-	this.instance_12 = new lib.hhh();
-	this.instance_12.parent = this;
-	this.instance_12.setTransform(83.6,152.1,0.5,0.5,0,0,0,0,0.1);
-	this.instance_12.alpha = 0.449;
+	this.instance_11 = new lib.hhh();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(83.6,152.1,0.5,0.5,0,0,0,0,0.1);
+	this.instance_11.alpha = 0.449;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({regY:0,scaleX:1,scaleY:1,y:112.1,alpha:1},7,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:83,y:137.9,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(295));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({regY:0,scaleX:1,scaleY:1,y:112.1,alpha:1},7,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:83,y:137.9,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(295));
+
+	// date
+	this.instance_12 = new lib.qwe();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(82.4,240.1,0.5,0.5);
+	this.instance_12.alpha = 0;
+	this.instance_12._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(1).to({_off:false},0).wait(1).to({regY:-0.5,scaleX:0.51,scaleY:0.51,y:239.9,alpha:0.021},0).wait(1).to({scaleX:0.55,scaleY:0.55,y:239.8,alpha:0.1},0).wait(1).to({scaleX:0.63,scaleY:0.63,alpha:0.265},0).wait(1).to({scaleX:0.76,scaleY:0.76,y:239.7,alpha:0.517},0).wait(1).to({scaleX:0.88,scaleY:0.88,alpha:0.759},0).wait(1).to({scaleX:0.95,scaleY:0.95,y:239.6,alpha:0.909},0).wait(1).to({scaleX:0.99,scaleY:0.99,alpha:0.98},0).wait(1).to({regY:0,scaleX:1,scaleY:1,y:240.1,alpha:1},0).wait(52).to({scaleX:0.8,scaleY:0.8,x:82,y:238.3,alpha:0.301},7,cjs.Ease.get(-1)).to({_off:true},1).wait(293));
 
 	// bg
 	this.shape_1 = new cjs.Shape();
@@ -741,10 +680,9 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
-		{src:"images/160x600_atlas_P_.png", id:"160x600_atlas_P_"},
-		{src:"images/160x600_atlas_NP_.jpg", id:"160x600_atlas_NP_"}
+		{src:"images/160x600_atlas_P_.png?1524522021152", id:"160x600_atlas_P_"},
+		{src:"images/160x600_atlas_NP_.jpg?1524522021152", id:"160x600_atlas_NP_"}
 	],
 	preloads: []
 };
