@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"300x250_atlas_P_", frames: [[292,0,148,180],[144,0,146,190],[0,0,142,204],[292,182,142,187],[0,278,274,25],[0,206,153,70]]},
-		{name:"300x250_atlas_NP_", frames: [[0,202,300,200],[0,0,300,200]]}
+		{name:"300x250_atlas_NP_", frames: [[0,0,300,200],[0,202,300,200]]}
 ];
 
 
@@ -604,21 +604,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 // stage content:
 (lib._300x250 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_0 = function() {
-		this.currLoop = 0;
-	}
-	this.frame_24 = function() {
-		if (this.currLoop == 1){this.stop()}
-	}
-	this.frame_361 = function() {
-		this.currLoop++;
-		this.gotoAndPlay(2);
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(337).call(this.frame_361).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
