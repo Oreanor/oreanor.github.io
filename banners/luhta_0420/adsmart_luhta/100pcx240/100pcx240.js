@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx240_atlas_P_", frames: [[292,0,148,180],[144,0,146,190],[0,0,142,204],[292,182,142,187],[0,278,274,25],[0,206,153,70]]},
+		{name:"100pcx240_atlas_P_", frames: [[292,0,148,180],[144,0,146,190],[0,0,142,204],[0,206,142,187],[144,192,295,39],[144,233,153,70]]},
 		{name:"100pcx240_atlas_NP_", frames: [[0,404,600,400],[0,0,600,402]]}
 ];
 
@@ -398,11 +398,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib.legal();
 	this.instance.parent = this;
-	this.instance.setTransform(-29,0);
+	this.instance.setTransform(-33,-8);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.dfgd, new cjs.Rectangle(-29,0,274,25), null);
+}).prototype = getMCSymbolPrototype(lib.dfgd, new cjs.Rectangle(-33,-8,295,39), null);
 
 
 (lib.bbvv = function(mode,startPosition,loop) {
@@ -545,10 +545,10 @@ p.nominalBounds = new cjs.Rectangle(-74,-16.3,148.1,32.6);
 	this.instance.setTransform(0,12,1,1,0,0,0,108,11);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(7).to({alpha:1},11).wait(46).to({alpha:0},5).to({_off:true},1).wait(292));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(7).to({x:-6.5,alpha:1},11).wait(46).to({x:-6},0).to({x:0,alpha:0},5).to({_off:true},1).wait(292));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-137,1,274,25);
+p.nominalBounds = new cjs.Rectangle(-141,-7,295,39);
 
 
 (lib.qqq3 = function(mode,startPosition,loop) {
@@ -1033,7 +1033,7 @@ p.nominalBounds = new cjs.Rectangle(-132.3,-112.5,283,224.8);
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(362));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(200,120,300,240);
+p.nominalBounds = new cjs.Rectangle(200,120,304,242);
 // library properties:
 lib.properties = {
 	width: 400,
