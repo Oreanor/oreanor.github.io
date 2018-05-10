@@ -16,6 +16,7 @@
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="300x300.js"></script>
+<script src="//content.adriver.ru/html.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -87,10 +88,14 @@ function handleComplete(evt) {
 <!-- write your code here -->
 
 <body onload="init();" style="margin:0px;">
+	<div class="button" onclick="return ar_callLink( {target: '_blank'} );">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:300px">
 		<a href="%link1%" target="_blank"><canvas id="canvas" width="300" height="300" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas></a>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:300px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+	</div>
+
+	<img style='display: none' src='https://collector.cint.com/?a=6447&i=6&e=1&c=4' />
 </body>
 </html>

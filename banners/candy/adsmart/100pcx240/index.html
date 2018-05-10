@@ -8,6 +8,7 @@
     
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="100pcx240.js"></script>
+<script src="//content.adriver.ru/html.js"></script>
 <script>
     var flashVars = {
       reference: "%reference%",
@@ -105,8 +106,12 @@ function handleComplete(evt) {
 </script>
 </head>
 <body onload="init();" style="background-color:#D4D4D4;margin:0px;padding:0px;">
+<div class="button" onclick="return ar_callLink( {target: '_blank'} );">
 <a href="%reference%" target="%target%">
+    
 	<canvas id="canvas" width="400" height="240" style="background-color:rgba(255, 255, 255, 1.00);border:1px black solid; box-sizing:border-box;margin:0px;padding:0px;"></canvas>
-</a>  
+    
+</a>
+</div>  
 </body>
 </html>

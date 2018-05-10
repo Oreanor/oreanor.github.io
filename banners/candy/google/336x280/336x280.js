@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"336x280_atlas_P_", frames: [[0,136,150,121],[0,0,150,134]]},
-		{name:"336x280_atlas_NP_", frames: [[0,142,338,140],[0,0,338,140]]}
+		{name:"336x280_atlas_NP_", frames: [[0,142,338,140],[0,0,338,140],[0,284,338,140]]}
 ];
 
 
@@ -96,6 +96,13 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 (lib.p3 = function() {
 	this.spriteSheet = ss["336x280_atlas_P_"];
 	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.p4 = function() {
+	this.spriteSheet = ss["336x280_atlas_NP_"];
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -641,6 +648,19 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.ggggg, new cjs.Rectangle(-120,-97,338,140), null);
+
+
+(lib.fgh = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.p4();
+	this.instance.parent = this;
+	this.instance.setTransform(-169,-70);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.fgh, new cjs.Rectangle(-169,-70,338,140), null);
 
 
 (lib.fg = function(mode,startPosition,loop) {
@@ -1190,35 +1210,35 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:123.5,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:105.5,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(257));
 
-	// p0.png - копия
-	this.instance_12 = new lib.eeee();
+	// Слой 5
+	this.instance_12 = new lib.fgh();
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(240,172,0.8,0.8);
+	this.instance_12.setTransform(199,136,0.8,0.8);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:210,y:174,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:180,y:172,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(63));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(257).to({_off:false},0).to({scaleX:1,scaleY:1,x:169,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:139,alpha:0},8,cjs.Ease.get(1)).wait(1));
 
-	// p3.png
-	this.instance_13 = new lib.ghj();
+	// p0.png - копия
+	this.instance_13 = new lib.eeee();
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(238,176,0.8,0.8);
+	this.instance_13.setTransform(240,172,0.8,0.8);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(258).to({_off:false},0).to({scaleX:1,scaleY:1,x:208,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:178,alpha:0},7,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:210,y:174,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:180,y:172,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(63));
 
-	// p2.png
-	this.instance_14 = new lib.dfgdfg();
+	// p3.png
+	this.instance_14 = new lib.ghj();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(150,161,0.8,0.8);
+	this.instance_14.setTransform(238,176,0.8,0.8);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(130).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:163,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:161,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(127));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(131).to({_off:false},0).to({scaleX:1,scaleY:1,x:208,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:178,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(127));
 
-	// p1.png
-	this.instance_15 = new lib.ggggg();
+	// p2.png
+	this.instance_15 = new lib.dfgdfg();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(150,161,0.8,0.8);
 	this.instance_15.alpha = 0;
@@ -1226,14 +1246,14 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(66).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:163,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:161,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(191));
 
-	// p0.png
-	this.instance_16 = new lib.eeee();
+	// p1.png
+	this.instance_16 = new lib.ggggg();
 	this.instance_16.parent = this;
-	this.instance_16.setTransform(227.2,172.7,0.8,0.8,0,0,0,0.1,0.1);
+	this.instance_16.setTransform(150,161,0.8,0.8);
 	this.instance_16.alpha = 0;
 	this.instance_16._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:208,y:174,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:188.8,y:172.7,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(255));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:163,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:161,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(255));
 
 	// logo
 	this.shape_8 = new cjs.Shape();
@@ -1272,8 +1292,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/336x280_atlas_P_.png", id:"336x280_atlas_P_"},
-		{src:"images/336x280_atlas_NP_.jpg", id:"336x280_atlas_NP_"}
+		{src:"336x280_atlas_P_.png", id:"336x280_atlas_P_"},
+		{src:"336x280_atlas_NP_.jpg", id:"336x280_atlas_NP_"}
 	],
 	preloads: []
 };

@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"120x600_atlas_P_", frames: [[0,0,140,180],[0,182,140,173]]},
-		{name:"120x600_atlas_NP_", frames: [[0,0,160,200],[0,202,160,200]]}
+		{name:"120x600_atlas_NP_", frames: [[324,0,160,200],[162,0,160,200],[0,0,160,200]]}
 ];
 
 
@@ -96,6 +96,13 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 (lib.p3 = function() {
 	this.spriteSheet = ss["120x600_atlas_P_"];
 	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.p4 = function() {
+	this.spriteSheet = ss["120x600_atlas_NP_"];
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -314,6 +321,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.hkhjk, new cjs.Rectangle(-63.3,-20.5,126.8,37.9), null);
+
+
+(lib.hjghj = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.p4();
+	this.instance.parent = this;
+	this.instance.setTransform(-100,-100);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.hjghj, new cjs.Rectangle(-100,-100,160,200), null);
 
 
 (lib.hhhj = function(mode,startPosition,loop) {
@@ -1044,14 +1064,14 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(302).call(this.frame_326).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(302).call(this.frame_326).wait(2));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#333333").ss(1,1,1).p("EgJSguyISlAAMAAABdlIylAAg");
 	this.shape.setTransform(60,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(327));
+	this.timeline.addTween(cjs.Tween.get(this.shape).to({_off:true},327).wait(1));
 
 	// Слой 3
 	this.instance = new lib.dfdsf();
@@ -1060,7 +1080,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(128).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(128).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(130));
 
 	// Слой 2
 	this.instance_1 = new lib.rgfg();
@@ -1069,7 +1089,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(64).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(193));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(64).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(194));
 
 	// Слой 1
 	this.instance_2 = new lib.fg();
@@ -1077,7 +1097,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_2.setTransform(106.4,564.2,1,1,-90,0,0,27.9,6.5);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(257));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({alpha:1},6,cjs.Ease.get(1)).wait(57).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(258));
 
 	// Слой 4
 	this.shape_1 = new cjs.Shape();
@@ -1108,7 +1128,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.shape_7.graphics.f("#000000").s().p("AgFALIADgJIgJABIAAgFIAJABIgDgJIAFgCIACAKIAHgHIADAFIgIAEIAIAFIgDAFIgHgGIgCAJg");
 	this.shape_7.setTransform(94.4,585.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1}]}).wait(327));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1}]}).to({state:[]},327).wait(1));
 
 	// i3.png
 	this.instance_3 = new lib.hyjkhj();
@@ -1117,7 +1137,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(193).to({_off:false},0).to({x:60.8,y:110.9,alpha:1},8,cjs.Ease.get(1)).wait(52).to({y:110.2},0).to({x:45.8,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(65));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(193).to({_off:false},0).to({x:60.8,y:110.9,alpha:1},8,cjs.Ease.get(1)).wait(52).to({y:110.2},0).to({x:45.8,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(66));
 
 	// i2.png
 	this.instance_4 = new lib.ghjgh("synched",0);
@@ -1126,7 +1146,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(129).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(0.96)).wait(52).to({startPosition:0},0).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(129).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(0.96)).wait(52).to({startPosition:0},0).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(130));
 
 	// i1.png
 	this.instance_5 = new lib.ghjghj("synched",0);
@@ -1135,7 +1155,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(65).to({_off:false},0).to({x:55.9,alpha:1},8,cjs.Ease.get(1)).wait(52).to({startPosition:0},0).to({x:40.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(193));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(65).to({_off:false},0).to({x:55.9,alpha:1},8,cjs.Ease.get(1)).wait(52).to({startPosition:0},0).to({x:40.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(194));
 
 	// i0.png
 	this.instance_6 = new lib.ghjghjhjj("synched",0);
@@ -1144,7 +1164,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({startPosition:0},0).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(257));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({startPosition:0},0).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(258));
 
 	// t4.png
 	this.instance_7 = new lib.jlkjl();
@@ -1153,7 +1173,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(256).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(256).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(3));
 
 	// t3.png
 	this.instance_8 = new lib.hkhjk();
@@ -1162,7 +1182,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(192).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(66));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(192).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(67));
 
 	// t2.png
 	this.instance_9 = new lib.uuiui();
@@ -1171,7 +1191,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(128).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(130));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(128).to({_off:false},0).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:45.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(131));
 
 	// t1.png
 	this.instance_10 = new lib.hhh();
@@ -1180,7 +1200,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_10.alpha = 0;
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(64).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:46.5,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(194));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(64).to({_off:false},0).to({x:60,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:46.5,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(195));
 
 	// t0.png
 	this.instance_11 = new lib.uu8();
@@ -1188,52 +1208,52 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_11.setTransform(73.9,68.9,0.675,0.675);
 	this.instance_11.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:46.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(258));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:60.4,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:46.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(259));
 
-	// p0.png - копия
-	this.instance_12 = new lib.eeee();
+	// Слой 5
+	this.instance_12 = new lib.hjghj();
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(130,281,0.8,0.8);
+	this.instance_12.setTransform(101,300,0.8,0.8);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(64));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(258).to({_off:false},0).to({scaleX:1,scaleY:1,x:81,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:61,alpha:0},8,cjs.Ease.get(0.82)).to({_off:true},1).wait(1));
 
-	// p3.png
-	this.instance_13 = new lib.ghj();
+	// p0.png - копия
+	this.instance_13 = new lib.eeee();
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(130,273,0.8,0.8);
+	this.instance_13.setTransform(130,281,0.8,0.8);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(258).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,alpha:0},8,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(65));
 
-	// p2.png
-	this.instance_14 = new lib.dfgdfg();
+	// p3.png
+	this.instance_14 = new lib.ghj();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(130,281,0.8,0.8);
+	this.instance_14.setTransform(130,273,0.8,0.8);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(130).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(128));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(130).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(129));
 
-	// p1.png
-	this.instance_15 = new lib.ggggg();
+	// p2.png
+	this.instance_15 = new lib.dfgdfg();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(130,281,0.8,0.8);
 	this.instance_15.alpha = 0;
 	this.instance_15._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(66).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(192));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(66).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(193));
 
-	// p0.png
-	this.instance_16 = new lib.eeee();
+	// p1.png
+	this.instance_16 = new lib.ggggg();
 	this.instance_16.parent = this;
 	this.instance_16.setTransform(130,281,0.8,0.8);
 	this.instance_16.alpha = 0;
 	this.instance_16._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(256));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:100,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:70,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(257));
 
 	// logo
 	this.shape_8 = new cjs.Shape();
@@ -1248,7 +1268,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_17.parent = this;
 	this.instance_17.setTransform(57.3,509.3,0.157,0.157,0,0,0,205,48.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_17},{t:this.shape_9},{t:this.shape_8}]}).wait(327));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_17},{t:this.shape_9},{t:this.shape_8}]}).to({state:[]},327).wait(1));
 
 	// bg
 	this.shape_10 = new cjs.Shape();
@@ -1259,7 +1279,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.shape_11.graphics.lf(["#FFFFFF","#BFBFBF"],[0,1],0,150,0,-149.9).s().p("ApXXcMAAAgu3ISvAAMAAAAu3g");
 	this.shape_11.setTransform(60,150);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_11},{t:this.shape_10}]}).wait(327));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_11},{t:this.shape_10}]}).to({state:[]},327).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(59.5,299.5,122.6,601);
@@ -1272,8 +1292,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/120x600_atlas_P_.png", id:"120x600_atlas_P_"},
-		{src:"images/120x600_atlas_NP_.jpg", id:"120x600_atlas_NP_"}
+		{src:"120x600_atlas_P_.png", id:"120x600_atlas_P_"},
+		{src:"120x600_atlas_NP_.jpg", id:"120x600_atlas_NP_"}
 	],
 	preloads: []
 };
