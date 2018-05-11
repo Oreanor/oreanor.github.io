@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"240x400_atlas_P_", frames: [[0,216,240,194],[0,0,240,214]]},
-		{name:"240x400_atlas_NP_", frames: [[0,0,240,194],[242,0,240,194],[0,196,240,194]]}
+		{name:"240x400_atlas_NP_", frames: [[242,0,240,194],[0,196,240,194],[0,0,240,194]]}
 ];
 
 
@@ -1202,7 +1202,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(257).to({_off:false},0).to({scaleX:1,scaleY:1,x:121,alpha:1},7,cjs.Ease.get(1)).wait(54).to({scaleX:0.8,scaleY:0.8,x:91,alpha:0},8,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(129).to({_off:false},0).to({scaleX:1,scaleY:1,x:121,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:91,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(129));
 
 	// p0.png - копия
 	this.instance_13 = new lib.eeee();
@@ -1211,7 +1211,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:203,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:201,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(64));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(257).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:203,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:201,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(1));
 
 	// p3.png
 	this.instance_14 = new lib.ghj();
@@ -1220,7 +1220,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(130).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(128));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(193).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(65));
 
 	// p2.png
 	this.instance_15 = new lib.dfgdfg();

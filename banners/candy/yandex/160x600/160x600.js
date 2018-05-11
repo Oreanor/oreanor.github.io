@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 lib.ssMetadata = [
 		{name:"160x600_atlas_P_", frames: [[0,0,140,180],[0,182,140,173]]},
-		{name:"160x600_atlas_NP_", frames: [[162,0,160,200],[324,0,160,200],[0,0,160,200]]}
+		{name:"160x600_atlas_NP_", frames: [[324,0,160,200],[162,0,160,200],[0,0,160,200]]}
 ];
 
 
@@ -1141,7 +1141,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(258).to({_off:false},0).to({scaleX:1,scaleY:1,x:81,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:61,alpha:0},8,cjs.Ease.get(0.82)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(128).to({_off:false},0).to({scaleX:1,scaleY:1,x:81,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:61,alpha:0},8,cjs.Ease.get(0.82)).to({_off:true},1).wait(130));
 
 	// p0.png - копия
 	this.instance_13 = new lib.eeee();
@@ -1150,7 +1150,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_13.alpha = 0;
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(194).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:281,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(64));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(258).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,y:283,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,y:281,alpha:0},8,cjs.Ease.get(1)).wait(1));
 
 	// p3.png
 	this.instance_14 = new lib.ghj();
@@ -1159,7 +1159,7 @@ p.nominalBounds = new cjs.Rectangle(-42.3,-18.5,98.2,33.1);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(128).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(130));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(192).to({_off:false},0).to({scaleX:1,scaleY:1,x:120,alpha:1},8,cjs.Ease.get(1)).wait(52).to({scaleX:0.8,scaleY:0.8,x:90,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(66));
 
 	// p2.png
 	this.instance_15 = new lib.dfgdfg();
@@ -1215,8 +1215,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"160x600_atlas_P_.png?1525982795714", id:"160x600_atlas_P_"},
-		{src:"160x600_atlas_NP_.jpg?1525982795714", id:"160x600_atlas_NP_"}
+		{src:"160x600_atlas_P_.png?1526025420429", id:"160x600_atlas_P_"},
+		{src:"160x600_atlas_NP_.jpg?1526025420429", id:"160x600_atlas_NP_"}
 	],
 	preloads: []
 };
