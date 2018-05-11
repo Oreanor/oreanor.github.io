@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"300x250_atlas_P_", frames: [[292,0,148,180],[144,0,146,190],[0,0,142,204],[292,182,142,187],[0,278,274,25],[0,206,153,70]]},
-		{name:"300x250_atlas_NP_", frames: [[0,0,300,200],[0,202,300,200]]}
+		{name:"300x250_atlas_NP_", frames: [[0,202,300,200],[0,0,300,200]]}
 ];
 
 
@@ -742,7 +742,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// bg
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFEC00").s().p("AyvfQMAAAg+fMAlfAAAMAAAA+fg");
+	this.shape_1.graphics.f("#FFD50C").s().p("AyvfQMAAAg+fMAlfAAAMAAAA+fg");
 	this.shape_1.setTransform(150,125,1.25,0.625);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(362));

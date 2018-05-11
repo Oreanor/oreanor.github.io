@@ -709,7 +709,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// bg
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFEC00").s().p("Eg43AHCIAAuDMBxvAAAIAAODg");
+	this.shape_1.graphics.f("#FFD50C").s().p("Eg43AHCIAAuDMBxvAAAIAAODg");
 	this.shape_1.setTransform(364,45);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(362));
