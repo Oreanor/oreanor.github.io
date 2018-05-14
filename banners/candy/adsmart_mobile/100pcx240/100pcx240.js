@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"100pcx240_atlas_P_", frames: [[0,0,130,160],[132,0,122,160]]},
-		{name:"100pcx240_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250],[0,504,300,250]]}
+		{name:"100pcx240_atlas_NP_", frames: [[0,252,300,250],[0,504,300,250],[0,0,300,250]]}
 ];
 
 
@@ -2049,16 +2049,16 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// i3.png
 	this.instance = new lib.hyjkhj();
 	this.instance.parent = this;
-	this.instance.setTransform(87.9,5.6,0.9,0.9);
+	this.instance.setTransform(87.9,1.6,0.9,0.9);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(194).to({_off:false},0).to({x:69.9,y:6.5,alpha:1},8,cjs.Ease.get(1)).wait(52).to({y:5.6},0).to({x:51.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(62));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(194).to({_off:false},0).to({x:69.9,y:2.5,alpha:1},8,cjs.Ease.get(1)).wait(52).to({y:1.6},0).to({x:51.9,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(62));
 
 	// i2.png
 	this.instance_1 = new lib.ghjgh("synched",0);
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(109.4,2.9,0.81,0.81,0,0,0,0.1,0.1);
+	this.instance_1.setTransform(109.4,-1.1,0.81,0.81,0,0,0,0.1,0.1);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -2067,7 +2067,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// i1.png
 	this.instance_2 = new lib.ghjghj("synched",0);
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(96.3,9.6,0.693,0.693,0,0,0,0.2,0.1);
+	this.instance_2.setTransform(96.3,5.6,0.693,0.693,0,0,0,0.2,0.1);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -2076,7 +2076,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// i0.png
 	this.instance_3 = new lib.ghjghjhjj("synched",0);
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(88.1,5,0.873,0.873,0,0,0,0.1,0.1);
+	this.instance_3.setTransform(88.1,1,0.873,0.873,0,0,0,0.1,0.1);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
@@ -2085,7 +2085,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// t4.png
 	this.instance_4 = new lib.jlkjl();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(18.1,2.5,0.9,0.9);
+	this.instance_4.setTransform(18.1,-1.5,0.9,0.9);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
@@ -2094,7 +2094,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// t3.png
 	this.instance_5 = new lib.hkhjk();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(-9.8,5.6,0.9,0.9);
+	this.instance_5.setTransform(-9.8,1.6,0.9,0.9);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
@@ -2103,7 +2103,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// t2.png
 	this.instance_6 = new lib.uuiui();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(-25.5,1.4,0.9,0.9);
+	this.instance_6.setTransform(-25.5,-2.6,0.9,0.9);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
@@ -2112,7 +2112,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// t1.png
 	this.instance_7 = new lib.hhh();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(-30.1,5.2,0.855,0.855,0,0,0,0.1,0.1);
+	this.instance_7.setTransform(-30.1,1.2,0.855,0.855,0,0,0,0.1,0.1);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
@@ -2121,13 +2121,13 @@ p.nominalBounds = new cjs.Rectangle(-150,-121,300,250);
 	// t0.png
 	this.instance_8 = new lib.uu8();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(-25.5,4.5,0.873,0.873);
+	this.instance_8.setTransform(-25.5,0.5,0.873,0.873);
 	this.instance_8.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:-42.9,alpha:1},8,cjs.Ease.get(1)).wait(52).to({x:-60.4,alpha:0},8,cjs.Ease.get(1)).to({_off:true},1).wait(256));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-87,-12.9,123.9,34.9);
+p.nominalBounds = new cjs.Rectangle(-87,-16.9,123.9,34.8);
 
 
 // stage content:
@@ -2180,7 +2180,7 @@ p.nominalBounds = new cjs.Rectangle(-87,-12.9,123.9,34.9);
 				logo.scaleY = 0.8;
 				
 				text.x = wdt/2;
-				text.y = 25;
+				text.y = 28;
 				text.scaleX = 1;
 				text.scaleY = 1;
 				
@@ -2228,6 +2228,58 @@ p.nominalBounds = new cjs.Rectangle(-87,-12.9,123.9,34.9);
 				pic2.visible = false;
 				
 				
+			} else if(wdt<1200) {
+				
+				addr2.x = 4;
+				addr2.visible = true;
+				addr.visible = false;
+				
+				logo.x = wdt*0.8;
+				logo.y = 120;
+				logo.scaleX = 1.6;
+				logo.scaleY = 1.6;
+				
+				text.x = wdt*0.18;
+				text.y = 110;
+				text.scaleX = 1.4;
+				text.scaleY = 1.4;
+				
+				pic.x = wdt/2;
+				pic.y = 115;
+				pic.scaleX = 1;
+				pic.scaleY = 1;
+				
+				bg2.visible = true;
+				bg1.visible = false;
+				
+				pic.visible = true;
+				pic2.visible = false;
+			} else if(wdt<1400) {
+				
+				addr2.x = 4;
+				addr2.visible = true;
+				addr.visible = false;
+				
+				logo.x = wdt*0.8;
+				logo.y = 120;
+				logo.scaleX = 2;
+				logo.scaleY = 2;
+				
+				text.x = wdt*0.18;
+				text.y = 110;
+				text.scaleX = 1.5;
+				text.scaleY = 1.5;
+				
+				pic.x = wdt/2;
+				pic.y = 115;
+				pic.scaleX = 1;
+				pic.scaleY = 1;
+				
+				bg2.visible = true;
+				bg1.visible = false;
+				
+				pic.visible = true;
+				pic2.visible = false;
 			} else {
 				
 				addr2.x = 4;
@@ -2236,13 +2288,13 @@ p.nominalBounds = new cjs.Rectangle(-87,-12.9,123.9,34.9);
 				
 				logo.x = wdt*0.8;
 				logo.y = 120;
-				logo.scaleX = 1.4;
-				logo.scaleY = 1.4;
+				logo.scaleX = 2.4;
+				logo.scaleY = 2.4;
 				
 				text.x = wdt*0.18;
-				text.y = 120;
-				text.scaleX = 1.2;
-				text.scaleY = 1.2;
+				text.y = 110;
+				text.scaleX = 1.7;
+				text.scaleY = 1.7;
 				
 				pic.x = wdt/2;
 				pic.y = 115;
@@ -2340,8 +2392,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/100pcx240_atlas_P_.png", id:"100pcx240_atlas_P_"},
-		{src:"images/100pcx240_atlas_NP_.jpg", id:"100pcx240_atlas_NP_"}
+		{src:"100pcx240_atlas_P_.png", id:"100pcx240_atlas_P_"},
+		{src:"100pcx240_atlas_NP_.jpg", id:"100pcx240_atlas_NP_"}
 	],
 	preloads: []
 };
