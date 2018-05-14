@@ -7,7 +7,6 @@
 <title>320x50</title>
 <script src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js"></script>
 <script src="320x50.js"></script>
-<script src="//content.adriver.ru/html.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -79,13 +78,10 @@ function handleComplete(evt) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div class="button" onclick="return ar_callLink( {target: '_blank'} );">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:320px; height:50px">
 		<canvas id="canvas" width="320" height="50" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:320px; height:50px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-	</div>
-	<img style='display: none' src='https://collector.cint.com/?a=6447&i=6&e=1&c=8' />
 </body>
 </html>
