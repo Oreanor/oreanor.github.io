@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"index_atlas_P_", frames: [[0,91,23,2],[152,0,50,225],[0,0,150,89]]},
+		{name:"index_atlas_P_", frames: [[102,91,23,2],[0,91,100,73],[152,0,50,225],[0,0,150,89]]},
 		{name:"index_atlas_NP_", frames: [[0,0,160,224],[0,226,220,153]]}
 ];
 
@@ -79,6 +79,13 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
+(lib.hoov2 = function() {
+	this.spriteSheet = ss["index_atlas_P_"];
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.pic1 = function() {
 	this.spriteSheet = ss["index_atlas_NP_"];
 	this.gotoAndStop(0);
@@ -88,14 +95,14 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.pic2a = function() {
 	this.spriteSheet = ss["index_atlas_P_"];
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pic2b = function() {
 	this.spriteSheet = ss["index_atlas_P_"];
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -510,17 +517,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.pic2a();
+	this.instance = new lib.hoov2();
 	this.instance.parent = this;
-	this.instance.setTransform(-97,-112.5);
+	this.instance.setTransform(-42,42);
 
-	this.instance_1 = new lib.pic2b();
+	this.instance_1 = new lib.pic2a();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-47,-21);
+	this.instance_1.setTransform(-107,-113);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.pic2b();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-67,-71);
 
-}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-97,-112.5,200,225), null);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-107,-113,190,228), null);
 
 
 (lib.pic1_1 = function(mode,startPosition,loop) {
@@ -1771,23 +1782,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 }).prototype = getMCSymbolPrototype(lib.text1_1, new cjs.Rectangle(-102.6,-29.9,205.3,35), null);
 
 
-(lib.pic2_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance_2 = new lib.pic2a();
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(-158,-30,0.95,0.95);
-
-	this.instance_3 = new lib.pic2b();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(-113,86);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.pic2_1, new cjs.Rectangle(-158,-30,195,213.8), null);
-
-
 (lib.ghghj_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -2597,9 +2591,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(137).to({graphics:mask_3_graphics_137,x:581.3,y:162.3}).wait(1).to({graphics:mask_3_graphics_138,x:713.1,y:158.9}).wait(1).to({graphics:mask_3_graphics_139,x:636,y:155.7}).wait(1).to({graphics:mask_3_graphics_140,x:567.1,y:152.9}).wait(1).to({graphics:mask_3_graphics_141,x:506.2,y:150.4}).wait(1).to({graphics:mask_3_graphics_142,x:453.4,y:148.2}).wait(1).to({graphics:mask_3_graphics_143,x:408.8,y:146.4}).wait(1).to({graphics:mask_3_graphics_144,x:372.3,y:144.9}).wait(1).to({graphics:mask_3_graphics_145,x:343.9,y:143.8}).wait(1).to({graphics:mask_3_graphics_146,x:323.6,y:142.9}).wait(1).to({graphics:mask_3_graphics_147,x:311.4,y:142.4}).wait(1).to({graphics:mask_3_graphics_148,x:307.3,y:142.3}).wait(1).to({graphics:null,x:0,y:0}).wait(62).to({graphics:mask_3_graphics_211,x:330,y:142}).wait(1).to({graphics:mask_3_graphics_212,x:273.8,y:142}).wait(1).to({graphics:mask_3_graphics_213,x:215.3,y:142}).wait(1).to({graphics:mask_3_graphics_214,x:162.8,y:142}).wait(1).to({graphics:mask_3_graphics_215,x:116.4,y:142}).wait(1).to({graphics:mask_3_graphics_216,x:76.2,y:142}).wait(1).to({graphics:mask_3_graphics_217,x:42.2,y:142}).wait(1).to({graphics:mask_3_graphics_218,x:14.4,y:142}).wait(1).to({graphics:mask_3_graphics_219,x:-7.2,y:142}).wait(1).to({graphics:mask_3_graphics_220,x:-22.7,y:142}).wait(1).to({graphics:mask_3_graphics_221,x:-31.9,y:142}).wait(1).to({graphics:mask_3_graphics_222,x:-34.8,y:142}).wait(138));
 
 	// pic2
-	this.instance_5 = new lib.pic2_1();
+	this.instance_5 = new lib.pic2();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(177.4,42.5,1,1,0,0,0,0.1,0.1);
+	this.instance_5.setTransform(127.4,122.1,1,1,0,0,0,0.1,0.1);
 	this.instance_5._off = true;
 
 	var maskedShapeInstanceList = [this.instance_5];
@@ -3193,7 +3187,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	// pic2
 	this.instance_9 = new lib.pic2();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(-46,-10.5,0.7,0.7);
+	this.instance_9.setTransform(-42,-10.5,0.7,0.7);
 	this.instance_9._off = true;
 
 	var maskedShapeInstanceList = [this.instance_9];

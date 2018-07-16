@@ -1,12 +1,73 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x600_atlas_P_", frames: [[0,91,23,2],[152,0,50,225],[0,0,150,89]]},
+		{name:"300x600_atlas_P_", frames: [[102,91,23,2],[0,91,100,73],[152,0,50,225],[0,0,150,89]]},
 		{name:"300x600_atlas_NP_", frames: [[0,0,160,224],[0,226,220,153]]}
 ];
 
 
+
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != cur) {		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {		
+		cur = textInst;		
+		while(cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
 // symbols:
 
 
@@ -14,6 +75,13 @@ lib.ssMetadata = [
 (lib.Mesh_1 = function() {
 	this.spriteSheet = ss["300x600_atlas_P_"];
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hoov2 = function() {
+	this.spriteSheet = ss["300x600_atlas_P_"];
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -27,14 +95,14 @@ lib.ssMetadata = [
 
 (lib.pic2a = function() {
 	this.spriteSheet = ss["300x600_atlas_P_"];
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pic2b = function() {
 	this.spriteSheet = ss["300x600_atlas_P_"];
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -449,17 +517,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.pic2a();
+	this.instance = new lib.hoov2();
 	this.instance.parent = this;
-	this.instance.setTransform(-97,-112.5);
+	this.instance.setTransform(-42,42);
 
-	this.instance_1 = new lib.pic2b();
+	this.instance_1 = new lib.pic2a();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-53,-70.5);
+	this.instance_1.setTransform(-107,-113);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.pic2b();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-67,-71);
 
-}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-97,-112.5,194,225), null);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-107,-113,190,228), null);
 
 
 (lib.pic1_1 = function(mode,startPosition,loop) {
@@ -1777,7 +1849,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// pic2
 	this.instance_9 = new lib.pic2();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(167.1,297,1.25,1.25);
+	this.instance_9.setTransform(175.1,297,1.1,1.1);
 	this.instance_9._off = true;
 
 	var maskedShapeInstanceList = [this.instance_9];
@@ -1878,9 +1950,10 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/300x600_atlas_P_.png?1531598897412", id:"300x600_atlas_P_"},
-		{src:"images/300x600_atlas_NP_.jpg?1531598897412", id:"300x600_atlas_NP_"}
+		{src:"images/300x600_atlas_P_.png", id:"300x600_atlas_P_"},
+		{src:"images/300x600_atlas_NP_.jpg", id:"300x600_atlas_NP_"}
 	],
 	preloads: []
 };

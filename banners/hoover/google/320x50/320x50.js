@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"320x50_atlas_P_", frames: [[0,91,23,2],[152,0,50,225],[0,0,150,89]]},
+		{name:"320x50_atlas_P_", frames: [[102,91,23,2],[0,91,100,73],[152,0,50,225],[0,0,150,89]]},
 		{name:"320x50_atlas_NP_", frames: [[0,155,71,90],[0,0,220,153]]}
 ];
 
@@ -79,6 +79,13 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
+(lib.hoov2 = function() {
+	this.spriteSheet = ss["320x50_atlas_P_"];
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.pic1 = function() {
 	this.spriteSheet = ss["320x50_atlas_NP_"];
 	this.gotoAndStop(0);
@@ -88,14 +95,14 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.pic2a = function() {
 	this.spriteSheet = ss["320x50_atlas_P_"];
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pic2b = function() {
 	this.spriteSheet = ss["320x50_atlas_P_"];
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -510,17 +517,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.pic2a();
+	this.instance = new lib.hoov2();
 	this.instance.parent = this;
-	this.instance.setTransform(-138,3,0.7,0.7);
+	this.instance.setTransform(-34,63,0.8,0.8);
 
-	this.instance_1 = new lib.pic2b();
+	this.instance_1 = new lib.pic2a();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-103,66);
+	this.instance_1.setTransform(-141,-21,0.8,0.8);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.pic2b();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-116,81,0.9,0.9);
 
-}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-138,3,185,157.5), null);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-141,-21,187,182.1), null);
 
 
 (lib.pic1_1 = function(mode,startPosition,loop) {
