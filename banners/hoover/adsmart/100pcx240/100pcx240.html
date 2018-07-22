@@ -40,8 +40,7 @@ function handleComplete(evt) {
 	}
 	exportRoot = new lib._100pcx240();
 	stage = new createjs.Stage(canvas);
-	stage.addChild(exportRoot);
-	stage.enableMouseOver();	
+	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		createjs.Ticker.setFPS(lib.properties.fps);
