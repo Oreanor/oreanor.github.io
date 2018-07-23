@@ -1470,7 +1470,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// pic2
 	this.instance_5 = new lib.pic2();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(208,124.5,0.794,0.793,0,0,0,0.3,0.3);
+	this.instance_5.setTransform(202,124.5,0.901,0.9,0,0,0,0.5,0.5);
 	this.instance_5._off = true;
 
 	var maskedShapeInstanceList = [this.instance_5];
