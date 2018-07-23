@@ -979,10 +979,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// logo
 	this.instance_2 = new lib.hgj();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(76.5,199.3,0.507,0.507,0,0,0,0.1,0.3);
+	this.instance_2.setTransform(50.5,51.3,0.507,0.507,0,0,0,0.1,0.3);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:50.5,y:51.3,alpha:1},7).to({_off:true},295).wait(58));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({alpha:1},7).to({_off:true},295).wait(58));
 
 	// mask-in-out - копия: 2 (mask)
 	var mask = new cjs.Shape();
@@ -1827,7 +1827,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_9},{t:this.shape_157},{t:this.shape_156}]}).wait(360));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(141.2,113.9,309.3,271.4);
+p.nominalBounds = new cjs.Rectangle(140.5,113.9,310,271.4);
 // library properties:
 lib.properties = {
 	width: 300,
