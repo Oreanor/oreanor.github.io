@@ -1426,7 +1426,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// pic1
 	this.instance_4 = new lib.pic1_1();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(218,132.4,0.813,0.812);
+	this.instance_4.setTransform(226,132.4,0.813,0.812);
 	this.instance_4._off = true;
 
 	var maskedShapeInstanceList = [this.instance_4];
