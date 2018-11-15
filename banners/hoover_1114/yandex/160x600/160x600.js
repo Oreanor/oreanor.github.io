@@ -1,72 +1,11 @@
 (function (lib, img, cjs, ss, an) {
 
 var p; // shortcut to reference prototypes
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"160x600_atlas_P_", frames: [[302,0,69,260],[373,0,60,260],[0,0,210,278],[212,0,88,250]]}
+		{name:"160x600_atlas_P_", frames: [[364,0,69,260],[435,0,60,260],[0,0,210,278],[212,0,150,290]]}
 ];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -1462,34 +1401,6 @@ p.nominalBounds = new cjs.Rectangle(-88.1,-54.2,176.3,108.6);
 p.nominalBounds = new cjs.Rectangle(-88.1,-54.2,176.3,108.6);
 
 
-(lib.Анимация2 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib._4();
-	this.instance.parent = this;
-	this.instance.setTransform(-67.5,-130.5,0.528,0.776);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-67.5,-130.5,79.2,225);
-
-
-(lib.Анимация1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib._4();
-	this.instance.parent = this;
-	this.instance.setTransform(-67.5,-130.5,0.528,0.776);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-67.5,-130.5,79.2,225);
-
-
 (lib.hgj = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -2492,29 +2403,19 @@ p.nominalBounds = new cjs.Rectangle(-67.5,-130.5,79.2,225);
 
 	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(211).to({graphics:mask_3_graphics_211,x:281,y:235.1}).wait(1).to({graphics:mask_3_graphics_212,x:247.6,y:235.1}).wait(1).to({graphics:mask_3_graphics_213,x:217.4,y:235.1}).wait(1).to({graphics:mask_3_graphics_214,x:190.4,y:235.1}).wait(1).to({graphics:mask_3_graphics_215,x:166.5,y:235.1}).wait(1).to({graphics:mask_3_graphics_216,x:145.8,y:235.1}).wait(1).to({graphics:mask_3_graphics_217,x:128.4,y:235.1}).wait(1).to({graphics:mask_3_graphics_218,x:114,y:235.1}).wait(1).to({graphics:mask_3_graphics_219,x:102.9,y:235.1}).wait(1).to({graphics:mask_3_graphics_220,x:95,y:235.1}).wait(1).to({graphics:mask_3_graphics_221,x:90.2,y:235.1}).wait(1).to({graphics:mask_3_graphics_222,x:88.6,y:235.1}).wait(1).to({graphics:null,x:0,y:0}).wait(137));
 
-	// pic3
+	// Слой 3
 	this.instance_10 = new lib._4();
 	this.instance_10.parent = this;
-	this.instance_10.setTransform(32,128,0.645,0.948);
+	this.instance_10.setTransform(20,164,0.8,0.8);
+	this.instance_10._off = true;
 
-	this.instance_11 = new lib.Анимация1("synched",0);
-	this.instance_11.parent = this;
-	this.instance_11.setTransform(79.5,259.5);
-	this.instance_11._off = true;
-
-	this.instance_12 = new lib.Анимация2("synched",0);
-	this.instance_12.parent = this;
-	this.instance_12.setTransform(79.5,259.5);
-	this.instance_12.alpha = 0;
-
-	var maskedShapeInstanceList = [this.instance_10,this.instance_11,this.instance_12];
+	var maskedShapeInstanceList = [this.instance_10];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},211).to({state:[{t:this.instance_11}]},78).to({state:[{t:this.instance_12}]},7).to({state:[]},1).wait(63));
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(289).to({_off:false},0).to({_off:true,alpha:0},7,cjs.Ease.get(1)).wait(64));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(211).to({_off:false},0).to({_off:true},85).wait(64));
 
 	// text3
 	this.shape_159 = new cjs.Shape();
@@ -2777,24 +2678,24 @@ p.nominalBounds = new cjs.Rectangle(-67.5,-130.5,79.2,225);
 	this.shape_223.graphics.f("#DC052B").s().p("Az2HiIAAvCMAntAAAIkCPCg");
 	this.shape_223.setTransform(88.8,94.3,0.693,0.693);
 
-	this.instance_13 = new lib.Анимация3("synched",0);
-	this.instance_13.parent = this;
-	this.instance_13.setTransform(88.8,98.5);
-	this.instance_13._off = true;
+	this.instance_11 = new lib.Анимация3("synched",0);
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(88.8,98.5);
+	this.instance_11._off = true;
 
-	this.instance_14 = new lib.Анимация4("synched",0);
-	this.instance_14.parent = this;
-	this.instance_14.setTransform(88.8,98.5);
-	this.instance_14.alpha = 0;
+	this.instance_12 = new lib.Анимация4("synched",0);
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(88.8,98.5);
+	this.instance_12.alpha = 0;
 
-	var maskedShapeInstanceList = [this.shape_159,this.shape_160,this.shape_161,this.shape_162,this.shape_163,this.shape_164,this.shape_165,this.shape_166,this.shape_167,this.shape_168,this.shape_169,this.shape_170,this.shape_171,this.shape_172,this.shape_173,this.shape_174,this.shape_175,this.shape_176,this.shape_177,this.shape_178,this.shape_179,this.shape_180,this.shape_181,this.shape_182,this.shape_183,this.shape_184,this.shape_185,this.shape_186,this.shape_187,this.shape_188,this.shape_189,this.shape_190,this.shape_191,this.shape_192,this.shape_193,this.shape_194,this.shape_195,this.shape_196,this.shape_197,this.shape_198,this.shape_199,this.shape_200,this.shape_201,this.shape_202,this.shape_203,this.shape_204,this.shape_205,this.shape_206,this.shape_207,this.shape_208,this.shape_209,this.shape_210,this.shape_211,this.shape_212,this.shape_213,this.shape_214,this.shape_215,this.shape_216,this.shape_217,this.shape_218,this.shape_219,this.shape_220,this.shape_221,this.shape_222,this.shape_223,this.instance_13,this.instance_14];
+	var maskedShapeInstanceList = [this.shape_159,this.shape_160,this.shape_161,this.shape_162,this.shape_163,this.shape_164,this.shape_165,this.shape_166,this.shape_167,this.shape_168,this.shape_169,this.shape_170,this.shape_171,this.shape_172,this.shape_173,this.shape_174,this.shape_175,this.shape_176,this.shape_177,this.shape_178,this.shape_179,this.shape_180,this.shape_181,this.shape_182,this.shape_183,this.shape_184,this.shape_185,this.shape_186,this.shape_187,this.shape_188,this.shape_189,this.shape_190,this.shape_191,this.shape_192,this.shape_193,this.shape_194,this.shape_195,this.shape_196,this.shape_197,this.shape_198,this.shape_199,this.shape_200,this.shape_201,this.shape_202,this.shape_203,this.shape_204,this.shape_205,this.shape_206,this.shape_207,this.shape_208,this.shape_209,this.shape_210,this.shape_211,this.shape_212,this.shape_213,this.shape_214,this.shape_215,this.shape_216,this.shape_217,this.shape_218,this.shape_219,this.shape_220,this.shape_221,this.shape_222,this.shape_223,this.instance_11,this.instance_12];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159}]},211).to({state:[{t:this.instance_13}]},78).to({state:[{t:this.instance_14}]},7).to({state:[]},1).wait(63));
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(289).to({_off:false},0).to({_off:true,alpha:0},7,cjs.Ease.get(1)).wait(64));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159}]},211).to({state:[{t:this.instance_11}]},78).to({state:[{t:this.instance_12}]},7).to({state:[]},1).wait(63));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(289).to({_off:false},0).to({_off:true,alpha:0},7,cjs.Ease.get(1)).wait(64));
 
 	// bg
 	this.shape_224 = new cjs.Shape();
@@ -2816,10 +2717,9 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
-		{src:"images/pic0.jpg", id:"pic0"},
-		{src:"images/160x600_atlas_P_.png", id:"160x600_atlas_P_"}
+		{src:"images/pic0.jpg?1542259471987", id:"pic0"},
+		{src:"images/160x600_atlas_P_.png?1542259471847", id:"160x600_atlas_P_"}
 	],
 	preloads: []
 };
