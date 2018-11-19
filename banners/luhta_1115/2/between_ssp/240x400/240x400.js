@@ -85,7 +85,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib._4bjpgкопия = function() {
+(lib._4b = function() {
 	this.spriteSheet = ss["240x400_atlas_NP_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -290,7 +290,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib._4bjpgкопия();
+	this.instance = new lib._4b();
 	this.instance.parent = this;
 	this.instance.setTransform(37,12);
 
@@ -313,6 +313,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 (lib.s4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_74 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(74).call(this.frame_74).wait(26));
 
 	// Слой 1
 	this.instance = new lib.bbb();
@@ -360,6 +368,14 @@ p.nominalBounds = new cjs.Rectangle(0,-60,368,500);
 // stage content:
 (lib._240x400 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_290 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(290).call(this.frame_290).wait(10));
 
 	// border
 	this.shape = new cjs.Shape();

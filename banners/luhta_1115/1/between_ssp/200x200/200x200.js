@@ -308,6 +308,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.s4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_81 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(81).call(this.frame_81).wait(19));
+
 	// Слой 1
 	this.instance = new lib.bbb();
 	this.instance.parent = this;
@@ -371,6 +379,14 @@ p.nominalBounds = new cjs.Rectangle(-30,0,300,385);
 // stage content:
 (lib._200x200 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_290 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(290).call(this.frame_290).wait(10));
 
 	// border
 	this.shape = new cjs.Shape();
