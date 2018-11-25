@@ -981,7 +981,7 @@ p.nominalBounds = new cjs.Rectangle(-80,0,559.9,163.7);
 	this.instance_14.setTransform(59.7,159.9,0.468,0.468,0,0,0,0.2,0.1);
 	this.instance_14.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({regX:0.1,regY:0,scaleX:0.59,scaleY:0.59,x:60.2,y:147.6,alpha:1},7,cjs.Ease.get(1)).wait(56).to({regX:0.6,regY:0.2,scaleX:0.27,scaleY:0.27,x:89.7,y:25.4},7,cjs.Ease.get(1)).wait(220).to({alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({regX:0.1,regY:0,scaleX:0.59,scaleY:0.59,x:60.2,y:147.6,alpha:1},7,cjs.Ease.get(1)).wait(56).to({y:47.6},7,cjs.Ease.get(1)).wait(220).to({scaleX:0.4,scaleY:0.4,y:77.6,alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(73));
 
 	// skidka
 	this.instance_15 = new lib.skidka();
