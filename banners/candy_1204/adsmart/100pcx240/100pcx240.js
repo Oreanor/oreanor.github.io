@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx240_atlas_NP_", frames: [[0,484,260,240],[0,242,260,240],[0,0,260,240]]}
+		{name:"100pcx240_atlas_NP_", frames: [[0,0,260,240],[0,242,260,240],[0,484,260,240]]}
 ];
 
 
@@ -1169,7 +1169,7 @@ p.nominalBounds = new cjs.Rectangle(-153,-50,300,100);
 
 	// Слой 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("A/PSwMAAAglfMA+fAAAMAAAAlfg");
+	this.shape.graphics.f("#ECF1F6").s().p("A/PSwMAAAglfMA+fAAAMAAAAlfg");
 	this.shape.setTransform(200,120);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
