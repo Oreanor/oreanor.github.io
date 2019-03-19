@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"728x90_atlas_", frames: [[0,0,240,135],[242,274,240,135],[0,137,240,135],[242,137,240,135],[242,0,240,135],[0,274,240,135]]}
+		{name:"728x90_atlas_", frames: [[0,0,240,135],[242,0,240,135],[0,137,240,135],[242,137,240,135],[0,274,240,135],[242,274,240,135]]}
 ];
 
 
@@ -1748,16 +1748,16 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// mask1 (mask)
 	var mask_4 = new cjs.Shape();
 	mask_4._off = true;
-	var mask_4_graphics_0 = new cjs.Graphics().p("AE1GYIDRrrMAubAAAIjRLrg");
-	var mask_4_graphics_1 = new cjs.Graphics().p("AgoGYIDQrrMAubAAAIjRLrg");
-	var mask_4_graphics_2 = new cjs.Graphics().p("AlQGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_3 = new cjs.Graphics().p("ApDGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_4 = new cjs.Graphics().p("Ar/GYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_5 = new cjs.Graphics().p("AuGGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_6 = new cjs.Graphics().p("AvXGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_7 = new cjs.Graphics().p("AvyGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_66 = new cjs.Graphics().p("AvyGYIDRrrMAuaAAAIjRLrg");
-	var mask_4_graphics_67 = new cjs.Graphics().p("A18GYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_0 = new cjs.Graphics().p("AHLGYIDRrrMAubAAAIjRLrg");
+	var mask_4_graphics_1 = new cjs.Graphics().p("AA8GYIDRrrMAubAAAIjRLrg");
+	var mask_4_graphics_2 = new cjs.Graphics().p("AkVGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_3 = new cjs.Graphics().p("AopGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_4 = new cjs.Graphics().p("AsAGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_5 = new cjs.Graphics().p("AuaGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_6 = new cjs.Graphics().p("Av2GYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_7 = new cjs.Graphics().p("AwVGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_66 = new cjs.Graphics().p("AwLGYIDRrrMAuaAAAIjRLrg");
+	var mask_4_graphics_67 = new cjs.Graphics().p("A2XGYIDRrrMAuaAAAIjRLrg");
 	var mask_4_graphics_68 = new cjs.Graphics().p("A41GYIDRrrMAuaAAAIjRLrg");
 	var mask_4_graphics_69 = new cjs.Graphics().p("A41GYIDRrrMAuaAAAIjRLrg");
 	var mask_4_graphics_70 = new cjs.Graphics().p("A41GYIDRrrMAuaAAAIjRLrg");
@@ -1765,7 +1765,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	var mask_4_graphics_72 = new cjs.Graphics().p("A41GYIDRrrMAuaAAAIjRLrg");
 	var mask_4_graphics_73 = new cjs.Graphics().p("A41GYIDRrrMAuaAAAIjRLrg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:mask_4_graphics_0,x:348.9,y:40.8}).wait(1).to({graphics:mask_4_graphics_1,x:313.9,y:40.8}).wait(1).to({graphics:mask_4_graphics_2,x:284.3,y:40.8}).wait(1).to({graphics:mask_4_graphics_3,x:260,y:40.8}).wait(1).to({graphics:mask_4_graphics_4,x:241.2,y:40.8}).wait(1).to({graphics:mask_4_graphics_5,x:227.7,y:40.8}).wait(1).to({graphics:mask_4_graphics_6,x:219.6,y:40.8}).wait(1).to({graphics:mask_4_graphics_7,x:216.9,y:40.8}).wait(59).to({graphics:mask_4_graphics_66,x:216.9,y:40.8}).wait(1).to({graphics:mask_4_graphics_67,x:177.5,y:40.8}).wait(1).to({graphics:mask_4_graphics_68,x:129.4,y:40.8}).wait(1).to({graphics:mask_4_graphics_69,x:74.8,y:40.8}).wait(1).to({graphics:mask_4_graphics_70,x:32.4,y:40.8}).wait(1).to({graphics:mask_4_graphics_71,x:2.1,y:40.8}).wait(1).to({graphics:mask_4_graphics_72,x:-16.1,y:40.8}).wait(1).to({graphics:mask_4_graphics_73,x:-22.1,y:40.8}).wait(331));
+	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:mask_4_graphics_0,x:363.9,y:40.8}).wait(1).to({graphics:mask_4_graphics_1,x:324,y:40.8}).wait(1).to({graphics:mask_4_graphics_2,x:290.2,y:40.8}).wait(1).to({graphics:mask_4_graphics_3,x:262.6,y:40.8}).wait(1).to({graphics:mask_4_graphics_4,x:241.1,y:40.8}).wait(1).to({graphics:mask_4_graphics_5,x:225.7,y:40.8}).wait(1).to({graphics:mask_4_graphics_6,x:216.5,y:40.8}).wait(1).to({graphics:mask_4_graphics_7,x:213.4,y:40.8}).wait(59).to({graphics:mask_4_graphics_66,x:214.4,y:40.8}).wait(1).to({graphics:mask_4_graphics_67,x:174.8,y:40.8}).wait(1).to({graphics:mask_4_graphics_68,x:123.4,y:40.8}).wait(1).to({graphics:mask_4_graphics_69,x:68.5,y:40.8}).wait(1).to({graphics:mask_4_graphics_70,x:25.8,y:40.8}).wait(1).to({graphics:mask_4_graphics_71,x:-4.7,y:40.8}).wait(1).to({graphics:mask_4_graphics_72,x:-23,y:40.8}).wait(1).to({graphics:mask_4_graphics_73,x:-29.1,y:40.8}).wait(331));
 
 	// txt1
 	this.instance_11 = new lib.txt1();
