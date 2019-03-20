@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx240_atlas_NP_", frames: [[0,484,260,240],[0,0,260,240],[0,242,260,240]]}
+		{name:"100pcx240_atlas_NP_", frames: [[0,0,260,240],[0,242,260,240],[0,484,260,240]]}
 ];
 
 
@@ -1445,15 +1445,16 @@ p.nominalBounds = new cjs.Rectangle(-80.5,-96.8,175,190);
 			var wdt = stage.canvas.width;
 			var hgt = stage.canvas.height;
 			
-		
-		
-			
 			
 			bg.x = 0;
 			bg.scaleX = wdt/400;
 		
 			legal.x = 5;
 		
+			pics.y = 120;
+			text.y = 120;
+			bg.y = 120;
+			
 		
 			if (wdt<500){
 				text.scaleX = 0.6;
@@ -1466,6 +1467,7 @@ p.nominalBounds = new cjs.Rectangle(-80.5,-96.8,175,190);
 				logo.y = 180;
 				
 				pics.x = wdt-80;
+				
 				
 			} else if (wdt<700){
 				text.scaleX = 0.8;
@@ -1511,28 +1513,28 @@ p.nominalBounds = new cjs.Rectangle(-80.5,-96.8,175,190);
 	// legal
 	this.legal = new lib.dfgdfggg();
 	this.legal.parent = this;
-	this.legal.setTransform(8.1,222.7);
+	this.legal.setTransform(5,222.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.legal).wait(396));
 
 	// logo
 	this.logo = new lib.ClipGroup_8();
 	this.logo.parent = this;
-	this.logo.setTransform(543.8,120,1.3,1.3);
+	this.logo.setTransform(543.8,-111,1.3,1.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(396));
 
 	// pics
 	this.pics = new lib.pics();
 	this.pics.parent = this;
-	this.pics.setTransform(263.6,117.9);
+	this.pics.setTransform(263.6,-143.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.pics).wait(396));
 
 	// text
 	this.text = new lib.main();
 	this.text.parent = this;
-	this.text.setTransform(-59.7,110.1);
+	this.text.setTransform(-59.7,-150.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(396));
 
@@ -1544,7 +1546,7 @@ p.nominalBounds = new cjs.Rectangle(-80.5,-96.8,175,190);
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(396));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-15.7,120,827.2,301.1);
+p.nominalBounds = new cjs.Rectangle(-15.7,-120,827.2,480);
 // library properties:
 lib.properties = {
 	width: 400,
