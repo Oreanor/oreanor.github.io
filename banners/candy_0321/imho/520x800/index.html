@@ -1,0 +1,60 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title></title>
+		<style>
+			.cont{
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -514px;
+				margin-top: -250px;
+				width: 1028px;
+				height: 500px;
+			}
+			#counterText {
+				font-family: sans-serif;
+				position: absolute;
+				top: 10px;
+				left: 10px;
+			}
+			#closeButton {
+				font-family: sans-serif;
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body onload="init();">
+		<div id="counterText"></div>
+		<div id="closeButton">X</div>
+		<iframe class="cont" src="520x800.html" frameborder="0" scrolling="no"></iframe>
+
+		<script>
+			var count = 10;
+			setCounterText();
+			function init(){
+
+				let setID = setInterval(function(){
+					count--;
+					setCounterText();
+					if(count==0) {
+						clearInterval(setID);
+						//window.destroyBanner();
+					}
+				}, 1000);
+			}
+			function setCounterText(){
+				document.getElementById("counterText").innerHTML = "До перехода на сайт " + count + " секунд";
+			}
+			document.getElementById("closeButton").addEventListener("click", function (e) {
+				console.warn("close");	
+				//window.destroyBanner();
+			});
+		</script>
+	</body>
+</html>

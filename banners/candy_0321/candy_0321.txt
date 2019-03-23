@@ -24,7 +24,7 @@ http://oreanor.github.io/banners/candy_0321/yandex/300x250/300x250.gif
 http://oreanor.github.io/banners/candy_0321/yandex/728x90/728x90.zip
 http://oreanor.github.io/banners/candy_0321/yandex/728x90/728x90.html
 http://oreanor.github.io/banners/candy_0321/yandex/728x90/728x90.gif
-
+http://oreanor.github.io/banners/candy_0321/yandex/728x90/1456x180.gif
 
 mail
 
@@ -47,3 +47,12 @@ adsmart
 
 http://oreanor.github.io/banners/candy_0321/adsmart/100pcx240/index_.html
 http://oreanor.github.io/banners/candy_0321/adsmart/100pcx240/100pcx240.zip
+
+
+imho 
+
+http://oreanor.github.io/banners/candy_0321/imho/1028x500/container.html
+http://oreanor.github.io/banners/candy_0321/imho/1028x500/1028x500.zip
+
+http://oreanor.github.io/banners/candy_0321/imho/520x800/container.html
+http://oreanor.github.io/banners/candy_0321/imho/520x800/520x800.zip
