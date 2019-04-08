@@ -28,3 +28,15 @@ http://oreanor.github.io/banners/hoover_0315/programmatic/300x250/300x250.gif
 http://oreanor.github.io/banners/hoover_0315/programmatic/336x280/336x280.gif
 http://oreanor.github.io/banners/hoover_0315/programmatic/970x90/970x90.gif
 
+
+mytarget
+
+http://oreanor.github.io/banners/hoover_0315/mytarget/240x400/240x400.zip
+http://oreanor.github.io/banners/hoover_0315/mytarget/240x400/240x400.html
+http://oreanor.github.io/banners/hoover_0315/mytarget/240x400/240x400.gif
+
+mail
+
+http://oreanor.github.io/banners/hoover_0315/mail/300x300/300x300.zip
+http://oreanor.github.io/banners/hoover_0315/mail/300x300/300x300.html
+http://oreanor.github.io/banners/hoover_0315/mail/300x300/300x300.gif
