@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"300x250_atlas_P_", frames: [[0,247,296,221],[0,0,299,245]]},
-		{name:"300x250_atlas_NP_", frames: [[0,122,300,120],[302,0,180,178],[0,0,300,120]]}
+		{name:"300x250_atlas_NP_", frames: [[0,0,300,120],[302,0,180,178],[0,122,300,120]]}
 ];
 
 
@@ -415,7 +415,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.legal, new cjs.Rectangle(0,0,236.1,24.2), null);
+}).prototype = getMCSymbolPrototype(lib.legal, new cjs.Rectangle(0,0,236.1,22.8), null);
 
 
 (lib.ClipGroup_17 = function(mode,startPosition,loop) {
@@ -813,8 +813,8 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// border
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("Ayq/KMAlVAAAMAAAA+VMglVAAAg");
-	this.shape.setTransform(150,125,1.251,0.624);
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
+	this.shape.setTransform(150,125);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(426));
 
@@ -997,7 +997,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// logo
 	this.logo = new lib.ClipGroup_17();
 	this.logo.parent = this;
-	this.logo.setTransform(63.2,23.4,1,1,0,0,0,53.1,10.7);
+	this.logo.setTransform(64.2,23.4,1,1,0,0,0,53.1,10.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(426));
 
