@@ -47,3 +47,7 @@ adsmart
 
 http://oreanor.github.io/banners/candy_0415/adsmart/100pcx240/index_.html
 http://oreanor.github.io/banners/candy_0415/adsmart/100pcx240/100pcx240.zip
+
+lookatme
+http://oreanor.github.io/banners/candy_0415/lookatme/320x250/320x250.html
+http://oreanor.github.io/banners/candy_0415/lookatme/300x500/300x500.zip
