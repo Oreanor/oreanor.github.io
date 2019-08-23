@@ -14,9 +14,12 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				use: {
-					loader: "babel-loader"
-				},
+				loader: "babel-loader",
+				options: {
+					presets: ['@babel/preset-env',
+							  '@babel/react',{
+							  'plugins': ['@babel/plugin-proposal-class-properties']}]
+				}
 			},
 			{
 				test: /\.less$/,
@@ -49,6 +52,8 @@ module.exports = {
 		}),
 		new CopyPlugin([
 			{ from: 'images', to: 'images' },
+			{ from: 'data', to: 'data' },			
 		]),
+
 	]
 };
