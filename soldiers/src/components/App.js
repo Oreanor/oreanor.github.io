@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PreviewCard from "./PreviewCard/PreviewCard";
+import SetDetails from "./SetDetails/SetDetails";
 import './App.less';
 import '../styles/common.less';
 
@@ -10,6 +11,7 @@ class App extends Component {
 		this.state = {
 			data:[],
 			currentSet: null,
+			searchString: ""
 		}
 	}
 
@@ -18,20 +20,26 @@ class App extends Component {
 	}
 
 	onSelectSet = (num) => {
-		this.setState({currentSet:num})
+		this.setState({currentSet:num});
 	}
 
+	searchSet = (e) => {
+		console.warn (e.target.value);
+		this.setState({searchString: e.target.value})
+	}
+
+
 	render() {
-		const { data, currentSet } = this.state;
-		const cards = data.map((item, i) => <PreviewCard key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
+		const { data, currentSet, searchString } = this.state;
+		const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
 		return (
-			<div className="app_main">
-				
-				<div className="app_main__left">Options</div>
-				<div className={"app_main__right"+(currentSet !== null ? "_narrow" : "")}><div className="inner_cont">{cards}</div></div>
-				<div className={"app_main__details"+(currentSet !== null ? "_visible" : "")}><div className="inner_cont">Details {cards}<div className="bClose" onClick={() => this.onSelectSet(null)}>X</div></div></div>
-				<div className="app_main__top"><h1>My Soldiers Collection</h1></div>
-				
+			<div className="app_main">				
+				<div className="outer_cont app_main__left"><div className="inner_cont filters_cont">
+					My Soldiers Collection
+					<input type="text" onChange={this.searchSet}/>
+				</div></div>
+				<div className={"outer_cont app_main__right"+(currentSet !== null ? "_narrow" : "")}><div className="inner_cont">{cards}</div></div>
+				{currentSet !== null && <div className={"outer_cont app_main__details"}><div className="inner_cont"><SetDetails data={data[currentSet]}/><div className="bClose" onClick={() => this.onSelectSet(null)}>X</div></div></div>}
 			</div>
 		);
 	}

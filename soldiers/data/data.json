@@ -6,6 +6,8 @@
 			"year": "2010-",
 			"folder": "ark_models/indians",
 			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный",
 			"figures": [
 				{
 					"name": "Индеец с цепом и луком",
@@ -47,7 +49,29 @@
 			"scale": "1:30",
 			"year": "2010-",
 			"folder": "cane/indians",
-			"img": "0.jpg"
+			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный"
+		},
+		{
+			"name": "Матросы Октября",
+			"manufacturer": "ЛКЗ",
+			"scale": "1:32",
+			"year": "1980-",
+			"folder": "lkz/matrosy_oktyabrya",
+			"img": "0.jpg",
+			"material": "металл",
+			"type": "плоский"
+		},
+		{
+			"name": "Ледовое побоище",
+			"manufacturer": "ЛКЗ",
+			"scale": "1:32",
+			"year": "1980-",
+			"folder": "lkz/ledovoe_poboische",
+			"img": "0.jpg",
+			"material": "металл",
+			"type": "плоский"
 		},
 		{
 			"name": "Лейб-гвардии Литовский полк",
@@ -56,6 +80,8 @@
 			"year": "1993",
 			"folder": "lintek/lithuanian",
 			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный",
 			"figures": [
 				{
 					"name": "Обер-офицер",
