@@ -1,0 +1,109 @@
+.preview_card {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  cursor: pointer;
+  width: 33.3%;
+  overflow: hidden;
+}
+.preview_card__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.preview_card__image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.preview_card__smaller {
+  width: 100%;
+}
+
+.details_card {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+}
+.details_card__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.details_card__image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.app_main {
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+}
+.app_main .outer_cont {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  padding: 0px;
+  background-color: #fff;
+}
+.app_main .outer_cont .inner_cont {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.app_main__left {
+  width: 15%;
+}
+.app_main__left .filters_cont {
+  padding: 10px;
+}
+.app_main__left .filters_cont__title {
+  margin-bottom: 10px;
+}
+.app_main__left .filters_cont__search {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.app_main__right {
+  width: 85%;
+}
+.app_main__right_narrow {
+  width: 15%;
+}
+.app_main__details {
+  width: 70%;
+}
+.app_main h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.bClose {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.select_common {
+  width: 100%;
+}
+

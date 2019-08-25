@@ -1,0 +1,112 @@
+[
+		{
+			"name": "Индейцы",
+			"manufacturer": "Арк Моделс",
+			"scale": "1:32",
+			"year": "2010-",
+			"folder": "ark_models/indians",
+			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный",
+			"figures": [
+				{
+					"name": "Индеец с цепом и луком",
+					"img": "1.jpg"
+				},
+				{
+					"name": "Индеец с ножом",
+					"img": "2.jpg"
+				},
+				{
+					"name": "Индеец с томагавком м карабином",
+					"img": "3.jpg"
+				},
+				{
+					"name": "Индеец с томагавком",
+					"img": "4.jpg"
+				},
+				{
+					"name": "Индеец с луком, стоящий",
+					"img": "5.jpg"
+				},
+				{
+					"name": "Индеец-шаман",
+					"img": "6.jpg"
+				},
+				{
+					"name": "Индеец с луком, сидящий",
+					"img": "7.jpg"
+				},
+				{
+					"name": "Раненый индеец",
+					"img": "8.jpg"
+				}
+			]
+		},
+		{
+			"name": "Индейцы",
+			"manufacturer": "Cane",
+			"scale": "1:30",
+			"year": "2010-",
+			"folder": "cane/indians",
+			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный"
+		},
+		{
+			"name": "Матросы Октября",
+			"manufacturer": "ЛКЗ",
+			"scale": "1:32",
+			"year": "1980-",
+			"folder": "lkz/matrosy_oktyabrya",
+			"img": "0.jpg",
+			"material": "металл",
+			"type": "плоский"
+		},
+		{
+			"name": "Ледовое побоище",
+			"manufacturer": "ЛКЗ",
+			"scale": "1:32",
+			"year": "1980-",
+			"folder": "lkz/ledovoe_poboische",
+			"img": "0.jpg",
+			"material": "металл",
+			"type": "плоский"
+		},
+		{
+			"name": "Лейб-гвардии Литовский полк",
+			"manufacturer": "Линтек",
+			"scale": "1:30",
+			"year": "1993",
+			"folder": "lintek/lithuanian",
+			"img": "0.jpg",
+			"material": "пластик",
+			"type": "объемный",
+			"figures": [
+				{
+					"name": "Обер-офицер",
+					"img": "1.png"
+				},
+				{
+					"name": "Унтер-офицер",
+					"img": "2.png"
+				},
+				{
+					"name": "Знаменосец",
+					"img": "3.png"
+				},
+				{
+					"name": "Барабанщик",
+					"img": "4.png"
+				},
+				{
+					"name": "Стрелок со штыком",
+					"img": "5.png"
+				},
+				{
+					"name": "Стрелок, заряжающий",
+					"img": "7.png"
+				}
+			]
+		}
+	]

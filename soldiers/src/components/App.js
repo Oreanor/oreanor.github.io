@@ -5,7 +5,7 @@ import Filter from "./Filter/Filter";
 import './App.less';
 import '../styles/common.less';
 
-const filterOptionsNames = ["Добавить фильтр...","по типу","по материалу","по производителю","по масштабу"];
+const filterOptionsNames = ["Добавить сортировку...","по типу","по материалу","по производителю","по масштабу"];
 const filterNames = ["","Тип","Материал","Производитель","Масштаб"];
 const filterProperties = ["","type","material","manufacturer","scale"];
 class App extends Component {
@@ -52,40 +52,48 @@ class App extends Component {
 		let types = this.state.types.slice();
 		types[num] = !types[num];
 		this.setState({types});
-	}
-
+	} 
 	onAddFilter = (e) => {
 		let filters = this.state.filters.slice();
 		const val = e.target.value;
-		!filters.includes(val) && filters.push(val);
+		!filters.includes(val) && filters.push(parseInt(val));
+		this.setState({filters})
+	}
+
+	onRemoveFilter = (index) => {
+		let filters = this.state.filters.slice();
+		filters.splice(index,1);
 		this.setState({filters})
 	}
 
 
 	render() {
-		const { data, currentSet, searchString, types } = this.state;
-		const filterOptions = filterOptionsNames.map((item,i) => <option key={i} value={i} disabled={i===0}>{item}</option>)
+		const { data, currentSet, searchString, types, filters, filterValues } = this.state;
+		const filterOptions = filterOptionsNames.map((item,i) => {
+				console.warn(i);
+				console.warn(filters);
+				console.warn(filters.includes(i));
+				return <option key={i} value={i} disabled={i===0 || filters.includes(i)}>{item}</option>})
 		const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
+		
+		const filtersAdded = filters.map((num,i) => <Filter key={i} name={filterOptionsNames[num]} values={filterValues[num]} onRemove={()=>this.onRemoveFilter(i)}/>)
+
 		return (
 			<div className="app_main">				
-			<div className="outer_cont app_main__left"><div className="inner_cont filters_cont">
-					<div className="filters_cont__title">My Soldiers Collection</div>
-					<input type="text" placeholder="Поиск по названию" className="filters_cont__search" onChange={this.searchSet}/>
-					<select
-						className="select_common"
-						defaultValue={0}
-						onChange={this.onAddFilter}>
-						{filterOptions}
-					</select>
-					<div>
-						<input type="checkbox" id="type1" name="type1" checked={types[0]} onChange={(e)=>this.onCheckType(e,0)}/>
-						<label htmlFor="type1"> Плоский</label>
+				<div className="outer_cont app_main__left">
+					<div className="inner_cont filters_cont">
+						<div className="filters_cont__title">My Soldiers Collection</div>
+						<input type="text" placeholder="Поиск по названию" className="filters_cont__search" onChange={this.searchSet}/>
+						<select
+							className="select_common"
+							value={0}
+							onChange={this.onAddFilter}>
+							{filterOptions}
+						</select>
+						<div>{filtersAdded}</div>
 					</div>
-					<div>
-						<input type="checkbox" id="type2" name="type2" checked={types[1]} onChange={(e)=>this.onCheckType(e,1)}/>
-						<label htmlFor="type2"> Объемный</label>
-					</div>
-				</div></div>
+				</div>
+				
 				<div className={"outer_cont app_main__right"+(currentSet !== null ? "_narrow" : "")}><div className="inner_cont">{cards}</div></div>
 				{currentSet !== null && <div className={"outer_cont app_main__details"}><div className="inner_cont"><SetDetails data={data[currentSet]}/><div className="bClose" onClick={() => this.onSelectSet(null)}>X</div></div></div>}
 			</div>
