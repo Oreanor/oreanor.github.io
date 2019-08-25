@@ -95,10 +95,8 @@ class App extends Component {
 		const val = e.target.value;
 		if(!filters.includes(val)) {
 			filters.push(parseInt(val));
-			this.setState({filters},()=>this.resortData());
+			this.setState({filters, currentSet: null},()=>this.resortData());
 		}
-
-		
 	}
 
 	onRemoveFilter = (index) => {
@@ -110,7 +108,7 @@ class App extends Component {
 		filterValuesChecks[filters[index]] = filterToReset;
 
 		filters.splice(index,1);
-		this.setState({filterValuesChecks, filters}, ()=>this.resortData());
+		this.setState({filterValuesChecks, filters, currentSet: null}, ()=>this.resortData());
 
 	}
 
@@ -119,7 +117,7 @@ class App extends Component {
 		let filterToCheck = filterValuesChecks[id].slice();
 		filterToCheck[id2] = !filterToCheck[id2];
 		filterValuesChecks[id] = filterToCheck;
-		this.setState({ filterValuesChecks});
+		this.setState({ filterValuesChecks, currentSet: null});
 	}
 
 
@@ -127,10 +125,27 @@ class App extends Component {
 		const { data, currentSet, searchString, types, filters, filterValues, filterValuesChecks } = this.state;
 		const filterOptions = filterOptionsNames.map((item,i) => {
 				return <option key={i} value={i} disabled={i===0 || filters.includes(i)}>{item}</option>})
-		const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
-		
 		const filtersAdded = filters.map((num,i) => <Filter key={i} id={num} name={filterOptionsNames[num]} values={filterValues[num]} checks={filterValuesChecks[num]} onCheck={this.onCheckFilterValue} onRemove={()=>this.onRemoveFilter(i)}/>)
+		
+		//const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
 
+		let cards = [];
+		for(let i=0; i<data.length;i++){
+			let toShow = true;
+			for(let k=0; k<filters.length;k++){
+				var ind = filterValues[filters[k]].indexOf(data[i][filterProperties[filters[k]]]);
+				if(ind === -1 || !filterValuesChecks[filters[k]][ind]) {
+					toShow = false;
+					break;
+				}
+
+			}
+
+			if(data[i].name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 && toShow){
+				cards.push(<PreviewCard currentSet={currentSet} key={i} data={data[i]} onClick={() => this.onSelectSet(i)}/>)
+			}
+		}
+		
 		return (
 			<div className="app_main">				
 				<div className="outer_cont app_main__left">
