@@ -21,7 +21,6 @@ class PreviewCard extends Component {
 				<div className="preview_card__manufacturer">{"Производитель: " + (data.manufacturer || "-")}</div>
 				<div className="preview_card__year">{"Год выпуска: " + (data.year || "-")}</div>
 				<div className="preview_card__scale">{"Масштаб: " + (data.scale || "-")}</div>
-				<div className="preview_card__desc">{"Описание: " + (data.desc || "-")}</div>
 			</div>
 		);
 	}
