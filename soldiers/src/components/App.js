@@ -13,12 +13,13 @@ class App extends Component {
 
 	constructor(){
 		super();
+		let filters = cookies.get("filters") ? cookies.get("filters").split("_").map(item => parseInt(item)) : [];
 		this.state = {
 			data:[],
 			currentSet: null,
 			searchString: "",
 			types: [false, true],
-			filters: [],
+			filters: filters,
 			filterValues: [],
 			filterValuesChecks: [],
 
@@ -44,8 +45,8 @@ class App extends Component {
 				filterValues[i].sort();
 			}
 			data.sort(this.sortBy());
-			let filters = cookies.get("filters") ? cookies.get("filters").split("_") : [];
-			this.setState({data, filters, filterValues, filterValuesChecks});
+			
+			this.setState({data, filterValues, filterValuesChecks});
 		})
 	}
 
@@ -127,6 +128,7 @@ class App extends Component {
 
 	render() {
 		const { data, currentSet, searchString, types, filters, filterValues, filterValuesChecks } = this.state;
+
 		const filterOptions = filterOptionsNames.map((item,i) => {
 				return <option key={i} value={i} disabled={i===0 || filters.includes(i)}>{item}</option>})
 		const filtersAdded = filters.map((num,i) => <Filter key={i} id={num} name={filterOptionsNames[num]} values={filterValues[num]} checks={filterValuesChecks[num]} onCheck={this.onCheckFilterValue} onRemove={()=>this.onRemoveFilter(i)}/>)
