@@ -1,14 +1,17 @@
 .preview_card {
 	display: inline-block;
 	vertical-align: top;
-	padding: 10px;
+	padding: 20px 30px;
 	cursor: pointer;
 	width: 33.3%;
 	//max-width: 240px;
 	overflow: hidden;
+	border: 1px #fff solid;
+
+
 
 	&__name {
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: bold;
 		margin-bottom: 10px;
 	}
@@ -20,4 +23,10 @@
 
 .preview_card__smaller {
 	width: 100%;
+	padding: 10px;
+	border: 1px #fff solid;
+}
+
+.preview_card:hover, .preview_card__smaller:hover {
+	border: 1px #eee solid;
 }

@@ -4,6 +4,7 @@ import SetDetails from "./SetDetails/SetDetails";
 import Filter from "./Filter/Filter";
 import './App.less';
 import '../styles/common.less';
+import cookies from './cookies';
 
 const filterOptionsNames = ["Сортировать...","по типу","по материалу","по производителю","по масштабу"];
 const filterNames = ["","Тип","Материал","Производитель","Масштаб"];
@@ -43,7 +44,8 @@ class App extends Component {
 				filterValues[i].sort();
 			}
 			data.sort(this.sortBy());
-			this.setState({data, filterValues, filterValuesChecks});
+			let filters = cookies.get("filters") ? cookies.get("filters").split("_") : [];
+			this.setState({data, filters, filterValues, filterValuesChecks});
 		})
 	}
 
@@ -95,6 +97,7 @@ class App extends Component {
 		const val = e.target.value;
 		if(!filters.includes(val)) {
 			filters.push(parseInt(val));
+			cookies.set("filters",filters.join("_"));
 			this.setState({filters, currentSet: null},()=>this.resortData());
 		}
 	}
@@ -108,6 +111,7 @@ class App extends Component {
 		filterValuesChecks[filters[index]] = filterToReset;
 
 		filters.splice(index,1);
+		cookies.set("filters",filters.join("_"));
 		this.setState({filterValuesChecks, filters, currentSet: null}, ()=>this.resortData());
 
 	}
@@ -130,6 +134,8 @@ class App extends Component {
 		//const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
 
 		let cards = [];
+		let vals = filters.map(item => "");
+
 		for(let i=0; i<data.length;i++){
 			let toShow = true;
 			for(let k=0; k<filters.length;k++){
@@ -138,6 +144,11 @@ class App extends Component {
 					toShow = false;
 					break;
 				}
+				let val = data[i][filterProperties[filters[k]]];
+				if(val!==vals[k]) { 
+					cards.push(<div key={i+"_"+k} className={"subheader subheader__"+k}>{filterNames[filters[k]]+": "+val}</div>)
+					vals[k] = val;
+				} 
 
 			}
 
