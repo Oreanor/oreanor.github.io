@@ -1,13 +1,14 @@
 .preview_card {
   display: inline-block;
   vertical-align: top;
-  padding: 10px;
+  padding: 20px 30px;
   cursor: pointer;
   width: 33.3%;
   overflow: hidden;
+  border: 1px #fff solid;
 }
 .preview_card__name {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -17,6 +18,12 @@
 }
 .preview_card__smaller {
   width: 100%;
+  padding: 10px;
+  border: 1px #fff solid;
+}
+.preview_card:hover,
+.preview_card__smaller:hover {
+  border: 1px #eee solid;
 }
 
 .details_card {
@@ -94,9 +101,11 @@
   height: 100%;
   overflow-y: auto;
   background-color: #fff;
+  padding: 10px;
 }
 .app_main__left {
   width: 15%;
+  border-right: 1px #eee solid;
 }
 .app_main__left .filters_cont {
   padding: 10px;
@@ -111,12 +120,54 @@
 }
 .app_main__right {
   width: 85%;
+  padding: 0px 10px;
+}
+.app_main__right .subheader {
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+.app_main__right .subheader__0 {
+  font-size: 20px;
+}
+.app_main__right .subheader__1 {
+  font-size: 18px;
+  padding-left: 10px;
+}
+.app_main__right .subheader__2 {
+  font-size: 16px;
+  padding-left: 20px;
+}
+.app_main__right .subheader__3 {
+  font-size: 14px;
+  padding-left: 30px;
 }
 .app_main__right_narrow {
-  width: 15%;
+  width: 20%;
+  padding: 0px 10px;
+}
+.app_main__right_narrow .subheader {
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+.app_main__right_narrow .subheader__0 {
+  font-size: 18px;
+}
+.app_main__right_narrow .subheader__1 {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.app_main__right_narrow .subheader__2 {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.app_main__right_narrow .subheader__3 {
+  font-size: 12px;
+  padding-left: 15px;
 }
 .app_main__details {
-  width: 70%;
+  width: 65%;
 }
 .app_main h1 {
   font-size: 16px;
