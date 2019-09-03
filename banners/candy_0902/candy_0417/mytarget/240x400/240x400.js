@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"240x400_atlas_P_", frames: [[0,247,296,221],[0,0,299,245]]},
+		{name:"240x400_atlas_P_", frames: [[0,0,296,221],[298,0,200,268]]},
 		{name:"240x400_atlas_NP_", frames: [[0,0,240,200],[242,0,180,178],[0,202,240,200]]}
 ];
 
@@ -312,11 +312,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._5();
 	this.instance.parent = this;
-	this.instance.setTransform(-149.5,-122.5);
+	this.instance.setTransform(-73,-136);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-149.5,-122.5,299,245), null);
+}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-73,-136,200,268), null);
 
 
 (lib.pic4 = function(mode,startPosition,loop) {
@@ -411,7 +411,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.legal, new cjs.Rectangle(0,0,236.1,22.8), null);
+}).prototype = getMCSymbolPrototype(lib.legal, new cjs.Rectangle(0,0,236.1,24.2), null);
 
 
 (lib.ClipGroup_17 = function(mode,startPosition,loop) {
