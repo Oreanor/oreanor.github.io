@@ -27,6 +27,7 @@ goodhouse
 
 http://oreanor.github.io/banners/candy_0902/candy_0415/goodhouse/100pcx250/index_.html
 http://oreanor.github.io/banners/candy_0902/candy_0415/goodhouse/100pcx250/100pcx250.zip
+http://oreanor.github.io/banners/candy_0902/candy_0415/goodhouse/100pcx250/1260x250.gif
 
 
 inmyroom
@@ -98,6 +99,7 @@ goodhouse
 
 http://oreanor.github.io/banners/candy_0902/candy_0417/goodhouse/100pcx250/index_.html
 http://oreanor.github.io/banners/candy_0902/candy_0417/goodhouse/100pcx250/100pcx250.zip
+http://oreanor.github.io/banners/candy_0902/candy_0417/goodhouse/100pcx250/1260x250.gif
 
 
 inmyroom
