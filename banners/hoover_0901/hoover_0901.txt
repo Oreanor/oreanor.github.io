@@ -10,3 +10,9 @@ inmyroom
 
 http://oreanor.github.io/banners/hoover_0901/inmyroom/300x600/300x600.zip
 http://oreanor.github.io/banners/hoover_0901/inmyroom/300x600/300x600.html
+
+
+adsmart
+
+http://oreanor.github.io/banners/hoover_0901/adsmart/100pcx240/100pcx240.zip
+http://oreanor.github.io/banners/hoover_0901/adsmart/100pcx240/index_.html

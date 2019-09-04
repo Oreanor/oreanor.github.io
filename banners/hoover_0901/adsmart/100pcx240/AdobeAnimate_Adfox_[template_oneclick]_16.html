@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="$VERSION">
+<meta name="description" content="adfox_template">
+<title>$TITLE</title>
+<!-- write your code here -->
+$CENTER_STYLE
+$CREATEJS_LIBRARY_SCRIPTS
+$ANIMATE_CC_SCRIPTS
+$SCRIPT_START
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("$CANVAS_ID");
+	anim_container = document.getElementById("$ANIM_CONTAINER_ID");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	$CREATE_LOADER
+	$LOAD_MANIFEST
+	$PRELOAD_ASSETS
+}
+    var flashVars = {
+      reference: "%request.reference%",
+      link: "%banner.user1%",
+      target: "%banner.target%",
+      rnd: parseInt("%request.place_random%") || parseInt("%system.random%"),
+      events: [
+            "",
+            "%banner.event1%",
+            "%banner.event2%",
+            "%banner.event3%",
+            "%banner.event4%",
+            "%banner.event5%",
+            "%banner.event6%",
+            "%banner.event7%",
+            "%banner.event8%",
+            "%banner.event9%",
+            "%banner.event10%",
+            "%banner.event11%",
+            "%banner.event12%",
+            "%banner.event13%",
+            "%banner.event14%",
+            "%banner.event15%",
+            "%banner.event16%",
+            "%banner.event17%",
+            "%banner.event18%",
+            "%banner.event19%",
+            "%banner.event20%",
+            "%banner.event21%",
+            "%banner.event22%",
+            "%banner.event23%",
+            "%banner.event24%",
+            "%banner.event25%",
+            "%banner.event26%",
+            "%banner.event27%",
+            "%banner.event28%",
+            "%banner.event29%",
+            "%banner.event30%"
+      ]
+    };
+function callClick(n) {
+      var link = ( n ? flashVars.events[n] : flashVars.link );
+      window.open(flashVars.reference + "@" + link, flashVars.target);
+}
+
+function callEvent(n) {
+      (new Image()).src = flashVars.events[n]; 
+}
+$HANDLE_FILE_LOAD_START	
+	$HANDLE_FILE_LOAD_BODY	
+$HANDLE_FILE_LOAD_END
+$HANDLE_COMPLETE_START
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	$CREATE_STAGE	
+	//Registers the "tick" event listener.
+	$START_ANIMATION	    
+	//Code to support hidpi screens and responsive scaling.
+	$RESP_HIDPI	
+$HANDLE_COMPLETE_END
+$PLAYSOUND
+$SCRIPT_END
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="$ANIM_CONTAINER_ID" style="background-color:$BG; width:$WTpx; height:$HTpx">
+		<canvas id="$CANVAS_ID" width="$WT" height="$HT" style="position: absolute; display: $CANVAS_DISP; background-color:$BG;"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:$WTpx; height:$HTpx; position: absolute; left: 0px; top: 0px; display: $CANVAS_DISP;">
+		</div>
+	</div>
+    $PRELOADER_DIV
+  <script type="text/javascript">
+      var elem = document.getElementsByTagName("canvas")[0];
+      elem.style.cursor = "pointer";
+      elem.addEventListener("click", function(){
+        callClick();
+      }, false);
+  </script>
+</body>
+</html>
