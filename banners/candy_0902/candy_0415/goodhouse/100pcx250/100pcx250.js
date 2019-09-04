@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx250_atlas_P_", frames: [[242,0,180,199],[242,201,150,169],[0,0,240,215]]}
+		{name:"100pcx250_atlas_P_", frames: [[282,0,180,199],[282,201,150,169],[0,0,280,205]]}
 ];
 
 
@@ -120,11 +120,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._4();
 	this.instance.parent = this;
-	this.instance.setTransform(-86,-93,0.9,0.9);
+	this.instance.setTransform(-106,-84,0.9,0.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-86,-93,216,193.5), null);
+}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-106,-84,252,184.5), null);
 
 
 (lib.pic4 = function(mode,startPosition,loop) {
