@@ -68,6 +68,13 @@ http://oreanor.github.io/banners/candy_0902/candy_0415/roditeli/300x600/300x600.
 http://oreanor.github.io/banners/candy_0902/candy_0415/roditeli/300x600/300x600.zip
 
 
+adfox
+
+http://oreanor.github.io/banners/candy_0902/candy_0415/adfox/240x400/240x400.html
+http://oreanor.github.io/banners/candy_0902/candy_0415/adfox/240x400/240x400.zip
+
+
+
 ------------------
 
 google
@@ -138,3 +145,10 @@ roditeli
 
 http://oreanor.github.io/banners/candy_0902/candy_0417/roditeli/300x600/300x600.html
 http://oreanor.github.io/banners/candy_0902/candy_0417/roditeli/300x600/300x600.zip
+
+
+adfox
+
+http://oreanor.github.io/banners/candy_0902/candy_0417/adfox/240x400/240x400.html
+http://oreanor.github.io/banners/candy_0902/candy_0417/adfox/240x400/240x400.zip
+
