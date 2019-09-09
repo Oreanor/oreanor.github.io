@@ -11,8 +11,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
+<meta name="description" content="adfox_template">
 <title>300x600</title>
-<script type="text/javascript" src="//banners.adfox.ru/files/adfox_HTML5.js"></script>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="300x600.js"></script>
@@ -68,6 +68,13 @@ function init() {
             "%banner.event30%"
       ]
     };
+function callClick(n) {
+      var link = ( n ? flashVars.events[n] : flashVars.link );
+      window.open(flashVars.reference + "@" + link, flashVars.target);
+}
+function callEvent(n) {
+      (new Image()).src = flashVars.events[n]; 
+}
 function handleFileLoad(evt) {	
 	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
 }
@@ -131,5 +138,12 @@ function handleComplete(evt) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+  <script type="text/javascript">
+      var elem = document.getElementsByTagName("canvas")[0];
+      elem.style.cursor = "pointer";
+      elem.addEventListener("click", function(){
+        callClick();
+      }, false);
+  </script>
 </body>
 </html>
