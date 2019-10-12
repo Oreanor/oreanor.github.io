@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x250_atlas_", frames: [[242,0,180,199],[302,201,150,169],[0,217,300,120],[0,0,240,215]]}
+		{name:"300x250_atlas_NP_", frames: [[212,122,136,191],[0,0,300,120],[0,122,210,134]]}
 ];
 
 
@@ -72,29 +72,28 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._1 = function() {
-	this.spriteSheet = ss["300x250_atlas_"];
+	this.spriteSheet = ss["300x250_atlas_NP_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2 = function() {
-	this.spriteSheet = ss["300x250_atlas_"];
+	this.initialize(img._2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,113,160);
+
+
+(lib._3 = function() {
+	this.spriteSheet = ss["300x250_atlas_NP_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._3 = function() {
-	this.spriteSheet = ss["300x250_atlas_"];
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib._4 = function() {
-	this.spriteSheet = ss["300x250_atlas_"];
-	this.gotoAndStop(3);
+	this.spriteSheet = ss["300x250_atlas_NP_"];
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -970,11 +969,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._4();
 	this.instance.parent = this;
-	this.instance.setTransform(-118,-114.5);
+	this.instance.setTransform(-97,-115);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-118,-114.5,240,215), null);
+}).prototype = getMCSymbolPrototype(lib.pic5, new cjs.Rectangle(-97,-115,210,134), null);
 
 
 (lib.pic4 = function(mode,startPosition,loop) {
@@ -983,11 +982,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._1();
 	this.instance.parent = this;
-	this.instance.setTransform(-90,-99.5);
+	this.instance.setTransform(-68,-93);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.pic4, new cjs.Rectangle(-90,-99.5,180,199), null);
+}).prototype = getMCSymbolPrototype(lib.pic4, new cjs.Rectangle(-68,-93,136,191), null);
 
 
 (lib.pic2 = function(mode,startPosition,loop) {
@@ -1009,19 +1008,19 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._2();
 	this.instance.parent = this;
-	this.instance.setTransform(-65,-83,0.867,0.867);
+	this.instance.setTransform(-49.2,-77,0.867,0.867);
 
 	this.instance_1 = new lib._1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-120,-97,0.694,0.694);
+	this.instance_1.setTransform(10,-91,0.699,0.698);
 
 	this.instance_2 = new lib._1();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(-6,-97,0.694,0.694);
+	this.instance_2.setTransform(-105,-91,0.699,0.698);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-120,-97,239,160.5), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-105,-91,210,152.7), null);
 
 
 (lib.legal2 = function(mode,startPosition,loop) {
@@ -1087,11 +1086,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// pic5
 	this.instance_1 = new lib.pic5();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(140,253.5,1.1,1.1);
+	this.instance_1.setTransform(140,229.1,1.1,1.1);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(328).to({_off:false},0).to({y:233.5,alpha:1},7,cjs.Ease.get(1)).wait(75).to({y:253.5,alpha:0},7,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(328).to({_off:false},0).to({alpha:1},7,cjs.Ease.get(1)).wait(75).to({alpha:0},7,cjs.Ease.get(1)).wait(1));
 
 	// pic4
 	this.instance_2 = new lib.pic4();
@@ -1206,7 +1205,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/300x250_atlas_.png", id:"300x250_atlas_"}
+		{src:"images/_2.png", id:"_2"},
+		{src:"images/300x250_atlas_NP_.jpg", id:"300x250_atlas_NP_"}
 	],
 	preloads: []
 };

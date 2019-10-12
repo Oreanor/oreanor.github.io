@@ -7,7 +7,8 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x600_atlas_P_", frames: [[302,0,180,199],[302,201,150,169],[0,0,300,268]]}
+		{name:"300x600_atlas_P_", frames: [[0,0,180,199],[0,201,150,169]]},
+		{name:"300x600_atlas_NP_", frames: [[0,267,240,210],[0,0,298,265]]}
 ];
 
 
@@ -86,14 +87,15 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,240,210);
+	this.spriteSheet = ss["300x600_atlas_NP_"];
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._4 = function() {
-	this.spriteSheet = ss["300x600_atlas_P_"];
-	this.gotoAndStop(2);
+	this.spriteSheet = ss["300x600_atlas_NP_"];
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -969,11 +971,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._4();
 	this.instance.parent = this;
-	this.instance.setTransform(-150,-134);
+	this.instance.setTransform(-149,-134);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.sdf, new cjs.Rectangle(-150,-134,300,268), null);
+}).prototype = getMCSymbolPrototype(lib.sdf, new cjs.Rectangle(-149,-134,298,265), null);
 
 
 (lib.pic4 = function(mode,startPosition,loop) {
@@ -1589,8 +1591,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/_3.jpg", id:"_3"},
-		{src:"images/300x600_atlas_P_.png", id:"300x600_atlas_P_"}
+		{src:"images/300x600_atlas_P_.png", id:"300x600_atlas_P_"},
+		{src:"images/300x600_atlas_NP_.jpg", id:"300x600_atlas_NP_"}
 	],
 	preloads: []
 };
