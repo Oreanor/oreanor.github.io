@@ -1,112 +1,1674 @@
 [
-		{
-			"name": "Индейцы",
-			"manufacturer": "Арк Моделс",
-			"scale": "1:32",
-			"year": "2010-",
-			"folder": "ark_models/indians",
-			"img": "0.jpg",
-			"material": "пластик",
-			"type": "объемный",
-			"figures": [
-				{
-					"name": "Индеец с цепом и луком",
-					"img": "1.jpg"
-				},
-				{
-					"name": "Индеец с ножом",
-					"img": "2.jpg"
-				},
-				{
-					"name": "Индеец с томагавком м карабином",
-					"img": "3.jpg"
-				},
-				{
-					"name": "Индеец с томагавком",
-					"img": "4.jpg"
-				},
-				{
-					"name": "Индеец с луком, стоящий",
-					"img": "5.jpg"
-				},
-				{
-					"name": "Индеец-шаман",
-					"img": "6.jpg"
-				},
-				{
-					"name": "Индеец с луком, сидящий",
-					"img": "7.jpg"
-				},
-				{
-					"name": "Раненый индеец",
-					"img": "8.jpg"
-				}
-			]
-		},
-		{
-			"name": "Индейцы",
-			"manufacturer": "Cane",
-			"scale": "1:30",
-			"year": "2010-",
-			"folder": "cane/indians",
-			"img": "0.jpg",
-			"material": "пластик",
-			"type": "объемный"
-		},
-		{
-			"name": "Матросы Октября",
-			"manufacturer": "ЛКЗ",
-			"scale": "1:31",
-			"year": "1980-",
-			"folder": "lkz/matrosy_oktyabrya",
-			"img": "0.jpg",
-			"material": "металл",
-			"type": "плоский"
-		},
-		{
-			"name": "Ледовое побоище",
-			"manufacturer": "ЛКЗ",
-			"scale": "1:36",
-			"year": "1980-",
-			"folder": "lkz/ledovoe_poboische",
-			"img": "0.jpg",
-			"material": "металл",
-			"type": "плоский"
-		},
-		{
-			"name": "Лейб-гвардии Литовский полк",
-			"manufacturer": "Линтек",
-			"scale": "1:30",
-			"year": "1993",
-			"folder": "lintek/lithuanian",
-			"img": "0.jpg",
-			"material": "пластик",
-			"type": "объемный",
-			"figures": [
-				{
-					"name": "Обер-офицер",
-					"img": "1.png"
-				},
-				{
-					"name": "Унтер-офицер",
-					"img": "2.png"
-				},
-				{
-					"name": "Знаменосец",
-					"img": "3.png"
-				},
-				{
-					"name": "Барабанщик",
-					"img": "4.png"
-				},
-				{
-					"name": "Стрелок со штыком",
-					"img": "5.png"
-				},
-				{
-					"name": "Стрелок, заряжающий",
-					"img": "7.png"
-				}
-			]
-		}
-	]
+	{
+		"name": "Ковбои",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/cowboys",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Индейцы",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/indians",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Рыцари",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/knights",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"name": "Пираты",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/pirates",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Римляне",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/romans",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Викинги",
+		"manufacturer": "Арк Моделс",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "ark_models/vikings",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Воины средневековья",
+		"manufacturer": "Астрецовская фабрика металлических игрушек",
+		"scale": "1:32",
+		"year": "1970-",
+		"folder": "astrecovo/srednevekovye",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Сарацины",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/saracins",
+		"img": "01.png",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			}
+		]
+	},
+	{
+		"name": "Индейцы",
+		"manufacturer": "Cane",
+		"scale": "1:30",
+		"year": "",
+		"folder": "cane/indians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}	
+		]
+	},
+	{
+		"name": "Индейцы",
+		"manufacturer": "Domplast",
+		"scale": "1:32",
+		"year": "",
+		"folder": "domplast/indians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный"
+	},
+	{
+		"name": "Крестоносцы",
+		"manufacturer": "Jecsan",
+		"scale": "1:32",
+		"year": "",
+		"folder": "jecsan/crusaders",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			}
+		]
+	},
+	{
+		"name": "Египтяне",
+		"manufacturer": "Jecsan",
+		"scale": "1:32",
+		"year": "",
+		"folder": "jecsan/egyptians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			}
+		]
+	},
+	{
+		"name": "Французская пехота",
+		"manufacturer": "Jecsan",
+		"scale": "1:32",
+		"year": "",
+		"folder": "jecsan/napoleonic",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Войско Гарольда Годвинсона",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "2018",
+		"folder": "lad/garold",
+		"img": "00.png",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			},
+			{
+				"name": "",
+				"img": "13.png"
+			},
+			{
+				"name": "",
+				"img": "14.png"
+			},
+			{
+				"name": "",
+				"img": "15.png"
+			},
+			{
+				"name": "",
+				"img": "16.png"
+			},
+		]
+	},
+	{
+		"name": "Золото скифов",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "2018",
+		"folder": "lad/skify",
+		"img": "00.png",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			}
+		]
+	},
+	{
+		"name": "Войско Вильгельма Завоевателя",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "2018",
+		"folder": "lad/wilhelm",
+		"img": "00.png",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			},
+			{
+				"name": "",
+				"img": "13.png"
+			},
+			{
+				"name": "",
+				"img": "14.png"
+			},
+			{
+				"name": "",
+				"img": "15.png"
+			}
+		]
+	},
+	{
+		"name": "Ледовое побоище, 2 выпуск",
+		"manufacturer": "ЛКЗ",
+		"scale": "1:32",
+		"year": "1970-",
+		"folder": "lkz/ice_battle",
+		"img": "01.png",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			},
+			{
+				"name": "",
+				"img": "13.png"
+			},
+			{
+				"name": "",
+				"img": "14.png"
+			}
+		]
+	},
+	{
+		"name": "Матросы Октября",
+		"manufacturer": "ЛКЗ",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "lkz/matrosy_oktyabrya",
+		"img": "01.png",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			}
+		]
+	},
+	{
+		"name": "Революционные матросы",
+		"manufacturer": "ЛКЗ",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "lkz/revolution_matrosy",
+		"img": "01.png",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			}
+		]
+	},
+	{
+		"name": "Моряки",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:25",
+		"year": "1970-",
+		"folder": "lpo_igrushka/matrosy",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "Командир",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Моряк с винтовкой",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Моряк с автоматом",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Моряк с пулеметом",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"name": "Конница Будённого",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "lpo_igrushka/red_cavalry",
+		"img": "01.png",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			}
+		]
+	},
+	{
+		"name": "Индейцы",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/indians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
+	},
+	{
+		"name": "Робин Гуд и вольные стрелки",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/robinhood",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			},
+			{
+				"name": "",
+				"img": "14.jpg"
+			}
+		]
+	},
+	{
+		"name": "Советская пехота",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/soviet",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"name": "Пионеры Запада",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/trappers",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			}
+		]
+	},
+	{
+		"name": "Неприкасаемые",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/untouchables",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			},
+			{
+				"name": "",
+				"img": "14.jpg"
+			},
+			{
+				"name": "",
+				"img": "15.jpg"
+			}
+		]
+	},
+	{
+		"name": "Греческие воины",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/greeks",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"name": "Рыцари",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/knights",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"name": "Польский гусар",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/polish",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный"
+	},
+	{
+		"name": "Римляне",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/romans",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			},
+			{
+				"name": "",
+				"img": "14.jpg"
+			},
+			{
+				"name": "",
+				"img": "15.jpg"
+			}
+		]
+	},
+	{
+		"name": "Русские богатыри",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/russians",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			},
+			{
+				"name": "",
+				"img": "14.jpg"
+			},
+			{
+				"name": "",
+				"img": "15.jpg"
+			}
+		]
+	},
+	{
+		"name": "Викинги",
+		"manufacturer": "Нетехнолог, г.Челябинск",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/vikings",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			}
+		]
+	},
+	{
+		"name": "Армия США",
+		"manufacturer": "Оритет",
+		"scale": "1:32",
+		"year": "1990-",
+		"folder": "oritet/americans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"name": "Британские парашютисты",
+		"manufacturer": "Оритет",
+		"scale": "1:35",
+		"year": "1990-",
+		"folder": "oritet/british",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			}
+		]
+	},
+	{
+		"name": "Немецкая пехота",
+		"manufacturer": "Оритет",
+		"scale": "1:35",
+		"year": "1990-",
+		"folder": "oritet/germans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	}
+]
