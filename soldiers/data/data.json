@@ -4,7 +4,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/cowboys",
+		"folder": "arkmodels/cowboys",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -48,7 +48,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/indians",
+		"folder": "arkmodels/indians",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -92,7 +92,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/knights",
+		"folder": "arkmodels/knights",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -128,7 +128,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/pirates",
+		"folder": "arkmodels/pirates",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -172,7 +172,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/romans",
+		"folder": "arkmodels/romans",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -216,7 +216,7 @@
 		"manufacturer": "Арк Моделс",
 		"scale": "1:32",
 		"year": "2010-",
-		"folder": "ark_models/vikings",
+		"folder": "arkmodels/vikings",
 		"img": "01.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -363,7 +363,7 @@
 			},
 			{
 				"name": "",
-				"img": "05.jpg"
+				"img": "06.jpg"
 			}	
 		]
 	},
@@ -539,7 +539,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/garold",
-		"img": "00.png",
+		"img": "01.png",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -606,7 +606,7 @@
 			{
 				"name": "",
 				"img": "16.png"
-			},
+			}
 		]
 	},
 	{
@@ -615,7 +615,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/skify",
-		"img": "00.png",
+		"img": "01.png",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -663,7 +663,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/wilhelm",
-		"img": "00.png",
+		"img": "01.png",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -1203,6 +1203,78 @@
 		"scale": "1:35",
 		"year": "",
 		"folder": "marx/untouchables",
+		"img": "01.png",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			},
+			{
+				"name": "",
+				"img": "08.png"
+			},
+			{
+				"name": "",
+				"img": "09.png"
+			},
+			{
+				"name": "",
+				"img": "10.png"
+			},
+			{
+				"name": "",
+				"img": "11.png"
+			},
+			{
+				"name": "",
+				"img": "12.png"
+			},
+			{
+				"name": "",
+				"img": "13.png"
+			},
+			{
+				"name": "",
+				"img": "14.png"
+			},
+			{
+				"name": "",
+				"img": "15.png"
+			}
+		]
+	},
+	{
+		"name": "Викинги",
+		"manufacturer": "Marx/Marx recast",
+		"scale": "1:35",
+		"year": "",
+		"folder": "marx/vikings",
 		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
@@ -1242,30 +1314,6 @@
 			{
 				"name": "",
 				"img": "09.jpg"
-			},
-			{
-				"name": "",
-				"img": "10.jpg"
-			},
-			{
-				"name": "",
-				"img": "11.jpg"
-			},
-			{
-				"name": "",
-				"img": "12.jpg"
-			},
-			{
-				"name": "",
-				"img": "13.jpg"
-			},
-			{
-				"name": "",
-				"img": "14.jpg"
-			},
-			{
-				"name": "",
-				"img": "15.jpg"
 			}
 		]
 	},

@@ -15,8 +15,8 @@ class SetDetails extends Component {
 	render() {
 		const { data } = this.props;
 		const figures = data.figures ? data.figures.map((item, i) => <div key={i} className="figure_item">
-			<div className="figure_item__name">{item.name}</div>
 			<img className="figure_item__image" src={"../images/"+data.folder+"/"+item.img} alt=""/>
+			<div className="figure_item__name">{item.name}</div>
 		</div>) : [];
 		return (
 			 <div className= {"details_card"}>

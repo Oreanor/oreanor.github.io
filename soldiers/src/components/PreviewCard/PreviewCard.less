@@ -4,6 +4,7 @@
 	padding: 20px 30px;
 	cursor: pointer;
 	width: 33.3%;
+	min-width: 300px;
 	//max-width: 240px;
 	overflow: hidden;
 	border: 1px #fff solid;
@@ -15,8 +16,13 @@
 		font-weight: bold;
 		margin-bottom: 10px;
 	}
-	&__image {
+	&__image-cont {
 		width: 100%;
+		text-align: center;
+	}
+	&__image {
+		max-width: 100%;
+		max-height: 20vh;
 		margin-bottom: 10px;
 	}
 }
@@ -25,6 +31,7 @@
 	width: 100%;
 	padding: 10px;
 	border: 1px #fff solid;
+	min-width: auto;
 }
 
 .preview_card:hover, .preview_card__smaller:hover {
