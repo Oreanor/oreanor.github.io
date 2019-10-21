@@ -5,7 +5,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/cowboys",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -49,7 +49,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/indians",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -93,7 +93,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/knights",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -129,7 +129,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/pirates",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -173,7 +173,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/romans",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -217,7 +217,7 @@
 		"scale": "1:32",
 		"year": "2010-",
 		"folder": "arkmodels/vikings",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -261,7 +261,7 @@
 		"scale": "1:32",
 		"year": "1970-",
 		"folder": "astrecovo/srednevekovye",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -375,7 +375,33 @@
 		"folder": "domplast/indians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный"
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
 	},
 	{
 		"name": "Крестоносцы",
@@ -539,7 +565,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/garold",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -615,7 +641,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/skify",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -663,7 +689,7 @@
 		"scale": "1:32",
 		"year": "2018",
 		"folder": "lad/wilhelm",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -735,7 +761,7 @@
 		"scale": "1:32",
 		"year": "1970-",
 		"folder": "lkz/ice_battle",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "металл",
 		"type": "плоский",
 		"figures": [
@@ -803,7 +829,7 @@
 		"scale": "1:32",
 		"year": "1980-",
 		"folder": "lkz/matrosy_oktyabrya",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "металл",
 		"type": "плоский",
 		"figures": [
@@ -863,7 +889,7 @@
 		"scale": "1:32",
 		"year": "1980-",
 		"folder": "lkz/revolution_matrosy",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "металл",
 		"type": "плоский",
 		"figures": [
@@ -923,7 +949,7 @@
 		"scale": "1:25",
 		"year": "1970-",
 		"folder": "lpo_igrushka/matrosy",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -951,7 +977,7 @@
 		"scale": "1:32",
 		"year": "1980-",
 		"folder": "lpo_igrushka/red_cavalry",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "плоский",
 		"figures": [
@@ -1203,7 +1229,7 @@
 		"scale": "1:35",
 		"year": "",
 		"folder": "marx/untouchables",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1266,6 +1292,18 @@
 			{
 				"name": "",
 				"img": "15.png"
+			},
+			{
+				"name": "",
+				"img": "16.png"
+			},
+			{
+				"name": "",
+				"img": "17.jpg"
+			},
+			{
+				"name": "",
+				"img": "18.jpg"
 			}
 		]
 	},
@@ -1581,7 +1619,7 @@
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/vikings",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1620,6 +1658,14 @@
 			{
 				"name": "",
 				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
 			}
 		]
 	},
