@@ -1357,11 +1357,11 @@
 	},
 	{
 		"name": "Греческие воины",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/greeks",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1396,16 +1396,24 @@
 			{
 				"name": "",
 				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
 			}
 		]
 	},
 	{
 		"name": "Рыцари",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/knights",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1461,7 +1469,7 @@
 	},
 	{
 		"name": "Польский гусар",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/polish",
@@ -1471,11 +1479,11 @@
 	},
 	{
 		"name": "Римляне",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/romans",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1538,16 +1546,20 @@
 			{
 				"name": "",
 				"img": "15.jpg"
+			},
+			{
+				"name": "",
+				"img": "16.jpg"
 			}
 		]
 	},
 	{
 		"name": "Русские богатыри",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/russians",
-		"img": "01.jpg",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объемный",
 		"figures": [
@@ -1615,7 +1627,7 @@
 	},
 	{
 		"name": "Викинги",
-		"manufacturer": "Нетехнолог, г.Челябинск",
+		"manufacturer": "Нетехнолог",
 		"scale": "1:32",
 		"year": "2018-2019",
 		"folder": "netechnolog/vikings",
@@ -1762,6 +1774,54 @@
 			{
 				"name": "",
 				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"name": "Солдаты в бою",
+		"manufacturer": "Прогресс",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "progress/soldaty_v_boyu",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объемный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
 			}
 		]
 	}

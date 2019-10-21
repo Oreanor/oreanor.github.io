@@ -7,6 +7,7 @@
   min-width: 300px;
   overflow: hidden;
   border: 1px #fff solid;
+  font-size: 12px;
 }
 .preview_card__name {
   font-size: 14px;
