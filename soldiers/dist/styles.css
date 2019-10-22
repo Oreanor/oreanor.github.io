@@ -56,6 +56,7 @@
 }
 .details_card .figures_cont .figure_item {
   display: inline-block;
+  position: relative;
   padding: 10px;
 }
 .details_card .figures_cont .figure_item__name {
@@ -65,7 +66,6 @@
   text-align: center;
 }
 .details_card .figures_cont .figure_item__image {
-  max-width: 100%;
   margin-bottom: 10px;
 }
 
@@ -77,6 +77,13 @@
 .filter_card__name {
   font-weight: bold;
   margin-bottom: 5px;
+  line-height: 1;
+}
+.filter_card__name-label {
+  margin-left: 5px;
+}
+.filter_card__list {
+  margin-left: 5px;
 }
 .filter_card__bClose {
   width: 16px;
@@ -165,14 +172,14 @@
   color: #666;
 }
 .app_main__right_narrow .subheader__0 {
-  font-size: 18px;
+  font-size: 16px;
 }
 .app_main__right_narrow .subheader__1 {
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 5px;
 }
 .app_main__right_narrow .subheader__2 {
-  font-size: 14px;
+  font-size: 13px;
   padding-left: 10px;
 }
 .app_main__right_narrow .subheader__3 {
