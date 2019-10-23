@@ -245,7 +245,7 @@ class App extends Component {
 				<div className="outer_cont app_main__left">
 					<div className="inner_cont filters_cont">
 						<div className="filters_cont__title">
-							My Soldiers Collection
+							Коллекция солдатиков
 						</div>
 						<input
 							type="text"
@@ -267,7 +267,7 @@ class App extends Component {
 
 				<div
 					className={
-						"outer_cont app_main__right" +
+						"app_main__right" +
 						(currentSet !== null ? "_narrow" : "")
 					}
 				>

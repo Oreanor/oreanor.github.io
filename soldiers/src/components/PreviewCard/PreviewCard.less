@@ -4,7 +4,7 @@
 	padding: 20px 30px;
 	cursor: pointer;
 	width: 33.3%;
-	min-width: 300px;
+	//min-width: 300px;
 	overflow: hidden;
 	border: 1px #fff solid;
 	font-size: 12px;
@@ -35,4 +35,18 @@
 .preview_card:hover,
 .preview_card__smaller:hover {
 	border: 1px #eee solid;
+}
+
+@media screen and (max-width: 800px) {
+	.preview_card {
+		width: 50%;
+		min-width: auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.preview_card {
+		width: 100%;
+		min-width: auto;
+	}
 }
