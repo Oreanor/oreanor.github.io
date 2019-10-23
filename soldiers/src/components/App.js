@@ -5,12 +5,13 @@ import Filter from "./Filter/Filter";
 import "./App.less";
 import "../styles/common.less";
 import cookies from "./cookies";
-import { filterOptionsNames, filterNames, filterProperties } from "./consts";
+import { dataURL, filterOptionsNames, filterNames, filterProperties } from "./consts";
+import {sortBy} from './utils';
 
 class App extends Component {
 	constructor() {
 		super();
-		let filters = cookies.get("filters")
+		const filters = cookies.get("filters")
 			? cookies
 					.get("filters")
 					.split("_")
@@ -20,7 +21,6 @@ class App extends Component {
 			data: [],
 			currentSet: null,
 			searchString: cookies.get("searchString") || "",
-			types: [false, true],
 			filters: filters,
 			filterValues: [],
 			filterValuesChecks: []
@@ -29,7 +29,7 @@ class App extends Component {
 	myRef = [];
 
 	componentDidMount() {
-		fetch("data/data.json")
+		fetch(dataURL)
 			.then(response => response.json())
 			.then(data => {
 				let filterValues = [[]];
@@ -48,7 +48,7 @@ class App extends Component {
 
 					filterValues[i].sort();
 				}
-				data.sort(this.sortBy());
+				data.sort(sortBy(this.state.filters));
 
 				data.forEach((item, i) => {
 					this.myRef[i] = React.createRef();
@@ -57,28 +57,6 @@ class App extends Component {
 				this.setState({ data, filterValues, filterValuesChecks });
 			});
 	}
-
-	sortBy = () => {
-		const { filters } = this.state;
-		return function(a, b) {
-			for (let i = 0; i < filters.length; i++) {
-				const prop = filterProperties[filters[i]];
-				if (a[prop] < b[prop]) {
-					return -1;
-				}
-				if (a[prop] > b[prop]) {
-					return 1;
-				}
-			}
-			if (a["name"] < b["name"]) {
-				return -1;
-			}
-			if (a["name"] > b["name"]) {
-				return 1;
-			}
-			return 0;
-		};
-	};
 
 	resortData = () => {
 		let data = this.state.data.slice();
@@ -107,11 +85,6 @@ class App extends Component {
 		cookies.set("searchString", e.target.value);
 	};
 
-	onCheckType = (e, num) => {
-		let types = this.state.types.slice();
-		types[num] = !types[num];
-		this.setState({ types });
-	};
 	onAddFilter = e => {
 		let filters = this.state.filters.slice();
 		const val = e.target.value;
@@ -155,48 +128,23 @@ class App extends Component {
 		this.setState({ filterValuesChecks, currentSet: null });
 	};
 
-	render() {
+	getCards = () => {
 		const {
 			data,
 			currentSet,
-			searchString,
-			types,
 			filters,
 			filterValues,
-			filterValuesChecks
+			filterValuesChecks,
+			searchString
 		} = this.state;
 
-		const filterOptions = filterOptionsNames.map((item, i) => {
-			return (
-				<option
-					key={i}
-					value={i}
-					disabled={i === 0 || filters.includes(i)}
-				>
-					{item}
-				</option>
-			);
-		});
-		const filtersAdded = filters.map((num, i) => (
-			<Filter
-				key={i}
-				id={num}
-				name={filterOptionsNames[num]}
-				values={filterValues[num]}
-				checks={filterValuesChecks[num]}
-				onCheck={this.onCheckFilterValue}
-				onRemove={() => this.onRemoveFilter(i)}
-				onCheckAll={this.onCheckAll}
-			/>
-		));
-
-		//const cards = data.filter(item=>item.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1).map((item, i) => <PreviewCard currentSet={currentSet} key={i} data={item} onClick={() => this.onSelectSet(i)}/>)
 
 		let cards = [];
 		let vals = filters.map(item => "");
 
 		for (let i = 0; i < data.length; i++) {
 			let toShow = true;
+
 			for (let k = 0; k < filters.length; k++) {
 				var ind = filterValues[filters[k]].indexOf(
 					data[i][filterProperties[filters[k]]]
@@ -239,6 +187,45 @@ class App extends Component {
 				);
 			}
 		}
+
+		return cards;
+	}
+
+	render() {
+		const {
+			data,
+			currentSet,
+			searchString,
+			filters,
+			filterValues,
+			filterValuesChecks
+		} = this.state;
+
+		const filterOptions = filterOptionsNames.map((item, i) => {
+			return (
+				<option
+					key={i}
+					value={i}
+					disabled={i === 0 || filters.includes(i)}
+				>
+					{item}
+				</option>
+			);
+		});
+		const filtersAdded = filters.map((num, i) => (
+			<Filter
+				key={i}
+				id={num}
+				name={filterOptionsNames[num]}
+				values={filterValues[num]}
+				checks={filterValuesChecks[num]}
+				onCheck={this.onCheckFilterValue}
+				onRemove={() => this.onRemoveFilter(i)}
+				onCheckAll={this.onCheckAll}
+			/>
+		));
+
+		const cards = this.getCards();
 
 		return (
 			<div className="app_main">

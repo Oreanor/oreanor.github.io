@@ -3,7 +3,7 @@
 	vertical-align: top;
 	padding: 20px 30px;
 	cursor: pointer;
-	width: 33.3%;
+	width: 25%;
 	//min-width: 300px;
 	overflow: hidden;
 	border: 1px #fff solid;
@@ -20,21 +20,20 @@
 	}
 	&__image {
 		max-width: 100%;
-		max-height: 20vh;
+		//max-height: 20vh;
 		margin-bottom: 10px;
 	}
 }
 
-.preview_card__smaller {
-	width: 100%;
-	padding: 10px;
-	border: 1px #fff solid;
-	min-width: auto;
-}
+@media screen and (max-width: 1200px) {
+	.preview_card {
+		width: 33.3%;
+		min-width: auto;
 
-.preview_card:hover,
-.preview_card__smaller:hover {
-	border: 1px #eee solid;
+		&__name {
+			font-size: 12px;
+		}
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -49,4 +48,16 @@
 		width: 100%;
 		min-width: auto;
 	}
+}
+
+.preview_card__smaller {
+	width: 100%;
+	padding: 10px;
+	border: 1px #fff solid;
+	min-width: auto;
+}
+
+.preview_card:hover,
+.preview_card__smaller:hover {
+	border: 1px #eee solid;
 }

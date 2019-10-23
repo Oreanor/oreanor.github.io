@@ -1,3 +1,4 @@
+export const dataURL = "data/data.json";
 export const filterOptionsNames = [
 	"Сортировать...",
 	"по типу",

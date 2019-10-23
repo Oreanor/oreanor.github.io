@@ -21,7 +21,7 @@ class PreviewCard extends Component {
 						className="preview_card__image"
 					/>
 				</div>
-				<div className="preview_card__scale">
+				{/*<div className="preview_card__scale">
 					{"Масштаб: " + (data.scale || "-")}
 				</div>
 				<div className="preview_card__manufacturer">
@@ -29,7 +29,7 @@ class PreviewCard extends Component {
 				</div>
 				<div className="preview_card__year">
 					{"Год выпуска: " + (data.year || "-")}
-				</div>
+				</div>*/}
 			</div>
 		);
 	}

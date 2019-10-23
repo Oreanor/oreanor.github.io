@@ -3,7 +3,7 @@
   vertical-align: top;
   padding: 20px 30px;
   cursor: pointer;
-  width: 33.3%;
+  width: 25%;
   overflow: hidden;
   border: 1px #fff solid;
   font-size: 12px;
@@ -19,18 +19,16 @@
 }
 .preview_card__image {
   max-width: 100%;
-  max-height: 20vh;
   margin-bottom: 10px;
 }
-.preview_card__smaller {
-  width: 100%;
-  padding: 10px;
-  border: 1px #fff solid;
-  min-width: auto;
-}
-.preview_card:hover,
-.preview_card__smaller:hover {
-  border: 1px #eee solid;
+@media screen and (max-width: 1200px) {
+  .preview_card {
+    width: 33.3%;
+    min-width: auto;
+  }
+  .preview_card__name {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 800px) {
   .preview_card {
@@ -44,14 +42,25 @@
     min-width: auto;
   }
 }
+.preview_card__smaller {
+  width: 100%;
+  padding: 10px;
+  border: 1px #fff solid;
+  min-width: auto;
+}
+.preview_card:hover,
+.preview_card__smaller:hover {
+  border: 1px #eee solid;
+}
 
 .details_card {
   display: inline-block;
   vertical-align: top;
   padding: 10px;
-  cursor: pointer;
   width: 100%;
   overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .details_card__name {
   font-size: 16px;
@@ -59,7 +68,7 @@
   margin-bottom: 10px;
 }
 .details_card__image {
-  margin-bottom: 10px;
+  margin: 10px 0px;
   max-width: 100%;
 }
 .details_card .figures_cont {
@@ -78,6 +87,32 @@
 }
 .details_card .figures_cont .figure_item__image {
   margin-bottom: 10px;
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .details_card {
+    font-size: 12px;
+  }
+  .details_card__name {
+    font-size: 14px;
+  }
+  .details_card .figures_cont {
+    width: 100%;
+  }
+  .details_card .figures_cont .figure_item {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+  }
+  .details_card .figures_cont .figure_item__name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .details_card .figures_cont .figure_item__image {
+    margin-bottom: 10px;
+  }
 }
 
 .filter_card {
@@ -180,7 +215,7 @@
   vertical-align: top;
   height: 100%;
   width: 20%;
-  padding: 0px 10px;
+  padding: 0px;
 }
 .app_main__right_narrow .subheader {
   padding-bottom: 5px;
@@ -262,5 +297,8 @@
 h1 {
   font-size: 16px;
   margin-bottom: 10px;
+}
+.gray {
+  color: #999;
 }
 
