@@ -60,7 +60,7 @@ class App extends Component {
 
 	resortData = () => {
 		let data = this.state.data.slice();
-		data.sort(this.sortBy());
+		data.sort(sortBy(this.state.filters));
 		this.setState({ data });
 	};
 
