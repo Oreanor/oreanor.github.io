@@ -238,56 +238,6 @@ class App extends Component {
 			}
 			return;
 		}
-
-		/*let cards = [];
-		let vals = filters.map(item => "");
-
-		for (let i = 0; i < data.length; i++) {
-			let toShow = true;
-
-			for (let k = 0; k < filters.length; k++) {
-				var ind = filterValues[filters[k]].indexOf(
-					data[i][filterProperties[filters[k]]]
-				);
-				if (ind === -1 || !filterValuesChecks[filters[k]][ind]) {
-					toShow = false;
-					break;
-				}
-				let val = data[i][filterProperties[filters[k]]];
-				if (val !== vals[k]) {
-					cards.push(
-						<div
-							key={i + "_" + k}
-							className={"subheader subheader__" + k}
-						>
-							{filterNames[filters[k]] + ": " + val}
-						</div>
-					);
-					vals[k] = val;
-				}
-			}
-
-			if (
-				toShow &&
-				(data[i].name
-					.toLowerCase()
-					.indexOf(searchString.toLowerCase()) !== -1 ||
-					data[i].manufacturer
-						.toLowerCase()
-						.indexOf(searchString.toLowerCase()) !== -1)
-			) {
-				cards.push(
-					<span key={i} ref={this.myRef[i]}>
-						<PreviewCard
-							currentSet={currentSet}
-							data={data[i]}
-							onClick={() => this.onSelectSet(i)}
-						/>
-					</span>
-				);
-			}
-		}*/
-
 		return cards;
 	};
 
