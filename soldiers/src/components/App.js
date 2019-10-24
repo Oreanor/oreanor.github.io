@@ -5,8 +5,13 @@ import Filter from "./Filter/Filter";
 import "./App.less";
 import "../styles/common.less";
 import cookies from "./cookies";
-import { dataURL, filterOptionsNames, filterNames, filterProperties } from "./consts";
-import {sortBy} from './utils';
+import {
+	dataURL,
+	filterOptionsNames,
+	filterNames,
+	filterProperties
+} from "./consts";
+import { sortBy } from "./utils";
 
 class App extends Component {
 	constructor() {
@@ -128,6 +133,16 @@ class App extends Component {
 		this.setState({ filterValuesChecks, currentSet: null });
 	};
 
+	isFound = obj => {
+		const { searchString } = this.state;
+		return (
+			obj.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 ||
+			obj.manufacturer
+				.toLowerCase()
+				.indexOf(searchString.toLowerCase()) !== -1
+		);
+	};
+
 	getCards = () => {
 		const {
 			data,
@@ -138,8 +153,92 @@ class App extends Component {
 			searchString
 		} = this.state;
 
-
 		let cards = [];
+		let key = 0;
+		let key2 = 0;
+
+		const that = this;
+
+		if (filters.length) {
+			getCardsWithHeaders(0, []);
+		} else {
+			for (let j = 0; j < data.length; j++) {
+				if (this.isFound(data[j])) {
+					cards.push(
+						<span key={"card" + key2} ref={that.myRef[j]}>
+							<PreviewCard
+								currentSet={currentSet}
+								data={data[j]}
+								onClick={() => that.onSelectSet(j)}
+							/>
+						</span>
+					);
+					key2++;
+				}
+			}
+		}
+
+		function getCardsWithHeaders(level, ft) {
+			for (let i = 0; i < filterValues[filters[level]].length; i++) {
+				if (filterValuesChecks[filters[level]][i]) {
+					cards.push(
+						<div
+							key={key}
+							className={"subheader subheader__" + level}
+						>
+							{filterNames[filters[level]] +
+								": " +
+								filterValues[filters[level]][i]}
+						</div>
+					);
+					key++;
+					let ft2 = ft.slice();
+					ft2.push({
+						name: filterProperties[filters[level]],
+						value: filterValues[filters[level]][i]
+					});
+					if (level < filters.length - 1) {
+						getCardsWithHeaders(level + 1, ft2);
+					} else {
+						let hasOne = false;
+						for (let j = 0; j < data.length; j++) {
+							if (that.isFound(data[j])) {
+								let toShow = true;
+								for (let k = 0; k < ft2.length; k++) {
+									if (data[j][ft2[k].name] !== ft2[k].value) {
+										toShow = false;
+									}
+								}
+								if (toShow) {
+									cards.push(
+										<span
+											key={"card" + key2}
+											ref={that.myRef[j]}
+										>
+											<PreviewCard
+												currentSet={currentSet}
+												data={data[j]}
+												onClick={() =>
+													that.onSelectSet(j)
+												}
+											/>
+										</span>
+									);
+									key2++;
+									hasOne = true;
+								}
+							}
+						}
+						if(!hasOne){
+							cards.push(<div className="nothing-found">---</div>);
+						}
+					}
+				}
+			}
+			return;
+		}
+
+		/*let cards = [];
 		let vals = filters.map(item => "");
 
 		for (let i = 0; i < data.length; i++) {
@@ -186,10 +285,10 @@ class App extends Component {
 					</span>
 				);
 			}
-		}
+		}*/
 
 		return cards;
-	}
+	};
 
 	render() {
 		const {
@@ -225,7 +324,7 @@ class App extends Component {
 			/>
 		));
 
-		const cards = this.getCards();
+		const cards = filterValues.length ? this.getCards() : null;
 
 		return (
 			<div className="app_main">

@@ -14,7 +14,7 @@ class PreviewCard extends Component {
 				}
 				onClick={onClick}
 			>
-				<div className="preview_card__name">{data.name}</div>
+				<div className="preview_card__name">{data.name +" ("+data.manufacturer+", "+data.scale+")"}</div>
 				<div className="preview_card__image-cont">
 					<img
 						src={"../images/" + data.folder + "/" + data.img}
