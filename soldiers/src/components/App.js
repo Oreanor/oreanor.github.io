@@ -183,7 +183,7 @@ class App extends Component {
 				if (filterValuesChecks[filters[level]][i]) {
 					cards.push(
 						<div
-							key={key}
+							key={"header" + key}
 							className={"subheader subheader__" + level}
 						>
 							{filterNames[filters[level]] +
@@ -212,7 +212,7 @@ class App extends Component {
 								if (toShow) {
 									cards.push(
 										<span
-											key={"card" + key2}
+											key={"card" + key}
 											ref={that.myRef[j]}
 										>
 											<PreviewCard
@@ -224,13 +224,14 @@ class App extends Component {
 											/>
 										</span>
 									);
-									key2++;
+									key++;
 									hasOne = true;
 								}
 							}
 						}
 						if(!hasOne){
-							cards.push(<div className="nothing-found">---</div>);
+							cards.push(<div key={"null" + key} className="nothing-found">---</div>);
+							key++;
 						}
 					}
 				}
