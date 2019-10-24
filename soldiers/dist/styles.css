@@ -179,6 +179,7 @@
 .app_main__left .filters_cont__search {
   margin-bottom: 10px;
   width: 100%;
+  font-size: 12px;
 }
 .app_main__right {
   width: 85%;
@@ -302,6 +303,7 @@
 }
 .select_common {
   width: 100%;
+  font-size: 12px;
 }
 h1 {
   font-size: 16px;
