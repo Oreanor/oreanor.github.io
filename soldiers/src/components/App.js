@@ -34,6 +34,10 @@ class App extends Component {
 	myRef = [];
 
 	componentDidMount() {
+		const that = this;
+		window.onpopstate = function(event) {
+			that.selectSetFromHash();
+		};
 		fetch(dataURL)
 			.then(response => response.json())
 			.then(data => {
@@ -59,9 +63,21 @@ class App extends Component {
 					this.myRef[i] = React.createRef();
 				});
 
-				this.setState({ data, filterValues, filterValuesChecks });
+				this.setState(
+					{ data, filterValues, filterValuesChecks },
+					this.selectSetFromHash
+				);
 			});
 	}
+
+	selectSetFromHash = () => {
+		const id = window.location.hash.split("#")[1];
+		if (id && id.length) {
+			this.onSelectSet(id);
+		} else {
+			this.onSelectSet(null);
+		}
+	};
 
 	resortData = () => {
 		let data = this.state.data.slice();
@@ -75,14 +91,20 @@ class App extends Component {
 		} else {
 			this.setState({ currentSet: num });
 		}
+		if (num !== null) {
+			window.location.hash = num;
+		} else {
+			window.location.hash = "";
+		}
 	};
 
 	scrollToRef = num => {
-		if (num !== null)
+		if (num !== null) {
 			this.myRef[num].current.scrollIntoView({
 				//behavior: "smooth",
 				block: "start"
 			});
+		}
 	};
 
 	searchSet = e => {
@@ -96,9 +118,7 @@ class App extends Component {
 		if (!filters.includes(val)) {
 			filters.push(parseInt(val));
 			cookies.set("filters", filters.join("_"));
-			this.setState({ filters, currentSet: null }, () =>
-				this.resortData()
-			);
+			this.setState({ filters }, () => this.resortData());
 		}
 	};
 
@@ -112,9 +132,7 @@ class App extends Component {
 
 		filters.splice(index, 1);
 		cookies.set("filters", filters.join("_"));
-		this.setState({ filterValuesChecks, filters, currentSet: null }, () =>
-			this.resortData()
-		);
+		this.setState({ filterValuesChecks, filters }, () => this.resortData());
 	};
 
 	onCheckFilterValue = (id, id2) => {
@@ -122,7 +140,7 @@ class App extends Component {
 		let filterToCheck = filterValuesChecks[id].slice();
 		filterToCheck[id2] = !filterToCheck[id2];
 		filterValuesChecks[id] = filterToCheck;
-		this.setState({ filterValuesChecks, currentSet: null });
+		this.setState({ filterValuesChecks });
 	};
 
 	onCheckAll = (id, allCheck) => {
@@ -130,7 +148,7 @@ class App extends Component {
 		let filterToCheck = filterValuesChecks[id].slice();
 		filterToCheck = filterToCheck.map(check => allCheck);
 		filterValuesChecks[id] = filterToCheck;
-		this.setState({ filterValuesChecks, currentSet: null });
+		this.setState({ filterValuesChecks });
 	};
 
 	isFound = obj => {
@@ -161,8 +179,15 @@ class App extends Component {
 
 		if (filters.length) {
 			cards = getCardsWithHeaders(0, []);
-			if(cards.length === 0) {
-				cards.push(<div key={"hedaer"+key} className={"subheader subheader__2"}>Ничего не найдено</div>)
+			if (cards.length === 0) {
+				cards.push(
+					<div
+						key={"hedaer" + key}
+						className={"subheader subheader__2"}
+					>
+						Ничего не найдено
+					</div>
+				);
 			}
 		} else {
 			for (let j = 0; j < data.length; j++) {
