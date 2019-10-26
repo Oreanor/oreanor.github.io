@@ -85,22 +85,22 @@ class App extends Component {
 		this.setState({ data });
 	};
 
-	onSelectSet = num => {
+	onSelectSet = id => {
 		if (this.state.currentSet === null) {
-			this.setState({ currentSet: num }, () => this.scrollToRef(num));
+			this.setState({ currentSet: id }, () => this.scrollToRef(id));
 		} else {
-			this.setState({ currentSet: num });
+			this.setState({ currentSet: id });
 		}
-		if (num !== null) {
-			window.location.hash = num;
+		if (id !== null) {
+			window.location.hash = id;
 		} else {
 			window.location.hash = "";
 		}
 	};
 
-	scrollToRef = num => {
-		if (num !== null) {
-			this.myRef[num].current.scrollIntoView({
+	scrollToRef = id => {
+		if (id !== null) {
+			this.myRef[id].current.scrollIntoView({
 				//behavior: "smooth",
 				block: "start"
 			});
@@ -193,11 +193,11 @@ class App extends Component {
 			for (let j = 0; j < data.length; j++) {
 				if (this.isFound(data[j])) {
 					cards.push(
-						<span key={"card" + key2} ref={that.myRef[j]}>
+						<span key={"card" + key2} ref={that.myRef[data[j].id]}>
 							<PreviewCard
 								currentSet={currentSet}
 								data={data[j]}
-								onClick={() => that.onSelectSet(j)}
+								onClick={() => that.onSelectSet(data[j].id)}
 							/>
 						</span>
 					);
@@ -249,13 +249,13 @@ class App extends Component {
 									cardRenders.push(
 										<span
 											key={"card" + key}
-											ref={that.myRef[j]}
+											ref={that.myRef[data[j].id]}
 										>
 											<PreviewCard
 												currentSet={currentSet}
 												data={data[j]}
 												onClick={() =>
-													that.onSelectSet(j)
+													that.onSelectSet(data[j].id)
 												}
 											/>
 										</span>
@@ -313,6 +313,11 @@ class App extends Component {
 
 		const cards = filterValues.length ? this.getCards() : null;
 
+		const elementToShow =
+			currentSet !== null && data.length
+				? data.find(item => item.id === parseInt(currentSet))
+				: {};
+
 		return (
 			<div className="app_main">
 				<div className="outer_cont app_main__left">
@@ -349,10 +354,7 @@ class App extends Component {
 				{currentSet !== null && (
 					<div className={"outer_cont app_main__details"}>
 						<div className="inner_cont">
-							<SetDetails
-								key={currentSet}
-								data={data[currentSet]}
-							/>
+							<SetDetails key={currentSet} data={elementToShow} />
 							<div
 								className="bClose"
 								onClick={() => this.onSelectSet(null)}
