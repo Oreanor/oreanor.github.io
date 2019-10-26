@@ -160,7 +160,10 @@ class App extends Component {
 		const that = this;
 
 		if (filters.length) {
-			getCardsWithHeaders(0, []);
+			cards = getCardsWithHeaders(0, []);
+			if(cards.length === 0) {
+				cards.push(<div key={"hedaer"+key} className={"subheader subheader__2"}>Ничего не найдено</div>)
+			}
 		} else {
 			for (let j = 0; j < data.length; j++) {
 				if (this.isFound(data[j])) {
@@ -179,9 +182,10 @@ class App extends Component {
 		}
 
 		function getCardsWithHeaders(level, ft) {
+			let cards = [];
 			for (let i = 0; i < filterValues[filters[level]].length; i++) {
 				if (filterValuesChecks[filters[level]][i]) {
-					cards.push(
+					const cardHeader = (
 						<div
 							key={"header" + key}
 							className={"subheader subheader__" + level}
@@ -192,25 +196,32 @@ class App extends Component {
 						</div>
 					);
 					key++;
+
 					let ft2 = ft.slice();
 					ft2.push({
 						name: filterProperties[filters[level]],
 						value: filterValues[filters[level]][i]
 					});
 					if (level < filters.length - 1) {
-						getCardsWithHeaders(level + 1, ft2);
+						let deeperCards = getCardsWithHeaders(level + 1, ft2);
+						if (deeperCards.length) {
+							cards.push(cardHeader);
+							cards = cards.concat(deeperCards);
+						}
 					} else {
 						let hasOne = false;
+						let cardRenders = [];
 						for (let j = 0; j < data.length; j++) {
 							if (that.isFound(data[j])) {
 								let toShow = true;
+
 								for (let k = 0; k < ft2.length; k++) {
 									if (data[j][ft2[k].name] !== ft2[k].value) {
 										toShow = false;
 									}
 								}
 								if (toShow) {
-									cards.push(
+									cardRenders.push(
 										<span
 											key={"card" + key}
 											ref={that.myRef[j]}
@@ -229,14 +240,14 @@ class App extends Component {
 								}
 							}
 						}
-						if(!hasOne){
-							cards.push(<div key={"null" + key} className="nothing-found">---</div>);
-							key++;
+						if (hasOne) {
+							cards.push(cardHeader);
+							cards = cards.concat(cardRenders);
 						}
 					}
 				}
 			}
-			return;
+			return cards;
 		}
 		return cards;
 	};
