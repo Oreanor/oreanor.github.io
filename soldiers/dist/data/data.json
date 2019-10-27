@@ -1861,5 +1861,165 @@
 				"img": "09.jpg"
 			}
 		]
+	},
+	{
+		"id": 37,
+		"name": "Солдаты в походе",
+		"manufacturer": "ЛКЗ",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "lkz/v_pohode",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "Командир",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Автоматчик",
+				"img": "02.jpg"
+			}
+		]
+	},
+	{
+		"id": 38,
+		"name": "Красная конница",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:32",
+		"year": "1975-1991",
+		"folder": "lpo_igrushka/red_cavalry_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 39,
+		"name": "Солдаты",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:25",
+		"year": "1968-",
+		"folder": "lpo_igrushka/soldaty",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 40,
+		"name": "Конницв 1812 года",
+		"manufacturer": "Прогресс",
+		"scale": "1:32",
+		"year": "1976-",
+		"folder": "progress/konniki_1812",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			}
+		]
 	}
 ]
