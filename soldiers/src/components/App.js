@@ -99,7 +99,7 @@ class App extends Component {
 	};
 
 	scrollToRef = id => {
-		if (id !== null) {
+		if (id !== null && this.myRef[id] && this.myRef[id].current !== null) {
 			this.myRef[id].current.scrollIntoView({
 				//behavior: "smooth",
 				block: "start"

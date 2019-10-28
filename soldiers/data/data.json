@@ -8,7 +8,7 @@
 		"folder": "arkmodels/cowboys",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -53,7 +53,7 @@
 		"folder": "arkmodels/indians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -98,7 +98,7 @@
 		"folder": "arkmodels/knights",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -135,7 +135,7 @@
 		"folder": "arkmodels/pirates",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -180,7 +180,7 @@
 		"folder": "arkmodels/romans",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -225,7 +225,7 @@
 		"folder": "arkmodels/vikings",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -315,7 +315,7 @@
 		"folder": "biplant/saracins",
 		"img": "01.png",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -348,7 +348,7 @@
 		"folder": "cane/indians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -385,7 +385,7 @@
 		"folder": "domplast/indians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -422,7 +422,7 @@
 		"folder": "jecsan/crusaders",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -479,7 +479,7 @@
 		"folder": "jecsan/egyptians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -536,7 +536,7 @@
 		"folder": "jecsan/napoleonic",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1049,7 +1049,7 @@
 		"folder": "marx/indians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1102,7 +1102,7 @@
 		"folder": "marx/robinhood",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1171,7 +1171,7 @@
 		"folder": "marx/soviet",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1208,7 +1208,7 @@
 		"folder": "marx/trappers",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1257,7 +1257,7 @@
 		"folder": "marx/untouchables",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1342,7 +1342,7 @@
 		"folder": "marx/vikings",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1391,7 +1391,7 @@
 		"folder": "netechnolog/greeks",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1444,7 +1444,7 @@
 		"folder": "netechnolog/knights",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1505,7 +1505,7 @@
 		"folder": "netechnolog/polish",
 		"img": "01.jpg",
 		"material": "пластик",
-		"type": "объемный"
+		"type": "объёмный"
 	},
 	{
 		"id": 30,
@@ -1516,7 +1516,7 @@
 		"folder": "netechnolog/romans",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1593,7 +1593,7 @@
 		"folder": "netechnolog/russians",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1666,7 +1666,7 @@
 		"folder": "netechnolog/vikings",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1723,7 +1723,7 @@
 		"folder": "oritet/americans",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1752,7 +1752,7 @@
 		"folder": "oritet/british",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1793,7 +1793,7 @@
 		"folder": "oritet/germans",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1822,7 +1822,7 @@
 		"folder": "progress/soldaty_v_boyu",
 		"img": "00.jpg",
 		"material": "пластик",
-		"type": "объемный",
+		"type": "объёмный",
 		"figures": [
 			{
 				"name": "",
@@ -1959,7 +1959,7 @@
 	},
 	{
 		"id": 40,
-		"name": "Конницв 1812 года",
+		"name": "Конница 1812 года",
 		"manufacturer": "Прогресс",
 		"scale": "1:32",
 		"year": "1976-",
@@ -2019,6 +2019,132 @@
 			{
 				"name": "",
 				"img": "13.jpg"
+			}
+		]
+	},
+	{
+		"id": 41,
+		"name": "Тачанка",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:32",
+		"year": "1967-",
+		"folder": "lpo_igrushka/tachanka",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "Тачанка с двумя конями",
+				"img": "00.jpg"
+			},
+			{
+				"name": "Тачанка с двумя конями (вариант)",
+				"img": "01.jpg"
+			}
+		]
+	},
+	{
+		"id": 42,
+		"name": "Ковбои",
+		"manufacturer": "Польша",
+		"scale": "1:32",
+		"year": "1980?-",
+		"folder": "poland/cowboys",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Ковбой с ружьем",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Убегающий ковбой",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Ковбой с пистолетом",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Ковбой без ничего",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Ковбой с двумя пистолетами",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Ковбой на одном колене",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 43,
+		"name": "Русские гренадёры 1812 года",
+		"manufacturer": "Уфимский солдатик",
+		"scale": "1:32",
+		"year": "2018?",
+		"folder": "ufimskiy/grenadery",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "20 солдатиков в 4 позах",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 44,
+		"name": "Лейб-гвардии ЛИтовский полк",
+		"manufacturer": "Линтек",
+		"scale": "1:32",
+		"year": "1990-",
+		"folder": "lintek/lithuanian",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "Барабанщик",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Стрелок заряжающий",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Унтер-офицер",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Стрелок со штыком",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Обер-офицер",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Знаменосец",
+				"img": "06.jpg"
 			}
 		]
 	}
