@@ -2147,5 +2147,317 @@
 				"img": "06.jpg"
 			}
 		]
+	},
+	{
+		"id": 45,
+		"name": "Легенды Сибири",
+		"manufacturer": "Горыныч Пласт",
+		"scale": "1:32",
+		"year": "2019",
+		"folder": "gorynych/sibir",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Набор по мотивам картины Василия Сурикова «‎Покорение Сибири Ермаком Тимофеевичем»",
+		"figures": [
+			{
+				"name": "Ермак",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Иван Кольцо",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Хан Кучум",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 46,
+		"name": "Французские солдаты, франко-прусская война?",
+		"manufacturer": "?",
+		"scale": "1:42",
+		"year": "",
+		"folder": "unknown/infantry",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			}
+		]
+	},
+	{
+		"id": 47,
+		"name": "Красная армия, №1",
+		"manufacturer": "Инженер Басевич",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "basevich/krasnye_1",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
+	},
+	{
+		"id": 48,
+		"name": "Красная армия, №1 продолжение",
+		"manufacturer": "Инженер Басевич",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "basevich/krasnye_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
+	},
+	{
+		"id": 49,
+		"name": "За веру, царя и отечество!",
+		"manufacturer": "Инженер Басевич",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "basevich/belye_1",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
+	},
+	{
+		"id": 50,
+		"name": "Контрреволюция",
+		"manufacturer": "Инженер Басевич",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "basevich/belye_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
 	}
 ]
