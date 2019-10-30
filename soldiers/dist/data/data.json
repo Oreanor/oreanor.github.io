@@ -313,7 +313,7 @@
 		"scale": "1:32",
 		"year": "",
 		"folder": "biplant/saracins",
-		"img": "01.png",
+		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объёмный",
 		"figures": [
@@ -2354,7 +2354,7 @@
 	},
 	{
 		"id": 49,
-		"name": "За веру, царя и отечество!",
+		"name": "За веру, царя и отечество! №2",
 		"manufacturer": "Инженер Басевич",
 		"scale": "1:32",
 		"year": "2010-",
@@ -2408,7 +2408,7 @@
 	},
 	{
 		"id": 50,
-		"name": "Контрреволюция",
+		"name": "Контрреволюция, №3",
 		"manufacturer": "Инженер Басевич",
 		"scale": "1:32",
 		"year": "2010-",
@@ -2459,5 +2459,112 @@
 				"img": "10.jpg"
 			}
 		]
+	},
+	{
+		"id": 51,
+		"name": "Конные конкистадоры",
+		"manufacturer": "Нетехнолог",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/spanish",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "02.jpg"
+			}
+		]
+	},
+	{
+		"id": 52,
+		"name": "Ниндзя - воины ночи",
+		"manufacturer": "Hi Standard LTC",
+		"scale": "1:18",
+		"year": "2014",
+		"folder": "hi_standard_ltc/ninja",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 53,
+		"name": "Индейцы",
+		"manufacturer": "Огонёк",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "ogonek/indians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 54,
+		"name": "Прусский улан",
+		"manufacturer": "?",
+		"scale": "1:32",
+		"year": "",
+		"folder": "unknown/ulan",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"desc": "Авторский покрас"
 	}
 ]
