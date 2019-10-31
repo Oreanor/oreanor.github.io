@@ -2566,5 +2566,509 @@
 		"material": "металл",
 		"type": "плоский",
 		"desc": "Авторский покрас"
+	},
+	{
+		"id": 55,
+		"name": "Казахское ханство",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "2019",
+		"folder": "lad/kazahi",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 56,
+		"name": "Барон Хлодомир и его люди",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/hlodomir",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			}
+		]
+	},
+	{
+		"id": 57,
+		"name": "Конные половцы (XI-XII вв), выпуск 1",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/konnye_polovcy",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 58,
+		"name": "Конные половцы (XI-XII вв), выпуск 2",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/konnye_polovcy_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 59,
+		"name": "Крестьяне и разбойники",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/krestiane",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 60,
+		"name": "Ледовое побоище",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/ledovoe_poboische",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			}
+		]
+	},
+	{
+		"id": 61,
+		"name": "Революционные матросы",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2019-",
+		"folder": "voiny_i_bitvy/matrosy",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"id": 62,
+		"name": "Тайный Орден Мёртвого Пламени (маги)",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/orden_plameni",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 63,
+		"name": "Пешие половцы (XI-XII вв), выпуск 1",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/peshie_polovcy",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 64,
+		"name": "Пограничники, выпуск 1",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2019-",
+		"folder": "voiny_i_bitvy/pogranichniki",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.png"
+			},
+			{
+				"name": "",
+				"img": "02.png"
+			},
+			{
+				"name": "",
+				"img": "03.png"
+			},
+			{
+				"name": "",
+				"img": "04.png"
+			},
+			{
+				"name": "",
+				"img": "05.png"
+			},
+			{
+				"name": "",
+				"img": "06.png"
+			},
+			{
+				"name": "",
+				"img": "07.png"
+			}
+		]
+	},
+	{
+		"id": 65,
+		"name": "Половецкий стан, выпуск 1",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2019-",
+		"folder": "voiny_i_bitvy/polovetski_stan",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 66,
+		"name": "Русская пешая дружина",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2018-",
+		"folder": "voiny_i_bitvy/rus_druzhina",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
 	}
 ]
