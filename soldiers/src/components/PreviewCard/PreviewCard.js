@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import "./PreviewCard.less";
 
@@ -6,6 +7,7 @@ class PreviewCard extends Component {
 
 	render() {
 		const { data, onClick, currentSet } = this.props;
+		console.warn("Asdasd")
 		return (
 			<div
 				className={
@@ -16,8 +18,8 @@ class PreviewCard extends Component {
 			>
 				<div className="preview_card__name">{data.name +" ("+data.manufacturer+", "+data.scale+")"}</div>
 				<div className="preview_card__image-cont">
-					<img
-						src={"../images/" + data.folder + "/" + data.img}
+					<LazyLoadImage
+						src={`../images/${data.folder}/${data.img}`}
 						className="preview_card__image"
 					/>
 				</div>
