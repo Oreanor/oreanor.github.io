@@ -7,7 +7,6 @@ class PreviewCard extends Component {
 
 	render() {
 		const { data, onClick, currentSet } = this.props;
-		console.warn("Asdasd")
 		return (
 			<div
 				className={
