@@ -1,12 +1,11 @@
-google
+programmatic
 
-
-http://oreanor.github.io/banners/candy_0411/plita/google/300x600/300x600.gif
-http://oreanor.github.io/banners/candy_0411/plita/google/120x600/120x600.gif
-http://oreanor.github.io/banners/candy_0411/plita/google/160x600/160x600.gif
-http://oreanor.github.io/banners/candy_0411/plita/google/300x250/300x250.gif
-http://oreanor.github.io/banners/candy_0411/plita/google/336x280/336x280.gif
-http://oreanor.github.io/banners/candy_0411/plita/google/970x90/970x90.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/300x600/300x600.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/120x600/120x600.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/160x600/160x600.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/300x250/300x250.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/336x280/336x280.gif
+http://oreanor.github.io/banners/candy_0411/plita/programmatic/970x90/970x90.gif
 
 
 lady_mail
@@ -50,18 +49,26 @@ http://oreanor.github.io/banners/candy_0411/plita/mytarget/240x400/240x400.zip
 http://oreanor.github.io/banners/candy_0411/plita/mytarget/240x400/240x400.gif
 
 
+eda
+
+http://oreanor.github.io/banners/candy_0411/plita/eda/100pcx250/index_.html
+http://oreanor.github.io/banners/candy_0411/plita/eda/100pcx250/100pcx250.zip
+
+http://oreanor.github.io/banners/candy_0411/plita/eda/300x600/300x600.html
+http://oreanor.github.io/banners/candy_0411/plita/eda/300x600/300x600.zip
+
 ---------------------------------------------------------------------------------------
 
 
-google
+programmatic
 
 
-http://oreanor.github.io/banners/candy_0411/wash/google/300x600/300x600.gif
-http://oreanor.github.io/banners/candy_0411/wash/google/120x600/120x600.gif
-http://oreanor.github.io/banners/candy_0411/wash/google/160x600/160x600.gif
-http://oreanor.github.io/banners/candy_0411/wash/google/300x250/300x250.gif
-http://oreanor.github.io/banners/candy_0411/wash/google/336x280/336x280.gif
-http://oreanor.github.io/banners/candy_0411/wash/google/970x90/970x90.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/300x600/300x600.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/120x600/120x600.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/160x600/160x600.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/300x250/300x250.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/336x280/336x280.gif
+http://oreanor.github.io/banners/candy_0411/wash/programmatic/970x90/970x90.gif
 
 
 lady_mail

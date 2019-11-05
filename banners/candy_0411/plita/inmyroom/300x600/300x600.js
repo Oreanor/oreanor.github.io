@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x600_atlas_", frames: [[0,292,300,290],[302,292,300,290],[604,0,300,290],[302,0,300,290],[0,0,300,290]]}
+		{name:"300x600_atlas_", frames: [[302,0,300,290],[0,0,300,290],[0,292,300,290],[604,0,300,290],[302,292,300,290]]}
 ];
 
 
@@ -366,40 +366,40 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(150).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(67).to({scaleX:0.9,scaleY:0.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(150));
 
-	// t3
-	this.instance_6 = new lib.t3();
+	// p2
+	this.instance_6 = new lib.p2();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(160.7,169.7,1.1,1.1);
+	this.instance_6.setTransform(150,367.5,0.9,0.9);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(150).to({_off:false},0).to({x:149.7,alpha:1},6,cjs.Ease.get(1)).wait(67).to({x:138.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(150));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(75).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(67).to({scaleX:0.9,scaleY:0.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(225));
 
-	// p2
-	this.instance_7 = new lib.p2();
+	// p1
+	this.instance_7 = new lib.p1();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(150,367.5,0.9,0.9);
 	this.instance_7.alpha = 0;
-	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(75).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(67).to({scaleX:0.9,scaleY:0.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(225));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(67).to({scaleX:0.9,scaleY:0.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(300));
 
-	// t2
-	this.instance_8 = new lib.t2();
+	// t3
+	this.instance_8 = new lib.t3();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(160.7,169.7,1.1,1.1);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(75).to({_off:false},0).to({x:149.7,alpha:1},6,cjs.Ease.get(1)).wait(67).to({x:138.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(225));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(150).to({_off:false},0).to({x:149.7,alpha:1},6,cjs.Ease.get(1)).wait(67).to({x:138.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(150));
 
-	// p1
-	this.instance_9 = new lib.p1();
+	// t2
+	this.instance_9 = new lib.t2();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(150,367.5,0.9,0.9);
+	this.instance_9.setTransform(160.7,169.7,1.1,1.1);
 	this.instance_9.alpha = 0;
+	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(67).to({scaleX:0.9,scaleY:0.9,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(300));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(75).to({_off:false},0).to({x:149.7,alpha:1},6,cjs.Ease.get(1)).wait(67).to({x:138.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(225));
 
 	// t1
 	this.instance_10 = new lib.t1();
