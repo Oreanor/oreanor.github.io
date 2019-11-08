@@ -308,7 +308,7 @@
 	},
 	{
 		"id": 7,
-		"name": "Сарацины",
+		"name": "Эпоха великих сражений (Сарацины)",
 		"manufacturer": "Биплант",
 		"scale": "1:32",
 		"year": "",
@@ -318,24 +318,24 @@
 		"type": "объёмный",
 		"figures": [
 			{
-				"name": "",
+				"name": "Мавр",
 				"img": "01.png"
 			},
 			{
-				"name": "",
-				"img": "02.png"
-			},
-			{
-				"name": "",
+				"name": "Мамлюк",
 				"img": "03.png"
 			},
 			{
-				"name": "",
+				"name": "Хашишин",
+				"img": "05.png"
+			},
+			{
+				"name": "Сельджук",
 				"img": "04.png"
 			},
 			{
-				"name": "",
-				"img": "05.png"
+				"name": "Янычар",
+				"img": "02.png"
 			}
 		]
 	},
@@ -3068,6 +3068,282 @@
 			{
 				"name": "",
 				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 67,
+		"name": "Самураи",
+		"manufacturer": "Нетехнолог",
+		"scale": "1:32",
+		"year": "2018-2019",
+		"folder": "netechnolog/russians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			}
+		]
+	},
+	{
+		"id": 68,
+		"name": "РККА. Если завтра война, №4",
+		"manufacturer": "Инженер Басевич",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "basevich/rkka",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 69,
+		"name": "Солдаты 1812 года",
+		"manufacturer": "АФМИ",
+		"scale": "1:35",
+		"year": "1970-",
+		"folder": "astrecovo/1812",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Современная копия от УРА"
+	},
+	{
+		"id": 70,
+		"name": "Эпоха великих сражений (Крестоносцы, №1)",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/crusaders1",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Маршал",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Копейщик",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Латник",
+				"img": "03.jpg"
+			}
+		]
+	},
+	{
+		"id": 71,
+		"name": "Эпоха великих сражений (Крестоносцы, №2)",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/crusaders2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Паладин",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Тамплиер",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Лучник",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Лазутчик",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Тевтонец",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 72,
+		"name": "Эпоха великих сражений (Галлы)",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/galls",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Верцингеториг",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Думнорикс",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Таврин",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Гезат",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Друид",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Гезат",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 73,
+		"name": "Эпоха великих сражений (Римляне)",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/romans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Центурион",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Триарий",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Гоплит",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Принцип",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Гастат",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Пращник",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 74,
+		"name": "Эпоха великих сражений (Русичи)",
+		"manufacturer": "Биплант",
+		"scale": "1:32",
+		"year": "",
+		"folder": "biplant/russians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "Воевода",
+				"img": "01.jpg"
+			},
+			{
+				"name": "Сотник",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Копейщик",
+				"img": "03.jpg"
+			},
+			{
+				"name": "Стрелец",
+				"img": "02.jpg"
+			},
+			{
+				"name": "Дружинник",
+				"img": "06.jpg"
+			},
+			{
+				"name": "Копейщик",
+				"img": "04.jpg"
+			},
+			{
+				"name": "Сотник",
+				"img": "05.jpg"
+			},
+			{
+				"name": "Дружинник",
+				"img": "06.jpg"
 			}
 		]
 	}
