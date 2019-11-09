@@ -1,0 +1,95 @@
+{
+	"manifestVersion": 1,
+	"id": "prioritization-extension",
+	"version": "0.0.1192",
+	"name": "Prioritization Extension",
+	"description": "Prioritization extension for TFS",
+	"publisher": "Logrocon",
+	"targets": [
+		{
+			"id": "Microsoft.VisualStudio.Services"
+		}
+	],
+	"icons": {
+		"default": "images/icon.png"
+	},
+	"contributions": [
+		{
+			"id": "prioritization-hub",
+			"type": "ms.vss-web.hub",
+			"description": "Prioritization hub",
+			"targets": ["ms.vss-work-web.work-hub-group"],
+			"properties": {
+				"name": "Приоритизация",
+				"uri": "index.html"
+			}
+		}
+	],
+	"scopes": ["vso.work_full"],
+	"files": [
+		{
+			"path": "index.html",
+			"addressable": true
+		},
+		{
+			"path": "images/Microsoft_Excel_2013_logo.svg",
+			"addressable": true
+		},
+		{
+			"path": "scripts/dist/main.css",
+			"addressable": true
+		},
+		{
+			"path": "scripts/dist/index.js",
+			"addressable": true
+		},
+		{
+			"path": "node_modules/vss-web-extension-sdk/lib/VSS.SDK.min.js",
+			"addressable": true
+		},
+		{
+			"path": "images/columns.png",
+			"addressable": true
+		},
+		{
+			"path": "images/down.png",
+			"addressable": true
+		},
+		{
+			"path": "images/filter.png",
+			"addressable": true
+		},
+		{
+			"path": "images/icon.png",
+			"addressable": true
+		},
+		{
+			"path": "images/left.png",
+			"addressable": true
+		},
+		{
+			"path": "images/right.png",
+			"addressable": true
+		},
+		{
+			"path": "images/round1.png",
+			"addressable": true
+		},
+		{
+			"path": "images/round2.png",
+			"addressable": true
+		},
+		{
+			"path": "images/save.png",
+			"addressable": true
+		},
+		{
+			"path": "images/up.png",
+			"addressable": true
+		},
+		{
+			"path": "images/both.png",
+			"addressable": true
+		}
+	]
+}
