@@ -14,6 +14,7 @@ class SetDetails extends Component {
 							alt=""
 						/>
 						<div className="figure_item__name">{item.name}</div>
+						{item.desc && <div className="figure_item__desc">{item.desc}</div>}
 					</div>
 			  ))
 			: [];
