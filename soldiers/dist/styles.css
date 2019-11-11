@@ -56,8 +56,6 @@
 }
 
 .details_card {
-  display: inline-block;
-  vertical-align: top;
   padding: 10px;
   width: 100%;
   overflow: hidden;
@@ -80,16 +78,21 @@
   display: inline-block;
   position: relative;
   padding: 10px;
+  text-align: center;
 }
 .details_card .figures_cont .figure_item__name {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
-  text-align: center;
 }
 .details_card .figures_cont .figure_item__image {
   margin-bottom: 10px;
   max-width: 100%;
+  text-align: center;
+}
+.details_card .figures_cont .figure_item__desc {
+  font-size: 12px;
+  text-align: left;
 }
 @media screen and (max-width: 800px) {
   .details_card {
@@ -107,7 +110,7 @@
     padding: 10px;
   }
   .details_card .figures_cont .figure_item__name {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
