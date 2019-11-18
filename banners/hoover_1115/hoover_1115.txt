@@ -16,3 +16,8 @@ mytarget
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.zip
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.gif
+
+
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.zip
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.html
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.gif
