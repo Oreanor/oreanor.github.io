@@ -73,12 +73,12 @@
 }
 .details_card .figures_cont {
   width: 100%;
+  text-align: center;
 }
 .details_card .figures_cont .figure_item {
   display: inline-block;
   position: relative;
   padding: 10px;
-  text-align: center;
 }
 .details_card .figures_cont .figure_item__name {
   font-size: 16px;
@@ -88,7 +88,6 @@
 .details_card .figures_cont .figure_item__image {
   margin-bottom: 10px;
   max-width: 100%;
-  text-align: center;
 }
 .details_card .figures_cont .figure_item__desc {
   font-size: 12px;
