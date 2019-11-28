@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x250_atlas_", frames: [[0,282,336,280],[676,0,336,280],[338,282,336,280],[0,0,336,280],[338,0,336,280]]}
+		{name:"300x250_atlas_", frames: [[338,282,336,280],[0,282,336,280],[676,0,336,280],[338,0,336,280],[0,0,336,280]]}
 ];
 
 
@@ -193,7 +193,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._5();
 	this.instance.parent = this;
-	this.instance.setTransform(0,0,1.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -206,7 +205,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._4();
 	this.instance.parent = this;
-	this.instance.setTransform(0,0,1.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -219,7 +217,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._3();
 	this.instance.parent = this;
-	this.instance.setTransform(0,0,1.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -232,7 +229,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._2();
 	this.instance.parent = this;
-	this.instance.setTransform(0,0,1.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -245,7 +241,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._1();
 	this.instance.parent = this;
-	this.instance.setTransform(0,0,1.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
