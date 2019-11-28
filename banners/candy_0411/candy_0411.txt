@@ -111,3 +111,13 @@ http://oreanor.github.io/banners/candy_0411/wash/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/candy_0411/wash/mytarget/240x400/240x400.zip
 http://oreanor.github.io/banners/candy_0411/wash/mytarget/240x400/240x400.gif
 
+
+
+
+roomble
+
+http://oreanor.github.io/banners/candy_0411/plita/roomble/300x500/300x500.zip
+http://oreanor.github.io/banners/candy_0411/plita/roomble/300x500/300x500.html
+
+http://oreanor.github.io/banners/candy_0411/wash/roomble/300x500/300x500.zip
+http://oreanor.github.io/banners/candy_0411/wash/roomble/300x500/300x500.html
