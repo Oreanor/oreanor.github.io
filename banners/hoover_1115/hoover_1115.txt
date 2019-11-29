@@ -44,6 +44,11 @@ http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x600/300x600.html
 http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.zip
 http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.html
 
+http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcõ240/100pcõ240.zip
+http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcõ240/index_.html
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcõ240/100pcõ240.zip
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcõ240/index_.html
+
 ivd
 
 http://oreanor.github.io/banners/hoover_1115/1/ivd/300x250/300x250.zip
