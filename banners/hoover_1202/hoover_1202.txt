@@ -44,10 +44,10 @@ http://oreanor.github.io/banners/hoover_1202/2/inmyroom/300x600/300x600.html
 http://oreanor.github.io/banners/hoover_1202/2/inmyroom/600x500/600x500.zip
 http://oreanor.github.io/banners/hoover_1202/2/inmyroom/600x500/600x500.html
 
-http://oreanor.github.io/banners/hoover_1202/1/inmyroom/100pcõ240/100pcõ240.zip
-http://oreanor.github.io/banners/hoover_1202/1/inmyroom/100pcõ240/index_.html
-http://oreanor.github.io/banners/hoover_1202/2/inmyroom/100pcõ240/100pcõ240.zip
-http://oreanor.github.io/banners/hoover_1202/2/inmyroom/100pcõ240/index_.html
+http://oreanor.github.io/banners/hoover_1202/1/inmyroom/100pcx240/100pcõ240.zip
+http://oreanor.github.io/banners/hoover_1202/1/inmyroom/100pcx240/index_.html
+http://oreanor.github.io/banners/hoover_1202/2/inmyroom/100pcx240/100pcx240.zip
+http://oreanor.github.io/banners/hoover_1202/2/inmyroom/100pcx240/index_.html
 
 ivd
 
