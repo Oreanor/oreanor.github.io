@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx250_atlas_", frames: [[0,292,300,290],[302,292,300,290],[302,0,300,290],[604,0,300,290],[0,0,300,290]]}
+		{name:"100pcx250_atlas_", frames: [[0,0,300,290],[0,292,300,290],[302,292,300,290],[302,0,300,290],[604,0,300,290]]}
 ];
 
 
@@ -447,7 +447,7 @@ p.nominalBounds = new cjs.Rectangle(-86.5,-21.9,200.4,43.6);
 			bg.x = 0;
 			bg.scaleX = wdt/400;
 			bg.y = 125;
-			
+				
 			legal.x = 5;
 		
 			pics.y = 125;
