@@ -53,12 +53,19 @@ roomble
 http://oreanor.github.io/banners/candy_1202/plita/roomble/300x500/300x500.zip
 http://oreanor.github.io/banners/candy_1202/plita/roomble/300x500/300x500.html
 
+eda
+
+http://oreanor.github.io/banners/candy_1202/plita/eda/100pcx250/index_.html
+http://oreanor.github.io/banners/candy_1202/plita/eda/100pcx250/100pcx250.zip
+
+http://oreanor.github.io/banners/candy_1202/plita/eda/300x600/300x600.html
+http://oreanor.github.io/banners/candy_1202/plita/eda/300x600/300x600.zip
+
 
 ---------------------------------------------------------------------------------------
 
 
 programmatic
-
 
 http://oreanor.github.io/banners/candy_1202/wash/programmatic/300x600/300x600.gif
 http://oreanor.github.io/banners/candy_1202/wash/programmatic/120x600/120x600.gif
@@ -66,7 +73,6 @@ http://oreanor.github.io/banners/candy_1202/wash/programmatic/160x600/160x600.gi
 http://oreanor.github.io/banners/candy_1202/wash/programmatic/300x250/300x250.gif
 http://oreanor.github.io/banners/candy_1202/wash/programmatic/336x280/336x280.gif
 http://oreanor.github.io/banners/candy_1202/wash/programmatic/970x90/970x90.gif
-
 
 lady_mail
 
@@ -101,35 +107,14 @@ http://oreanor.github.io/banners/candy_1202/wash/salon/300x250/300x250.zip
 http://oreanor.github.io/banners/candy_1202/wash/salon/300x600/300x600.html
 http://oreanor.github.io/banners/candy_1202/wash/salon/300x600/300x600.zip
 
-
 mytarget
 
 http://oreanor.github.io/banners/candy_1202/wash/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/candy_1202/wash/mytarget/240x400/240x400.zip
 http://oreanor.github.io/banners/candy_1202/wash/mytarget/240x400/240x400.gif
 
-
-
-
-roomble
-
-http://oreanor.github.io/banners/candy_1202/plita/roomble/300x500/300x500.zip
-http://oreanor.github.io/banners/candy_1202/plita/roomble/300x500/300x500.html
-
-http://oreanor.github.io/banners/candy_1202/wash/roomble/300x500/300x500.zip
-http://oreanor.github.io/banners/candy_1202/wash/roomble/300x500/300x500.html
-
-
 roomble
 
 http://oreanor.github.io/banners/candy_1202/wash/roomble/300x500/300x500.zip
 http://oreanor.github.io/banners/candy_1202/wash/roomble/300x500/300x500.html
 
-
-eda
-
-http://oreanor.github.io/banners/candy_1202/plita/eda/100pcx250/index_.html
-http://oreanor.github.io/banners/candy_1202/plita/eda/100pcx250/100pcx250.zip
-
-http://oreanor.github.io/banners/candy_1202/plita/eda/300x600/300x600.html
-http://oreanor.github.io/banners/candy_1202/plita/eda/300x600/300x600.zip

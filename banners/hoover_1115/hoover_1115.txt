@@ -10,23 +10,11 @@ http://oreanor.github.io/banners/hoover_1115/1/programmatic/300x250/300x250.gif
 http://oreanor.github.io/banners/hoover_1115/1/programmatic/336x280/336x280.gif
 http://oreanor.github.io/banners/hoover_1115/1/programmatic/970x90/970x90.gif
 
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/300x600/300x600.gif
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/120x600/120x600.gif
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/160x600/160x600.gif
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/300x250/300x250.gif
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/336x280/336x280.gif
-http://oreanor.github.io/banners/hoover_1115/2/programmatic/970x90/970x90.gif
-
-
 mytarget
 
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.zip
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/hoover_1115/1/mytarget/240x400/240x400.gif
-
-http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.zip
-http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.html
-http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.gif
 
 inmyroom
 
@@ -37,17 +25,8 @@ http://oreanor.github.io/banners/hoover_1115/1/inmyroom/300x600/300x600.html
 http://oreanor.github.io/banners/hoover_1115/1/inmyroom/600x500/600x500.zip
 http://oreanor.github.io/banners/hoover_1115/1/inmyroom/600x500/600x500.html
 
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x250/300x250.zip
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x250/300x250.html
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x600/300x600.zip
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x600/300x600.html
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.zip
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.html
-
-http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcõ240/100pcõ240.zip
-http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcõ240/index_.html
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcõ240/100pcõ240.zip
-http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcõ240/index_.html
+http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcx240/100pcx240.zip
+http://oreanor.github.io/banners/hoover_1115/1/inmyroom/100pcx240/index_.html
 
 ivd
 
@@ -56,15 +35,49 @@ http://oreanor.github.io/banners/hoover_1115/1/ivd/300x250/300x250.html
 http://oreanor.github.io/banners/hoover_1115/1/ivd/300x600/300x600.zip
 http://oreanor.github.io/banners/hoover_1115/1/ivd/300x600/300x600.html
 
+roomble
+
+http://oreanor.github.io/banners/hoover_1115/1/roomble/300x500/300x500.zip
+http://oreanor.github.io/banners/hoover_1115/1/roomble/300x500/300x500.html
+
+---------------------------------------------------------------------------
+
+programmatic
+
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/300x600/300x600.gif
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/120x600/120x600.gif
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/160x600/160x600.gif
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/300x250/300x250.gif
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/336x280/336x280.gif
+http://oreanor.github.io/banners/hoover_1115/2/programmatic/970x90/970x90.gif
+
+
+mytarget
+
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.zip
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.html
+http://oreanor.github.io/banners/hoover_1115/2/mytarget/240x400/240x400.gif
+
+inmyroom
+
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x250/300x250.zip
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x250/300x250.html
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x600/300x600.zip
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/300x600/300x600.html
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.zip
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/600x500/600x500.html
+
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcx240/100pcx240.zip
+http://oreanor.github.io/banners/hoover_1115/2/inmyroom/100pcx240/index_.html
+
+ivd
+
 http://oreanor.github.io/banners/hoover_1115/2/ivd/300x250/300x250.zip
 http://oreanor.github.io/banners/hoover_1115/2/ivd/300x250/300x250.html
 http://oreanor.github.io/banners/hoover_1115/2/ivd/300x600/300x600.zip
 http://oreanor.github.io/banners/hoover_1115/2/ivd/300x600/300x600.html
 
 roomble
-
-http://oreanor.github.io/banners/hoover_1115/1/roomble/300x500/300x500.zip
-http://oreanor.github.io/banners/hoover_1115/1/roomble/300x500/300x500.html
 
 http://oreanor.github.io/banners/hoover_1115/2/roomble/300x500/300x500.zip
 http://oreanor.github.io/banners/hoover_1115/2/roomble/300x500/300x500.html
