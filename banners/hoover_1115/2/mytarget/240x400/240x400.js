@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"240x400_atlas_", frames: [[242,0,240,400],[0,402,240,400],[242,402,240,400],[484,402,240,400],[484,0,240,400],[0,0,240,400]]}
+		{name:"240x400_atlas_", frames: [[0,402,240,400],[0,0,240,400],[242,0,240,400],[242,402,240,400],[484,0,240,400],[484,402,240,400]]}
 ];
 
 
@@ -764,7 +764,7 @@ p.nominalBounds = new cjs.Rectangle(119.5,199.5,258.2,416.5);
 lib.properties = {
 	width: 240,
 	height: 400,
-	fps: 24,
+	fps: 20,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
