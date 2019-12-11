@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx250_atlas_", frames: [[302,0,300,290],[0,0,300,290],[0,292,300,290],[302,292,300,290],[604,0,300,290]]}
+		{name:"100pcx250_atlas_", frames: [[604,0,300,290],[302,0,300,290],[302,292,300,290],[0,292,300,290],[0,0,300,290]]}
 ];
 
 
@@ -318,41 +318,41 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// p5
 	this.instance = new lib.p5();
 	this.instance.parent = this;
-	this.instance.alpha = 0;
+	this.instance.setTransform(10,0);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(300).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(67).to({alpha:0},6,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(300).to({_off:false},0).to({x:0},6,cjs.Ease.get(1)).wait(74));
 
 	// p4
 	this.instance_1 = new lib.p4();
 	this.instance_1.parent = this;
-	this.instance_1.alpha = 0;
+	this.instance_1.setTransform(10,0);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(225).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(67).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(225).to({_off:false},0).to({x:0},6,cjs.Ease.get(1)).to({_off:true},76).wait(73));
 
 	// p3
 	this.instance_2 = new lib.p3();
 	this.instance_2.parent = this;
-	this.instance_2.alpha = 0;
+	this.instance_2.setTransform(10,0);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(150).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(67).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(150));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(150).to({_off:false},0).to({x:0},6,cjs.Ease.get(1)).to({_off:true},76).wait(148));
 
 	// p2
 	this.instance_3 = new lib.p2();
 	this.instance_3.parent = this;
-	this.instance_3.alpha = 0;
+	this.instance_3.setTransform(10,0);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(75).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(67).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(225));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(75).to({_off:false},0).to({x:0},6,cjs.Ease.get(1)).to({_off:true},76).wait(223));
 
 	// p1
 	this.instance_4 = new lib.p1();
 	this.instance_4.parent = this;
-	this.instance_4.alpha = 0;
+	this.instance_4.setTransform(10,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({alpha:1},6,cjs.Ease.get(1)).wait(67).to({alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(300));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:0},6,cjs.Ease.get(1)).to({_off:true},76).wait(298));
 
 	// Слой 2
 	this.shape = new cjs.Shape();
@@ -361,7 +361,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(380));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-150,-145,300,290);
+p.nominalBounds = new cjs.Rectangle(-150,-145,310,290);
 
 
 (lib.main = function(mode,startPosition,loop) {
@@ -783,7 +783,7 @@ p.nominalBounds = new cjs.Rectangle(-207,-115.6,1058.5,538.2);
 lib.properties = {
 	width: 300,
 	height: 250,
-	fps: 20,
+	fps: 18,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
