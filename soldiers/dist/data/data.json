@@ -1061,11 +1061,12 @@
 		"name": "Индейцы",
 		"manufacturer": "Marx/Marx recast",
 		"scale": "1:35",
-		"year": "",
+		"year": "1958-",
 		"folder": "marx/indians",
 		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объёмный",
+		"desc": "Неполный набор.",
 		"figures": [
 			{
 				"name": "",
@@ -1114,11 +1115,12 @@
 		"name": "Робин Гуд и вольные стрелки",
 		"manufacturer": "Marx/Marx recast",
 		"scale": "1:35",
-		"year": "",
+		"year": "1956-",
 		"folder": "marx/robinhood",
 		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объёмный",
+		"desc": "Набор по мотивам телешоу «Приключения Робин Гуда».",
 		"figures": [
 			{
 				"name": "",
@@ -1274,6 +1276,7 @@
 		"img": "00.jpg",
 		"material": "пластик",
 		"type": "объёмный",
+		"desc": "Набор по мотивам телешоу «Неприкасаемые».",
 		"figures": [
 			{
 				"name": "",
@@ -1340,11 +1343,11 @@
 				"img": "16.png"
 			},
 			{
-				"name": "",
+				"name": "Аль Капоне",
 				"img": "17.jpg"
 			},
 			{
-				"name": "",
+				"name": "Элиот Несс",
 				"img": "18.jpg"
 			}
 		]
