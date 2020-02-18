@@ -71,6 +71,9 @@
   margin: 10px 0px;
   max-width: 100%;
 }
+.details_card__desc {
+  white-space: pre-wrap;
+}
 .details_card .figures_cont {
   width: 100%;
   text-align: center;
