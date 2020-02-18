@@ -1,6 +1,0 @@
-parser: flow
-printWidth: 60
-tabWidht: 2
-semi: true
-singleQuote: true
-jsxBracketSameLine: true
