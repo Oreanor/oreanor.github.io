@@ -1,0 +1,122 @@
+
+$(document).ready(function() {
+
+	var timer;
+	var mStat=false;
+	var mouseOff=false;
+
+	function open(obj) {
+
+		obj.siblings().find('div.h_cat').removeClass('hover');
+		obj.parent().find('div.HC_c').hide();
+			
+			var l=parseInt(obj.offset().left);
+			var w=parseInt(obj.find('div.HC_c').width());
+			var ww=$(window).width();
+			al={};
+
+			var left=ww - (l + w + 10);
+			if ( left < 0 ) {
+			
+				al.left=''+left+'px';
+			} else {
+
+				al.left='0px';
+			}
+			obj.find('div.HC_c').css(al).css({'display':'flex'});;	
+			mStat=true;
+	};
+
+	function close(obj) {
+
+		obj.find('div.HC_c').hide();	
+		obj.find('div.h_cat').removeClass('hover');
+		mStat=false;
+
+	}
+
+	$(document).on('touchend','div.HC_c a',function (evt) {
+		
+			evt.stopPropagation();
+	});
+
+	$(document).on('click','div.HC_c a',function (evt) {
+
+		ga('send', 'event', 'catBar', $(this).attr('href'), 1);
+		return true;
+	});
+	$(document).on('touchend','body',function (evt) {
+
+		if ( mStat ) {
+
+			evt.stopPropagation();
+			$('#cMenu div.HC div.HC_c').hide();
+			$('#cMenu div.HC div.h_cat').removeClass('hover');
+			mStat=false;
+			return false;
+		}
+		return true;
+	});
+
+	$('#cMenu div.HC div.h_cat').on('touchend',function(evt) {
+
+		evt.stopPropagation();
+		evt.preventDefault();
+		mouseOff=true;
+		var h=$(this);
+		var obj=h.parent();
+
+		if ( h.hasClass('hover') ) {
+
+			h.removeClass('hover');
+			close(obj);
+		} else {
+
+			open(obj);
+			h.addClass('hover');
+		}
+
+	});
+	
+	$('#cMenu div.HC').on('mouseenter',function() {
+
+		if ( mouseOff ) return;
+		clearTimeout(timer);
+		var obj=$(this);
+		
+		obj.find('div.h_cat').addClass('hover');
+		
+		if ( mStat ) {
+			var t=0;
+		} else {
+			
+			var t=300;
+		}
+
+		timer = setTimeout(function(){
+
+			open(obj);
+		},t);
+
+	}).on('mouseleave',function() {
+
+		if ( mouseOff ) return;
+		var obj=$(this);
+		clearTimeout(timer);
+
+		if ( mStat ) {
+			
+			var t=400;
+		} else {
+
+			obj.find('div.h_cat').removeClass('hover');
+			var t=50;
+		}
+
+		timer = setTimeout(function(){
+			close(obj);
+		},t);
+		
+	});
+
+});

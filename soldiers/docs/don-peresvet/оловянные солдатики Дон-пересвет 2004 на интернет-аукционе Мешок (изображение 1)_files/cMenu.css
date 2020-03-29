@@ -1,0 +1,54 @@
+#cMenu { margin-top:0em; width:100%; white-space: nowrap;z-index:2; position:relative;}
+#cMenu div.HC {display:inline-block; vertical-align:top; position:relative;cursor:default;}
+#cMenu div.h_cat {padding:0.6em 0.6em; font-weight:normal; color:#0c437a; position:relative;font-size:8pt;}
+#cMenu div.h_cat.hover {color:#ecf2f7; background-color:#fd5; color:black; box-shadow: inset 0px 0px 8px 2px #ffd920; }
+#cMenu div.HC_c  {z-index:1;line-height:250%;position:absolute; background-color:#ffe371; border:1px #ffc520 solid; border-radius: 0 0 3px 3px; padding:0 0; display:none; box-shadow: 2px 5px 10px 4px rgba(0,0,0,0.2); }
+#cMenu div.HC_c a {display:block; padding:0 1em; color:#000; }
+#cMenu div.HC_c a sup { color:#9f7500;}
+#cMenu div.HC_c a:hover {text-decoration:none; color:#033d6c; background-color:#ffc520; }
+#cMenu #hCatsS { display:none;float:right; padding-right:0.8em;cursor:pointer;}
+#cMenu #hCatsS:hover {color:#ecf2f7; background-color:#69c; box-shadow: inset 0px 0px 8px 2px #5a86b2}
+#cMenu .comment_sell {padding: 0.6em 1em 0 1em; font-size:8pt; line-height:120%; white-space: normal; color:#9f7500}
+#cMenu .M { display:none;}
+#cMenu div.HCM { display:none; cursor:pointer;}
+#icMenu div.HCM:hover {color:#ecf2f7; background-color:#69c; box-shadow: inset 0px 0px 8px 2px #5a86b2;}
+#ce2,#cd2,#cc2 {display:none; margin-bottom:0.5em; min-width:145px;}
+#cMenu #ce2 a,#cMenu #cd2 a,#cMenu #cc2 a {font-size:8pt; line-height:180%;}
+#cf {align-items:flex-start;justify-content:flex-start;flex-flow:row wrap;}
+#cMenu div.HC_c div.#cf div a { white-space: normal; font-size: 10pt;}
+div.sTit {display:none;padding:0.6em 0.6em; font-weight:bold; color:#69c; position:relative;font-size:8pt;line-height:120%;}
+div.HC #x {color:red; font-weight:bold;}
+
+@media (min-width:740px) {
+
+	#cMenu div.h_cat {font-size:10pt;}
+}
+@media (max-width:350px) {
+
+	#cMenu .M { display:inherit;}
+	#cMenu .D { display:none;}
+}
+@media (max-width:580px) {
+
+	#cMenu #m5 { display:none;}
+	#cMenu #ce2, #cMenu #other { display:block;}
+	#cMenu #m6 div.HC_c {width:300px;}
+	div.sTit {display:block;}
+	#cMenu #other a {font-size:8pt; line-height:180%;}
+
+}
+@media (max-width:490px) {
+	#cMenu #m4 { display:none;}
+	#cMenu #cd2 { display:block;}
+	#cMenu #m6 div.HC_c {width:95vw;}
+}
+
+@media (max-width:430px) {
+	#cMenu #m3 { display:none;}
+	#cMenu #cc2 { display:block;}
+}
+
+@media (max-width:850px) {
+
+	#cMenu span.DD { display:none;}
+}

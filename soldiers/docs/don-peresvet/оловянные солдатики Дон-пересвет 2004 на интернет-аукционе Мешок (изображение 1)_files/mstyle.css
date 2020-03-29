@@ -1,0 +1,8 @@
+.t_l{color:#69C;padding:5px 5px 5px 1px;}body,td,a,select,input,p,div{font-family:Arial,sans-serif;}td,div,a,ul,li{font-size:10pt;}a{color:#2659cC;}a.gr{color:#909090;}a.dimed{color:#a0a0CC;}a.un:hover{text-decoration:underline;}.success{color:green;}.comment_sell{color:#a0a0a0;}.tbheader{color:#FFF;font-weight:700;padding:0.5em;}.f1{background-color:#f0f0ff;}.f2{background-color:#fafaff;}.a4{background-color:#E0e6F3;}.a2{background-color:#69C;}.doted{border-radius: 0px 3px 3px 3px;border-color:#D2D9E2;border-style:solid;border-width:1px;box-sha0dow:3px 3px 3px #ccc;margin-right:5px; margin-bottom:5px;}.right_doted{border-right-color:#69C;border-right-style:dashed;border-right-width:1px;padding-right:4px;margin-right:10px;}body,.r2{background-color:#fff;}a:hover,.atten{color:red;}a.un,a.no_u{text-decoration:none;}.r1,.a3{background-color:#ECF2F7;}
+#sIco {display:none;}
+@media (max-width:460px) {
+	
+	#sLogo {display:none;}
+	#sIco {display:inline; padding-left:0.5em; padding-right:0.2em;padding-top:10px; width:36px;height:36px;}
+	
+}

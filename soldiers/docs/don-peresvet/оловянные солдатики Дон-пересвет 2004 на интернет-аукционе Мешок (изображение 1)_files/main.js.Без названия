@@ -1,0 +1,1351 @@
+var ajaxCounter=0;
+var seenRec={};
+var lastCounter=0;
+var doActionCB={};
+var doActionParams={};
+var ajaxRun=0;
+var dragging = false; 
+var touchDevice = false; 
+var alertFallback = false;
+var sMenu=null;
+
+if (typeof console === "undefined" || typeof console.log === "undefined") {
+    console = {};
+    if (alertFallback) {
+     console.log = function(msg) {
+     alert(msg);
+    };
+  } else {
+  console.log = function() {};
+  }
+}
+
+window.onerror = function(msg, url, line) {
+	var preventErrorAlert = true;
+	if ( line > 1  && url ) {
+		ga('send', 'event', 'JS Error', msg ,  url + " : " + line, 0, true);
+		console.log('JSError: ' + msg + ' : ' + line);
+	}
+	return preventErrorAlert;
+};
+
+jQuery.error = function (message) {
+			ga('send', 'event', 'JQuery Error',  message, navigator.userAgent, 0, true);
+			console.log('jQuery Error: ' + message);
+}
+
+function addListenerMulti(element, eventNames, listener, flag) {
+	var events = eventNames.split(' ');
+	for (var i=0, iLen=events.length; i<iLen; i++) {
+		element.addEventListener(events[i], listener, flag);
+	}
+}	
+
+
+function updatePlaceholder() {
+
+		var phNs=parseInt($("#bar").css('height'));
+		var phOs=parseInt($("#placeholder").css('margin-top'));
+		if ( phNs != phOs ) {
+			$("#placeholder").css('margin-top',phNs + 'px');
+		}
+
+}
+
+function hideLoading() {
+
+	ajaxRun--;
+	if ( ajaxRun < 1) {
+		$('#loading').hide();
+	}
+
+}
+
+function errorProc(jqXHR, exception) {
+							
+		var msg = '';
+		if (jqXHR.status === 0) {
+				msg = 'Похоже, что отсутствует подключение к интернету. Попробуйте повторить попытку позже, пожалуйста.';
+		} else if (jqXHR.status == 404) {
+				msg = 'Запрашиваемая функция не найдена.';
+		} else if (jqXHR.status == 500) {
+				msg = 'Ошибка в работе сервера, попробуйте повторить попытку попозже, пожалуйста. Если подобная ошибка сохранится и в будущем, пожалуйста, обратитесь в службу поддержки.';
+		} else if (jqXHR.status == 503) {
+				msg = 'Пожалуйста, выполняйте запросы к серверу чуть реже.';
+		} else if (exception === 'parsererror') {
+				msg = 'Requested JSON parse failed.';
+		} else if (exception === 'timeout') {
+				msg = 'Превышено время ожидания выполнения запроса. Пожалуйста, попробуйте повторить эту операцию позднее.';
+		} else if (exception === 'abort') {
+				msg = 'Вызов отменен.';
+		} else {
+				msg = 'Ошибка выполнения запроса. Попробуйте повторить попытку попозже, пожалуйста. Если подобная ошибка сохранится и в будущем, пожалуйста, обратитесь в службу поддержки.';
+		}
+		jQuery.error(msg + ': ' + jqXHR.responseText);
+		return msg;
+}
+
+function msgProcSilent(msg) {
+
+	return msgProcDo(msg);
+}
+
+function msgProc(msg) {
+
+	hideLoading();
+	return msgProcDo(msg);
+}
+
+function msgProcDo(msg) {
+
+	if ( msg !== null ) {
+
+		if ( typeof(msg) != 'object' ) {
+
+			msg=$.parseXML(msg);	
+		}
+
+		var code;
+		var mess;
+		var action;
+		var aform;
+		var Counter;
+		var auth;
+		var LOGIN;
+
+		$('message',msg).each(function() {
+
+			code=$('code',this).text();	
+			mess=$('mess',this).text();
+			action=$('action',this).text();
+			aform=$('aform',this).text();
+			auth=$('auth',this).text();
+			LOGIN=$('LOGIN',this).text();
+			NICK=$('NICK',this).text();
+			Counter=$('ajaxCounter',this).text();
+			
+		});
+		lastCounter=Counter;	
+		var callback=doActionCB[Counter];
+		delete doActionCB[Counter];
+		var params=doActionParams[Counter];
+		delete doActionParams[Counter];
+
+		if ( auth ) {
+
+			var rand=Math.round(Math.random() * 1000);
+			$('#bar #auth a').html('&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;').prop('href','/?logout=1&rnd=' + rand).prop('rel','');	
+			$('#bar #uname').html('<a href="/profile.php">' + NICK + '</a>');
+		}
+
+		if ( code == 403 ) {
+		
+			closeMenu();
+			$('body').append(aform);
+			$('#ajaxLogin').data('params',params);
+			if ( params.y && params.x) {
+				
+				var x=params.x-250; var y=params.y-150;
+				if ( x < 0 ) {x=0;}
+				if ( y < 0 ) {y=0;}
+
+			} else {
+
+				var x=$(window).width()/2 - $('#ajaxLogin').width()/2 + $(window).scrollLeft();
+				var y=$(window).height()/2 - $('#ajaxLogin').height()/2 + $(window).scrollTop();
+				if ( x < 0 ) {x=0;}
+				if ( y < 0 ) {y=0;}
+
+			}
+
+			$('#ajaxLogin').css('top',y).css('left',x).show('fast');
+
+			$('#ajaxLogin input[type=button][value="Отменить"]').on("click",{'callb':callback,'c':code,'m':action},function(e) {
+				
+				$('#ajaxLogin').hide('fast');	
+				e.data.callb(e.data.c,e.data.m);
+				$('#ajaxLogin').remove();
+			});
+
+			$('#ajaxLogin #OK').on("click",function(e) {
+		
+				if ( $('#ajaxLogin input[type=hidden][name="c_form"]').attr('value') == 'NA' ) {
+
+					$.doAction({
+
+						action: "is_mail_reg"
+						,mail: $('#ajaxLogin input[type=text][name="LOGIN"]').attr('value')
+					}
+					,function(code,mess) {
+
+						$('#ajaxLogin input[type=text][name="LOGIN"]').removeAttr("disabled");
+						if ( code == "1" ) {
+
+							$("#auth_error").html(mess).show();
+
+						} else {
+
+							$("#auth_error").hide().html("");
+							if ( code == 0 ) {
+							
+								$('#ajaxLogin input[type=hidden][name="c_form"]').attr('value','EXIST');
+
+								$(".aj_new_account").hide();
+								$(".aj_exist").show();
+								$('#ajaxLogin input[type=password]').focus();
+								//add_req_fields("auth");					
+
+							} else if ( code == 2 ) {
+
+								$('#ajaxLogin input[type=hidden][name="c_form"]').attr('value','NEW');
+								$(".aj_exist").hide();
+								$(".aj_new_account").show();
+								//add_req_fields("newreg");					
+							}
+						}
+						$('#ajaxLogin').center();
+					});
+
+				} else {
+
+					$('#ajaxLogin').hide();	
+					var params=$('#ajaxLogin').data('params');
+					params.LOGIN=$('#ajaxLogin input[name="LOGIN"]').prop('value');
+
+					if ( $('#ajaxLogin input[type=hidden][name="c_form"]').attr('value') == 'EXIST' ) {
+
+
+						params.twofa=$('#ajaxLogin input[name="twofa"]').prop('value');
+						params.password=$('#ajaxLogin input[name="password"]').prop('value');
+						params.auth=1;
+						if ( typeof window.gRecapAjaxID  != 'undefined' && typeof grecaptcha != 'undefined' ) {
+							params.recaptcha=grecaptcha.getResponse(window.gRecapAjaxID);
+							delete(window.gRecapAjaxID);
+						}
+						delete(params.newreg);
+						if ( $('#ajaxLogin input[name="dremember"]').prop('checked') || $('#ajaxLogin input[name="dremember"]').prop('value') == "1" ) {
+							params.dremember='on';
+						} else {
+							delete(params.dremember);
+						}
+
+					} else {
+
+						$('#ajaxLogin input, #ajaxLogin select').each(function(){
+
+							params[$(this).prop('name')]=$(this).prop('value');
+
+						});
+						if ( $('#ajaxLogin input[type=checkbox][name="info"]').prop('checked') ) {
+							params.info='Y';
+						} else {
+							delete(params.info);
+						}
+
+						params.newreg=1;
+						delete(params.auth);
+					}
+					
+					$('#ajaxLogin input[type=button]').unbind();
+					$.doAction(params,callback);
+					$('#ajaxLogin').remove();
+				}
+			});
+
+		} else if ( code == 201 ) {
+			
+			callback(code,action);
+		} else if ( code == 401 ) {
+		
+			alert(mess);
+		} else {
+			callback(code,mess);
+		}
+	}
+}
+
+function rand(n) 
+{
+	return (Math.floor( Math.random()* n + 1));
+}
+
+function loadData(id,sel_type,f_name,source,from_top) {
+	if ( document.getElementById(id).style.display=='none') {
+		document.getElementById(id).innerHTML="<font class=atten><b>Загрузка<blink>...</blink></b></font>";
+		document.getElementById(id).style.display='block';
+		document.getElementById('loader').src='/build_tree.php?id=' + id + '&sel_type='+sel_type+'&f_name='+f_name+'&rnd='+rand(1000)+'slow='+source+'&from_top='+from_top;
+	} else {
+		document.getElementById(id).style.display='none';
+	}
+}
+
+function convertRGB(z)
+{
+var newfcS = "", splitter = "";
+splitter = z.split(",");
+splitter[0] = parseInt(splitter[0].substring(4, splitter[0].length));
+splitter[1] = parseInt(splitter[1]);
+splitter[2] = parseInt(splitter[2].substring(0, splitter[2].length-1));
+for (var q = 0; q < 3; q++)
+{
+splitter[q] = splitter[q].toString(16);
+if (splitter[q].length == 1) splitter[q] = "0" + splitter[q];
+newfcS += splitter[q];
+}
+return newfcS;
+}
+
+function get_color(oElement) {
+
+	if( window.getComputedStyle ) {
+  	oColor = window.getComputedStyle(oElement,null).color;
+	} else if( oElement.currentStyle ) {
+  	oColor = oElement.currentStyle.color;
+	}
+
+
+	if (  oColor.indexOf('#') != -1 ) {
+	
+		return oColor.substring(1,8);
+	} else {
+
+		return convertRGB(oColor);
+	}	
+}
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return '';
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+function areCookiesEnabled() {
+
+	var r = false;
+	createCookie("testing", "Hello", 1);
+	if (readCookie("testing") != null) {
+		r = true;
+		eraseCookie("testing");
+	}
+	return r;
+}
+
+function t_v(id) {
+				 var e = document.getElementById('c'+id);
+				 if ( document.getElementById('i'+id) ) var i = document.getElementById('i'+id);
+				 var cook=readCookie('hh').replace(id,'');
+				 
+				 if(e.style.display == 'block') {
+						e.style.display = 'none';
+						if ( i ) i.src = '/s_r.gif';
+						cook=cook+id;
+				 } else {
+						e.style.display = 'block';
+						if (i) i.src = '/s_d.gif';
+				}
+
+		if ( cook == '' ) {
+
+			eraseCookie('hh');
+		} else {
+
+			createCookie('hh',cook,365);
+		}
+	}
+
+$(document).ready(function() {
+
+	$('body').on('click','.refineUT span.more',function(){
+			
+		$(this).hide().parent().addClass('all').children('.hide').removeClass('hide');	
+
+	});
+
+	$('.deal_note:empty').html($('#deal_note_def_text').html());
+	$('body').on('click','.deal_note',function() {
+
+		var obj=$(this);
+
+		if ( obj.html() == $('#deal_note_def_text').html() ) {
+			var note='';
+		} else {
+			var note=obj.text();
+		}
+		note=prompt("Введите заметку для этой сделки. Она будет видна только вам.",note);	
+
+		if ( note != null ) {
+		
+		$.doAction({
+			
+			'action': 'deal_note'
+			,'deal': obj.attr('rel')
+			,'note': note
+			,'selector': '.deal_note[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+								
+				ga('send', 'event', 'Deal', 'Add note', obj.attr('rel'));
+				if ( mess != '' ) {
+					obj.html(mess);
+				} else {
+					obj.html($('#deal_note_def_text').html());
+				}
+			} else {
+			//	alert('Ошибка: ' + mess)
+			}
+			
+		})
+		}
+		return false;
+	});
+
+	$('body').on('click','.add_fav_seller',function() {
+
+		var obj=$(this);
+
+		$.doAction({
+			
+			 'action': 'add_fav_user'
+			,'fav_user': obj.attr('rel')
+			,'as_who':'seller'
+			,'selector': '.add_fav_seller[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+
+			
+			if ( code == 200 )	{
+			
+				ga('send', 'event', 'User', 'Add Fav', obj.attr('rel'));
+				$('.add_fav_seller[rel='+obj.attr('rel')+']').each(function() {
+					
+					$(this).removeClass('add_fav_seller');
+					if ( $(this).hasClass('Sadd_fav') ) {
+
+						$(this).removeClass('Sadd_fav').addClass('Sfav').attr('title','Ваш любимый продавец').attr('href','/profile.php?what=f_sellers');
+
+					} else {
+
+						$(this).html('<b>Добавлен в &laquo;<a href="/profile.php?what=f_sellers">Любимые</a>&raquo;</b>');
+					}
+
+				});
+
+			} else {
+
+//				alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+		$('body').on('click','.blacklist',function() {
+
+		var obj=$(this);
+
+		$.doAction({
+			
+		   'action': 'blacklist'
+			,'user': obj.attr('rel')
+			,'selector': '.blacklist[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+				
+				ga('send', 'event', 'User', 'Blacklist', obj.attr('rel'));
+				$('.blacklist[rel='+obj.attr('rel')+']').removeClass('blacklist').html('<b>Добавлен в &laquo;<a href="/profile.php?what=blacklist">Черный список</a>&raquo;</b>');
+
+			} else {
+
+			//	alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+	function update_fav_top(count) {
+
+		var obj_top=$('#fav_top');
+		if ( count == 0 ) {
+
+			obj_top.hide();
+		
+		} else {
+
+			obj_top.show();
+		}
+		obj_top.find('sup').html(count);
+	}
+
+
+	$('body').on('click','.del_fav_item',function(e) {
+
+		e.stopImmediatePropagation();
+		var obj=$(this);
+
+		$.doAction({
+			'action': 'del_fav_item'
+			, 'item': obj.attr('rel')
+			,'selector': '.del_fav_item[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+			
+				update_fav_top(mess);
+				$('.item_added_message').hide();
+				$('.item_deleted_message').show();
+		
+				$('.del_fav_item[rel='+obj.attr('rel')+']').each(function() {
+					
+					$(this).removeClass('del_fav_item').addClass('add_fav_item');
+					if ( $(this).is('input[type=button]') ) {
+
+						$(this).attr('value','Наблюдать').attr('title','Добавить в "Избранне"');
+
+					} else {
+
+						if ( !$(this).hasClass('Sfav') ) {
+
+							$(this).html('<a href="#">Добавить лот в "Избранное"</a>');
+						} else {
+
+							$(this).removeClass('Sfav').addClass('Sadd_fav').attr('title','Добавить в Избранное');
+						}
+					}
+
+				});
+
+				obj.parents('div.mListItem').slideUp();
+				ga('send', 'event', 'Item', 'Delete fav', obj.attr('rel'));
+
+			} else {
+
+			//	alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+	$(window).bind('resize',function() {
+
+		updatePlaceholder()
+	});
+	$('body, #bar ul').on('click','.add_fav_item',function(e) {
+		
+		e.stopImmediatePropagation();
+		var obj=$(this);
+
+		$.doAction({
+			 'action': 'add_fav_item'
+			,'selector': '.add_fav_item[rel='+obj.attr('rel')+']'
+			,'item': obj.attr('rel')
+			
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+			
+				update_fav_top(mess);
+				$('.item_deleted_message').hide();
+				$('.item_added_message').show();
+		
+				$('.add_fav_item[rel='+obj.attr('rel')+']').each(function() {
+					
+					$(this).removeClass('add_fav_item').addClass('del_fav_item');
+					if ( $(this).is('input[type=button]') ) {
+
+						$(this).attr('value','Не наблюдать').attr('title','Удалить из "Избранного"');
+
+					} else {
+
+						if ( !$(this).hasClass('Sadd_fav') ) {
+
+							$(this).html('<a href="#">Удалить лот из "Избранного"</a>');
+
+						} else {
+
+							$(this).removeClass('Sadd_fav').addClass('Sfav').attr('title','Удалить из Избранного');
+						}
+					}
+
+				});
+
+				ga('send', 'event', 'Item', 'Add fav', obj.attr('rel'));
+			} else {
+
+				//alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+	$('body').on('click','.add_to_basket',function(e) {
+
+		e.stopImmediatePropagation();
+		var objB=$(this);
+
+		$.doAction({
+			
+				'action': 'add_to_basket'
+				, 'item': objB.attr('rel')
+				,'selector': '.add_to_basket[rel='+objB.attr('rel')+']'
+
+				},function(code,mess) {
+		
+					if ( code == 200 )	{
+			
+						update_basket_top(mess);
+						objB.removeClass('add_to_basket').attr('title',basketD[0]).attr('href',basketD[1]).find('span').removeClass('Sbasket_add').addClass(basketD[2]);
+						objB.find('.bText').html(basketD[3]);
+
+						ga('send', 'event', 'Item', 'Add basket', objB.attr('rel'));
+					} else {
+
+						//	alert('Ошибка: ' + mess)
+					}
+			
+				});
+			return false;
+	});
+
+	function update_basket_top(count) {
+
+		var obj_top=$('#basket_top');
+		obj_top.find('sup').html('&nbsp;'+count);
+		obj_top.parent().flash('255,0,0',500);
+	}
+
+	$('body').on('click','.add_to_basket_icon',function() {
+
+		var obj=$(this);
+
+		$.doAction({
+			
+				'action': 'add_to_basket'
+				, 'item': obj.attr('rel')
+				,'selector': '.add_to_basket_icon[rel='+obj.attr('rel')+']'
+
+				},function(code,mess) {
+			
+			if ( code == 200 )	{
+			
+				update_basket_top(mess);
+				$('.add_to_basket_icon[rel='+obj.attr('rel')+']').removeClass('add_to_basket_icon').removeClass('Sbasket_add').addClass('Sbasket');
+
+				ga('send', 'event', 'Item', 'Add basket', obj.attr('rel'));
+			} else {
+
+			//	alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+	$('body').on('click','.tryout',function() {
+
+		var obj=$(this);
+
+	//	if (  confirm('После подтверждения Вам будут предоставлены контактные данные продавца. Вы сможете связаться с ним и договорится о примерке. Продолжить?') ) {
+
+			$.doAction({
+				
+					 'action': 'tryout'
+					,'item': obj.attr('rel')
+					,'selector': '.tryout[rel='+obj.attr('rel')+']'
+
+					},function(code,mess) {
+			
+				if ( code == 200 )	{
+					
+					ga('send', 'event', 'Item', 'Tryout', obj.attr('rel'));
+					$('.tryout[rel='+obj.attr('rel')+']').each(function() {
+					
+						$(this).removeClass('tryout');
+						$(this).parent().html(mess);
+
+					});
+
+				} else {
+
+				//	alert('Ошибка: ' + mess)
+				}
+			
+			});
+	//	}
+		return false;
+	});
+
+		$('#send_news_dayly').live('click',function() {
+
+		if ( $(this).is(":checked") ) {
+			
+			stat='Y';
+		} else {
+
+			stat='N';
+		}
+			
+		$.doAction({
+			
+			 'action': 'email_news'
+			,'stat': stat
+			,'selector': '#send_news_dayly'
+
+			},function(code,mess){
+			
+			ga('send', 'event', 'Email News', stat);
+			
+		});
+			
+	});	
+
+	$('body').on('click','.rem_fav_cat',function() {
+
+		var obj=$(this);
+
+		$.doAction({
+			
+			 'action': 'rem_fav_search'
+			,'save_good': obj.attr('rel')
+			,'selector': '.rem_fav_cat[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+				
+				ga('send', 'event', 'Category', 'Del Fav', obj.attr('rel'));
+				$('.rem_fav_cat[rel='+obj.attr('rel')+']').each(function() {
+					
+					$(this).removeClass('rem_fav_cat').addClass('add_fav_cat');
+					if ( $(this).hasClass('Sfav') ) {
+
+						$(this).removeClass('Sfav').addClass('Sadd_fav').attr('title','Добавить раздел в любимые');
+
+					} else {
+
+						$(this).html('<b>Удален из любимых разделов</b>');
+					}
+
+				});
+
+			} else {
+
+//				alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+	$('body').on('click','.add_fav_cat',function() {
+
+		var obj=$(this);
+
+		$.doAction({
+			
+			 'action': 'add_fav_search'
+			,'save_good': obj.attr('rel')
+			,'selector': '.add_fav_cat[rel='+obj.attr('rel')+']'
+
+			},function(code,mess) {
+			
+			if ( code == 200 )	{
+			
+				ga('send', 'event', 'Category', 'Add Fav', obj.attr('rel'));
+				$('.add_fav_cat[rel='+obj.attr('rel')+']').each(function() {
+					
+					$(this).removeClass('add_fav_cat').addClass('rem_fav_cat');
+					if ( $(this).hasClass('Sadd_fav') ) {
+
+						$(this).removeClass('Sadd_fav').addClass('Sfav').attr('title','Удалить из любимых разделов');
+
+					} else {
+
+						$(this).html('<b>Добавлен в любимые разделы</b>');
+					}
+
+				});
+
+			} else {
+
+			//	alert('Ошибка: ' + mess)
+			}
+			
+		});
+		return false;
+	});
+
+	var urlParams = {};
+	(function () {
+	   var match,
+	       pl     = /\+/g,
+	       search = /([^&=]+)=?([^&]*)/g,
+	       decode = function (s) { var comp=s.replace(pl, " "); try { var comp2=decodeURIComponent(comp); } catch(err) { var comp2=comp; } return comp; },
+	       query  = window.location.search.substring(1);
+
+   	while (match = search.exec(query))
+	     urlParams[decode(match[1])] = decode(match[2]);
+	})();
+
+	jQuery.extend({doAction: function(params,callback) {
+
+		ajaxCounter++;
+		var data={'ajaxCounter':ajaxCounter, 'ajax':1};
+		
+		for ( name in params) {
+
+			data[name]=params[name];
+		
+		}
+
+		doActionCB[ajaxCounter]=callback;
+		doActionParams[ajaxCounter]=params;
+		
+		var request={
+				
+			type: "POST",
+			url: '/ajax.php',
+			data: data,
+			dataType: ($.browser.msie) ? "text" : "xml",
+			accepts: {
+				xml: "text/xml",
+				text: "text/xml"
+			},
+			xhrFields: {
+				withCredentials: true
+			} 
+			
+		};
+
+		if ( !params['silent'] ) {
+			
+			ajaxRun++;
+			$('#loading').show();
+			
+			request['success']=msgProc;
+			request['error']=function (jqXHR, exception) {
+							
+				var msg = errorProc(jqXHR, exception);
+				hideLoading();
+				alert(msg);
+				
+			};
+
+		} else {
+
+			request['success']=msgProcSilent;
+			request['error']=errorProc;
+		}
+
+		$.ajax(request);
+
+	}});
+
+	$('body').on('click','#ajaxLogin',function(e){
+	
+		e.stopPropagation();
+	}); 
+
+	$('body').on('change',".geoSelector select",function(e) {
+
+		var work_div=$(this).parent();
+		if ( work_div.attr("rel") == "country" || work_div.attr("rel") == "region" ) {
+
+			work_div.find("div").html("");
+			if ( $(this).val() > 0 ) {
+				work_div.find("div").html("<div style=\"padding:3px;\" class=\"comment_sell\">Загрузка...</div>");
+			$.ajax({
+			
+				type: "POST"
+				,url: "/geo_ajax.php"
+				,data: {
+					req_from: work_div.attr("rel")
+					,id: $(this).val()
+					,mast: 1
+				}
+				,success: function(msg) {
+	
+					work_div.find("div").html(msg);
+					work_div.find("div").find("select").animate({backgroundColor: "red"},null,null,function() {
+						
+						$(this).animate({backgroundColor: "white"},"fast");	
+					});
+
+				}
+			});
+			}
+		}
+	});
+
+	$(".geo_location a").bind("click",function(e) {
+
+		var target=$(this).parents().filter('.geo_location');
+		target.html("<img src=\"" + window.picDomain + "/spinner.gif\" hspace=3 vspace=3>");
+		load_geo_del_form(1,function(msg) {
+			target.css("font-weight","bold").css("padding","0.8em").addClass("doted a3").html(msg);	
+		});
+		return false;	
+		
+	});
+
+
+	function load_geo_del_form(form,f) {
+
+		$.ajax(
+
+					{
+						type: "POST",
+						url: "/geo_ajax.php",
+
+						data: { 
+							town: window.city 
+							,del_mode: window.delMode
+							,req_from: "geo_option"	
+							,form: form
+							,loc: location.href
+							},
+
+						success: f
+						
+					});
+
+	}
+	
+	$("a[rel='a_s']").bind("click",function(e) {
+
+		if ( $("#a_s").css("display") == 'none' ) {
+		
+			load_geo_del_form(0,function(e) {
+			
+				$("#a_s").css("display","block");	
+				$("#a_s_geo").html(e);
+				$("a[rel='a_s']").html('Обычный&nbsp;поиск');
+			});
+		} else {
+
+			$("#a_s").css("display","none");	
+			$("a[rel='a_s']").html('Расширенный&nbsp;поиск');
+			
+		}
+		return false;	
+
+	});
+
+
+	$("img[src*='/cache']").hover(function() {
+
+		$(this).animate({opacity:0.8},200);
+	},function() {
+		
+		$(this).animate({opacity:1},200);
+		
+	});
+
+	$('#search_tip').bind("click",function(e) {
+		
+		$('#search_hist').css({'top': e.pageY, 'left' : e.pageX}).slideDown(200,function() {
+			
+			$('#close_search_list').bind("click",function() {
+				
+				$('#search_hist').slideUp(100); 
+			});	
+			
+		});
+			
+		return false;	
+	});
+
+	$('#search').autocomplete('/sug.php',{
+		
+      cacheLength:0
+      , autoFill:false
+      , selectFirst: false
+      , delay: 50
+      , highlight: false
+      , matchSubset: false
+      , width : 'auto'
+      , scrollHeight: 240
+      ,extraParams: {
+         type: function() { return $("#goodSelect").val(); }
+      }
+
+		});
+	$("#bar").menu();
+
+	if ( urlParams['selector'] ) {
+		$(decodeURIComponent(urlParams['selector'])).trigger('click');
+	}
+
+	$(document).on("touchmove", function(){
+		 dragging = true;
+	});
+
+	$(document).on("touchstart", function(){
+		touchDevice=true;
+		dragging = false;
+	});
+
+ $('input, textarea').placeholder();
+ $('noindex').on('click','a',function(){
+
+	window.location.href='/b.php?u=' + encodeURIComponent($(this).prop('href')); 
+ 	return false;
+ });
+ 
+
+	$(document).on('click','.high_cat',function(e) {
+
+		$(this).next().slideToggle();
+		$(this).children(':first').toggleClass('Ss_d').toggleClass('Ss_r');
+		var id=$(this).attr('id').toLowerCase();
+		var cook=readCookie('hh').replace(id,'');
+		if ( $(this).children(':first').hasClass('Ss_r') ) {
+			
+			cook=cook + id;
+		}
+		
+		if ( cook == '' ) {
+
+			eraseCookie('hh');
+		} else {
+
+			createCookie('hh',cook,365);
+		}
+	});
+
+	jQuery.fn.center = function () {
+		this.css("position","absolute");
+		t=(($(window).height() - this.outerHeight()) / 2) + $(window).scrollTop();
+		l=(($(window).width() - this.outerWidth()) / 2) + $(window).scrollLeft();
+		if ( t < 0 ) { t=0;}
+		if ( l < 0 ) { l=0;}
+		this.animate({"top": t + "px", "left": l + "px"});
+		return this;
+	}
+
+
+	$().UItoTop();
+	
+});
+
+function lData(source) {
+
+	document.getElementById('loader').src=source;
+}
+
+function add_favs() {
+	var url = 'http://' + window.location.hostname;
+	if (document.all)
+    window.external.AddFavorite(url, window.siteName);
+  else if (window.sidebar)
+    window.sidebar.addPanel(window.siteName, url, "")
+  else if (window.sidebar&&window.sidebar.addPanel)
+    window.sidebar.addPanel(window.siteName,url,"");
+}
+function loadData2(id,add_str) {
+
+	if ( document.getElementById(id).style.display=='none' || id =='g' || id == 'gg' || id == 'a_s' ) {
+		
+		document.getElementById(id).innerHTML="<table><tr><td colspan=4><font class=atten><b>Загрузка...</b></font></td></tr></table>";
+		document.getElementById(id).style.display='block';
+		rand=Math.round(Math.random() * 1000);
+		document.getElementById('loader').src='/'+id+'.php'+add_str+'&r='+rand+'&f_p='+window.fromPrice+'&to_p='+window.toPrice;
+
+	} else {
+		document.getElementById(id).style.display='none';
+	}
+}
+(function($){$.fn.UItoTop=function(options){var defaults={text:'Наверх',min:200,inDelay:600,outDelay:400,containerID:'toTop',containerHoverID:'toTopHover',scrollSpeed:100,easingType:'linear'},settings=$.extend(defaults,options),containerIDhash='#'+settings.containerID,containerHoverIDHash='#'+settings.containerHoverID;$('body').append('<a href="#" id="'+settings.containerID+'">'+settings.text+'</a>');$(containerIDhash).hide().on('click.UItoTop',function(){$('html, body').animate({scrollTop:0},settings.scrollSpeed,settings.easingType);$('#'+settings.containerHoverID,this).stop().animate({'opacity':0},settings.inDelay,settings.easingType);return false;}).prepend('<span id="'+settings.containerHoverID+'"></span>').hover(function(){$(containerHoverIDHash,this).stop().animate({'opacity':1},600,'linear');},function(){$(containerHoverIDHash,this).stop().animate({'opacity':0},700,'linear');});$(window).scroll(function(){var sd=$(window).scrollTop();if(typeof document.body.style.maxHeight==="undefined"){$(containerIDhash).css({'position':'absolute','top':sd+$(window).height()-50});} if(sd>settings.min) $(containerIDhash).fadeIn(settings.inDelay);else $(containerIDhash).fadeOut(settings.Outdelay);});};})(jQuery);
+(function($){
+$.fn.flash = function( color, duration )
+		{
+			var fObj=this;
+			setTimeout(function(){
+    		var current = fObj.css( 'backgroundColor' );
+    		fObj.animate( { backgroundColor: 'rgb(' + color + ')' }, duration / 2 , function(){
+					$(this).animate( { backgroundColor: current }, duration / 2 );
+				});
+},500);
+}
+})(jQuery);
+function closeMenu() {
+
+	if ( sMenu != null ) {
+		$(sMenu).children('a').removeClass('selec');
+		$(sMenu).attr('title',$(sMenu).data('title')).children('ul').hide();
+		sMenu=null;
+	}
+}
+(function($){
+	$.fn.menu = function() {
+		var menu = this;
+		var nums={'r_i':'5','r_c':'8','r_s':'8','f_i':'5','f_c':'8','f_s':'8'};
+		var tried_precahe={};
+		
+		init();
+
+		function loadD(obj,s,start) {
+			if ( !start ) {start=0;}
+				if ( obj.parent().children('div').html() == null ) { 
+					var n = obj.parent().append('<div class="spinner">&nbsp;<br>&nbsp;</div>');
+					if ( s ) {
+
+						n.find('div').first().hide();
+
+					}
+				} else {
+
+					obj.parent().children('div').first().addClass('spinner');
+				}
+			var id=obj.parent().attr('id');
+			var r_id=id.replace(/m$/,'');
+			if ( r_id != id ) {
+				
+				window.MOB=true;
+			} else {
+
+				window.MOB=false;
+			}
+			if ( s ) {
+
+				var params={'selector':'#'+id+' > a','action':r_id,'start':start,'num':nums[r_id],'silent':true};
+			} else {
+
+				var params={'selector':'#'+obj.parent().parent().parent().prop('id')+', #'+id+' > a','action':r_id,'start':start,'num':nums[r_id]};
+			}
+			$.doAction(params,function(code,mess){					
+
+				if ( window.MOB == true ) { code=code + 'm';}
+				if ( code == 201 || code == 403 ) {
+					if ( code == 201 && $('#'+mess).children('a').hasClass('selec') ) {
+
+							loadD($('#'+mess).children('a'));
+						} else {
+
+							$('#'+mess).children('a').removeClass('selec').next('div').remove();
+						}
+				} else {
+
+					$('#'+code).find('div').first().html(mess).removeClass('spinner').addClass('cont').children('div.rec').prepend('<div class="hdr">Рекоммендованные лоты</div>').each(function(){
+
+
+						$(this).prev().on('mouseenter',function(){
+								if ( !seenRec[code] ) {
+									seenRec[code]=1;
+									ga('send', 'event', 'Bar', 'Seen recommend ' + code, 1);
+								}
+								$(this).next('div.rec').css({'top':$(this).position().top - 20,'left':$(this).width() + 60}).show().on('mouseenter',function(){ $(this).show();}).on('mouseleave',function(){$(this).hide();});
+							}).on('mouseleave',function(){
+								
+								$(this).next('div.rec').hide();
+						});
+					});
+					$('#'+code).find('.rar,.lar').on('click',{'id':$('#'+code).find('a').first()},function(e){
+						
+						loadD(e.data.id,false,$(this).attr('rel'));	
+						return false;
+
+					});	
+				}
+			});
+		}	
+
+		function init(){
+
+					$('a.sla').on("click",function() {
+							var id=$(this).parent().attr('id');
+							if ( !id ) {
+								ga('send', 'event', 'Bar', 'Open SubMenu', $(this).attr('href'));
+								return true;
+							} else {
+
+								if ( $(this).hasClass('selec') ) {
+									$(this).removeClass('selec').siblings().slideUp();
+								} else {
+
+									$(this).addClass('selec').parent().siblings().each(function(){
+										
+											$(this).children('a').removeClass('selec').siblings().slideUp();
+										
+									});
+									if ( $(this).next('div').html() == null ) {
+										
+										loadD($(this),false,0);
+										
+									} else {
+										$(this).next('div').slideDown();
+									}
+									ga('send', 'event', 'Bar', 'Open SubMenu', $(this).parent().attr('id'));
+								}
+							}
+							return false;		
+						});
+					
+					menu.on("mouseenter",".itm",function(){
+			
+						var pid=$(this).parent().parent().attr('id');
+						if ( pid == 'r_i' || pid == 'r_c') {
+						
+							if ( pid == 'r_i' ) {
+								var idd=$(this).attr('href').match(/\d+/);
+							} else if ( pid == 'r_c' ) {
+								
+								var idd=$(this).children('a').attr('href').match(/\d+/);
+							}
+							var pos=$(this).parent().children('span.favPop').has('span[rel='+idd+']');
+							if ( pos.length > 0 ) {
+
+								pos.show();
+							} else {
+								var topP=Math.round($(this).offset().top) -15;
+								$(this).parent().append('<span class="favPop" style="top:'+topP+'px"><span class="add_fav_item Sadd_fav" rel="'+idd+'" title="Добавить в Избранные"></span></span>').children('span.favPop').has('span[rel='+idd+']').first().on('mouseenter',function(){ $(this).show();});
+							}
+						}
+					
+					}).on("mouseleave",'.itm',function(){
+			
+						var idd=$(this).attr('href').match(/\d+/);
+						if ( !idd ) var idd=$(this).children('a').attr('href').match(/\d+/);
+						$(this).parent().children('span.favPop').has('span[rel='+idd+']').hide();	
+					});	
+
+
+			menu.children("li:has(a)").on("mouseenter",function(){
+				$(this).find('ul > li[id] > a').first().each(function () {
+
+					var prec_id=$(this).parent().attr('id');
+					if ( $(this).html() != null && $(this).next('div').html() == null && !tried_precahe[prec_id] ) {
+						tried_precahe[prec_id]=1;
+						loadD($(this),true);
+					}		
+				
+				});
+				
+			}).on('click', function() {
+
+				if ( $(this).has('ul').length == 0 ) {
+
+					closeMenu();
+					ga('send', 'event', 'Bar', 'Open Menu', $(this).attr('id'));
+					if ( $(this).children('a[rel=login]').length > 0 )  {
+						$.doAction(
+							{
+								'action':'login'
+								,'selector' : 'a[rel=login]'
+							}
+							,function(code,mess){}
+						);
+					} else {
+						return true;
+					}
+
+				} else if ( sMenu != this ) {
+					
+					closeMenu();
+					sMenu=this;
+					$(sMenu).children('a').addClass('selec');
+					var ssMenu=$(sMenu).data("title", $(this).attr("title")).removeAttr("title").children('ul').first().show().on("click",function(e) {
+						e.stopPropagation();
+					});
+
+					addListenerMulti(document,"click touchend", function(e){
+	
+					if (dragging || $(e.target).closest('#bar li').length ) return;
+						if ( sMenu ) {
+							e.preventDefault(); 
+							e.stopImmediatePropagation();
+							closeMenu();
+							return false;
+						}
+						return true;
+					},true);
+
+					ga('send', 'event', 'Bar', 'Open Menu', $(sMenu).attr('id'));
+
+				} else {
+
+					closeMenu();
+				}
+				return false;
+
+			}).on("mouseover",function(){
+
+				if ( !is_touch_device() ) {
+					if ( sMenu != null && sMenu != this && $(this).has('ul').html() ) {
+						$(this).click();
+					}
+				}
+				
+			});
+		}
+
+	}
+})(jQuery);
+(function(){
+ // Define overriding method.
+ jQuery.fx.prototype.hide = function(){
+
+// Remember where we started, so that we can go back to it later
+	this.options.orig[this.prop] = jQuery.style( this.elem, this.prop );
+	this.options.hide = true;
+
+ // Begin the animation
+ this.custom(this.cur(), 1);
+ }
+})();
+
+function isLocalStorageAvailable() {
+
+	var test='test';
+	try {
+		localStorage.setItem(test, test);
+    localStorage.removeItem(test);
+    return true;
+  } catch (e) {
+    return false;
+	}
+}
+
+ph=0;
+setInterval(function(){ $.doAction({'action':'ping','silent':true},function(code,mess){}); }, 900000);
+if(navigator.appName.indexOf("Internet Explorer")!=-1){ 
+
+  badBrowser=(
+     navigator.appVersion.indexOf("MSIE 8")==-1 &&  
+     navigator.appVersion.indexOf("MSIE 9")==-1 &&  
+     navigator.appVersion.indexOf("MSIE 1")==-1 
+	);
+
+}
+
+function is_touch_device() {
+	  return 'ontouchstart' in window // works on most browsers 
+		      || 'onmsgesturechange' in window; // works on ie10
+};
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):a("object"==typeof module&&module.exports?require("jquery"):jQuery)}(function(a){function b(b){var c={},d=/^jQuery\d+$/;return a.each(b.attributes,function(a,b){b.specified&&!d.test(b.name)&&(c[b.name]=b.value)}),c}function c(b,c){var d=this,f=a(d);if(d.value==f.attr("placeholder")&&f.hasClass(m.customClass))if(f.data("placeholder-password")){if(f=f.hide().nextAll('input[type="password"]:first').show().attr("id",f.removeAttr("id").data("placeholder-id")),b===!0)return f[0].value=c;f.focus()}else d.value="",f.removeClass(m.customClass),d==e()&&d.select()}function d(){var d,e=this,f=a(e),g=this.id;if(""===e.value){if("password"===e.type){if(!f.data("placeholder-textinput")){try{d=f.clone().attr({type:"text"})}catch(h){d=a("<input>").attr(a.extend(b(this),{type:"text"}))}d.removeAttr("name").data({"placeholder-password":f,"placeholder-id":g}).bind("focus.placeholder",c),f.data({"placeholder-textinput":d,"placeholder-id":g}).before(d)}f=f.removeAttr("id").hide().prevAll('input[type="text"]:first').attr("id",g).show()}f.addClass(m.customClass),f[0].value=f.attr("placeholder")}else f.removeClass(m.customClass)}function e(){try{return document.activeElement}catch(a){}}var f,g,h="[object OperaMini]"==Object.prototype.toString.call(window.operamini),i="placeholder"in document.createElement("input")&&!h,j="placeholder"in document.createElement("textarea")&&!h,k=a.valHooks,l=a.propHooks;if(i&&j)g=a.fn.placeholder=function(){return this},g.input=g.textarea=!0;else{var m={};g=a.fn.placeholder=function(b){var e={customClass:"placeholder"};m=a.extend({},e,b);var f=this;return f.filter((i?"textarea":":input")+"[placeholder]").not("."+m.customClass).bind({"focus.placeholder":c,"blur.placeholder":d}).data("placeholder-enabled",!0).trigger("blur.placeholder"),f},g.input=i,g.textarea=j,f={get:function(b){var c=a(b),d=c.data("placeholder-password");return d?d[0].value:c.data("placeholder-enabled")&&c.hasClass(m.customClass)?"":b.value},set:function(b,f){var g=a(b),h=g.data("placeholder-password");return h?h[0].value=f:g.data("placeholder-enabled")?(""===f?(b.value=f,b!=e()&&d.call(b)):g.hasClass(m.customClass)?c.call(b,!0,f)||(b.value=f):b.value=f,g):b.value=f}},i||(k.input=f,l.value=f),j||(k.textarea=f,l.value=f),a(function(){a(document).delegate("form","submit.placeholder",function(){var b=a("."+m.customClass,this).each(c);setTimeout(function(){b.each(d)},10)})}),a(window).bind("beforeunload.placeholder",function(){a("."+m.customClass).each(function(){this.value=""})})}});
+
