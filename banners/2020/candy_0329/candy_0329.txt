@@ -13,3 +13,15 @@ http://oreanor.github.io/banners/2020/candy_0329/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/2020/candy_0329/mytarget/240x400/240x400.gif
 http://oreanor.github.io/banners/2020/candy_0329/mytarget/240x400/240x400.zip
 
+
+
+
+static
+
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/300x600.jpg
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/120x600.png
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/160x600.png
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/300x250.png
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/336x280.png
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/970x90.png
+http://oreanor.github.io/banners/2020/candy_0329/programmatic/static/240x400.png
