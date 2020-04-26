@@ -1,0 +1,13 @@
+programmatic
+
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/300x600/300x600.gif
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/120x600/120x600.gif
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/160x600/160x600.gif
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/300x250/300x250.gif
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/336x280/336x280.gif
+http://oreanor.github.io/banners/2020/candy_0426/programmatic/970x90/970x90.gif
+
+mytarget
+
+http://oreanor.github.io/banners/2020/candy_0426/mytarget/240x400/240x400.gif
+
