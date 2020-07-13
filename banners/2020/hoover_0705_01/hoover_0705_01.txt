@@ -20,3 +20,12 @@ roomble
 
 http://oreanor.github.io/banners/2020/hoover_0705_01/roomble/300x500/300x500.html
 http://oreanor.github.io/banners/2020/hoover_0705_01/roomble/300x500/300x500.zip
+
+inmyroom
+
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x600/300x600.html
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x600/300x600.zip
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x250/300x250.html
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x250/300x250.zip
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x250/600x500.html
+http://oreanor.github.io/banners/2020/hoover_0705_01/inmyroom/300x250/600x500.zip
