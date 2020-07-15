@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x600_atlas_", frames: [[0,0,300,600],[0,602,300,600],[0,1204,300,600],[302,0,300,600]]}
+		{name:"300x600_atlas_", frames: [[302,0,300,600],[0,0,300,600],[0,602,300,600],[0,1204,300,600]]}
 ];
 
 
@@ -733,10 +733,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Слой 1
 	this.instance = new lib._4();
 	this.instance.parent = this;
+	this.instance.setTransform(1,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.p4, new cjs.Rectangle(0,0,300,600), null);
+}).prototype = getMCSymbolPrototype(lib.p4, new cjs.Rectangle(1,0,300,600), null);
 
 
 (lib.p3 = function(mode,startPosition,loop) {
@@ -1106,7 +1107,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.shape_39.setTransform(114.4,578.3,1.2,1.2);
 
 	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.f("#FFFFFF").s().p("AAIARIgQgRIAOgQIAGAAIgOAQIAQARgAgNARIAAghIAFAAIAAAQIAAARg");
+	this.shape_40.graphics.f("#FFFFFF").s().p("AAIARIgQgRIAOgQIAGAAIgOAQIAQARgAgNARIAAghIAFAAIAAAQIAAARgAgIAAg");
 	this.shape_40.setTransform(110.3,578.3,1.2,1.2);
 
 	this.shape_41 = new cjs.Shape();

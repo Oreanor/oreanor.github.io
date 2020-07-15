@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"300x600_atlas_", frames: [[0,1204,300,600],[302,0,300,600],[0,0,300,600],[0,602,300,600]]}
+		{name:"300x600_atlas_", frames: [[0,602,300,600],[0,1204,300,600],[0,0,300,600],[302,0,300,600]]}
 ];
 
 
