@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx250_atlas_", frames: [[302,0,300,280],[0,0,300,280],[604,0,300,280],[302,282,300,280],[0,282,300,280]]}
+		{name:"100pcx250_atlas_", frames: [[302,282,300,280],[0,0,300,280],[302,0,300,280],[604,0,300,280],[0,282,300,280]]}
 ];
 
 
@@ -1230,7 +1230,7 @@ p.nominalBounds = new cjs.Rectangle(9.1,13,794,770);
 lib.properties = {
 	width: 400,
 	height: 250,
-	fps: 22,
+	fps: 20,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
