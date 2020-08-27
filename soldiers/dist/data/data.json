@@ -2017,67 +2017,59 @@
 	},
 	{
 		"id": 40,
-		"name": "Конница 1812 года",
-		"manufacturer": "Прогресс",
+		"name": "Конница 1812 года (набор №1)",
+		"manufacturer": "Малыш",
 		"scale": "1:32",
-		"year": "1976-",
-		"folder": "progress/konniki_1812",
-		"img": "00.jpg",
+		"year": "1983-",
+		"folder": "malysh/1812_cavalry/1",
+		"img": "01.jpg",
 		"material": "пластик",
 		"type": "плоский",
-		"desc": "Скульптор Б. Д. Савельев. Выпускались 4 набора по 4 солдатика в каждом. Разные выпуски различались качеством пластика (плотный и полупрозрачный), ценой (12к. ранние и 11к. поздние), а также множеством мелких деталей.",
+		"desc": "Скульптор Б. Д. Савельев. Разные выпуски различались качеством пластика (плотный и полупрозрачный), ценой (12к. ранние и 11к. поздние), а также множеством мелких деталей.",
 		"figures": [
 			{
-				"name": "Гусар со знаменем",
+				"name": "",
 				"img": "01.jpg"
 			},
 			{
-				"name": "Драгун с карабином",
+				"name": "",
 				"img": "02.jpg"
 			},
 			{
-				"name": "Кирасир с саблей над головой",
+				"name": "",
 				"img": "03.jpg"
 			},
 			{
-				"name": "Русский кирасир с саблей",
+				"name": "",
 				"img": "04.jpg"
 			},
 			{
-				"name": "Гусар с горном",
+				"name": "",
 				"img": "05.jpg"
 			},
 			{
-				"name": "Русский гусар с саблей",
+				"name": "",
 				"img": "06.jpg"
 			},
 			{
-				"name": "Улан",
+				"name": "",
 				"img": "07.jpg"
 			},
 			{
-				"name": "Французский гусар",
+				"name": "",
 				"img": "08.jpg"
 			},
 			{
-				"name": "Донской казак",
+				"name": "",
 				"img": "09.jpg"
 			},
 			{
-				"name": "Полковник от кавалерии",
+				"name": "",
 				"img": "10.jpg"
 			},
 			{
-				"name": "Шеволежёр легкоконного полка",
+				"name": "",
 				"img": "11.jpg"
-			},
-			{
-				"name": "Французский кирасир",
-				"img": "12.jpg"
-			},
-			{
-				"name": "Шеволежёр легкоконного полка",
-				"img": "13.jpg"
 			}
 		]
 	},
@@ -2100,6 +2092,10 @@
 			{
 				"name": "Тачанка с двумя конями (вариант)",
 				"img": "01.jpg"
+			},
+			{
+				"name": "Тачанка с двумя конями (вариант)",
+				"img": "02.jpg"
 			}
 		]
 	},
@@ -3406,5 +3402,1562 @@
 				"img": "04.jpg"
 			}
 		]
+	},
+	{
+		"id": 75,
+		"name": "Солдаты 1812 года",
+		"manufacturer": "Малыш",
+		"scale": "1:32",
+		"year": "1970-",
+		"folder": "malysh/1812",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 76,
+		"name": "Германская пехота",
+		"manufacturer": "Airfix",
+		"scale": "1:32",
+		"year": "2010-",
+		"folder": "airfix/germans_2010",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 77,
+		"name": "Воины 1812 года",
+		"manufacturer": "АФМИ",
+		"scale": "1:35",
+		"year": "1980-",
+		"folder": "astrecovo/pehota1812",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			}
+		]
+	},
+	{
+		"id": 78,
+		"name": "Конармия",
+		"manufacturer": "АФМИ",
+		"scale": "1:32",
+		"year": "1970-",
+		"folder": "astrecovo/konarmia",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			}
+		]
+	},
+	{
+		"id": 79,
+		"name": "Воины Средневековья (пешие)",
+		"manufacturer": "АФМИ",
+		"scale": "1:35",
+		"year": "1970-1980-е",
+		"folder": "astrecovo/voiny_srednevekovya_peshie",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			},
+			{
+				"name": "",
+				"img": "13.jpg"
+			},
+			{
+				"name": "",
+				"img": "14.jpg"
+			},
+			{
+				"name": "",
+				"img": "15.jpg"
+			},
+			{
+				"name": "",
+				"img": "16.jpg"
+			}
+		]
+	},
+	{
+		"id": 80,
+		"name": "Воины Средневековья (конные)",
+		"manufacturer": "АФМИ",
+		"scale": "1:35",
+		"year": "1970-1980-е",
+		"folder": "astrecovo/voiny_srednevekovya_konnye",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 81,
+		"name": "Австралийская пехота",
+		"manufacturer": "Оритет",
+		"scale": "1:35",
+		"year": "1990-е",
+		"folder": "oritet/australians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"desc": "Копия Airfix",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 82,
+		"name": "Зулусские воины",
+		"manufacturer": "Cherilea",
+		"scale": "1:32",
+		"year": "",
+		"folder": "cherilea/africans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 83,
+		"name": "Зулусские воины",
+		"manufacturer": "Charbens",
+		"scale": "1:32",
+		"year": "",
+		"folder": "charbens/africans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			}
+		]
+	},
+	{
+		"id": 84,
+		"name": "Воины 1812 года",
+		"manufacturer": "Дон-Пересвет",
+		"scale": "1:32",
+		"year": "2019-2020",
+		"folder": "don_peresvet/1812",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 85,
+		"name": "Солдаты Петра I",
+		"manufacturer": "Дон-Пересвет",
+		"scale": "1:42",
+		"year": "2000-",
+		"folder": "don_peresvet/petr1",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"id": 86,
+		"name": "Солдаты Петра I (Семёновский полк)",
+		"manufacturer": "Дон-Пересвет",
+		"scale": "1:42",
+		"year": "2000-",
+		"folder": "don_peresvet/petr1_semen",
+		"img": "00.jpg",
+		"material": "металл",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 87,
+		"name": "Римляне",
+		"manufacturer": "Jecsan",
+		"scale": "1:32",
+		"year": "",
+		"folder": "jecsan/romans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 88,
+		"name": "Тяжкий XIII-век: Княжеская дружина",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "",
+		"folder": "lad/tyazhki",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 89,
+		"name": "Воины древней Эллады",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "",
+		"folder": "lad/goplits",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 90,
+		"name": "Ледовое побоище: русская дружина",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "",
+		"folder": "lad/ledovoe_russians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"id": 91,
+		"name": "Ледовое побоище: рыцари",
+		"manufacturer": "Солдатики ЛАД",
+		"scale": "1:32",
+		"year": "",
+		"folder": "lad/ledovoe_knights",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"id": 92,
+		"name": "Египтяне",
+		"manufacturer": "ДЗИ",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "dzi/egyptians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 93,
+		"name": "Самураи (конные)",
+		"manufacturer": "Нетехнолог",
+		"scale": "1:32",
+		"year": "2020",
+		"folder": "netechnolog/samurai_konnye",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 94,
+		"name": "Швейцарский всадник",
+		"manufacturer": "Нетехнолог",
+		"scale": "1:32",
+		"year": "2020",
+		"folder": "netechnolog/samurai_konnye",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "объёмный"
+	},
+	{
+		"id": 95,
+		"name": "Русская дружина",
+		"manufacturer": "Прогресс",
+		"scale": "1:32",
+		"year": "1980-",
+		"folder": "progress/rus_drujina",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			}
+		]
+	},
+	{
+		"id": 96,
+		"name": "Древняя Греция. Фаланга. Афины",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/goplits",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 97,
+		"name": "Ацтеки",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/aztecs",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 98,
+		"name": "Конкистадоры",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/konkistadory",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 99,
+		"name": "Русская конная дружина. Младшая дружина",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/mladshaya_drujina",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 100,
+		"name": "Русская конная дружина. Старшая дружина",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/starshaya_drujina",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 101,
+		"name": "Всадники 1812 года",
+		"manufacturer": "Химический завод им.Ленина, г.Казань",
+		"scale": "1:32",
+		"year": "1970-",
+		"folder": "kazan/1812",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 102,
+		"name": "Половецкий стан, выпуск 2",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "2019-",
+		"folder": "voiny_i_bitvy/polovetski_stan_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 103,
+		"name": "Викинги",
+		"manufacturer": "Emhar",
+		"scale": "1:32",
+		"year": "",
+		"folder": "emhar/vikings",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			},
+			{
+				"name": "",
+				"img": "09.jpg"
+			},
+			{
+				"name": "",
+				"img": "10.jpg"
+			},
+			{
+				"name": "",
+				"img": "11.jpg"
+			},
+			{
+				"name": "",
+				"img": "12.jpg"
+			}
+		]
+	},
+	{
+		"id": 104,
+		"name": "Барон Манфре и его люди",
+		"manufacturer": "Воины и битвы",
+		"scale": "1:32",
+		"year": "",
+		"folder": "voiny_i_bitvy/manfre",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 105,
+		"name": "Первая конная",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:32",
+		"year": "1967-",
+		"folder": "lpo_igrushka/pervaya_konnaya_1",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Скульптор Б. Д. Савельев. Ранний выпуск, наиболее детализированные фигуры, широкая подставка.",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 106,
+		"name": "Первая конная",
+		"manufacturer": "ЛПО Игрушка",
+		"scale": "1:32",
+		"year": "1967-",
+		"folder": "lpo_igrushka/pervaya_konnaya_2",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Скульптор Б. Д. Савельев. Промежуточный по детализации вариант.",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
+			}
+		]
+	},
+	{
+		"id": 107,
+		"name": "Конница 1812 года (набор №2)",
+		"manufacturer": "Малыш",
+		"scale": "1:32",
+		"year": "1983-",
+		"folder": "malysh/1812_cavalry/2",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Скульптор Б. Д. Савельев. Разные выпуски различались качеством пластика (плотный и полупрозрачный), ценой (12к. ранние и 11к. поздние), а также множеством мелких деталей.",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 108,
+		"name": "Конница 1812 года (набор №3)",
+		"manufacturer": "Малыш",
+		"scale": "1:32",
+		"year": "1983-",
+		"folder": "malysh/1812_cavalry/3",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Скульптор Б. Д. Савельев. Разные выпуски различались качеством пластика (плотный и полупрозрачный), ценой (12к. ранние и 11к. поздние), а также множеством мелких деталей.",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			}
+		]
+	},
+	{
+		"id": 109,
+		"name": "Конница 1812 года (набор №4)",
+		"manufacturer": "Малыш",
+		"scale": "1:32",
+		"year": "1983-",
+		"folder": "malysh/1812_cavalry/4",
+		"img": "01.jpg",
+		"material": "пластик",
+		"type": "плоский",
+		"desc": "Скульптор Б. Д. Савельев. Разные выпуски различались качеством пластика (плотный и полупрозрачный), ценой (12к. ранние и 11к. поздние), а также множеством мелких деталей.",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			}
+		]
+	},
+	{
+		"id": 110,
+		"name": "Папуасы",
+		"manufacturer": "PGH Effelder",
+		"scale": "1:32",
+		"year": "1971-1998",
+		"folder": "pgh_effelder/papuasy",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 111,
+		"name": "Ковбои",
+		"manufacturer": "TimMee",
+		"scale": "1:32",
+		"year": "",
+		"folder": "timmee/cowboys",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			}
+		]
+	},
+	{
+		"id": 112,
+		"name": "Индейцы",
+		"manufacturer": "TimMee",
+		"scale": "1:32",
+		"year": "",
+		"folder": "timmee/indians",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			}
+		]
+	},
+	{
+		"id": 113,
+		"name": "Суворовский мушкетёр",
+		"manufacturer": "Солдатики «УРА»",
+		"scale": "1:35",
+		"year": "",
+		"folder": "ura/suvorov",
+		"img": "01.jpg",
+		"material": "металл",
+		"type": "плоский"
 	}
 ]
