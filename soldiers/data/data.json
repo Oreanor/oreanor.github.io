@@ -3434,7 +3434,7 @@
 	},
 	{
 		"id": 76,
-		"name": "Германская пехота",
+		"name": "Немецкая пехота",
 		"manufacturer": "Airfix",
 		"scale": "1:32",
 		"year": "2010-",
@@ -3571,7 +3571,7 @@
 		"id": 79,
 		"name": "Воины Средневековья (пешие)",
 		"manufacturer": "АФМИ",
-		"scale": "1:35",
+		"scale": "1:32",
 		"year": "1970-1980-е",
 		"folder": "astrecovo/voiny_srednevekovya_peshie",
 		"img": "00.jpg",
@@ -3648,7 +3648,7 @@
 		"id": 80,
 		"name": "Воины Средневековья (конные)",
 		"manufacturer": "АФМИ",
-		"scale": "1:35",
+		"scale": "1:32",
 		"year": "1970-1980-е",
 		"folder": "astrecovo/voiny_srednevekovya_konnye",
 		"img": "00.jpg",
@@ -5256,6 +5256,51 @@
 			{
 				"name": "",
 				"img": "09.jpg"
+			}
+		]
+	},
+	{
+		"id": 118,
+		"name": "Немецкая пехота",
+		"manufacturer": "Airfix",
+		"scale": "1:32",
+		"year": "",
+		"folder": "airfix/germans",
+		"img": "00.jpg",
+		"material": "пластик",
+		"type": "объёмный",
+		"figures": [
+			{
+				"name": "",
+				"img": "01.jpg"
+			},
+			{
+				"name": "",
+				"img": "02.jpg"
+			},
+			{
+				"name": "",
+				"img": "03.jpg"
+			},
+			{
+				"name": "",
+				"img": "04.jpg"
+			},
+			{
+				"name": "",
+				"img": "05.jpg"
+			},
+			{
+				"name": "",
+				"img": "06.jpg"
+			},
+			{
+				"name": "",
+				"img": "07.jpg"
+			},
+			{
+				"name": "",
+				"img": "08.jpg"
 			}
 		]
 	}
