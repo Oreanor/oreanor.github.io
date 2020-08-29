@@ -158,6 +158,7 @@
   width: 100%;
   height: 100vh;
   background-color: #fff;
+  font-size: 12px;
 }
 .app_main .outer_cont {
   display: inline-block;
@@ -179,13 +180,13 @@
   padding: 10px;
 }
 .app_main__left .filters_cont__title {
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 .app_main__left .filters_cont__search {
   margin-bottom: 10px;
   width: 100%;
-  font-size: 12px;
 }
 .app_main__right {
   width: 85%;

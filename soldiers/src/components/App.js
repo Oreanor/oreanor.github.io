@@ -9,7 +9,7 @@ import {
 	dataURL,
 	filterOptionsNames,
 	filterNames,
-	filterProperties
+	filterProperties,
 } from "./consts";
 import { sortBy } from "./utils";
 
@@ -20,7 +20,7 @@ class App extends Component {
 			? cookies
 					.get("filters")
 					.split("_")
-					.map(item => parseInt(item))
+					.map((item) => parseInt(item))
 			: [];
 		this.state = {
 			data: [],
@@ -28,7 +28,8 @@ class App extends Component {
 			searchString: cookies.get("searchString") || "",
 			filters: filters,
 			filterValues: [],
-			filterValuesChecks: []
+			filterValuesChecks: [],
+			total: 0,
 		};
 	}
 	myRef = [];
@@ -39,8 +40,8 @@ class App extends Component {
 			that.selectSetFromHash();
 		};
 		fetch(dataURL)
-			.then(response => response.json())
-			.then(data => {
+			.then((response) => response.json())
+			.then((data) => {
 				let filterValues = [[]];
 				let filterValuesChecks = [[]];
 
@@ -59,12 +60,14 @@ class App extends Component {
 				}
 				data.sort(sortBy(this.state.filters));
 
+				let total = 0;
 				data.forEach((item, i) => {
 					this.myRef[i] = React.createRef();
+					total+= (item.figures && item.figures.length) ? item.figures.length : 1;
 				});
 
 				this.setState(
-					{ data, filterValues, filterValuesChecks },
+					{ data, filterValues, filterValuesChecks, total },
 					this.selectSetFromHash
 				);
 			});
@@ -85,7 +88,7 @@ class App extends Component {
 		this.setState({ data });
 	};
 
-	onSelectSet = id => {
+	onSelectSet = (id) => {
 		if (this.state.currentSet === null) {
 			this.setState({ currentSet: id }, () => this.scrollToRef(id));
 		} else {
@@ -98,21 +101,21 @@ class App extends Component {
 		}
 	};
 
-	scrollToRef = id => {
+	scrollToRef = (id) => {
 		if (id !== null && this.myRef[id] && this.myRef[id].current !== null) {
 			this.myRef[id].current.scrollIntoView({
 				//behavior: "smooth",
-				block: "start"
+				block: "start",
 			});
 		}
 	};
 
-	searchSet = e => {
+	searchSet = (e) => {
 		this.setState({ searchString: e.target.value });
 		cookies.set("searchString", e.target.value);
 	};
 
-	onAddFilter = e => {
+	onAddFilter = (e) => {
 		let filters = this.state.filters.slice();
 		const val = e.target.value;
 		if (!filters.includes(val)) {
@@ -122,12 +125,12 @@ class App extends Component {
 		}
 	};
 
-	onRemoveFilter = index => {
+	onRemoveFilter = (index) => {
 		let filters = this.state.filters.slice();
 
 		let filterValuesChecks = this.state.filterValuesChecks.slice();
 		let filterToReset = filterValuesChecks[filters[index]].slice();
-		filterToReset = filterToReset.map(item => true);
+		filterToReset = filterToReset.map((item) => true);
 		filterValuesChecks[filters[index]] = filterToReset;
 
 		filters.splice(index, 1);
@@ -146,12 +149,12 @@ class App extends Component {
 	onCheckAll = (id, allCheck) => {
 		let filterValuesChecks = this.state.filterValuesChecks.slice();
 		let filterToCheck = filterValuesChecks[id].slice();
-		filterToCheck = filterToCheck.map(check => allCheck);
+		filterToCheck = filterToCheck.map((check) => allCheck);
 		filterValuesChecks[id] = filterToCheck;
 		this.setState({ filterValuesChecks });
 	};
 
-	isFound = obj => {
+	isFound = (obj) => {
 		const { searchString } = this.state;
 		return (
 			obj.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 ||
@@ -168,7 +171,7 @@ class App extends Component {
 			filters,
 			filterValues,
 			filterValuesChecks,
-			searchString
+			searchString,
 		} = this.state;
 
 		let cards = [];
@@ -185,7 +188,8 @@ class App extends Component {
 						key={"hedaer" + key}
 						className={"subheader subheader__2"}
 					>
-						Ничего не найдено
+						{" "}
+						Ничего не найдено{" "}
 					</div>
 				);
 			}
@@ -225,7 +229,7 @@ class App extends Component {
 					let ft2 = ft.slice();
 					ft2.push({
 						name: filterProperties[filters[level]],
-						value: filterValues[filters[level]][i]
+						value: filterValues[filters[level]][i],
 					});
 					if (level < filters.length - 1) {
 						let deeperCards = getCardsWithHeaders(level + 1, ft2);
@@ -284,7 +288,8 @@ class App extends Component {
 			searchString,
 			filters,
 			filterValues,
-			filterValuesChecks
+			filterValuesChecks,
+			total,
 		} = this.state;
 
 		const filterOptions = filterOptionsNames.map((item, i) => {
@@ -315,7 +320,7 @@ class App extends Component {
 
 		const elementToShow =
 			currentSet !== null && data.length
-				? data.find(item => item.id === parseInt(currentSet))
+				? data.find((item) => item.id === parseInt(currentSet))
 				: {};
 
 		return (
@@ -325,6 +330,9 @@ class App extends Component {
 						<div className="filters_cont__title">
 							Коллекция солдатиков
 						</div>
+						<div>{"Наборов:" + data.length}</div>
+						<div>{"Солдатиков:" + total}</div>
+						<br/>
 						<input
 							type="text"
 							placeholder="Название/производитель"
