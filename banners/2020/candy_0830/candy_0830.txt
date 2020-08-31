@@ -6,4 +6,4 @@ modernhome
 
 http://oreanor.github.io/banners/2020/candy_0830/modernhome/300x300/300x300.gif
 http://oreanor.github.io/banners/2020/candy_0830/modernhome/240x400/240x400.gif
-http://oreanor.github.io/banners/2020/candy_0830/modernhome/300x300/300x500.gif
+http://oreanor.github.io/banners/2020/candy_0830/modernhome/300x500/300x500.gif
