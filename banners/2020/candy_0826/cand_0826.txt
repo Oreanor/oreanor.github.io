@@ -6,3 +6,10 @@ http://oreanor.github.io/banners/2020/candy_0826/programmatic/160x600/160x600.gi
 http://oreanor.github.io/banners/2020/candy_0826/programmatic/300x250/300x250.gif
 http://oreanor.github.io/banners/2020/candy_0826/programmatic/336x280/336x280.gif
 http://oreanor.github.io/banners/2020/candy_0826/programmatic/970x90/970x90.gif
+
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/300x600/300x600_2.gif
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/120x600/120x600_2.gif
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/160x600/160x600_2.gif
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/300x250/300x250_2.gif
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/336x280/336x280_2.gif
+http://oreanor.github.io/banners/2020/candy_0826/programmatic/970x90/970x90_2.gif
