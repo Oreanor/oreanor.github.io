@@ -7,7 +7,8 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx250_atlas_", frames: [[0,504,300,250],[0,252,300,250],[0,0,300,250],[302,0,150,146],[0,756,317,121]]}
+		{name:"100pcx250_atlas_P_", frames: [[319,0,150,146],[0,0,317,121]]},
+		{name:"100pcx250_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250],[0,504,300,250]]}
 ];
 
 
@@ -72,36 +73,36 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._1 = function() {
-	this.spriteSheet = ss["100pcx250_atlas_"];
+	this.spriteSheet = ss["100pcx250_atlas_NP_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2 = function() {
-	this.spriteSheet = ss["100pcx250_atlas_"];
+	this.spriteSheet = ss["100pcx250_atlas_NP_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3 = function() {
-	this.spriteSheet = ss["100pcx250_atlas_"];
+	this.spriteSheet = ss["100pcx250_atlas_NP_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._4 = function() {
-	this.spriteSheet = ss["100pcx250_atlas_"];
-	this.gotoAndStop(3);
+	this.spriteSheet = ss["100pcx250_atlas_P_"];
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Image_7 = function() {
-	this.spriteSheet = ss["100pcx250_atlas_"];
-	this.gotoAndStop(4);
+	this.spriteSheet = ss["100pcx250_atlas_P_"];
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1399,7 +1400,8 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/100pcx250_atlas_.png", id:"100pcx250_atlas_"}
+		{src:"images/100pcx250_atlas_P_.png", id:"100pcx250_atlas_P_"},
+		{src:"images/100pcx250_atlas_NP_.jpg", id:"100pcx250_atlas_NP_"}
 	],
 	preloads: []
 };
