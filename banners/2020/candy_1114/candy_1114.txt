@@ -1,4 +1,4 @@
-salon interior, ivd
+﻿salon interior, ivd
 
 http://oreanor.github.io/banners/2020/candy_1114/stirki/salon_ivd/300x600/300x600.html
 http://oreanor.github.io/banners/2020/candy_1114/stirki/salon_ivd/300x600/300x600.zip
@@ -18,6 +18,8 @@ http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/300x250/300x250
 http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/300x250/300x250.zip
 http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/600x500/600x500.html
 http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/600x500/600x500.zip
+http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/375x290/375x290.html
+http://oreanor.github.io/banners/2020/candy_1114/stirki/inmyroom/375x290/375x290.zip
 
 mytarget
 
@@ -66,6 +68,8 @@ http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/300x250/300x250.
 http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/300x250/300x250.zip
 http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/600x500/600x500.html
 http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/600x500/600x500.zip
+http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/375x290/375x290.html
+http://oreanor.github.io/banners/2020/candy_1114/brava/inmyroom/375x290/375x290.zip
 
 
 woman, eda
