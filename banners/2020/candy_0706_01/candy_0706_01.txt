@@ -37,3 +37,6 @@ http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/300x250/300x250.htm
 http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/300x250/300x250.zip
 http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/600x500/600x500.html
 http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/600x500/600x500.zip
+
+http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/375x290/375x290.html
+http://oreanor.github.io/banners/2020/candy_0706_01/inmyroom/375x290/375x290.zip
