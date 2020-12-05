@@ -14,7 +14,7 @@
 <title>300x600</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="300x600.js?1607185026593"></script>
+<script src="300x600.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -86,10 +86,12 @@ function handleComplete(evt) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
+	<a href="%banner.reference_user1%" target="%banner.target%">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:600px">
 		<canvas id="canvas" width="300" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+	</a>
 </body>
 </html>
