@@ -11,12 +11,6 @@ lib.ssMetadata = [
 
 
 
-(lib._1Ресурс2402 = function() {
-	this.initialize(img._1Ресурс2402);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,240,136);
-
-
 (lib._1 = function() {
 	this.spriteSheet = ss["320x480_atlas_NP_"];
 	this.gotoAndStop(0);
@@ -28,7 +22,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,136);
 	this.spriteSheet = ss["320x480_atlas_NP_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
-// helper functions:
+
+
+
+(lib._34343 = function() {
+	this.initialize(img._34343);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,240,136);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -282,7 +282,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(305));
 
 	// Слой 3
-	this.instance_6 = new lib._1Ресурс2402();
+	this.instance_6 = new lib._34343();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(0,0,1.334,1.334);
 
@@ -326,7 +326,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1Ресурс2402.png", id:"_1Ресурс2402"},
+		{src:"images/_34343.png", id:"_34343"},
 		{src:"images/320x480_atlas_NP_.jpg", id:"320x480_atlas_NP_"}
 	],
 	preloads: []
