@@ -1,73 +1,13 @@
-(function (lib, img, cjs, ss, an) {
+(function (cjs, an) {
 
 var p; // shortcut to reference prototypes
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
+var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"970x250_atlas_P_", frames: [[0,0,329,186],[331,0,150,146],[0,188,317,121]]},
-		{name:"970x250_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250],[0,504,300,250]]}
+		{name:"970x250_atlas_NP_", frames: [[0,504,300,250],[0,252,300,250],[0,0,300,250]]}
 ];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -1200,8 +1140,8 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 				text.x = xtext;
 				text.y = hgt/2 - 10;
 				
-				logo.scaleX = 1.2;
-				logo.scaleY = 1.2;
+				logo.scaleX = 1.4;
+				logo.scaleY = 1.4;
 				logo.x = xlogo;
 				logo.y = hgt/2;
 				
@@ -1225,6 +1165,7 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 
 	// logo
 	this.logo = new lib.logo();
+	this.logo.name = "logo";
 	this.logo.parent = this;
 	this.logo.setTransform(221.3,55.1);
 
@@ -1232,13 +1173,15 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 
 	// legal
 	this.legal = new lib.legal();
+	this.legal.name = "legal";
 	this.legal.parent = this;
-	this.legal.setTransform(277.1,232.6,1,1,0,0,0,112,12.4);
+	this.legal.setTransform(277.1,232.5,1,1,0,0,0,112,12.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.legal).wait(1));
 
 	// pics2
 	this.pics2 = new lib.pics2();
+	this.pics2.name = "pics2";
 	this.pics2.parent = this;
 	this.pics2.setTransform(71,126.1);
 
@@ -1246,6 +1189,7 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 
 	// text
 	this.text = new lib.text();
+	this.text.name = "text";
 	this.text.parent = this;
 	this.text.setTransform(223,147.1,1,1,0,0,0,-0.1,5.3);
 
@@ -1253,12 +1197,14 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 
 	// snow
 	this.snow = new lib.snow();
+	this.snow.name = "snow";
 	this.snow.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.snow).wait(1));
 
 	// bg
 	this.blue = new lib.bg();
+	this.blue.name = "blue";
 	this.blue.parent = this;
 	this.blue.setTransform(0.1,1.1,1,1,0,0,0,0.1,1.1);
 
@@ -1268,12 +1214,12 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 p.nominalBounds = new cjs.Rectangle(396,124.5,1059.5,251.6);
 // library properties:
 lib.properties = {
+	id: 'CE98285B1560B44A8936E64328CBE84E',
 	width: 970,
 	height: 250,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
 		{src:"images/970x250_atlas_P_.png", id:"970x250_atlas_P_"},
 		{src:"images/970x250_atlas_NP_.jpg", id:"970x250_atlas_NP_"}
@@ -1283,6 +1229,56 @@ lib.properties = {
 
 
 
+// bootstrap callback support:
 
-})(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{}, AdobeAn = AdobeAn||{});
-var lib, images, createjs, ss, AdobeAn;
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['CE98285B1560B44A8936E64328CBE84E'] = {
+	getStage: function() { return exportRoot.getStage(); },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;

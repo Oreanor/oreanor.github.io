@@ -22,32 +22,28 @@ function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("FF3805DCD243644CB329F430B9F7EB39");
-	var lib=comp.getLibrary();
+	images = images||{};
+	ss = ss||{};
 	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
-	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
-	var lib=comp.getLibrary();
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
 	loader.loadManifest(lib.properties.manifest);
 }
-function handleFileLoad(evt, comp) {
-	var images=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+function handleFileLoad(evt) {	
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
 }
-function handleComplete(evt,comp) {
+function handleComplete(evt) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var lib=comp.getLibrary();
-	var ss=comp.getSpriteSheet();
 	var queue = evt.target;
 	var ssMetadata = lib.ssMetadata;
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib._320x480();
-	stage = new lib.Stage(canvas);	
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
-		stage.addChild(exportRoot);
 		createjs.Ticker.setFPS(lib.properties.fps);
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
@@ -81,14 +77,10 @@ function handleComplete(evt,comp) {
 			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
-			lastW = iw; lastH = ih; lastS = sRatio;            
-			stage.tickOnUpdate = false;            
-			stage.update();            
-			stage.tickOnUpdate = true;		
+			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
 	}
 	makeResponsive(false,'both',false,1);	
-	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
 </script>
@@ -96,9 +88,9 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="margin:0px;">
 	<a id="click_area" href="#" target="_blank">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:320px; height:480px">
-		<canvas id="canvas" width="320" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:320px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:319px; height:480px">
+		<canvas id="canvas" width="319" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:319px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 	</a>
