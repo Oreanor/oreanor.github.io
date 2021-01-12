@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"970x250_atlas_P_", frames: [[319,0,150,146],[0,0,317,121]]},
-		{name:"970x250_atlas_NP_", frames: [[0,252,300,250],[0,0,300,250],[0,504,300,250]]}
+		{name:"970x250_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250],[0,504,300,250]]}
 ];
 
 
@@ -1163,49 +1163,6 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 (lib._970x250 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop(); 
-		
-		var blue = this.blue;
-		var legal = this.legal;
-		var text = this.text;
-		var logo = this.logo;
-		var pics2 = this.pics2;
-			
-			var wdt = stage.canvas.width;
-			var hgt = stage.canvas.height;
-			
-			var sc = wdt/300;
-			
-			blue.x = 0;
-			blue.y = 0;
-			blue.scaleX = sc;
-		
-			
-				pics2.x = wdt/2;
-				pics2.y = hgt/2;
-				
-				var xlogo = (wdt/2 - 150)/2;
-				
-				var xtext = wdt/2 + 150 + xlogo;
-				
-				text.scaleX = 1.3;
-				text.scaleY = 1.3;
-				text.x = xtext;
-				text.y = hgt/2 - 10;
-				
-				logo.scaleX = 1.4;
-				logo.scaleY = 1.4;
-				logo.x = xlogo;
-				logo.y = hgt/2;
-				
-				legal.x = xtext;
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
 	// Слой 1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLsgTcMCXZAAAMAAAAm5MiXZAAAg");
@@ -1216,40 +1173,40 @@ p.nominalBounds = new cjs.Rectangle(-160,-125,300,250);
 	// logo
 	this.logo = new lib.logo();
 	this.logo.parent = this;
-	this.logo.setTransform(221.3,55.1);
+	this.logo.setTransform(171.3,125,1.4,1.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
 
 	// legal
 	this.legal = new lib.legal();
 	this.legal.parent = this;
-	this.legal.setTransform(277.1,232.6,1,1,0,0,0,112,12.4);
+	this.legal.setTransform(797,229.6,1.1,1.1,0,0,0,112,12.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.legal).wait(1));
 
 	// pics2
 	this.pics2 = new lib.pics2();
 	this.pics2.parent = this;
-	this.pics2.setTransform(71,126.1);
+	this.pics2.setTransform(495,126.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.pics2).wait(1));
 
 	// text
 	this.text = new lib.text();
 	this.text.parent = this;
-	this.text.setTransform(223,147.1,1,1,0,0,0,-0.1,5.3);
+	this.text.setTransform(812.9,117.1,1.3,1.3,0,0,0,-0.1,5.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// bg
 	this.blue = new lib.bg();
 	this.blue.parent = this;
-	this.blue.setTransform(0.1,1.1,1,1,0,0,0,0.1,1.1);
+	this.blue.setTransform(-0.4,1.1,3.234,1,0,0,0,-0.1,1.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.blue).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(396,124.5,1059.5,251.6);
+p.nominalBounds = new cjs.Rectangle(484.5,124.5,971,251.6);
 // library properties:
 lib.properties = {
 	width: 970,

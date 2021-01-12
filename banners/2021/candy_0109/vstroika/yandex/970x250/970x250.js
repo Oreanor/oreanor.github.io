@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"970x250_atlas_", frames: [[300,276,298,274],[300,0,298,274],[600,0,298,274],[0,276,298,274],[0,0,298,274]]}
+		{name:"970x250_atlas_", frames: [[600,0,298,274],[0,276,298,274],[300,0,298,274],[0,0,298,274],[300,276,298,274]]}
 ];
 
 
@@ -835,62 +835,6 @@ p.nominalBounds = new cjs.Rectangle(-119.9,-23.9,240,48);
 (lib._970x250 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop();
-		 
-		
-		var bg = this.bg;
-		var legal = this.legal;
-		var text = this.text;
-		var logo = this.logo;
-		var pics = this.pics;
-		
-		var uznat = this.uznat;
-		
-			var wdt = stage.canvas.width;
-			var hgt = stage.canvas.height;
-			
-			var sc = wdt/298;
-			
-			
-			bg.x = 0;
-			bg.scaleX = wdt/400;
-			bg.y = 125;
-		
-			
-			text.y = 125;
-			pics.scaleX = 1;		
-			pics.scaleY = 1;
-			
-			legal.scaleX = 0.9;		
-			legal.scaleY = 0.9;
-		
-			
-				text.scaleX = 1;
-				text.scaleY = 1;
-				text.x = 0.84*wdt;
-				text.y = 100;
-				
-				uznat.scaleX = 0.8;		
-				uznat.scaleY = 0.8;
-				uznat.x = 0.84*wdt;
-				uznat.y = 200;
-				
-				logo.scaleX = 1.2;		
-				logo.scaleY = 1.2;
-				logo.x = 0.2*wdt;
-				logo.y = 125;
-				
-				pics.x = 0.52*wdt;
-				pics.y = 145;
-		
-				legal.x = 5;
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
 	// Слой_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLsgTcMCXZAAAMAAAAm5MiXZAAAg");
@@ -901,47 +845,47 @@ p.nominalBounds = new cjs.Rectangle(-119.9,-23.9,240,48);
 	// uznat
 	this.uznat = new lib.uznat();
 	this.uznat.parent = this;
-	this.uznat.setTransform(341.6,632.8);
+	this.uznat.setTransform(798.6,202.8,0.9,0.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.uznat).wait(1));
 
 	// legal
 	this.legal = new lib.legal();
 	this.legal.parent = this;
-	this.legal.setTransform(-0.7,226.3,1,1,0,0,0,0.3,17.6);
+	this.legal.setTransform(-0.7,228.3,1,1,0,0,0,0.3,17.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.legal).wait(1));
 
 	// logo
 	this.logo = new lib.logo();
 	this.logo.parent = this;
-	this.logo.setTransform(200.5,-25.9);
+	this.logo.setTransform(166.6,126.4,1.3,1.3,0,0,0,0.1,-0.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
 
 	// pics
 	this.pics = new lib.pics();
 	this.pics.parent = this;
-	this.pics.setTransform(13.6,462.5);
+	this.pics.setTransform(480.5,145);
 
 	this.timeline.addTween(cjs.Tween.get(this.pics).wait(1));
 
 	// text
 	this.text = new lib.main();
 	this.text.parent = this;
-	this.text.setTransform(-59.7,-90.9);
+	this.text.setTransform(800.3,99.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// bg
 	this.bg = new lib.bg();
 	this.bg.parent = this;
-	this.bg.setTransform(0,125,1,1,0,0,0,0,125);
+	this.bg.setTransform(0,125,2.425,1,0,0,0,0,125);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(305.4,10.1,1150.2,772.9);
+p.nominalBounds = new cjs.Rectangle(484.5,124.5,971,290.5);
 // library properties:
 lib.properties = {
 	width: 970,

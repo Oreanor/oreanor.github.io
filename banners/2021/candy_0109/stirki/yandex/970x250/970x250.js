@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"970x250_atlas_NP_", frames: [[0,0,365,250],[0,252,365,250]]}
+		{name:"970x250_atlas_", frames: [[0,0,365,250],[0,252,365,250]]}
 ];
 
 
@@ -72,14 +72,14 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._1 = function() {
-	this.spriteSheet = ss["970x250_atlas_NP_"];
+	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2 = function() {
-	this.spriteSheet = ss["970x250_atlas_NP_"];
+	this.spriteSheet = ss["970x250_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -99,19 +99,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
-
-
-(lib.white = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#2191CC").s().p("A3fEMIAAoXMAu/AAAIAAIXg");
-	this.shape.setTransform(150.5,26.8);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.white, new cjs.Rectangle(0,0,300.9,53.6), null);
 
 
 (lib.t4 = function(mode,startPosition,loop) {
@@ -411,60 +398,6 @@ p.nominalBounds = new cjs.Rectangle(-182.9,-124.9,362,248.9);
 (lib._970x250 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop();
-		
-		
-		var white = this.white;
-		var blue = this.blue;
-		var legal = this.legal;
-		var text = this.text;
-		var logo = this.logo;
-		var pics = this.pics;
-		
-		function res() {
-			
-			var wdt = stage.canvas.width;
-			var hgt = stage.canvas.height;
-			
-			var sc = wdt/300;
-		
-			
-				text.scaleX = 1.4;
-				text.scaleY = 1.4;
-				text.x = wdt*0.82;
-				text.y = 90;
-				
-				logo.scaleX = 1.5;		
-				logo.scaleY = 1.5;
-				logo.x = wdt*0.15;
-				logo.y = 115;
-				
-				pics.x = 510;
-				pics.y = 125;
-				
-				pics.scaleX = 1;
-				pics.scaleY = 1;
-				
-				white.x = 0;
-				white.y = 0;
-				white.scaleX = sc/4;
-				white.scaleY = 5;
-				
-				blue.x = 0;
-				blue.y = 0;
-				blue.scaleX = sc;
-				
-				legal.x = wdt*0.8 - 120;
-		}
-		
-		res();
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
 	// Слой_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLsgTcMCXZAAAMAAAAm5MiXZAAAg");
@@ -475,7 +408,7 @@ p.nominalBounds = new cjs.Rectangle(-182.9,-124.9,362,248.9);
 	// logo
 	this.logo = new lib.logo();
 	this.logo.parent = this;
-	this.logo.setTransform(152,27.3);
+	this.logo.setTransform(152,125,1.5,1.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
 
@@ -489,39 +422,33 @@ p.nominalBounds = new cjs.Rectangle(-182.9,-124.9,362,248.9);
 	// text
 	this.text = new lib.text();
 	this.text.parent = this;
-	this.text.setTransform(238,118,1,1,0,0,0,0,-19.3);
+	this.text.setTransform(808.1,93,1.4,1.4,0,0,0,0.1,-19.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	// white
-	this.white = new lib.white();
-	this.white.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.white).wait(1));
 
 	// legal
 	this.legal = new lib.legal();
 	this.legal.parent = this;
-	this.legal.setTransform(-392.1,233.7,1,1,0,0,0,-139.8,-5.5);
+	this.legal.setTransform(668.9,232.7,1,1,0,0,0,-139.8,-5.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.legal).wait(1));
 
 	// pics
 	this.pics = new lib.pics();
 	this.pics.parent = this;
-	this.pics.setTransform(147,149,0.8,0.8);
+	this.pics.setTransform(511,125.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.pics).wait(1));
 
 	// blue
 	this.blue = new lib.blue();
 	this.blue.parent = this;
-	this.blue.setTransform(-95,0);
+	this.blue.setTransform(0,0,1.996,1);
 
 	this.timeline.addTween(cjs.Tween.get(this.blue).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(104.4,124.5,1351.2,251);
+p.nominalBounds = new cjs.Rectangle(484.5,124.5,971,251.1);
 // library properties:
 lib.properties = {
 	width: 970,
@@ -531,7 +458,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/970x250_atlas_NP_.jpg", id:"970x250_atlas_NP_"}
+		{src:"images/970x250_atlas_.jpg", id:"970x250_atlas_"}
 	],
 	preloads: []
 };
