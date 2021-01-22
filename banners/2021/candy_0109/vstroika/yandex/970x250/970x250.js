@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"970x250_atlas_", frames: [[600,0,298,274],[0,276,298,274],[300,0,298,274],[0,0,298,274],[300,276,298,274]]}
+		{name:"970x250_atlas_", frames: [[0,0,298,274],[300,0,298,274],[600,0,298,274],[0,276,298,274],[300,276,298,274]]}
 ];
 
 
@@ -840,49 +840,49 @@ p.nominalBounds = new cjs.Rectangle(-119.9,-23.9,240,48);
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLsgTcMCXZAAAMAAAAm5MiXZAAAg");
 	this.shape.setTransform(485,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(380));
 
 	// uznat
 	this.uznat = new lib.uznat();
 	this.uznat.parent = this;
 	this.uznat.setTransform(798.6,202.8,0.9,0.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.uznat).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.uznat).wait(380));
 
 	// legal
 	this.legal = new lib.legal();
 	this.legal.parent = this;
 	this.legal.setTransform(-0.7,228.3,1,1,0,0,0,0.3,17.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.legal).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.legal).wait(380));
 
 	// logo
 	this.logo = new lib.logo();
 	this.logo.parent = this;
 	this.logo.setTransform(166.6,126.4,1.3,1.3,0,0,0,0.1,-0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.logo).wait(380));
 
 	// pics
 	this.pics = new lib.pics();
 	this.pics.parent = this;
 	this.pics.setTransform(480.5,145);
 
-	this.timeline.addTween(cjs.Tween.get(this.pics).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.pics).wait(380));
 
 	// text
 	this.text = new lib.main();
 	this.text.parent = this;
 	this.text.setTransform(800.3,99.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(380));
 
 	// bg
 	this.bg = new lib.bg();
 	this.bg.parent = this;
 	this.bg.setTransform(0,125,2.425,1,0,0,0,0,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.bg).wait(380));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(484.5,124.5,971,290.5);
