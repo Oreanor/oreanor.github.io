@@ -46,3 +46,6 @@ http://oreanor.github.io/banners/2021/candy_0109/vstroika/yandex/320x100/320x100
 http://oreanor.github.io/banners/2021/candy_0109/vstroika/yandex/320x100/320x100.zip
 http://oreanor.github.io/banners/2021/candy_0109/vstroika/yandex/1000x120/1000x120.gif
 http://oreanor.github.io/banners/2021/candy_0109/vstroika/yandex/728x90/728x90.gif
+
+http://oreanor.github.io/banners/2021/candy_0109/vstroika/gastronom/1170x120/1170x120.html
+http://oreanor.github.io/banners/2021/candy_0109/vstroika/gastronom/1170x120/1170x120.zip
