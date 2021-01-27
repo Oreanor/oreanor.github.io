@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 	NOTES:
 	1. All tokens are represented by '$' sign in the template.
@@ -6,7 +7,6 @@
 	4. Blank lines will be removed automatically.
 	5. Remove unnecessary comments before creating your template.
 -->
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -17,9 +17,11 @@
 <script src="createjs-2015.11.26.min.js"></script>
 <script src="300x500.js"></script>
 <script>
-var canvas, stage, exportRoot;
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
 	images = images||{};
 	ss = ss||{};
 	var loader = new createjs.LoadQueue(false);
@@ -27,45 +29,6 @@ function init() {
 	loader.addEventListener("complete", handleComplete);
 	loader.loadManifest(lib.properties.manifest);
 }
-    var flashVars = {
-      reference: "%request.reference%",
-      link: "%banner.user1%",
-      target: "%banner.target%",
-      rnd: parseInt("%request.place_random%") || parseInt("%system.random%"),
-      events: [
-            "",
-            "%banner.event1%",
-            "%banner.event2%",
-            "%banner.event3%",
-            "%banner.event4%",
-            "%banner.event5%",
-            "%banner.event6%",
-            "%banner.event7%",
-            "%banner.event8%",
-            "%banner.event9%",
-            "%banner.event10%",
-            "%banner.event11%",
-            "%banner.event12%",
-            "%banner.event13%",
-            "%banner.event14%",
-            "%banner.event15%",
-            "%banner.event16%",
-            "%banner.event17%",
-            "%banner.event18%",
-            "%banner.event19%",
-            "%banner.event20%",
-            "%banner.event21%",
-            "%banner.event22%",
-            "%banner.event23%",
-            "%banner.event24%",
-            "%banner.event25%",
-            "%banner.event26%",
-            "%banner.event27%",
-            "%banner.event28%",
-            "%banner.event29%",
-            "%banner.event30%"
-      ]
-    };
 function handleFileLoad(evt) {	
 	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
 }
@@ -110,8 +73,8 @@ function handleComplete(evt) {
 			}			
 			canvas.width = w*pRatio*sRatio;			
 			canvas.height = h*pRatio*sRatio;
-			canvas.style.width = w*sRatio+'px';				
-			canvas.style.height = h*sRatio+'px';
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
 			lastW = iw; lastH = ih; lastS = sRatio;		
@@ -125,7 +88,11 @@ function handleComplete(evt) {
 </head>
 <body onload="init();" style="margin:0px;">
 	<a id="click_area" href="#" target="_blank">
-	<canvas id="canvas" width="300" height="500" style="display: block; background-color:rgba(255, 255, 255, 1.00)"></canvas>
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:500px">
+		<canvas id="canvas" width="300" height="500" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:500px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
 	</a>
 	<script> 
 	   document.getElementById("click_area").href = yandexHTML5BannerApi.getClickURLNum(1); 
