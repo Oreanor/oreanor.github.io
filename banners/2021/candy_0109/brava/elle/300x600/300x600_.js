@@ -1069,6 +1069,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 p.nominalBounds = new cjs.Rectangle(149.5,299.5,320.5,601);
 // library properties:
 lib.properties = {
+	id: '0B5F4B7FD32E6B48B105A023D58EE748',
 	width: 300,
 	height: 600,
 	fps: 24,
