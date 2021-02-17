@@ -529,7 +529,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// t5
 	this.instance = new lib.t5();
 	this.instance.parent = this;
-	this.instance.setTransform(120,297,0.8,0.8);
+	this.instance.setTransform(120,302,0.8,0.8);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -538,7 +538,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// t4
 	this.instance_1 = new lib.t4();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(120,297,0.8,0.8);
+	this.instance_1.setTransform(120,317,0.8,0.8);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -547,7 +547,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// t3
 	this.instance_2 = new lib.t3();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(120,297,0.8,0.8);
+	this.instance_2.setTransform(120,317,0.8,0.8);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -556,7 +556,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// t2
 	this.instance_3 = new lib.t2();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(120,297,0.8,0.8);
+	this.instance_3.setTransform(120,317,0.8,0.8);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
@@ -565,7 +565,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// t1
 	this.instance_4 = new lib.t1();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(120,297,0.8,0.8);
+	this.instance_4.setTransform(120,317,0.8,0.8);
 	this.instance_4.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(47).to({scaleX:0.8,scaleY:0.8,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(212));
