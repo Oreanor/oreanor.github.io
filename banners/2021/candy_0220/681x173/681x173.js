@@ -6,7 +6,9 @@ var loadedTypekitCount = 0;
 var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"681x173_atlas_P_", frames: [[0,0,163,173],[0,234,129,28],[0,175,127,57]]}
+];
 
 
 
@@ -70,9 +72,24 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._1 = function() {
-	this.initialize(img._1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,163,173);// helper functions:
+	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image_0 = function() {
+	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Image_1 = function() {
+	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -115,6 +132,104 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.t1, new cjs.Rectangle(-124.7,-42.1,249.4,84.4), null);
+
+
+(lib.ClipGroup_4_0 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AgYAEQgBAAAAgBQAAgBgBAAQAAgBAAAAQAAgBAAAAQAAAAAAgBQAAAAABgBQAAAAAAgBQABAAABAAIAyAAIgBAIg");
+	mask.setTransform(2.7,0.5);
+
+	// Слой 2
+	this.instance = new lib.Image_0();
+	this.instance.parent = this;
+	this.instance.setTransform(0,1,0.042,0.034,0,180,0.6);
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.ClipGroup_4_0, new cjs.Rectangle(0.1,0.1,5.4,0.9), null);
+
+
+(lib.ClipGroup_3_0 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AgZAJQgCgHAEgBIgCgBQAAgFABgBQABgCAGAAIAsAAIgBASg");
+	mask.setTransform(2.7,1);
+
+	// Слой 2
+	this.instance = new lib.Image_1();
+	this.instance.parent = this;
+	this.instance.setTransform(0,2,0.042,0.034,0,180,0.6);
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.ClipGroup_3_0, new cjs.Rectangle(0.1,0.1,5.3,1.9), null);
+
+
+(lib.ClipGroup_4 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 2 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AgaAEIAAgIIA1AAIAAAJg");
+	mask.setTransform(2.7,0.5);
+
+	// Слой 3
+	this.instance = new lib.ClipGroup_4_0();
+	this.instance.parent = this;
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.ClipGroup_4, new cjs.Rectangle(0,0,5.5,1), null);
+
+
+(lib.ClipGroup_3 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 2 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AgaAKIAAgTIA1ABIAAASg");
+	mask.setTransform(2.7,1);
+
+	// Слой 3
+	this.instance = new lib.ClipGroup_3_0();
+	this.instance.parent = this;
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.ClipGroup_3, new cjs.Rectangle(0,0,5.4,2), null);
 
 
 // stage content:
@@ -185,9 +300,17 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1}]}).wait(156));
 
 	// Слой 1
-	this.instance_2 = new lib._1();
+	this.instance_2 = new lib.ClipGroup_3();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(518,0);
+	this.instance_2.setTransform(540.1,127.3,4.169,4.167,0,0,0,2.6,1);
+
+	this.instance_3 = new lib.ClipGroup_4();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(539.9,133.2,4.169,4.167,0,0,0,2.7,0.5);
+
+	this.instance_4 = new lib._1();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(518,0);
 
 	this.shape_10 = new cjs.Shape();
 	this.shape_10.graphics.f("#FFFFFF").s().p("AgFABIgBgBIAMAAIABABg");
@@ -249,7 +372,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.shape_24.graphics.f("#FFFFFF").s().p("AswDPIAAmdIZhAAIAAGdg");
 	this.shape_24.setTransform(340.5,86.6,4.168,4.165);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.instance_2}]}).wait(156));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).wait(156));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(340,86,682,174);
@@ -262,7 +385,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/1.png", id:"_1"}
+		{src:"images/681x173_atlas_P_.png", id:"681x173_atlas_P_"}
 	],
 	preloads: []
 };
