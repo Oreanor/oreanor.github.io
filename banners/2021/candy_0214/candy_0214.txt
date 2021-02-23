@@ -19,6 +19,14 @@ http://oreanor.github.io/banners/2021/candy_0214/yandex/320x100/320x100.zip
 http://oreanor.github.io/banners/2021/candy_0214/yandex/1000x120/1000x120.gif
 http://oreanor.github.io/banners/2021/candy_0214/yandex/728x90/728x90.gif
 
+http://oreanor.github.io/banners/2021/candy_0214/yandex/1000x120/1000x120.html
+http://oreanor.github.io/banners/2021/candy_0214/yandex/1000x120/1000x120.zip
+
+http://oreanor.github.io/banners/2021/candy_0214/yandex/728x90/728x90.html
+http://oreanor.github.io/banners/2021/candy_0214/yandex/728x90/728x90.zip
+
+
+
 http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x600/300x600.gif
 http://oreanor.github.io/banners/2021/candy_0214/programmatic/120x600/120x600.gif
 http://oreanor.github.io/banners/2021/candy_0214/programmatic/160x600/160x600.gif
