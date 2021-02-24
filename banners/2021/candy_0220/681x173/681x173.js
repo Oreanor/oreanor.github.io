@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"681x173_atlas_P_", frames: [[0,0,163,173],[330,0,163,173],[165,0,163,173],[129,175,129,28],[0,175,127,57]]}
+		{name:"681x173_atlas_", frames: [[0,0,163,173],[165,0,163,173],[330,0,163,173],[129,175,129,28],[0,175,127,57]]}
 ];
 
 
@@ -72,35 +72,35 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._1 = function() {
-	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.spriteSheet = ss["681x173_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2 = function() {
-	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.spriteSheet = ss["681x173_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3 = function() {
-	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.spriteSheet = ss["681x173_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Image_0 = function() {
-	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.spriteSheet = ss["681x173_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Image_1 = function() {
-	this.spriteSheet = ss["681x173_atlas_P_"];
+	this.spriteSheet = ss["681x173_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -322,7 +322,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(199).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(89).to({scaleX:0.9,scaleY:0.9,alpha:0},5,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(195).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},6,cjs.Ease.get(1)).wait(93).to({scaleX:0.9,scaleY:0.9,alpha:0},5,cjs.Ease.get(1)).wait(1));
 
 	// t2
 	this.instance_1 = new lib.t2();
@@ -331,7 +331,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(100).to({_off:false},0).to({scaleX:1,scaleY:1,x:370.5,y:89,alpha:1},6,cjs.Ease.get(1)).wait(89).to({scaleX:0.9,scaleY:0.9,x:370.4,y:88.9,alpha:0},5,cjs.Ease.get(1)).to({_off:true},1).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(95).to({_off:false},0).to({scaleX:1,scaleY:1,x:370.5,y:89,alpha:1},6,cjs.Ease.get(1)).wait(90).to({scaleX:0.9,scaleY:0.9,x:370.4,y:88.9,alpha:0},5,cjs.Ease.get(1)).to({_off:true},1).wait(103));
 
 	// t1
 	this.instance_2 = new lib.t1();
@@ -339,7 +339,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_2.setTransform(370,86.7,0.9,0.9);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({scaleX:1,scaleY:1,y:86.5,alpha:1},4,cjs.Ease.get(1)).wait(91).to({scaleX:0.9,scaleY:0.9,y:86.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},100).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({scaleX:1,scaleY:1,y:86.5,alpha:1},4,cjs.Ease.get(1)).wait(86).to({scaleX:0.9,scaleY:0.9,y:86.7,alpha:0},6,cjs.Ease.get(1)).to({_off:true},1).wait(203));
 
 	// Слой 5
 	this.shape_1 = new cjs.Shape();
@@ -442,7 +442,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(195).to({_off:false},0).to({x:599,alpha:1},5,cjs.Ease.get(1)).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(195).to({_off:false},0).to({x:599,alpha:1},5,cjs.Ease.get(1)).wait(96).to({alpha:0.5},3).wait(1));
 
 	// 2.png
 	this.instance_4 = new lib.p2();
@@ -486,7 +486,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/681x173_atlas_P_.png", id:"681x173_atlas_P_"}
+		{src:"images/681x173_atlas_.png", id:"681x173_atlas_"}
 	],
 	preloads: []
 };
