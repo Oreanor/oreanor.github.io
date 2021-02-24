@@ -34,6 +34,19 @@ http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x250/300x250.gi
 http://oreanor.github.io/banners/2021/candy_0214/programmatic/336x280/336x280.gif
 http://oreanor.github.io/banners/2021/candy_0214/programmatic/970x90/970x90.gif  
 
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x600/300x600.html
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x600/300x600.zip
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/120x600/120x600.html
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/120x600/120x600.zip
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/160x600/160x600.html
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/160x600/160x600.zip
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x250/300x250.html
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/300x250/300x250.zip
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/336x280/336x280.html
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/336x280/336x280.zip
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/970x90/970x90.html  
+http://oreanor.github.io/banners/2021/candy_0214/programmatic/970x90/970x90.zip  
+
 http://oreanor.github.io/banners/2021/candy_0214/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/2021/candy_0214/mytarget/240x400/240x400.gif
 http://oreanor.github.io/banners/2021/candy_0214/mytarget/240x400/240x400.zip  
