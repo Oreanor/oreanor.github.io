@@ -60,3 +60,8 @@ http://oreanor.github.io/banners/2021/candy_0214/salon_ivd/300x250/300x250.zip
 
 http://oreanor.github.io/banners/2021/candy_0214/yandex/300x300/300x300.gif
 http://oreanor.github.io/banners/2021/candy_0214/yandex/728x90/728x90.gif
+
+
+16000 за адаптацию. (8+8, 2 картинка, текст 3-4 картинка, лигал, кнопка подбробнее)
+
+4 хтмл для программатика + 2 хтмл для яндекса = 6*2000 = 12000
