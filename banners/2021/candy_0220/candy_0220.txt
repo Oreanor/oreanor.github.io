@@ -1,4 +1,4 @@
-681x173
+﻿681x173
 
 http://oreanor.github.io/banners/2021/candy_0220/681x173/681x173.html
 http://oreanor.github.io/banners/2021/candy_0220/681x173/681x173.zip
@@ -72,5 +72,4 @@ http://oreanor.github.io/banners/2021/candy_0220/inmyroom/375x290/375x290.zip
 http://oreanor.github.io/banners/2021/candy_0220/inmyroom/600x500/600x500.html
 http://oreanor.github.io/banners/2021/candy_0220/inmyroom/600x500/600x500.zip
 
-+ 4 из 6 баннеров программатик
-2 для яндекса из 0214
+1*6000 + 17*2000 = 40000
