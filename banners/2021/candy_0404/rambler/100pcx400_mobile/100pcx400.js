@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"100pcx400_atlas_P_", frames: [[0,0,289,24],[291,0,116,39]]},
-		{name:"100pcx400_atlas_NP_", frames: [[402,0,400,400],[0,0,400,400],[0,402,400,400],[402,402,400,400]]}
+		{name:"100pcx400_atlas_NP_", frames: [[0,402,400,400],[0,0,400,400],[402,0,400,400],[402,402,400,400]]}
 ];
 
 
@@ -1481,7 +1481,7 @@ p.nominalBounds = new cjs.Rectangle(209.1,200,691,488.1);
 lib.properties = {
 	width: 600,
 	height: 400,
-	fps: 60,
+	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
