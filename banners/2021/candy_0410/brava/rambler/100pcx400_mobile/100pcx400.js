@@ -8,7 +8,7 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"100pcx400_atlas_P_", frames: [[0,0,317,121],[0,123,254,32]]},
-		{name:"100pcx400_atlas_NP_", frames: [[0,0,400,400],[0,402,400,400],[402,0,400,400],[402,402,400,400]]}
+		{name:"100pcx400_atlas_NP_", frames: [[402,0,400,400],[0,0,400,400],[0,402,400,400],[402,402,400,400]]}
 ];
 
 
@@ -594,6 +594,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.t1, new cjs.Rectangle(-41.4,-50.9,82.9,101.9), null);
 
 
+(lib.six = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("Ag4ArQgGgCgEgDQgFgGgCgIQgDgIAAgLQAAgLACgIQADgJAFgIQAFgGAJgDQAIgEAKgBIAGABIAFABIAAALIgBAAIgEgBIgHgBQgNAAgHAHQgIAIgBAOIAKgFQAEgBAHAAIAJABQAFABAEADQAFADADAFQADAGAAAHQAAANgJAJQgJAJgNAAQgGgBgFgCgAg3gBIgJADIAAACIAAADQAAAKACAGQABAEAEAEQACADAEAAQADACADAAQAJAAAFgFQAFgFAAgLQAAgFgCgEQgCgDgDgCQgDgCgDAAIgHgBIgJABgAAjAqIAAggIgfAAIAAgJIAfAAIAAggIAKAAIAAAgIAgAAIAAAJIggAAIAAAgg");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.six, new cjs.Rectangle(-7.7,-4.5,15.5,9.1), null);
+
+
 (lib.p4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -677,19 +689,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.logo, new cjs.Rectangle(-90.4,-19.4,176.3,95.4), null);
-
-
-(lib.legal_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 2
-	this.instance = new lib.legal();
-	this.instance.parent = this;
-	this.instance.setTransform(-127,-12);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.legal_1, new cjs.Rectangle(-127,-12,254,32), null);
 
 
 (lib.bg = function(mode,startPosition,loop) {
@@ -894,6 +893,29 @@ p.nominalBounds = new cjs.Rectangle(-200,-200,400,400);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.pics, new cjs.Rectangle(-150,-200,300,400), null);
+
+
+(lib.legal_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 2
+	this.instance = new lib.six();
+	this.instance.parent = this;
+	this.instance.setTransform(-113.1,-21.4,0.9,0.9);
+	this.instance.alpha = 0;
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(189).to({_off:false},0).to({alpha:1},6,cjs.Ease.get(1)).wait(87).to({alpha:0},7,cjs.Ease.get(1)).to({_off:true},1).wait(79));
+
+	// Слой 2
+	this.instance_1 = new lib.legal();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(-127,-12);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(369));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-127,-12,254,32);
 
 
 (lib.pics4 = function(mode,startPosition,loop) {
@@ -1185,7 +1207,7 @@ p.nominalBounds = new cjs.Rectangle(209.1,200,691,418.1);
 lib.properties = {
 	width: 600,
 	height: 400,
-	fps: 60,
+	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
