@@ -78,6 +78,16 @@ http://oreanor.github.io/banners/2021/candy_0410/smartpro/rambler/100pcx400_mobi
 
 2*3000р
 
+rambler
+
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/rambler/100pcx400_desktop/index2.html
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/rambler/100pcx400_desktop/100pcx400_desktop.zip
+
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/rambler/100pcx400_mobile/index2.html
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/rambler/100pcx400_mobile/100pcx400_mobile.zip
+
+2*3000р
+
 roomble
 
 http://oreanor.github.io/banners/2021/candy_0410/smartpro/roomble/100pcx300/100pcx300_.html
@@ -85,6 +95,9 @@ http://oreanor.github.io/banners/2021/candy_0410/smartpro/roomble/100pcx300/100p
 
 http://oreanor.github.io/banners/2021/candy_0410/brava/roomble/100pcx300/100pcx300_.html
 http://oreanor.github.io/banners/2021/candy_0410/brava/roomble/100pcx300/100pcx300.zip
+
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/roomble/100pcx300/100pcx300_.html
+http://oreanor.github.io/banners/2021/candy_0410/vstroika/roomble/100pcx300/100pcx300.zip
 
 
 2*3000р
