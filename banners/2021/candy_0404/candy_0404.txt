@@ -1,4 +1,4 @@
-programmatic
+﻿programmatic
 
 http://oreanor.github.io/banners/2021/candy_0404/programmatic/300x600/300x600.gif
 http://oreanor.github.io/banners/2021/candy_0404/programmatic/120x600/120x600.gif
@@ -64,3 +64,5 @@ http://oreanor.github.io/banners/2021/candy_0404/roomble/100pcx300/100pcx300_.ht
 http://oreanor.github.io/banners/2021/candy_0404/roomble/100pcx300/100pcx300.zip
 
 3000р
+
+итого 40000р
