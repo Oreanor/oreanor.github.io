@@ -19,9 +19,6 @@ http://oreanor.github.io/banners/2021/candy_0515/mytarget/240x400/240x400.html
 http://oreanor.github.io/banners/2021/candy_0515/mytarget/240x400/240x400.gif
 http://oreanor.github.io/banners/2021/candy_0515/mytarget/240x400/240x400.zip  
 
-6000 + 6*2000 = 18000р - 10% = 16200р.
-
-
 inmyroom
 
 http://oreanor.github.io/banners/2021/candy_0515/inmyroom/300x600/300x600.html
@@ -31,8 +28,6 @@ http://oreanor.github.io/banners/2021/candy_0515/inmyroom/375x290/375x290.zip
 http://oreanor.github.io/banners/2021/candy_0515/inmyroom/600x500/600x500.html
 http://oreanor.github.io/banners/2021/candy_0515/inmyroom/600x500/600x500.zip
 
-2*2000 = 4000р. - 10%
-
 eda
 
 http://oreanor.github.io/banners/2021/candy_0515/eda/300x600/300x600.html
@@ -40,4 +35,4 @@ http://oreanor.github.io/banners/2021/candy_0515/eda/300x600/300x600.zip
 http://oreanor.github.io/banners/2021/candy_0515/eda/100pcx250/index2.html
 http://oreanor.github.io/banners/2021/candy_0515/eda/100pcx250/100pcx250.zip
 
-3000 - 10%
+6000 + 8*2000 + 3000 = 25000р - 10% = 22500р.
