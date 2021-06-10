@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"100pcx400_atlas_NP_", frames: [[402,402,400,400],[0,0,400,400],[0,402,400,400],[402,0,400,400]]}
+		{name:"100pcx400_atlas_NP_", frames: [[0,0,400,400],[0,402,400,400],[402,402,400,400],[402,0,400,400]]}
 ];
 
 
@@ -560,8 +560,8 @@ p.nominalBounds = new cjs.Rectangle(-82.7,-45,168.2,59.7);
 				
 				legal.x = x1;
 				legal.y = 380;
-				legal.scaleX = 0.8;
-				legal.scaleY = 0.8;
+				legal.scaleX = 1;
+				legal.scaleY = 1;
 				
 			} else if (wdt<600){
 				pics.x = -1000;
@@ -583,8 +583,8 @@ p.nominalBounds = new cjs.Rectangle(-82.7,-45,168.2,59.7);
 				
 				legal.x = x1;
 				legal.y = 370;
-				legal.scaleX = 0.7;
-				legal.scaleY = 0.7;
+				legal.scaleX = 1;
+				legal.scaleY = 1;
 				
 			} else if (wdt<700){
 				pics.x = 150;
